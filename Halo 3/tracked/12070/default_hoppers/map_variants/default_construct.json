@@ -1,0 +1,2118 @@
+{
+  "mvar": {
+    "metadata": {
+      "uniqueId": 0,
+      "name": "Construct",
+      "description": "Vast quantities of water and other raw materials are consumed in creating even the smallest orbital installations. 2-8 players",
+      "author": "",
+      "fileType": "MAP_VARIANT",
+      "authorIsXuidOnline": false,
+      "authorXuid": "0xE0000796FABECF9C",
+      "sizeInBytes": 57840,
+      "date": "2008-09-29T18:38:46Z",
+      "lengthSeconds": 0,
+      "campaignId": -1,
+      "mapId": 300,
+      "gameEngineType": 0,
+      "campaignDifficulty": 0,
+      "hopperId": -1,
+      "gameId": 0
+    },
+    "mapVariantVersion": 12,
+    "numberOfScenarioObjects": 264,
+    "mapID": 300,
+    "builtIn": false,
+    "worldBounds": {
+      "xMin": -1028980552,
+      "xMax": 1118502796,
+      "yMin": -1025139699,
+      "yMax": 1101452027,
+      "zMin": -1006073304,
+      "zMax": 1115494865
+    },
+    "gameEngineSubtype": 10,
+    "maximumBudget": 500.0,
+    "spentBudget": 275.0,
+    "objects": [
+      {
+        "flags": 137,
+        "definitionIndex": 17
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 16
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 6
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 20
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 3
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 3
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 3
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 3
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 4
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 4
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 10
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 10
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 14
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 14
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 22,
+        "position": {
+          "x": -30583,
+          "y": -14764,
+          "z": -6448
+        },
+        "axis": {
+          "upQuantization": 260921,
+          "forwardAngle": 63
+        },
+        "propertiesCachedObjectType": 1,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 1,
+        "propertiesSpawnTime": 60,
+        "propertiesTeamAffiliation": 8
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 22,
+        "position": {
+          "x": 30576,
+          "y": -14743,
+          "z": -6448
+        },
+        "axis": {
+          "upQuantization": 261209,
+          "forwardAngle": 191
+        },
+        "propertiesCachedObjectType": 1,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 1,
+        "propertiesSpawnTime": 60,
+        "propertiesTeamAffiliation": 8
+      },
+      {
+        "flags": 41,
+        "definitionIndex": -1
+      },
+      {
+        "flags": 41,
+        "definitionIndex": -1
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 4
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 4
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 4
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 4
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 4
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 8
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 8
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 8
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 8
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 24
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 29
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 30
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 30
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 25
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 25
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 26
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 26
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 25
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 25
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 25
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 25
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 25
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 25
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 26
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 26
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 25
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 25
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 69
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 69
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 66
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 66
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 73
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 73
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 73
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 65
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 65
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 72
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 72
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 72
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 71
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 71
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 68
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 70
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 70
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 79
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 70
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 70
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 68
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 67
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 67
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 71
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 71
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 79
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 79
+      },
+      {},
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 92
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 92
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 92
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 92
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 92
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 92
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 92
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 92
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 64
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 79
+      },
+      {},
+      {},
+      {},
+      {
+        "flags": 9,
+        "definitionIndex": 89
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 89
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 89
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 83
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 84
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 83
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 84
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 88
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 88
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 88
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 91
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 91
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 91
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 91
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 85
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 86
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 85
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 86
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 87
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 87
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 87
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 87
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 87
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 88
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 85
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 90
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 90
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 90
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 90
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 90
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 93
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 93
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 93
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 93
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 59
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 59
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 93
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 93
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 93
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 43
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 48
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 94
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 94
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 94
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 54
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 54
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 53
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 45
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 90
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 54
+      },
+      {
+        "flags": 9,
+        "definitionIndex": 60
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 95,
+        "position": {
+          "x": 29281,
+          "y": -7909,
+          "z": -5140
+        },
+        "axis": {
+          "forwardAngle": 109
+        },
+        "propertiesCachedObjectType": 0,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 0,
+        "propertiesSpawnTime": 0,
+        "propertiesTeamAffiliation": 0
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 95,
+        "position": {
+          "x": 29414,
+          "y": -7903,
+          "z": -5369
+        },
+        "axis": {
+          "upQuantization": 263162,
+          "forwardAngle": 44
+        },
+        "propertiesCachedObjectType": 0,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 0,
+        "propertiesSpawnTime": 0,
+        "propertiesTeamAffiliation": 0
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 96
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 96
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 97
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 97
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 98
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 98
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 99
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 99
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 100
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 100
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 101,
+        "position": {
+          "x": -31127,
+          "y": -14058,
+          "z": -6531
+        },
+        "axis": {
+          "upQuantization": 257024,
+          "forwardAngle": 128
+        },
+        "propertiesCachedObjectType": 0,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 0,
+        "propertiesSpawnTime": 0,
+        "propertiesTeamAffiliation": 0
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 101,
+        "position": {
+          "x": 31104,
+          "y": -14066,
+          "z": -6527
+        },
+        "axis": {
+          "upQuantization": 267267,
+          "forwardAngle": 126
+        },
+        "propertiesCachedObjectType": 0,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 0,
+        "propertiesSpawnTime": 0,
+        "propertiesTeamAffiliation": 0
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 102,
+        "position": {
+          "x": 30703,
+          "y": -2884,
+          "z": -7244
+        },
+        "axis": {
+          "upQuantization": 233929,
+          "forwardAngle": 82
+        },
+        "propertiesCachedObjectType": 0,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 0,
+        "propertiesSpawnTime": 0,
+        "propertiesTeamAffiliation": 0
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 102,
+        "position": {
+          "x": -30737,
+          "y": -2661,
+          "z": -7271
+        },
+        "axis": {
+          "upQuantization": 284168,
+          "forwardAngle": 49
+        },
+        "propertiesCachedObjectType": 0,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 0,
+        "propertiesSpawnTime": 0,
+        "propertiesTeamAffiliation": 0
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 103,
+        "position": {
+          "x": -30555,
+          "y": -3100,
+          "z": -7535
+        },
+        "axis": {
+          "upQuantization": 383810,
+          "forwardAngle": 47
+        },
+        "propertiesCachedObjectType": 0,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 0,
+        "propertiesSpawnTime": 0,
+        "propertiesTeamAffiliation": 0
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 103,
+        "position": {
+          "x": 30501,
+          "y": -3176,
+          "z": -7539
+        },
+        "axis": {
+          "upQuantization": 306306,
+          "forwardAngle": 82
+        },
+        "propertiesCachedObjectType": 0,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 0,
+        "propertiesSpawnTime": 0,
+        "propertiesTeamAffiliation": 0
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 104,
+        "position": {
+          "x": 32150,
+          "y": -18484,
+          "z": -6472
+        },
+        "axis": {
+          "forwardAngle": 127
+        },
+        "propertiesCachedObjectType": 0,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 0,
+        "propertiesSpawnTime": 0,
+        "propertiesTeamAffiliation": 0
+      },
+      {
+        "flags": 139,
+        "definitionIndex": 104,
+        "position": {
+          "x": -32153,
+          "y": -18484,
+          "z": -6469
+        },
+        "axis": {
+          "forwardAngle": 127
+        },
+        "propertiesCachedObjectType": 0,
+        "propertiesFlags": 12,
+        "propertiesGameEngineFlags": 1023,
+        "propertiesSharedStorage": 0,
+        "propertiesSpawnTime": 0,
+        "propertiesTeamAffiliation": 0
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 59
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 59
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 59
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 59
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 48
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 45
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 54
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 52
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 54
+      },
+      {
+        "flags": 137,
+        "definitionIndex": 104
+      }
+    ],
+    "objectTypes": [
+      0,
+      1,
+      1,
+      29,
+      0,
+      0,
+      46,
+      0,
+      0,
+      0,
+      181,
+      0,
+      0,
+      0
+    ],
+    "budget": [
+      {
+        "objectDefinitionIndex": "0xE69F0529",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 10.0
+      },
+      {
+        "objectDefinitionIndex": "0xE24C00D6",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 20.0
+      },
+      {
+        "objectDefinitionIndex": "0xE75705E1",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 20.0
+      },
+      {
+        "objectDefinitionIndex": "0xEC100A9A",
+        "minimumCount": 0,
+        "maximumCount": 16,
+        "placedOnMap": 4,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEC7B0B05",
+        "minimumCount": 0,
+        "maximumCount": 16,
+        "placedOnMap": 7,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xECB30B3D",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xED990C23",
+        "minimumCount": 0,
+        "maximumCount": 3,
+        "placedOnMap": 1,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xED550BDF",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEDF60C80",
+        "minimumCount": 0,
+        "maximumCount": 10,
+        "placedOnMap": 4,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF0850F0F",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEF9E0E28",
+        "minimumCount": 0,
+        "maximumCount": 6,
+        "placedOnMap": 2,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF13B0FC5",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEB4109CB",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF1891013",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEE450CCF",
+        "minimumCount": 0,
+        "maximumCount": 6,
+        "placedOnMap": 2,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF0B80F42",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEA9C0926",
+        "minimumCount": 0,
+        "maximumCount": 3,
+        "placedOnMap": 1,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEEA80D32",
+        "minimumCount": 0,
+        "maximumCount": 3,
+        "placedOnMap": 1,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xE90B0795",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 6.0
+      },
+      {
+        "objectDefinitionIndex": "0xF0640EEE",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEEF00D7A",
+        "minimumCount": 0,
+        "maximumCount": 3,
+        "placedOnMap": 1,
+        "maximumAllowed": 4,
+        "pricePerItem": 4.0
+      },
+      {
+        "objectDefinitionIndex": "0xF1CB1055",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEF650DEF",
+        "minimumCount": 0,
+        "maximumCount": 4,
+        "placedOnMap": 2,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF21710A1",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEF140D9E",
+        "minimumCount": 0,
+        "maximumCount": 1,
+        "placedOnMap": 1,
+        "maximumAllowed": 1,
+        "pricePerItem": 6.0
+      },
+      {
+        "objectDefinitionIndex": "0xE96507EF",
+        "minimumCount": 0,
+        "maximumCount": 30,
+        "placedOnMap": 10,
+        "maximumAllowed": 32,
+        "pricePerItem": 1.0
+      },
+      {
+        "objectDefinitionIndex": "0xE9AA0834",
+        "minimumCount": 0,
+        "maximumCount": 30,
+        "placedOnMap": 4,
+        "maximumAllowed": 32,
+        "pricePerItem": 1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF24710D1",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 32,
+        "pricePerItem": 1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF26F10F9",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEA4408CE",
+        "minimumCount": 0,
+        "maximumCount": 2,
+        "placedOnMap": 1,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xE9D2085C",
+        "minimumCount": 0,
+        "maximumCount": 4,
+        "placedOnMap": 2,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF27E1108",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEA10089A",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF2A61130",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF2CD1157",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF2E0116A",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF2FF1189",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEA7508FF",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEA8B0915",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xEA95091F",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF34111CB",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF36D11F7",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF384120E",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF390121A",
+        "minimumCount": 0,
+        "maximumCount": 1,
+        "placedOnMap": 1,
+        "maximumAllowed": 16,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF395121F",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 4.0
+      },
+      {
+        "objectDefinitionIndex": "0xF3A0122A",
+        "minimumCount": 0,
+        "maximumCount": 2,
+        "placedOnMap": 2,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF3B3123D",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF3BF1249",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF3D71261",
+        "minimumCount": 0,
+        "maximumCount": 2,
+        "placedOnMap": 2,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF3ED1277",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF3FA1284",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF3FF1289",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF40B1295",
+        "minimumCount": 0,
+        "maximumCount": 1,
+        "placedOnMap": 1,
+        "maximumAllowed": 16,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF41F12A9",
+        "minimumCount": 0,
+        "maximumCount": 1,
+        "placedOnMap": 1,
+        "maximumAllowed": 4,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF43C12C6",
+        "minimumCount": 0,
+        "maximumCount": 5,
+        "placedOnMap": 5,
+        "maximumAllowed": 16,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF44812D2",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 2.0
+      },
+      {
+        "objectDefinitionIndex": "0xF44E12D8",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF45D12E7",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF4891313",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 4,
+        "pricePerItem": 5.0
+      },
+      {
+        "objectDefinitionIndex": "0xF48E1318",
+        "minimumCount": 0,
+        "maximumCount": 6,
+        "placedOnMap": 6,
+        "maximumAllowed": 16,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF4AE1338",
+        "minimumCount": 0,
+        "maximumCount": 1,
+        "placedOnMap": 1,
+        "maximumAllowed": 8,
+        "pricePerItem": 3.0
+      },
+      {
+        "objectDefinitionIndex": "0xF4C4134E",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 5.0
+      },
+      {
+        "objectDefinitionIndex": "0xF4D81362",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 5.0
+      },
+      {
+        "objectDefinitionIndex": "0xF4DF1369",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 5.0
+      },
+      {
+        "objectDefinitionIndex": "0xE1ED0077",
+        "minimumCount": 0,
+        "maximumCount": 100,
+        "placedOnMap": 98,
+        "maximumAllowed": 100,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE22200AC",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 20,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE22400AE",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 20,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE22700B1",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 20,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE20C0096",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 20,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE20B0095",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 20,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE22600B0",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 20,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE22100AB",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 20,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE22300AD",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE20D0097",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF56113EB",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF56213EC",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF56313ED",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF56413EE",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF56513EF",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE22500AF",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE22000AA",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF56613F0",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 20,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF56713F1",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF4E0136A",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF513139D",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF51C13A6",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF54313CD",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 16,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF54413CE",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF54D13D7",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF54E13D8",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 8,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF55E13E8",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 12,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xF56013EA",
+        "minimumCount": 0,
+        "maximumCount": 0,
+        "placedOnMap": 0,
+        "maximumAllowed": 12,
+        "pricePerItem": 0.0
+      },
+      {
+        "objectDefinitionIndex": "0xE24B00D5",
+        "minimumCount": 0,
+        "maximumCount": 255,
+        "placedOnMap": 8,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5BE1448",
+        "minimumCount": 0,
+        "maximumCount": 7,
+        "placedOnMap": 7,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5C3144D",
+        "minimumCount": 0,
+        "maximumCount": 3,
+        "placedOnMap": 3,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5D1145B",
+        "minimumCount": 0,
+        "maximumCount": 255,
+        "placedOnMap": 2,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5D61460",
+        "minimumCount": 0,
+        "maximumCount": 255,
+        "placedOnMap": 2,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5DA1464",
+        "minimumCount": 0,
+        "maximumCount": 255,
+        "placedOnMap": 2,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5DE1468",
+        "minimumCount": 0,
+        "maximumCount": 255,
+        "placedOnMap": 2,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5E2146C",
+        "minimumCount": 0,
+        "maximumCount": 255,
+        "placedOnMap": 2,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5E61470",
+        "minimumCount": 0,
+        "maximumCount": 255,
+        "placedOnMap": 2,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5EA1474",
+        "minimumCount": 0,
+        "maximumCount": 255,
+        "placedOnMap": 2,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5EE1478",
+        "minimumCount": 0,
+        "maximumCount": 255,
+        "placedOnMap": 2,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5F2147C",
+        "minimumCount": 0,
+        "maximumCount": 255,
+        "placedOnMap": 2,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      },
+      {
+        "objectDefinitionIndex": "0xF5F61480",
+        "minimumCount": 0,
+        "maximumCount": 255,
+        "placedOnMap": 3,
+        "maximumAllowed": 255,
+        "pricePerItem": -1.0
+      }
+    ]
+  }
+}
