@@ -3,13 +3,14 @@
 ### Release
 Title Storage configuration for builds after release on the `halo3_ship` branch.
 - 12070.08.09.05.2031.halo3_ship (TU 2)
+- 12069.08.09.04.1009.main (Unreleased)
 - 12065.08.08.26.0819.halo3_ship (Unreleased, Mythic)
 - 11902.08.01.16.1426.halo3_ship (TU 1)
 - 11855.07.08.20.2317.halo3_ship
 
 
 ### Epsilon
-Title Storage configuration for builds shortly before release, and post-launch builds which weren't on the `halo3_ship` branch.
+Title Storage configuration for builds shortly before release and`11856.07.08.20.2332.release` which was built 15 minutes after release.
 Includes the following builds:
 - 11856.07.08.20.2332.release (Epsilon)
 - 11729.07.08.10.0021.main (Expo)
