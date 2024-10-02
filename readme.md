@@ -52,6 +52,7 @@ Halo: Reach support is still in early development, currently only release builds
 Configuration for post-release Halo: Reach builds, including:
 - 12065.11.08.24.1738.tu1actual (TU 1)
 - 11883.10.10.25.1227.dlc_1_ship (Leaked dev build)
+- 11878.10.09.29.1652.main (Unreleased)
 - 11860.10.07.24.0147.omaha_release
 
 ### Demo
