@@ -33,7 +33,7 @@ Includes Versions:
 > **NOTE**: More unreleased versions exist from around this time.
 
 ### Delta
-Configuration for various leaked in-developmnent builds between the Alpgha and Beta stasges. Includes:
+Configuration for various leaked in-developmnent builds between the Alpha and Beta stages. Includes:
 - 08172.07.03.08.2240.delta
 - 08117.07.03.07.1702.delta
 
