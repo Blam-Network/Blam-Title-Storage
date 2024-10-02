@@ -54,6 +54,7 @@ Configuration for post-release Halo: Reach builds, including:
 - 11883.10.10.25.1227.dlc_1_ship (Leaked dev build)
 - 11878.10.09.29.1652.main (Unreleased)
 - 11860.10.07.24.0147.omaha_release
+- 11686.10.07.03.0000.main (Unreleased, pre-release)
 
 ### Demo
 > **NOTE**: Not yet supported. It is inclear if this version can be supported.
