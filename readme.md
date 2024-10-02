@@ -5,6 +5,7 @@ Title Storage configuration for builds after release on the `halo3_ship` branch.
 - 12070.08.09.05.2031.halo3_ship (TU 2)
 - 12069.08.09.04.1009.main (Unreleased)
 - 12065.08.08.26.0819.halo3_ship (Unreleased, Mythic)
+- 12050.08.07.31.1747.halo3_ship (Unreleased)
 - 11902.08.01.16.1426.halo3_ship (TU 1)
 - 11855.07.08.20.2317.halo3_ship
 
