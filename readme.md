@@ -11,7 +11,7 @@ Title Storage configuration for builds after release on the `halo3_ship` branch.
 
 
 ### Epsilon
-Title Storage configuration for builds shortly before release and`11856.07.08.20.2332.release` which was built 15 minutes after release.
+Title Storage configuration for builds shortly before release and `11856.07.08.20.2332.release` which was built 15 minutes after release.
 Includes the following builds:
 - 11856.07.08.20.2332.release (Epsilon)
 - 11729.07.08.10.0021.main (Expo)
