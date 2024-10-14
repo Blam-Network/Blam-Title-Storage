@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build
-      run: ./tools/blf_cli build-title-storage "./Halo 3//Release" "title/tracked/12070" "Halo 3" 12070.08.09.05.2031.halo3_ship
+      run: ./tools/blf_cli build-title-storage "./Halo 3//Release" "./title/tracked/12070" "Halo 3" 12070.08.09.05.2031.halo3_ship
 
   upload_blfs:
     name: "Upload BLF files"
@@ -25,4 +25,4 @@ jobs:
     steps:
     - uses: actions/upload-artifact@v4
       with:
-        path: title/*
+        path: ./title/
