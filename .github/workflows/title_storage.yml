@@ -1,0 +1,21 @@
+name: Title Storage
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  halo3_release:
+    name: "Build Title Storage [Halo 3 Release]"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build
+      working-directory: ./blf_lib
+      run: ./tools/blf_cli "./Halo 3//Release" "title/tracked/12070" "Halo 3" 12070.08.09.05.2031.halo3_ship
