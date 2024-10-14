@@ -19,6 +19,7 @@ jobs:
       run: ./tools/blf_cli build-title-storage "./Halo 3//Release" "./title/tracked/12070" "Halo 3" 12070.08.09.05.2031.halo3_ship
     - uses: actions/upload-artifact@v4
       with:
+        name: "Title Storage"
         path: ./title
 
   # upload_blfs:
