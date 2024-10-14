@@ -25,4 +25,4 @@ jobs:
     steps:
     - uses: actions/upload-artifact@v4
       with:
-        path: ./title/
+        path: ./title
