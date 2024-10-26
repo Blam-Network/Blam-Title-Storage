@@ -1,218 +1,267 @@
 {
-  "gvar": {
-    "juggernaut": {
-      "alliedAgainstJuggernaut": true,
-      "respawnOnLoneJuggernaut": false,
-      "juggernautDestinationZonesEnabled": false,
-      "scoreToWin": 10,
-      "initialJuggernaut": 0,
-      "nextJuggernaut": 0,
-      "zoneMovement": 0,
-      "zoneOrder": 0,
-      "killPoints": "ZERO_POINTS",
-      "juggernautKillPoints": "ONE_POINT",
-      "killAsJuggernautPoints": "ONE_POINT",
-      "destinationArrivalPoints": "ZERO_POINTS",
-      "suicidePoints": "ZERO_POINTS",
-      "betrayalPoints": "ZERO_POINTS",
-      "juggernautDelay": 3,
-      "juggernautTraits": {
-        "damageResistance": "UNCHANGED",
-        "shieldRechargeRate": "PERCENT_50",
-        "vampirism": "UNCHANGED",
-        "headshotImmunity": "UNCHANGED",
-        "shieldMultiplier": "TIMES_2",
-        "damageModifier": "PERCENT_125",
-        "primaryWeapon": "UNCHANGED",
-        "secondaryWeapon": "UNCHANGED",
-        "grenadeCount": "UNCHANGED",
-        "infiniteAmmo": "UNCHANGED",
-        "rechargingGrenades": "UNCHANGED",
-        "weaponPickupAllowed": "UNCHANGED",
-        "playerSpeed": "UNCHANGED",
-        "playerGravity": "UNCHANGED",
-        "vehicleUsage": "NONE",
-        "activeCamo": "UNCHANGED",
-        "waypoint": "VISIBLE_TO_EVERYONE",
-        "playerAura": "UNCHANGED",
-        "forcedColorChange": "WHITE",
-        "motionTacker": "UNCHANGED",
-        "motionTrackerRange": "UNCHANGED"
-      },
-      "metadata": {
-        "uniqueId": 0,
-        "name": "Juggernaut",
-        "description": "Kill the Juggernaut to become the Juggernaut and earn points. 10 points to win.",
-        "author": "",
-        "fileType": "GAME_VARIANT_JUGGERNAUT",
-        "authorIsXuidOnline": false,
-        "authorXuid": "0x0000000000000000",
-        "sizeInBytes": 956,
-        "date": "2010-10-11T21:55:27Z",
-        "lengthSeconds": 0,
-        "campaignId": -1,
-        "mapId": -1,
-        "gameEngineType": "JUGGERNAUT",
-        "campaignDifficulty": 0,
-        "hopperId": -1,
-        "gameId": 0
-      },
-      "builtIn": false,
-      "miscellaneousOptions": {
-        "teams": false,
-        "roundResetPlayers": true,
-        "roundResetMap": true,
-        "roundTimeLimitMinutes": 12,
-        "roundLimit": 1,
-        "earlyVictoryWinCount": 0
-      },
-      "respawnOptions": {
-        "inheritRespawnTime": false,
-        "respawnWithTeammate": false,
-        "respawnAtLocation": false,
-        "respawnOnKills": false,
-        "livesPerRound": 0,
-        "teamLivesPerRound": 0,
-        "respawnTime": 5,
-        "suicideTime": 10,
-        "betrayalTime": 10,
-        "respawnGrowthTime": 0,
-        "respawnOptionsPlayerTraitsDuration": 0,
-        "respawnTraits": {
-          "damageResistance": "UNCHANGED",
-          "shieldRechargeRate": "UNCHANGED",
-          "vampirism": "UNCHANGED",
-          "headshotImmunity": "UNCHANGED",
-          "shieldMultiplier": "UNCHANGED",
-          "damageModifier": "UNCHANGED",
-          "primaryWeapon": "UNCHANGED",
-          "secondaryWeapon": "UNCHANGED",
-          "grenadeCount": "UNCHANGED",
-          "infiniteAmmo": "UNCHANGED",
-          "rechargingGrenades": "UNCHANGED",
-          "weaponPickupAllowed": "UNCHANGED",
-          "playerSpeed": "UNCHANGED",
-          "playerGravity": "UNCHANGED",
-          "vehicleUsage": "UNCHANGED",
-          "activeCamo": "UNCHANGED",
-          "waypoint": "UNCHANGED",
-          "playerAura": "UNCHANGED",
-          "forcedColorChange": "UNCHANGED",
-          "motionTacker": "UNCHANGED",
-          "motionTrackerRange": "UNCHANGED"
+  "m_game_engine_index": 7,
+  "m_base_variant": {
+    "m_metadata": {
+      "unique_id": 0,
+      "name": "Juggernaut",
+      "description": "Kill the Juggernaut to become the Juggernaut and earn points. 10 points to win.",
+      "author": "",
+      "file_type": 5,
+      "author_is_xuid_online": false,
+      "author_id": 0,
+      "size_in_bytes": 956,
+      "date": 1218669056,
+      "length_seconds": 0,
+      "campaign_id": -1,
+      "map_id": -1,
+      "game_engine_type": 7,
+      "campaign_difficulty": -1,
+      "hopper_id": -1,
+      "game_id": 0
+    },
+    "m_miscellaneous_options": {
+      "m_flags": 6,
+      "m_round_time_limit_minutes": 12,
+      "m_round_limit": 1,
+      "m_early_victory_win_count": 0
+    },
+    "m_respawn_options": {
+      "m_flags": 0,
+      "m_lives_per_round": 0,
+      "m_team_lives_per_round": 0,
+      "m_respawn_time_seconds": 5,
+      "m_suicide_penalty_seconds": 10,
+      "m_betrayal_penalty_seconds": 10,
+      "m_respawn_growth_seconds": 0,
+      "m_respawn_player_traits_duration_seconds": 0,
+      "m_respawn_player_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 0,
+          "m_shield_recharge_rate_percentage_setting": 0,
+          "m_vampirism_percentage_setting": 0,
+          "m_headshot_immunity_setting": 0,
+          "m_shield_multiplier_setting": 0
+        },
+        "m_weapon_traits": {
+          "m_initial_grenade_count_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -2,
+          "m_initial_secondary_weapon_absolute_index": -2,
+          "m_damage_modifier_percentage_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_weapon_pickup_setting": 0
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 0,
+          "m_gravity_setting": 0,
+          "m_vehicle_usage_setting": 0
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 0,
+          "m_waypoint_setting": 0,
+          "m_aura_setting": 0,
+          "m_forced_change_color_setting": 0
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 0,
+          "m_motion_tracker_range_setting": 0
+        }
+      }
+    },
+    "m_social_options": {
+      "m_flags": 3,
+      "m_team_changing": 0
+    },
+    "m_map_override_options": {
+      "m_flags": 1,
+      "m_base_player_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 4,
+          "m_shield_recharge_rate_percentage_setting": 7,
+          "m_vampirism_percentage_setting": 1,
+          "m_headshot_immunity_setting": 2,
+          "m_shield_multiplier_setting": 2
+        },
+        "m_weapon_traits": {
+          "m_initial_grenade_count_setting": 1,
+          "m_initial_primary_weapon_absolute_index": 1,
+          "m_initial_secondary_weapon_absolute_index": 7,
+          "m_damage_modifier_percentage_setting": 6,
+          "m_recharging_grenades_setting": 2,
+          "m_infinite_ammo_setting": 1,
+          "m_weapon_pickup_setting": 1
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 5,
+          "m_gravity_setting": 3,
+          "m_vehicle_usage_setting": 3
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 1,
+          "m_waypoint_setting": 0,
+          "m_aura_setting": 1,
+          "m_forced_change_color_setting": 1
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 3,
+          "m_motion_tracker_range_setting": 3
         }
       },
-      "socialOptions": {
-        "observers": false,
-        "teamChanging": 0,
-        "friendlyFire": true,
-        "betrayalBooting": true,
-        "enemyVoice": false,
-        "openChannelVoice": false,
-        "deadPlayerVoice": false
+      "m_weapon_set_absolute_index": 3,
+      "m_vehicle_set_absolute_index": 0,
+      "m_red_powerup_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 12,
+          "m_shield_recharge_rate_percentage_setting": 7,
+          "m_vampirism_percentage_setting": 0,
+          "m_headshot_immunity_setting": 0,
+          "m_shield_multiplier_setting": 3
+        },
+        "m_weapon_traits": {
+          "m_initial_grenade_count_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -2,
+          "m_initial_secondary_weapon_absolute_index": -2,
+          "m_damage_modifier_percentage_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_weapon_pickup_setting": 0
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 0,
+          "m_gravity_setting": 0,
+          "m_vehicle_usage_setting": 0
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 0,
+          "m_waypoint_setting": 0,
+          "m_aura_setting": 0,
+          "m_forced_change_color_setting": 0
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 0,
+          "m_motion_tracker_range_setting": 0
+        }
       },
-      "mapOverrides": {
-        "grenadesOnMap": true,
-        "indestructibleVehicles": false,
-        "baseTraits": {
-          "damageResistance": "NORMAL",
-          "shieldRechargeRate": "PERCENT_100",
-          "vampirism": "DISABLED",
-          "headshotImmunity": "ENABLED",
-          "shieldMultiplier": "NORMAL_SHIELDS",
-          "damageModifier": "PERCENT_100",
-          "primaryWeapon": "ASSAULT_RIFLE",
-          "secondaryWeapon": "MAGNUM",
-          "grenadeCount": "MAP_DEFAULT",
-          "infiniteAmmo": "DISABLED",
-          "rechargingGrenades": "ENABLED",
-          "weaponPickupAllowed": "DISABLED",
-          "playerSpeed": "PERCENT_100",
-          "playerGravity": "PERCENT_100",
-          "vehicleUsage": "FULL_USE",
-          "activeCamo": "OFF",
-          "waypoint": "UNCHANGED",
-          "playerAura": "OFF",
-          "forcedColorChange": "OFF",
-          "motionTacker": "NORMAL",
-          "motionTrackerRange": "METERS_25"
+      "m_blue_powerup_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 0,
+          "m_shield_recharge_rate_percentage_setting": 0,
+          "m_vampirism_percentage_setting": 0,
+          "m_headshot_immunity_setting": 0,
+          "m_shield_multiplier_setting": 0
         },
-        "weaponSet": "MAP_DEFAULT",
-        "vehicleSet": "LIGHT_GROUND_ONLY",
-        "redPowerupTraits": {
-          "damageResistance": "INVULNERABLE",
-          "shieldRechargeRate": "PERCENT_100",
-          "vampirism": "UNCHANGED",
-          "headshotImmunity": "UNCHANGED",
-          "shieldMultiplier": "TIMES_2",
-          "damageModifier": "UNCHANGED",
-          "primaryWeapon": "UNCHANGED",
-          "secondaryWeapon": "UNCHANGED",
-          "grenadeCount": "UNCHANGED",
-          "infiniteAmmo": "UNCHANGED",
-          "rechargingGrenades": "UNCHANGED",
-          "weaponPickupAllowed": "UNCHANGED",
-          "playerSpeed": "UNCHANGED",
-          "playerGravity": "UNCHANGED",
-          "vehicleUsage": "UNCHANGED",
-          "activeCamo": "UNCHANGED",
-          "waypoint": "UNCHANGED",
-          "playerAura": "UNCHANGED",
-          "forcedColorChange": "UNCHANGED",
-          "motionTacker": "UNCHANGED",
-          "motionTrackerRange": "UNCHANGED"
+        "m_weapon_traits": {
+          "m_initial_grenade_count_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -2,
+          "m_initial_secondary_weapon_absolute_index": -2,
+          "m_damage_modifier_percentage_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_weapon_pickup_setting": 0
         },
-        "bluePowerupTraits": {
-          "damageResistance": "UNCHANGED",
-          "shieldRechargeRate": "UNCHANGED",
-          "vampirism": "UNCHANGED",
-          "headshotImmunity": "UNCHANGED",
-          "shieldMultiplier": "UNCHANGED",
-          "damageModifier": "UNCHANGED",
-          "primaryWeapon": "UNCHANGED",
-          "secondaryWeapon": "UNCHANGED",
-          "grenadeCount": "UNCHANGED",
-          "infiniteAmmo": "UNCHANGED",
-          "rechargingGrenades": "UNCHANGED",
-          "weaponPickupAllowed": "UNCHANGED",
-          "playerSpeed": "UNCHANGED",
-          "playerGravity": "UNCHANGED",
-          "vehicleUsage": "UNCHANGED",
-          "activeCamo": "GOOD",
-          "waypoint": "UNCHANGED",
-          "playerAura": "UNCHANGED",
-          "forcedColorChange": "UNCHANGED",
-          "motionTacker": "UNCHANGED",
-          "motionTrackerRange": "UNCHANGED"
+        "m_movement_traits": {
+          "m_speed_setting": 0,
+          "m_gravity_setting": 0,
+          "m_vehicle_usage_setting": 0
         },
-        "yellowPowerupTraits": {
-          "damageResistance": "UNCHANGED",
-          "shieldRechargeRate": "UNCHANGED",
-          "vampirism": "UNCHANGED",
-          "headshotImmunity": "UNCHANGED",
-          "shieldMultiplier": "UNCHANGED",
-          "damageModifier": "UNCHANGED",
-          "primaryWeapon": "UNCHANGED",
-          "secondaryWeapon": "UNCHANGED",
-          "grenadeCount": "UNCHANGED",
-          "infiniteAmmo": "UNCHANGED",
-          "rechargingGrenades": "UNCHANGED",
-          "weaponPickupAllowed": "UNCHANGED",
-          "playerSpeed": "PERCENT_150",
-          "playerGravity": "UNCHANGED",
-          "vehicleUsage": "UNCHANGED",
-          "activeCamo": "UNCHANGED",
-          "waypoint": "UNCHANGED",
-          "playerAura": "UNCHANGED",
-          "forcedColorChange": "UNCHANGED",
-          "motionTacker": "UNCHANGED",
-          "motionTrackerRange": "UNCHANGED"
+        "m_appearance_traits": {
+          "m_active_camo_setting": 4,
+          "m_waypoint_setting": 0,
+          "m_aura_setting": 0,
+          "m_forced_change_color_setting": 0
         },
-        "redPowerupDuration": 5,
-        "bluePowerupDuration": 30,
-        "yellowPowerupDuration": 10
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 0,
+          "m_motion_tracker_range_setting": 0
+        }
       },
-      "teamScoringMethod": "SUM_OF_TEAM"
+      "m_yellow_powerup_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 0,
+          "m_shield_recharge_rate_percentage_setting": 0,
+          "m_vampirism_percentage_setting": 0,
+          "m_headshot_immunity_setting": 0,
+          "m_shield_multiplier_setting": 0
+        },
+        "m_weapon_traits": {
+          "m_initial_grenade_count_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -2,
+          "m_initial_secondary_weapon_absolute_index": -2,
+          "m_damage_modifier_percentage_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_weapon_pickup_setting": 0
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 8,
+          "m_gravity_setting": 0,
+          "m_vehicle_usage_setting": 0
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 0,
+          "m_waypoint_setting": 0,
+          "m_aura_setting": 0,
+          "m_forced_change_color_setting": 0
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 0,
+          "m_motion_tracker_range_setting": 0
+        }
+      },
+      "m_red_powerup_duration_seconds": 5,
+      "m_blue_powerup_duration_seconds": 30,
+      "m_yellow_powerup_duration_seconds": 10
+    },
+    "pad2": 0,
+    "m_flags": 0,
+    "m_team_scoring_method": 0
+  },
+  "m_juggernaut_variant": {
+    "m_score_to_win_round": 10,
+    "m_initial_juggernaut": 0,
+    "m_next_juggernaut": 0,
+    "m_variant_flags": 1,
+    "m_zone_movement": 0,
+    "m_zone_order": 0,
+    "m_kill_points": 0,
+    "m_juggernaut_kill_points": 1,
+    "m_kill_as_juggernaut_points": 1,
+    "m_destination_arrival_points": 0,
+    "m_suicide_points": 0,
+    "m_betrayal_points": 0,
+    "m_juggernaut_delay": 3,
+    "m_juggernaut_traits": {
+      "m_shield_vitality_traits": {
+        "m_damage_resistance_percentage_setting": 0,
+        "m_shield_recharge_rate_percentage_setting": 5,
+        "m_vampirism_percentage_setting": 0,
+        "m_headshot_immunity_setting": 0,
+        "m_shield_multiplier_setting": 3
+      },
+      "m_weapon_traits": {
+        "m_initial_grenade_count_setting": 0,
+        "m_initial_primary_weapon_absolute_index": -2,
+        "m_initial_secondary_weapon_absolute_index": -2,
+        "m_damage_modifier_percentage_setting": 8,
+        "m_recharging_grenades_setting": 0,
+        "m_infinite_ammo_setting": 0,
+        "m_weapon_pickup_setting": 0
+      },
+      "m_movement_traits": {
+        "m_speed_setting": 0,
+        "m_gravity_setting": 0,
+        "m_vehicle_usage_setting": 1
+      },
+      "m_appearance_traits": {
+        "m_active_camo_setting": 0,
+        "m_waypoint_setting": 3,
+        "m_aura_setting": 0,
+        "m_forced_change_color_setting": 10
+      },
+      "m_sensor_traits": {
+        "m_motion_tracker_setting": 0,
+        "m_motion_tracker_range_setting": 0
+      }
     }
   }
 }
