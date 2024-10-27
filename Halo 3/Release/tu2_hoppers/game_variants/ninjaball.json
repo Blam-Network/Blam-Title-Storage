@@ -219,13 +219,13 @@
   "m_oddball_variant": {
     "m_variant_flags": 0,
     "m_score_to_win": 100,
-    "m_carrying_points": 256,
+    "m_carrying_points": 1,
     "m_kill_points": 0,
     "m_ball_kill_points": 0,
     "m_carrier_kill_points": 0,
     "m_ball_count": 1,
-    "m_ball_spawn_delay": 768,
-    "m_ball_inactive_respawn_delay": 7680,
+    "m_ball_spawn_delay": 3,
+    "m_ball_inactive_respawn_delay": 30,
     "m_carrier_traits": {
       "m_shield_vitality_traits": {
         "m_damage_resistance_percentage_setting": 3,
