@@ -8,7 +8,7 @@
     "author_is_xuid_online": true,
     "author_id": 2535285326832564,
     "size_in_bytes": 57840,
-    "date": 1245083343,
+    "date": 1237932826,
     "length_seconds": 0,
     "campaign_id": -1,
     "map_id": 500,
@@ -19,7 +19,7 @@
   },
   "m_map_variant_version": 12,
   "m_number_of_scenario_objects": 329,
-  "m_number_of_variant_objects": 345,
+  "m_number_of_variant_objects": 342,
   "m_number_of_placeable_object_quotas": 109,
   "m_map_id": 500,
   "m_world_bounds": {
@@ -36,7 +36,7 @@
       "upper": 15.999996
     }
   },
-  "m_game_engine_subtype": 5,
+  "m_game_engine_subtype": 1,
   "m_maximum_budget": 700.0,
   "m_spent_budget": 449.0,
   "m_helpers_enabled": false,
@@ -6352,7 +6352,7 @@
       "multiplayer_game_object_properties": {
         "game_engine_flags": 1023,
         "symmetry_placement_flags": 12,
-        "owner_team": 8,
+        "owner_team": 0,
         "shared_storage": 0,
         "spawn_time": 0,
         "object_type": 12,
@@ -6392,7 +6392,7 @@
       "multiplayer_game_object_properties": {
         "game_engine_flags": 1023,
         "symmetry_placement_flags": 12,
-        "owner_team": 8,
+        "owner_team": 0,
         "shared_storage": 0,
         "spawn_time": 0,
         "object_type": 12,
@@ -9164,24 +9164,24 @@
       }
     },
     {
-      "flags": 11,
+      "flags": 9,
       "object_datum_index": 0,
       "editor_object_index": 0,
       "variant_quota_index": 95,
       "position": {
-        "x": -7.2438245,
-        "y": 12.485345,
-        "z": -1.728129
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
       },
       "forward": {
-        "i": 1.0,
+        "i": 0.0,
         "j": 0.0,
         "k": 0.0
       },
       "up": {
         "i": 0.0,
         "j": 0.0,
-        "k": 1.0
+        "k": 0.0
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
@@ -9190,16 +9190,16 @@
         "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 32,
-        "symmetry_placement_flags": 12,
-        "owner_team": 8,
-        "shared_storage": 4,
+        "game_engine_flags": 0,
+        "symmetry_placement_flags": 0,
+        "owner_team": 0,
+        "shared_storage": 0,
         "spawn_time": 0,
-        "object_type": 20,
-        "boundary_shape": 2,
-        "boundary_size": 2.0004578,
-        "boundary_box_length": 2.5003433,
-        "boundary_positive_height": 0.49988556,
+        "object_type": 0,
+        "boundary_shape": 0,
+        "boundary_size": 0.0,
+        "boundary_box_length": 0.0,
+        "boundary_positive_height": 0.0,
         "boundary_negative_height": 0.0
       }
     },
@@ -12924,24 +12924,24 @@
       }
     },
     {
-      "flags": 139,
+      "flags": 137,
       "object_datum_index": 0,
       "editor_object_index": 0,
       "variant_quota_index": 107,
       "position": {
-        "x": 8.876728,
-        "y": 6.901735,
-        "z": 3.9267342
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
       },
       "forward": {
-        "i": -0.99026805,
-        "j": -0.030119661,
-        "k": -0.13587539
+        "i": 0.0,
+        "j": 0.0,
+        "k": 0.0
       },
       "up": {
-        "i": 0.031479478,
-        "j": -0.9994734,
-        "k": -0.0078698695
+        "i": 0.0,
+        "j": 0.0,
+        "k": 0.0
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
@@ -12950,8 +12950,8 @@
         "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 1023,
-        "symmetry_placement_flags": 12,
+        "game_engine_flags": 0,
+        "symmetry_placement_flags": 0,
         "owner_team": 0,
         "shared_storage": 0,
         "spawn_time": 0,
@@ -13724,24 +13724,24 @@
       }
     },
     {
-      "flags": 131,
+      "flags": 0,
       "object_datum_index": 0,
       "editor_object_index": 0,
-      "variant_quota_index": 107,
+      "variant_quota_index": 0,
       "position": {
-        "x": 8.623311,
-        "y": 3.6870432,
-        "z": 4.101177
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
       },
       "forward": {
-        "i": 0.9598091,
-        "j": 0.0022098024,
-        "k": 0.2806449
+        "i": 0.0,
+        "j": 0.0,
+        "k": 0.0
       },
       "up": {
         "i": 0.0,
-        "j": 0.999969,
-        "k": -0.007873772
+        "j": 0.0,
+        "k": 0.0
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
@@ -13750,9 +13750,9 @@
         "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 1023,
-        "symmetry_placement_flags": 12,
-        "owner_team": 8,
+        "game_engine_flags": 0,
+        "symmetry_placement_flags": 0,
+        "owner_team": 0,
         "shared_storage": 0,
         "spawn_time": 0,
         "object_type": 0,
@@ -13764,24 +13764,24 @@
       }
     },
     {
-      "flags": 131,
+      "flags": 0,
       "object_datum_index": 0,
       "editor_object_index": 0,
-      "variant_quota_index": 107,
+      "variant_quota_index": 0,
       "position": {
-        "x": -8.30434,
-        "y": 2.4081454,
-        "z": 2.133155
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
       },
       "forward": {
-        "i": 0.9525737,
-        "j": 0.014360737,
-        "k": -0.30396894
+        "i": 0.0,
+        "j": 0.0,
+        "k": 0.0
       },
       "up": {
         "i": 0.0,
-        "j": -0.9988859,
-        "k": -0.04719146
+        "j": 0.0,
+        "k": 0.0
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
@@ -13790,9 +13790,9 @@
         "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 1023,
-        "symmetry_placement_flags": 12,
-        "owner_team": 8,
+        "game_engine_flags": 0,
+        "symmetry_placement_flags": 0,
+        "owner_team": 0,
         "shared_storage": 0,
         "spawn_time": 0,
         "object_type": 0,
@@ -13804,24 +13804,24 @@
       }
     },
     {
-      "flags": 131,
+      "flags": 0,
       "object_datum_index": 0,
       "editor_object_index": 0,
-      "variant_quota_index": 107,
+      "variant_quota_index": 0,
       "position": {
-        "x": -8.463618,
-        "y": 5.9141154,
-        "z": 2.3754368
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
       },
       "forward": {
-        "i": 0.99026805,
-        "j": -0.030119661,
-        "k": -0.13587539
+        "i": 0.0,
+        "j": 0.0,
+        "k": 0.0
       },
       "up": {
-        "i": -0.031479478,
-        "j": -0.9994734,
-        "k": -0.0078698695
+        "i": 0.0,
+        "j": 0.0,
+        "k": 0.0
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
@@ -13830,9 +13830,9 @@
         "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 1023,
-        "symmetry_placement_flags": 12,
-        "owner_team": 8,
+        "game_engine_flags": 0,
+        "symmetry_placement_flags": 0,
+        "owner_team": 0,
         "shared_storage": 0,
         "spawn_time": 0,
         "object_type": 0,
@@ -26256,16 +26256,16 @@
     {
       "object_definition_index": "E23400BE",
       "minimum_count": 0,
-      "maximum_count": 0,
-      "placed_on_map": 0,
+      "maximum_count": 20,
+      "placed_on_map": 4,
       "maximum_allowed": 20,
       "price_per_item": 0.0
     },
     {
       "object_definition_index": "E23600C0",
       "minimum_count": 0,
-      "maximum_count": 20,
-      "placed_on_map": 4,
+      "maximum_count": 0,
+      "placed_on_map": 0,
       "maximum_allowed": 20,
       "price_per_item": 0.0
     },
@@ -26336,8 +26336,8 @@
     {
       "object_definition_index": "E23500BF",
       "minimum_count": 0,
-      "maximum_count": 8,
-      "placed_on_map": 2,
+      "maximum_count": 0,
+      "placed_on_map": 0,
       "maximum_allowed": 8,
       "price_per_item": 0.0
     },
@@ -26424,8 +26424,8 @@
     {
       "object_definition_index": "F6071491",
       "minimum_count": 0,
-      "maximum_count": 12,
-      "placed_on_map": 5,
+      "maximum_count": 0,
+      "placed_on_map": 0,
       "maximum_allowed": 12,
       "price_per_item": 0.0
     },
@@ -26521,7 +26521,7 @@
       "object_definition_index": "F66E14F8",
       "minimum_count": 0,
       "maximum_count": 255,
-      "placed_on_map": 10,
+      "placed_on_map": 7,
       "maximum_allowed": -1,
       "price_per_item": -1.0
     },

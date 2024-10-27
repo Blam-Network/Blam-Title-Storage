@@ -107,8 +107,8 @@
           "m_motion_tracker_range_setting": 3
         }
       },
-      "m_weapon_set_absolute_index": 2,
-      "m_vehicle_set_absolute_index": 0,
+      "m_weapon_set_absolute_index": -1,
+      "m_vehicle_set_absolute_index": 2,
       "m_red_powerup_traits": {
         "m_shield_vitality_traits": {
           "m_damage_resistance_percentage_setting": 12,
@@ -221,7 +221,7 @@
     "m_home_flag_waypoint": 1,
     "m_game_type": 0,
     "m_respawn": 0,
-    "m_touch_return_timeout": 504,
+    "m_touch_return_timeout": -8,
     "m_sudden_death_time": 30,
     "m_score_to_win": 768,
     "m_flag_reset_time": 15,
