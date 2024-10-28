@@ -1,0 +1,12 @@
+map_variant_file_name,game_variant_file_name,weight,minimum_player_count,skip_after_veto,optional
+odst_construct,team_slayer_odst,6,6,false,false
+odst_guardian,team_slayer_odst,7,6,false,false
+odst_snowbound,team_slayer_odst,6,6,false,false
+odst_the_pit,team_slayer_odst,8,6,false,false
+odst_blackout,team_slayer_odst,8,6,false,false
+odst_ghost_town,team_slayer_odst,6,6,false,false
+odst_assembly,team_slayer_odst,8,6,false,false
+odst_citadel,team_slayer_odst,8,6,false,false
+odst_heretic,team_slayer_odst,8,6,false,false
+odst_sandtrap,odst_escort_large,5,8,true,false
+odst_rats_nest,odst_escort,5,6,true,false
