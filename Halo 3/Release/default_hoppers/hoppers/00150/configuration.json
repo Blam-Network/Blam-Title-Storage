@@ -1,15 +1,15 @@
 {
   "descriptions": {
-    "mx": "<color argb=#FF8692d4>Bandera y Bola loca de equipo de la época Halcyon de Halo.  Juega con tus modos favoritos de siempre y dale caña.</color>|r|nPrecisa todo el contenido.|r|nEquipo: 3-4. Máx. grupo: 4",
-    "sp": "<color argb=#FF8692d4>Bandera y Bola loca de equipo de la época Halcyon de Halo.  Juega con tus modos favoritos de siempre y dale caña.</color>|r|nPrecisa todo el contenido.|r|nEquipo: 3-4. Máx. grupo: 4",
-    "pt": "<color argb=#FF8692d4>Bandeira da Equipe e Estranho dos tempos do halcyon do Halo. </color>|r|nReq. todos os DLC.|r|nTam. da equipe: 3-4|r|nTam. máx. do grupo: 4",
-    "en": "<color argb=#FF8692d4>Team Flag and Oddball from Halo's halcyon days. Slip into these familiar favorites and get your frag on.</color>|r|nAll DLC Required.|r|nTeam Size: 3-4|r|nMax Party Size: 8",
-    "it": "<color argb=#FF8692d4>Bandiera a squadre e Teschio direttamente dai giorni felici di Halo.  Entra in questi classici e comincia il massacro.</color> Tutti i CSC ric. Dim. squadra: 3-4|r|nDim. Max gruppo: 4",
-    "kor": "<color argb=#FF8692d4>팀 깃발 뺏기와 아드볼 게임입니다. 좋아하는 곳으로 들어가서 수류탄을 꽂아 보십시오.</color>|r|n모든 DLC 필요|r|n팀원 수: 3-4|r|n최대 파티원 수: 4",
     "cht": "<color argb=#FF8692d4>Halo 全盛時期的團隊旗幟和聖骸遊戲，準備好你的手榴彈再來重溫舊夢吧！</color>|r|n需要所有下載地圖套件。|r|n隊伍人數：3-4|r|n夥伴人數上限：4",
     "de": "<color argb=#FF8692d4>Team-Flagge und Oddball aus der guten alten Halo-Zeit.</color>|r|nAlle DLC erf.|r|nTeamgröße: 3-4|r|nMax. Gruppengröße: 4",
+    "en": "<color argb=#FF8692d4>Team Flag and Oddball from Halo's halcyon days. Slip into these familiar favorites and get your frag on.</color>|r|nAll DLC Required.|r|nTeam Size: 3-4|r|nMax Party Size: 8",
+    "fr": "<color argb=#FF8692d4>Drapeau et Crâne en équipe, venus des temps paisibles de Halo. Redécouvrez vos favoris et préparez-vous au frag.</color> Tous packs requis. Taille d'équipe : 3-4|r|nTaille de groupe max : 4",
+    "it": "<color argb=#FF8692d4>Bandiera a squadre e Teschio direttamente dai giorni felici di Halo.  Entra in questi classici e comincia il massacro.</color> Tutti i CSC ric. Dim. squadra: 3-4|r|nDim. Max gruppo: 4",
     "jpn": "<color argb=#FF8692d4>Halo 黄金時代の、フラッグとオッドボールを使ったチーム戦</color>|r|nすべての追加マップが必要|r|nチーム サイズ： 3-4|r|nパーティーの上限： 4",
-    "fr": "<color argb=#FF8692d4>Drapeau et Crâne en équipe, venus des temps paisibles de Halo. Redécouvrez vos favoris et préparez-vous au frag.</color> Tous packs requis. Taille d'équipe : 3-4|r|nTaille de groupe max : 4"
+    "kor": "<color argb=#FF8692d4>팀 깃발 뺏기와 아드볼 게임입니다. 좋아하는 곳으로 들어가서 수류탄을 꽂아 보십시오.</color>|r|n모든 DLC 필요|r|n팀원 수: 3-4|r|n최대 파티원 수: 4",
+    "mx": "<color argb=#FF8692d4>Bandera y Bola loca de equipo de la época Halcyon de Halo.  Juega con tus modos favoritos de siempre y dale caña.</color>|r|nPrecisa todo el contenido.|r|nEquipo: 3-4. Máx. grupo: 4",
+    "pt": "<color argb=#FF8692d4>Bandeira da Equipe e Estranho dos tempos do halcyon do Halo. </color>|r|nReq. todos os DLC.|r|nTam. da equipe: 3-4|r|nTam. máx. do grupo: 4",
+    "sp": "<color argb=#FF8692d4>Bandera y Bola loca de equipo de la época Halcyon de Halo.  Juega con tus modos favoritos de siempre y dale caña.</color>|r|nPrecisa todo el contenido.|r|nEquipo: 3-4. Máx. grupo: 4"
   },
   "configuration": {
     "hopper_name": "Team Throwback",
@@ -22,7 +22,7 @@
     "rich_presence_id": 107,
     "start_time": "1970-01-01 00:00:00",
     "end_time": "1970-01-01 00:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,

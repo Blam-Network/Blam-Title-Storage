@@ -1,15 +1,15 @@
 {
   "descriptions": {
-    "kor": "<color argb=#FF8692d4>4대4 Double EXP로 즐기는 슬레이어와 임무 완수의 혼합 게임입니다. 커뮤니티에서 만든 지도에서 펼쳐집니다.</color>|r|n영웅\\신화 지도 팩 필요|r|n팀원 수: 3-4",
+    "cht": "<color argb=#FF8692d4>可以在你的社群自創地圖上進行的 4 對 4 雙經驗值殺戮之王和目標模式遊戲類型。</color>|r|n需要英雄及神話地圖套件。|r|n隊伍人數：3-4",
     "de": "<color argb=#FF8692d4>Ein 4v4-Mix aus Doppel-EP-Showdown- und Ziel-Spieltypen auf Ihrer eigenen Zusammenstellung von Community-Karten.</color> Heroic-\\ Mythic-DLC erf. Teamgröße: 3-4.",
+    "en": "<color argb=#FF8692d4>A 4v4 mix of Slayer and Objective gametypes on a whole mess of your own stinkin’ community created maps.</color>|r|nHeroic\\Mythic DLC Req.|r|nTeam Size: 3-4",
     "fr": "<color argb=#FF8692d4>4 contre 4 dans un mix de parties Assassin à double EXP et de parties à objectif sur des cartes de la communauté.</color> Packs Héroïque et Mythique requis. Équipe : 3-4.",
     "it": "<color argb=#FF8692d4>Un mix di partite Massacro e a obiettivi Doppia ESP 4 contro 4  su mappe create dalla community.</color>|r|nCSC Heroic\\Mythic ric.|r|nDim. squadra: 3-4",
-    "mx": "<color argb=#FF8692d4>Una mezcla 4v4 de Asesino Doble EXP y Objetivo en los apestosos mapas creados por tu comunidad.</color>|r|nHeroica\\Precisa descarga de contenido Mítico.|r|nEquipo: 3-4.",
-    "cht": "<color argb=#FF8692d4>可以在你的社群自創地圖上進行的 4 對 4 雙經驗值殺戮之王和目標模式遊戲類型。</color>|r|n需要英雄及神話地圖套件。|r|n隊伍人數：3-4",
     "jpn": "<color argb=#FF8692d4>コミュニティー マップでの 4 対 4 の各種対戦</color>|r|nHeroic/Mythic マップ パックが必要|r|nチーム サイズ： 3-4",
-    "en": "<color argb=#FF8692d4>A 4v4 mix of Slayer and Objective gametypes on a whole mess of your own stinkin’ community created maps.</color>|r|nHeroic\\Mythic DLC Req.|r|nTeam Size: 3-4",
-    "sp": "<color argb=#FF8692d4>Una mezcla 4v4 de Asesino Doble EXP y Objetivo en los apestosos mapas creados por tu comunidad.</color>|r|nHeroica\\Precisa descarga de contenido Mítico.|r|nEquipo: 3-4.",
-    "pt": "<color argb=#FF8692d4>Uma mistura de dois tipos de jogos Assassino Duplo EXP e Objetivo nos seus mapas criados pela comunidade.</color> Requer DLC Heróico\\Mítico. Tam. da Equipe: 3-4."
+    "kor": "<color argb=#FF8692d4>4대4 Double EXP로 즐기는 슬레이어와 임무 완수의 혼합 게임입니다. 커뮤니티에서 만든 지도에서 펼쳐집니다.</color>|r|n영웅\\신화 지도 팩 필요|r|n팀원 수: 3-4",
+    "mx": "<color argb=#FF8692d4>Una mezcla 4v4 de Asesino Doble EXP y Objetivo en los apestosos mapas creados por tu comunidad.</color>|r|nHeroica\\Precisa descarga de contenido Mítico.|r|nEquipo: 3-4.",
+    "pt": "<color argb=#FF8692d4>Uma mistura de dois tipos de jogos Assassino Duplo EXP e Objetivo nos seus mapas criados pela comunidade.</color> Requer DLC Heróico\\Mítico. Tam. da Equipe: 3-4.",
+    "sp": "<color argb=#FF8692d4>Una mezcla 4v4 de Asesino Doble EXP y Objetivo en los apestosos mapas creados por tu comunidad.</color>|r|nHeroica\\Precisa descarga de contenido Mítico.|r|nEquipo: 3-4."
   },
   "configuration": {
     "hopper_name": "Maption Sack",
@@ -22,7 +22,7 @@
     "rich_presence_id": 107,
     "start_time": "1970-01-01 00:00:00",
     "end_time": "1970-01-01 00:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,

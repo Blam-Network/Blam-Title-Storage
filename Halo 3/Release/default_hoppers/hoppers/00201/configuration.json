@@ -1,15 +1,15 @@
 {
   "descriptions": {
     "cht": "",
-    "en": "<color argb=#FF8692d4>No shields, no sensors. Just you, your BR, and a lot of headshots.</color>|r|nAll DLC Required|r|nTeam Size: 3-4|r|nMax Party Size: 4",
-    "mx": "",
-    "jpn": "",
     "de": "",
-    "sp": "",
+    "en": "<color argb=#FF8692d4>No shields, no sensors. Just you, your BR, and a lot of headshots.</color>|r|nAll DLC Required|r|nTeam Size: 3-4|r|nMax Party Size: 4",
+    "fr": "",
     "it": "",
-    "pt": "",
+    "jpn": "",
     "kor": "",
-    "fr": ""
+    "mx": "",
+    "pt": "",
+    "sp": ""
   },
   "configuration": {
     "hopper_name": "Social Swat",
@@ -22,7 +22,7 @@
     "rich_presence_id": 22,
     "start_time": "1970-01-01 00:00:00",
     "end_time": "1970-01-01 00:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,

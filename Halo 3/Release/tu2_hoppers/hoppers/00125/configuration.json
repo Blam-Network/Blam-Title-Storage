@@ -1,15 +1,15 @@
 {
   "descriptions": {
-    "sp": "<color argb=#FF8692d4>Una deliciosa mezcla de partidas por objetivos y Asesino.</color>|r|nPrecisa todo el contenido|r|nTamaño equipo: 6-8|r|nTamaño máximo grupo: 16",
-    "mx": "<color argb=#FF8692d4>Una deliciosa mezcla de partidas por objetivos y Asesino.</color>|r|nPrecisa todo el contenido|r|nTamaño equipo: 6-8|r|nTamaño máximo grupo: 16",
-    "it": "<color argb=#FF8692d4>Un accattivante mix tra le partite Massacro e a obiettivi. Squadre numerose e tanto divertimento.</color>|r|nTutti i CSC ric.|r|nDim. squadra: 6-8|r|nDim. max gruppo: 16",
-    "jpn": "<color argb=#FF8692d4>チーム メンバーが多いほど盛り上がるスレイヤーを含む各種対戦</color>|r|nすべての追加マップが必要|r|nチーム サイズ： 6-8|r|nパーティーの上限： 16",
-    "pt": "<color argb=#FF8692d4>Uma ótima mistura de modos Assassino e Objetivo. Equipes grandes, massacre grande, grande diversão.</color>|r|nReq. todos os DLC|r|nTamanho da Equipe: 6-8|r|nTam. máx. do grupo: 16",
     "cht": "<color argb=#FF8692d4>令人血脈賁張的大陣仗，就在殺戮之王及目標模式的遊戲組合中。</color>|r|n需要所有下載地圖套件。|r|n隊伍人數：6-8|r|n夥伴人數上限：16",
-    "kor": "<color argb=#FF8692d4>슬레이어와 임무 완수의 혼합 게임입니다. 대규모 팀과 대량 살상의 큰 재미를 즐기십시오.</color>|r|n모든 DLC 필요|r|n팀원 수: 6-8|r|n최대 파티원 수: 16",
+    "de": "<color argb=#FF8692d4>Tolle Mischung aus Showdown- und Ziel-Modi. Große Teams, großes Gemetzel, großer Spaß.</color>|r|nAlle DLC erf.|r|nTeamgröße: 6-8|r|nMax. Gruppengröße: 16",
     "en": "<color argb=#FF8692d4>A delectable mix of Slayer and Objective modes. Big teams, big carnage, big fun.</color>|r|nAll DLC Required|r|nTeam Size: 6-8|r|nMax Party Size: 16",
     "fr": "<color argb=#FF8692d4>Un mix alléchant entre mode Assassin et parties à objectif. Grosses équipes, gros fun.</color>|r|nTous packs requis.|r|nTaille d'équipe : 6-8|r|nTaille de groupe max : 16",
-    "de": "<color argb=#FF8692d4>Tolle Mischung aus Showdown- und Ziel-Modi. Große Teams, großes Gemetzel, großer Spaß.</color>|r|nAlle DLC erf.|r|nTeamgröße: 6-8|r|nMax. Gruppengröße: 16"
+    "it": "<color argb=#FF8692d4>Un accattivante mix tra le partite Massacro e a obiettivi. Squadre numerose e tanto divertimento.</color>|r|nTutti i CSC ric.|r|nDim. squadra: 6-8|r|nDim. max gruppo: 16",
+    "jpn": "<color argb=#FF8692d4>チーム メンバーが多いほど盛り上がるスレイヤーを含む各種対戦</color>|r|nすべての追加マップが必要|r|nチーム サイズ： 6-8|r|nパーティーの上限： 16",
+    "kor": "<color argb=#FF8692d4>슬레이어와 임무 완수의 혼합 게임입니다. 대규모 팀과 대량 살상의 큰 재미를 즐기십시오.</color>|r|n모든 DLC 필요|r|n팀원 수: 6-8|r|n최대 파티원 수: 16",
+    "mx": "<color argb=#FF8692d4>Una deliciosa mezcla de partidas por objetivos y Asesino.</color>|r|nPrecisa todo el contenido|r|nTamaño equipo: 6-8|r|nTamaño máximo grupo: 16",
+    "pt": "<color argb=#FF8692d4>Uma ótima mistura de modos Assassino e Objetivo. Equipes grandes, massacre grande, grande diversão.</color>|r|nReq. todos os DLC|r|nTamanho da Equipe: 6-8|r|nTam. máx. do grupo: 16",
+    "sp": "<color argb=#FF8692d4>Una deliciosa mezcla de partidas por objetivos y Asesino.</color>|r|nPrecisa todo el contenido|r|nTamaño equipo: 6-8|r|nTamaño máximo grupo: 16"
   },
   "configuration": {
     "hopper_name": "Social Big Team",
@@ -22,7 +22,7 @@
     "rich_presence_id": 5,
     "start_time": "1970-01-01 00:00:00",
     "end_time": "1970-01-01 00:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,

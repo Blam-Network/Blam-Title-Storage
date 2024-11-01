@@ -1,15 +1,15 @@
 {
   "descriptions": {
-    "jpn": "<color argb=#FF8692d4>シールド、トラッカー共に無効。バトルライフルで大量ヘッドショットを狙え !</color>|r|nすべての追加マップが必要|r|nチーム サイズ： 3-4|r|nパーティーの上限： 4",
-    "mx": "<color argb=#FF8692d4>Sin escudos ni sensores. Solo tú, tu rifle de batalla y un montón de disparos a la cabeza.</color>|r|nPrecisa todo el contenido|r|nTamaño de equipo: 3-4|r|nTamaño máximo de grupo: 4",
-    "en": "<color argb=#FF8692d4>No shields, no sensors. Just you, your BR, and a lot of headshots.</color>|r|nAll DLC Required|r|nTeam Size: 3-4|r|nMax Party Size: 4",
-    "pt": "<color argb=#FF8692d4>Sem escudos, sem sensores. Só você, o seu BR, e muitos tiros na cabeça.</color>|r|nReq. todos os DLC.|r|nTamanho da Equipe: 3-4|r|nTam. máx. do grupo: 4",
-    "fr": "<color argb=#FF8692d4>Pas de bouclier, pas de capteur. Il n'y a que vous, votre fusil et des headshots à la pelle.</color>|r|nTous packs requis|r|nTaille d'équipe : 3-4|r|nTaille de groupe max : 4",
     "cht": "<color argb=#FF8692d4>沒有能源護盾及感應器，只有您和您的攻擊步槍，及一堆爆頭攻擊。</color>|r|n需要所有下載地圖套件。|r|n隊伍人數：3-4|r|n夥伴人數上限：4",
-    "sp": "<color argb=#FF8692d4>Sin escudos ni sensores. Solo tú, tu rifle de batalla y un montón de disparos a la cabeza.</color>|r|nPrecisa todo el contenido|r|nTamaño de equipo: 3-4|r|nTamaño máximo de grupo: 4",
-    "kor": "<color argb=#FF8692d4>방어막도 모션 트래커도 없습니다. 오직 플레이어와 배틀 라이플, 그리고 헤드샷만이 존재합니다.</color>|r|n모든 DLC 필요|r|n팀원 수: 3-4|r|n최대 파티원 수: 4",
+    "de": "<color argb=#FF8692d4>Keine Schilde, keine Sensoren. Nur Sie und Ihre Waffe.</color>|r|nAlle DLC erf.|r|nTeamgröße: 3-4|r|nMax. Gruppengröße: 4",
+    "en": "<color argb=#FF8692d4>No shields, no sensors. Just you, your BR, and a lot of headshots.</color>|r|nAll DLC Required|r|nTeam Size: 3-4|r|nMax Party Size: 4",
+    "fr": "<color argb=#FF8692d4>Pas de bouclier, pas de capteur. Il n'y a que vous, votre fusil et des headshots à la pelle.</color>|r|nTous packs requis|r|nTaille d'équipe : 3-4|r|nTaille de groupe max : 4",
     "it": "<color argb=#FF8692d4>Niente scudi e sensori. Solo tu, il tuo fucile e colpi alla testa.</color>|r|nTutti i CSC ric.|r|nDim. squadra: 3-4|r|nDim. max gruppo: 4",
-    "de": "<color argb=#FF8692d4>Keine Schilde, keine Sensoren. Nur Sie und Ihre Waffe.</color>|r|nAlle DLC erf.|r|nTeamgröße: 3-4|r|nMax. Gruppengröße: 4"
+    "jpn": "<color argb=#FF8692d4>シールド、トラッカー共に無効。バトルライフルで大量ヘッドショットを狙え !</color>|r|nすべての追加マップが必要|r|nチーム サイズ： 3-4|r|nパーティーの上限： 4",
+    "kor": "<color argb=#FF8692d4>방어막도 모션 트래커도 없습니다. 오직 플레이어와 배틀 라이플, 그리고 헤드샷만이 존재합니다.</color>|r|n모든 DLC 필요|r|n팀원 수: 3-4|r|n최대 파티원 수: 4",
+    "mx": "<color argb=#FF8692d4>Sin escudos ni sensores. Solo tú, tu rifle de batalla y un montón de disparos a la cabeza.</color>|r|nPrecisa todo el contenido|r|nTamaño de equipo: 3-4|r|nTamaño máximo de grupo: 4",
+    "pt": "<color argb=#FF8692d4>Sem escudos, sem sensores. Só você, o seu BR, e muitos tiros na cabeça.</color>|r|nReq. todos os DLC.|r|nTamanho da Equipe: 3-4|r|nTam. máx. do grupo: 4",
+    "sp": "<color argb=#FF8692d4>Sin escudos ni sensores. Solo tú, tu rifle de batalla y un montón de disparos a la cabeza.</color>|r|nPrecisa todo el contenido|r|nTamaño de equipo: 3-4|r|nTamaño máximo de grupo: 4"
   },
   "configuration": {
     "hopper_name": "Team Swat",
@@ -22,7 +22,7 @@
     "rich_presence_id": 22,
     "start_time": "1970-01-01 00:00:00",
     "end_time": "1970-01-01 00:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,

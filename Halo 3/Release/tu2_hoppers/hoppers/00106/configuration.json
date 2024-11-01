@@ -1,15 +1,15 @@
 {
   "descriptions": {
-    "fr": "<color argb=#FF8692d4>Différentes parties pour plus de deux équipes. Comme le Chacun pour soi. </color>|r|nTaille d'équipe : 2|r|nTaille de groupe max : 8",
-    "pt": "<color argb=#FF8692d4>Uma mistura de jogos para mais de duas equipes.</color> Tamanho da equipe: 2|r|nTamanho máx. do grupo: 8",
-    "en": "<color argb=#FF8692d4>A mix of games for more than two teams. Like Free For All, but with a partner to work with. </color>|r|n|r|nTeam Size: 2|r|nMax Party Size: 8",
-    "it": "<color argb=#FF8692d4>Una varietà di partite per più di due squadre.</color>|r|nDim. squadra: 2|r|nDim. max gruppo: 8",
-    "kor": "<color argb=#FF8692d4>두 팀 이상이 할 수 있는 다양한 게임들입니다. FFA와 유사하지만 파트너를 가질 수 있습니다.</color>|r|n|r|n팀원 수: 2|r|n최대 파티원 수: 8",
     "cht": "<color argb=#FF8692d4>兩組以上隊伍參加的混合遊戲，似自由參賽模式但有隊友並肩作戰。</color>|r|n|r|n隊伍人數：2|r|n夥伴人數上限：8",
     "de": "<color argb=#FF8692d4>Eine Mischung aus Spielen für mehr als zwei Teams. Wie 'Jeder gegen jeden'. </color>|r|nTeamgröße: 2|r|nMax. Gruppengröße: 8",
-    "sp": "<color argb=#FF8692d4>Una mezcla de partidas para más de dos equipos.</color>|r|nTamaño del equipo: 2|r|nTamaño máximo del grupo: 8",
+    "en": "<color argb=#FF8692d4>A mix of games for more than two teams. Like Free For All, but with a partner to work with. </color>|r|n|r|nTeam Size: 2|r|nMax Party Size: 8",
+    "fr": "<color argb=#FF8692d4>Différentes parties pour plus de deux équipes. Comme le Chacun pour soi. </color>|r|nTaille d'équipe : 2|r|nTaille de groupe max : 8",
+    "it": "<color argb=#FF8692d4>Una varietà di partite per più di due squadre.</color>|r|nDim. squadra: 2|r|nDim. max gruppo: 8",
+    "jpn": "<color argb=#FF8692d4>2 チーム以上の各種対戦にパートナーと参加</color>|r|n|r|nチーム サイズ： 2|r|nパーティーの上限： 8",
+    "kor": "<color argb=#FF8692d4>두 팀 이상이 할 수 있는 다양한 게임들입니다. FFA와 유사하지만 파트너를 가질 수 있습니다.</color>|r|n|r|n팀원 수: 2|r|n최대 파티원 수: 8",
     "mx": "<color argb=#FF8692d4>Una mezcla de partidas para más de dos equipos.</color>|r|nTamaño del equipo: 2|r|nTamaño máximo del grupo: 8",
-    "jpn": "<color argb=#FF8692d4>2 チーム以上の各種対戦にパートナーと参加</color>|r|n|r|nチーム サイズ： 2|r|nパーティーの上限： 8"
+    "pt": "<color argb=#FF8692d4>Uma mistura de jogos para mais de duas equipes.</color> Tamanho da equipe: 2|r|nTamanho máx. do grupo: 8",
+    "sp": "<color argb=#FF8692d4>Una mezcla de partidas para más de dos equipos.</color>|r|nTamaño del equipo: 2|r|nTamaño máximo del grupo: 8"
   },
   "configuration": {
     "hopper_name": "Multi Team",
@@ -22,7 +22,7 @@
     "rich_presence_id": 6,
     "start_time": "1970-01-01 00:00:00",
     "end_time": "1970-01-01 00:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,

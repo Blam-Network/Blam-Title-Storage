@@ -1,15 +1,15 @@
 {
   "descriptions": {
+    "cht": "<color argb=#FF8692d4>在各種地圖上多變化的團隊殺戮遊戲，和您的隊友一起英勇殺敵吧。</color>|r|n|r|n隊伍人數：5|r|n夥伴人數上限：10",
+    "de": "<color argb=#FF8692d4>Gemischte Team-Showdown-Spiele auf verschiedenen Karten.</color>|r|nTeamgröße: 5|r|nMax. Gruppengröße: 10",
+    "en": "<color argb=#FF8692d4>Assorted Team Slayer games on varied maps. Work with your team to outkill your opponents.</color>|r|n|r|nTeam Size: 5|r|nMax Party Size: 10",
     "fr": "<color argb=#FF8692d4>Du Team Slayer sur un assortiment de cartes. La coopération est la clé du succès.</color>|r|nTaille d'équipe : 5|r|nTaille de groupe max : 10",
+    "it": "<color argb=#FF8692d4>Partite Massacro a squadre su diverse mappe. Fai gioco di squadra per sbaragliare gli avversari</color>|r|n|r|nDim. squadra: 5|r|nDim. max gruppo: 10",
+    "jpn": "<color argb=#FF8692d4>バラエティに富んだ数々のマップで各種スレイヤー対戦。チームワークが勝利へのカギとなる</color>|r|n|r|nチーム サイズ： 5|r|nパーティーの上限： 10",
+    "kor": "<color argb=#FF8692d4>여러 지도에서 펼쳐지는 다양한 팀 슬레이어 게임입니다. 팀원과 함께 적들을 전멸시키십시오.</color>|r|n|r|n팀원 수: 5|r|n최대 파티원 수: 10",
     "mx": "<color argb=#FF8692d4>Varias partidas Asesino por equipos en diversos mapas.</color>|r|nTamaño del equipo: 5|r|nTamaño máximo del grupo: 10",
     "pt": "<color argb=#FF8692d4>Jogos variados de Assassino em equipe em mapas variados.</color> Tamanho da equipe: 5|r|nTamanho máx. do grupo: 10",
-    "sp": "<color argb=#FF8692d4>Varias partidas Asesino por equipos en diversos mapas.</color>|r|nTamaño del equipo: 5|r|nTamaño máximo del grupo: 10",
-    "kor": "<color argb=#FF8692d4>여러 지도에서 펼쳐지는 다양한 팀 슬레이어 게임입니다. 팀원과 함께 적들을 전멸시키십시오.</color>|r|n|r|n팀원 수: 5|r|n최대 파티원 수: 10",
-    "it": "<color argb=#FF8692d4>Partite Massacro a squadre su diverse mappe. Fai gioco di squadra per sbaragliare gli avversari</color>|r|n|r|nDim. squadra: 5|r|nDim. max gruppo: 10",
-    "de": "<color argb=#FF8692d4>Gemischte Team-Showdown-Spiele auf verschiedenen Karten.</color>|r|nTeamgröße: 5|r|nMax. Gruppengröße: 10",
-    "cht": "<color argb=#FF8692d4>在各種地圖上多變化的團隊殺戮遊戲，和您的隊友一起英勇殺敵吧。</color>|r|n|r|n隊伍人數：5|r|n夥伴人數上限：10",
-    "jpn": "<color argb=#FF8692d4>バラエティに富んだ数々のマップで各種スレイヤー対戦。チームワークが勝利へのカギとなる</color>|r|n|r|nチーム サイズ： 5|r|nパーティーの上限： 10",
-    "en": "<color argb=#FF8692d4>Assorted Team Slayer games on varied maps. Work with your team to outkill your opponents.</color>|r|n|r|nTeam Size: 5|r|nMax Party Size: 10"
+    "sp": "<color argb=#FF8692d4>Varias partidas Asesino por equipos en diversos mapas.</color>|r|nTamaño del equipo: 5|r|nTamaño máximo del grupo: 10"
   },
   "configuration": {
     "hopper_name": "Social Slayer",
@@ -22,7 +22,7 @@
     "rich_presence_id": 3,
     "start_time": "1970-01-01 00:00:00",
     "end_time": "1970-01-01 00:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,

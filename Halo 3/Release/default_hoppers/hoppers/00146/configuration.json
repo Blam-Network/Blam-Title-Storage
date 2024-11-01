@@ -1,15 +1,15 @@
 {
   "descriptions": {
-    "mx": "<color argb=#FF8692d4>Mítico se mezcla con Legendario, Heroico y mapas clásicos en peleas Todos contra todos de Doble EXP.</color>|r|nPrecisa todo el contenido.|r|nTamaño máximo del grupo: 1",
     "cht": "<color argb=#FF8692d4>神話套件混合傳奇、英雄套件和傳統地圖，玩玩 FFA 雙經驗值模式遊戲。</color>|r|n需要所有下載地圖套件。|r|n夥伴人數上限：1",
-    "en": "<color argb=#FF8692d4>Mythic mixes with Legendary, Heroic, and classic maps for FFA brawlin’.</color>|r|nAll DLC Required|r|nMax Party Size: 12",
-    "kor": "<color argb=#FF8692d4>신화와 전설, 영웅, 기존 지도에서 즐기는 FFA 난투 게임입니다.</color>|r|n모든 DLC 필요|r|n최대 파티원 수: 1",
-    "sp": "<color argb=#FF8692d4>Mítico se mezcla con Legendario, Heroico y mapas clásicos en peleas Todos contra todos de Doble EXP.</color>|r|nPrecisa todo el contenido.|r|nTamaño máximo del grupo: 1",
-    "jpn": "<color argb=#FF8692d4>Mythic、Legendary、Heroic マップ パックおよび従来のマップでの各種対戦で、EXP を通常の 2 倍獲得しよう</color>|r|nすべての追加マップが必要|r|nパーティーの上限： 1",
-    "pt": "<color argb=#FF8692d4>Misturas Míticas com mapas Lendário, Heróico, e clássicos para lutas FFA Duplo EXP.</color>|r|nReq. todos os DLC.|r|nTam. máx. do grupo: 1",
     "de": "<color argb=#FF8692d4>Mythic vermischt mit Legendär-, Heldenhaft- und Klassik-Karten für doppelte JGJ-ERF.</color>|r|nAlle DLC erf.|r|nMax. Gruppengröße: 1",
+    "en": "<color argb=#FF8692d4>Mythic mixes with Legendary, Heroic, and classic maps for FFA brawlin’.</color>|r|nAll DLC Required|r|nMax Party Size: 12",
+    "fr": "<color argb=#FF8692d4>Mythique se mélange avec Légendaire, Héroïque et les cartes classiques pour un carnage Double EXP en FFA.</color>|r|nTous packs requis|r|nTaille de groupe max : 1",
     "it": "<color argb=#FF8692d4>Mythic unisce mappe classiche, Leggendarie ed Eroiche per una sana azione FFA a Doppia-XP (doppia esperienza).</color>|r|nTutti i CSC ric.|r|nDim. Max gruppo: 1",
-    "fr": "<color argb=#FF8692d4>Mythique se mélange avec Légendaire, Héroïque et les cartes classiques pour un carnage Double EXP en FFA.</color>|r|nTous packs requis|r|nTaille de groupe max : 1"
+    "jpn": "<color argb=#FF8692d4>Mythic、Legendary、Heroic マップ パックおよび従来のマップでの各種対戦で、EXP を通常の 2 倍獲得しよう</color>|r|nすべての追加マップが必要|r|nパーティーの上限： 1",
+    "kor": "<color argb=#FF8692d4>신화와 전설, 영웅, 기존 지도에서 즐기는 FFA 난투 게임입니다.</color>|r|n모든 DLC 필요|r|n최대 파티원 수: 1",
+    "mx": "<color argb=#FF8692d4>Mítico se mezcla con Legendario, Heroico y mapas clásicos en peleas Todos contra todos de Doble EXP.</color>|r|nPrecisa todo el contenido.|r|nTamaño máximo del grupo: 1",
+    "pt": "<color argb=#FF8692d4>Misturas Míticas com mapas Lendário, Heróico, e clássicos para lutas FFA Duplo EXP.</color>|r|nReq. todos os DLC.|r|nTam. máx. do grupo: 1",
+    "sp": "<color argb=#FF8692d4>Mítico se mezcla con Legendario, Heroico y mapas clásicos en peleas Todos contra todos de Doble EXP.</color>|r|nPrecisa todo el contenido.|r|nTamaño máximo del grupo: 1"
   },
   "configuration": {
     "hopper_name": "Mythic Brawl",
@@ -22,7 +22,7 @@
     "rich_presence_id": 107,
     "start_time": "1970-01-01 00:00:00",
     "end_time": "1970-01-01 00:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,

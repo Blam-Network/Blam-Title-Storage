@@ -1,15 +1,15 @@
 {
   "descriptions": {
-    "kor": "<color argb=#FF8692d4>명사수보다는 훌륭한 운전사가 필요합니다. 빨리 결승점에 도착하십시오!</color>|r|n영웅\\전설 지도 팩 필요|r|n팀원 수: 2|r|n최대 파티원 수: 8",
+    "cht": "<color argb=#FF8692d4>看看誰的駕駛技術好，先到終點的獲勝！</color>|r|n需要英雄及傳奇地圖套件。|r|n隊伍人數：2|r|n夥伴人數上限：8",
+    "de": "<color argb=#FF8692d4>Schnelles Fahren ist wichtiger als Treffsicherheit.</color>|r|n'Heroic'-\\'Mythic'-DLC erf.|r|nTeamgröße: 2|r|nMax. Gruppengröße: 8",
+    "en": "<color argb=#FF8692d4>Marksmanship takes a back seat to fast driving. Get to the destinations to win!</color>|r|nHeroic\\Legendary DLC Req.|r|nTeam Size: 2|r|nMax Party Size: 8",
     "fr": "<color argb=#FF8692d4>Ici, ce sont vos talents au volant qui priment.</color>|r|nCPacks Héroïque/Mythique requis.|r|nTaille d'équipe : 2|r|nTaille de groupe max : 8",
     "it": "<color argb=#FF8692d4>La precisione passa in secondo piano rispetto a una guida veloce.</color>|r|nCSC Heroic- Mythic ric.|r|nDim. squadra: 2|r|nDim. max gruppo: 8",
-    "pt": "<color argb=#FF8692d4>A velocidade é mais importante do que a pontaria. Chegue ao destino para ganhar!</color>|r|nHeroic\\Requer DLC Mítico.|r|nTam. da equipe: 2|r|nTam. máx. do grupo: 8",
     "jpn": "<color argb=#FF8692d4>射撃の腕よりスピードが重要。目的地に到達すれば勝利</color>|r|nHeroic/Legendary マップ パックが必要|r|nチーム サイズ： 2|r|nパーティーの上限： 8",
+    "kor": "<color argb=#FF8692d4>명사수보다는 훌륭한 운전사가 필요합니다. 빨리 결승점에 도착하십시오!</color>|r|n영웅\\전설 지도 팩 필요|r|n팀원 수: 2|r|n최대 파티원 수: 8",
     "mx": "<color argb=#FF8692d4>La puntería queda relegada ante la velocidad. ¡Llega a los destinos para ganar!</color>|r|nPrecisa descarga de contenido Mítico\\Heroica|r|nTamaño del equipo: 2|r|nTamaño máximo del grupo: 8",
-    "cht": "<color argb=#FF8692d4>看看誰的駕駛技術好，先到終點的獲勝！</color>|r|n需要英雄及傳奇地圖套件。|r|n隊伍人數：2|r|n夥伴人數上限：8",
-    "sp": "<color argb=#FF8692d4>La puntería queda relegada ante la velocidad. ¡Llega a los destinos para ganar!</color>|r|nPrecisa descarga de contenido Mítico\\Heroica|r|nTamaño del equipo: 2|r|nTamaño máximo del grupo: 8",
-    "en": "<color argb=#FF8692d4>Marksmanship takes a back seat to fast driving. Get to the destinations to win!</color>|r|nHeroic\\Legendary DLC Req.|r|nTeam Size: 2|r|nMax Party Size: 8",
-    "de": "<color argb=#FF8692d4>Schnelles Fahren ist wichtiger als Treffsicherheit.</color>|r|n'Heroic'-\\'Mythic'-DLC erf.|r|nTeamgröße: 2|r|nMax. Gruppengröße: 8"
+    "pt": "<color argb=#FF8692d4>A velocidade é mais importante do que a pontaria. Chegue ao destino para ganhar!</color>|r|nHeroic\\Requer DLC Mítico.|r|nTam. da equipe: 2|r|nTam. máx. do grupo: 8",
+    "sp": "<color argb=#FF8692d4>La puntería queda relegada ante la velocidad. ¡Llega a los destinos para ganar!</color>|r|nPrecisa descarga de contenido Mítico\\Heroica|r|nTamaño del equipo: 2|r|nTamaño máximo del grupo: 8"
   },
   "configuration": {
     "hopper_name": "Rocket Race",
@@ -22,7 +22,7 @@
     "rich_presence_id": 65,
     "start_time": "2010-09-23 18:00:00",
     "end_time": "2010-09-27 09:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,

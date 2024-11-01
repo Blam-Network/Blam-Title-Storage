@@ -1,15 +1,15 @@
 {
   "descriptions": {
     "cht": "<color argb=#FF8692d4>殭屍正在蠢蠢欲動。</color>|r|n需要所有下載地圖套件。|r|n夥伴人數上限：13",
-    "jpn": "<color argb=#FF8692d4>人間対ゾンビの熾烈な戦いが再び登場</color>|r|nすべての追加マップが必要|r|nパーティーの上限： 13",
-    "mx": "<color argb=#FF8692d4>¡La muerte acecha de nuevo! ¡La fría garra de la muerte te atrapa de nuevo desde la tumba!</color>|r|nPrecisa todo el contenido|r|nTamaño máximo del grupo: 13",
-    "fr": "<color argb=#FF8692d4>Les morts sortent de leurs tombes ! Votre but ? Ne pas rentrer avec eux.</color>|r|nTous packs requis.|r|nTaille de groupe max : 13",
-    "sp": "<color argb=#FF8692d4>¡La muerte acecha de nuevo! ¡La fría garra de la muerte te atrapa de nuevo desde la tumba!</color>|r|nPrecisa todo el contenido|r|nTamaño máximo del grupo: 13",
-    "kor": "<color argb=#FF8692d4>죽은 자들이 다시 살아났습니다! 무덤에서 일어난 섬뜩한 좀비들이 플레이어를 노리며 다가옵니다!</color>|r|n모든 DLC 필요|r|n최대 파티원 수: 13",
-    "en": "<color argb=#FF8692d4>The dead rise again! The clammy claw of the walking dead reaches for you from the grave once more!</color>|r|nAll DLC Required|r|nMax Party Size: 13",
     "de": "<color argb=#FF8692d4>Die Toten stehen auf und strecken erneut die Klauen nach Ihnen aus!</color>|r|nAlle DLC erf.|r|nMax. Gruppengröße: 13",
+    "en": "<color argb=#FF8692d4>The dead rise again! The clammy claw of the walking dead reaches for you from the grave once more!</color>|r|nAll DLC Required|r|nMax Party Size: 13",
+    "fr": "<color argb=#FF8692d4>Les morts sortent de leurs tombes ! Votre but ? Ne pas rentrer avec eux.</color>|r|nTous packs requis.|r|nTaille de groupe max : 13",
     "it": "<color argb=#FF8692d4>I morti si risvegliano! Gli artigli dei morti viventi tornano ancora una volta!</color>|r|nTutti i CSC ric.|r|nDim. max gruppo: 13",
-    "pt": "<color argb=#FF8692d4>Os mortos despertam! As frias garras dos morto-vivos saem das tumbas mais uma vez!</color>|r|nReq. todos os DLC|r|nTam. máx. do grupo: 13"
+    "jpn": "<color argb=#FF8692d4>人間対ゾンビの熾烈な戦いが再び登場</color>|r|nすべての追加マップが必要|r|nパーティーの上限： 13",
+    "kor": "<color argb=#FF8692d4>죽은 자들이 다시 살아났습니다! 무덤에서 일어난 섬뜩한 좀비들이 플레이어를 노리며 다가옵니다!</color>|r|n모든 DLC 필요|r|n최대 파티원 수: 13",
+    "mx": "<color argb=#FF8692d4>¡La muerte acecha de nuevo! ¡La fría garra de la muerte te atrapa de nuevo desde la tumba!</color>|r|nPrecisa todo el contenido|r|nTamaño máximo del grupo: 13",
+    "pt": "<color argb=#FF8692d4>Os mortos despertam! As frias garras dos morto-vivos saem das tumbas mais uma vez!</color>|r|nReq. todos os DLC|r|nTam. máx. do grupo: 13",
+    "sp": "<color argb=#FF8692d4>¡La muerte acecha de nuevo! ¡La fría garra de la muerte te atrapa de nuevo desde la tumba!</color>|r|nPrecisa todo el contenido|r|nTamaño máximo del grupo: 13"
   },
   "configuration": {
     "hopper_name": "Living Dead",
@@ -22,7 +22,7 @@
     "rich_presence_id": 107,
     "start_time": "1970-01-01 00:00:00",
     "end_time": "1970-01-01 00:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,

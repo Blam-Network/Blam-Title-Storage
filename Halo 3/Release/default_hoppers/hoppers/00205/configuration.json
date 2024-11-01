@@ -1,14 +1,14 @@
 {
   "descriptions": {
-    "jpn": "",
-    "fr": "",
-    "kor": "",
-    "pt": "",
-    "de": "",
-    "it": "",
-    "mx": "",
-    "en": "<color argb=#FF8692d4>5-Minute Brawl for Double EXP!</color>|r|nAll DLC Required|r|nMax Party Size: 16",
     "cht": "",
+    "de": "",
+    "en": "<color argb=#FF8692d4>5-Minute Brawl for Double EXP!</color>|r|nAll DLC Required|r|nMax Party Size: 16",
+    "fr": "",
+    "it": "",
+    "jpn": "",
+    "kor": "",
+    "mx": "",
+    "pt": "",
     "sp": ""
   },
   "configuration": {
@@ -22,7 +22,7 @@
     "rich_presence_id": 107,
     "start_time": "1970-01-01 00:00:00",
     "end_time": "1970-01-01 00:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,

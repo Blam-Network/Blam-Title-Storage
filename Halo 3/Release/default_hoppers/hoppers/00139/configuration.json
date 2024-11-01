@@ -1,15 +1,15 @@
 {
   "descriptions": {
     "cht": "<color argb=#FF8692d4>需精準長距離射擊技巧，這是團隊遊戲清單。</color>|r|n需要所有下載地圖套件。|r|n隊伍人數：3-4|r|n夥伴人數上限：4",
-    "mx": "<color argb=#FF8692d4>Líneas visuales largas y rifles de largo alcance. Combate de precisión en grandes distancias.</color> Precisa todo el contenido Tamaño equipo: 3-4|r|nTamaño máximo grupo: 4",
-    "jpn": "<color argb=#FF8692d4>遠距離射撃の精度がカギとなるチーム戦向けプレイリスト</color>|r|nすべての追加マップが必要|r|nチーム サイズ： 3-4|r|nパーティーの上限： 4",
-    "en": "<color argb=#FF8692d4>Long sight lines and long rifles. Precision combat over great distance. This is a team-focused playlist.</color>|r|nAll DLC Required|r|nTeam Size: 3-4|r|nMax Party Size: 4",
     "de": "<color argb=#FF8692d4>Gute Sicht und lange Gewehre. Präzisionskampf über große Entfernungen. Dies ist eine teambasierte Spielliste.</color> Alle DLC erf.|r|nTeamgröße: 3-4|r|nMax. Gruppengröße: 4",
-    "sp": "<color argb=#FF8692d4>Líneas visuales largas y rifles de largo alcance. Combate de precisión en grandes distancias.</color> Precisa todo el contenido Tamaño equipo: 3-4|r|nTamaño máximo grupo: 4",
-    "kor": "<color argb=#FF8692d4>매우 긴 사선에서 벌어지므로 정확한 라이플 사격이 필요한 팀 기반의 게임입니다.</color>|r|n모든 DLC 필요|r|n팀원 수: 3-4|r|n최대 파티원 수: 4",
-    "pt": "<color argb=#FF8692d4>Linhas de visão longas e rifles longos. Combate de precisão em longas distâncias.</color>|r|nReq. todos os DLC.|r|nTamanho da Equipe: 3-4|r|nTam. máx. do grupo: 4",
+    "en": "<color argb=#FF8692d4>Long sight lines and long rifles. Precision combat over great distance. This is a team-focused playlist.</color>|r|nAll DLC Required|r|nTeam Size: 3-4|r|nMax Party Size: 4",
+    "fr": "<color argb=#FF8692d4>Ça va sniper... Le combat de précision à longue distance. C'est une sélection pour équipe.</color>|r|nTous packs requis|r|nTaille d'équipe : 3-4|r|nTaille de groupe max : 4",
     "it": "<color argb=#FF8692d4>Distanza visiva elevata e fucili di precisione. Elenco partite adatto a squadre.</color>|r|nTutti i CSC ric.|r|nDim. squadra: 3-4|r|nDim. max gruppo: 4",
-    "fr": "<color argb=#FF8692d4>Ça va sniper... Le combat de précision à longue distance. C'est une sélection pour équipe.</color>|r|nTous packs requis|r|nTaille d'équipe : 3-4|r|nTaille de groupe max : 4"
+    "jpn": "<color argb=#FF8692d4>遠距離射撃の精度がカギとなるチーム戦向けプレイリスト</color>|r|nすべての追加マップが必要|r|nチーム サイズ： 3-4|r|nパーティーの上限： 4",
+    "kor": "<color argb=#FF8692d4>매우 긴 사선에서 벌어지므로 정확한 라이플 사격이 필요한 팀 기반의 게임입니다.</color>|r|n모든 DLC 필요|r|n팀원 수: 3-4|r|n최대 파티원 수: 4",
+    "mx": "<color argb=#FF8692d4>Líneas visuales largas y rifles de largo alcance. Combate de precisión en grandes distancias.</color> Precisa todo el contenido Tamaño equipo: 3-4|r|nTamaño máximo grupo: 4",
+    "pt": "<color argb=#FF8692d4>Linhas de visão longas e rifles longos. Combate de precisão em longas distâncias.</color>|r|nReq. todos os DLC.|r|nTamanho da Equipe: 3-4|r|nTam. máx. do grupo: 4",
+    "sp": "<color argb=#FF8692d4>Líneas visuales largas y rifles de largo alcance. Combate de precisión en grandes distancias.</color> Precisa todo el contenido Tamaño equipo: 3-4|r|nTamaño máximo grupo: 4"
   },
   "configuration": {
     "hopper_name": "Team Snipers",
@@ -22,7 +22,7 @@
     "rich_presence_id": 36,
     "start_time": "1970-01-01 00:00:00",
     "end_time": "1970-01-01 00:00:00",
-    "hopper_regions": 4294967295,
+    "hopper_regions": "FFFFFFFF",
     "minimum_base_xp": 0,
     "maximum_base_xp": 0,
     "minimum_games_played": 0,
