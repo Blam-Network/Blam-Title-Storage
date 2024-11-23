@@ -1797,8 +1797,8 @@
     "maximum_multiplayer_split_screen": 4
   },
   "crash_handling_configuration": {
-    "display_crash_handling_ui": false,
-    "minidump_generation": "minidump_generation_minimini"
+    "display_crash_handling_ui": true,
+    "minidump_generation": "minidump_generation_regular"
   },
   "lsp_configuration": {
     "port_range_start": 1001,
