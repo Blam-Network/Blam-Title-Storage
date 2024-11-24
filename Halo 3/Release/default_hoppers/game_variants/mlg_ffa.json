@@ -1,5 +1,5 @@
 {
-  "m_game_engine_index": 2,
+  "m_game_engine_index": "slayer",
   "m_base_variant": {
     "m_metadata": {
       "unique_id": 0,
@@ -10,7 +10,7 @@
       "author_is_xuid_online": false,
       "author_id": "0000000000000000",
       "size_in_bytes": 956,
-      "date": "2008-08-13 23:10:56",
+      "date": "2010-07-30 23:25:23",
       "length_seconds": 0,
       "campaign_id": -1,
       "map_id": -1,
@@ -30,8 +30,8 @@
       "m_lives_per_round": 0,
       "m_team_lives_per_round": 0,
       "m_respawn_time_seconds": 5,
-      "m_suicide_penalty_seconds": 5,
-      "m_betrayal_penalty_seconds": 10,
+      "m_suicide_penalty_seconds": 0,
+      "m_betrayal_penalty_seconds": 0,
       "m_respawn_growth_seconds": 0,
       "m_respawn_player_traits_duration_seconds": 0,
       "m_respawn_player_traits": {
@@ -103,7 +103,7 @@
           "m_forced_change_color_setting": 1
         },
         "m_sensor_traits": {
-          "m_motion_tracker_setting": 1,
+          "m_motion_tracker_setting": 3,
           "m_motion_tracker_range_setting": 3
         }
       },
@@ -217,7 +217,7 @@
     "m_team_scoring_method": 0
   },
   "m_slayer_variant": {
-    "m_score_to_win": 50,
+    "m_score_to_win": -1,
     "m_kill_points": 1,
     "m_assist_points": 0,
     "m_death_points": 0,
