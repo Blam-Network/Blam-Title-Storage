@@ -1,5 +1,5 @@
 {
-  "m_game_engine_index": 2,
+  "m_game_engine": "slayer",
   "m_base_variant": {
     "m_metadata": {
       "unique_id": 0,
@@ -21,7 +21,7 @@
     },
     "m_miscellaneous_options": {
       "m_flags": 6,
-      "m_round_time_limit_minutes": 30,
+      "m_round_time_limit_minutes": 15,
       "m_round_limit": 1,
       "m_early_victory_win_count": 0
     },
