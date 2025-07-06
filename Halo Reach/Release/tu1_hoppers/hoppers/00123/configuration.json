@@ -1,0 +1,378 @@
+{
+  "descriptions": {
+    "cht": "殺戮之王與目標型遊戲，分成 4 個 3 人團隊彼此互相對抗。|r|n|r|n團隊人數：3 名|r|n派對人數上限：12 名|r|n本機玩家數上限：4 名",
+    "de": "Showdown und Zielspiele, bei denen 4 Teams zu je 3 Spielern gegeneinander antreten.|r|n|r|nTeamgröße: 3|r|nMax. Gruppengröße: 12|r|nMax. lokale Spieler: 4",
+    "en": "Slayer and Objective games pitting 4 teams of 3 against each other.|r|n|r|nTeam Size: 3|r|nMax Party Size: 12|r|nMax Local Players: 4|r|n|r|nTitle Updated",
+    "fr": "4 équipes de 3 s'affrontent en Assassin et Objectif.|r|n|r|nTaille de l'équipe : 3|r|n Taille de groupe max. : 12|r|nJoueurs en local max. : 4",
+    "it": "Partite massacro e a obiettivi con 4 squadre di 3 giocatori ciascuna.|r|n|r|nDimensione squadra: 3|r|nDimensione massima gruppo: 12|r|nN. massimo giocatori locali: 4",
+    "jpn": "3 プレイヤーずつの 4 チームによる各種対戦|r|n|r|nチーム サイズ： 3|r|nパーティー上限： 12|r|nローカルプレイヤー上限： 4",
+    "kor": "3인으로 구성된 4개 팀이 Slayer 및 Objective 게임에서 경쟁합니다.|r|n|r|n팀원 수: 3|r|n최대 파티원 수: 12|r|n최대 로컬 플레이어 수: 4",
+    "mx": "Partidas por objetivos y Asesino que enfrentan a 4 equipos de 3 entre sí.|r|n|r|nTamaño de equipo: 3|r|nTamaño máx. grupo: 12|r|nMáx. jugadores locales: 4",
+    "pt": "Jogos Assassino e Objetivo colocando 4 equipes de 3 umas contra as outras.|r|n|r|nTam. da equipe: 3|r|nTam. máx. do grupo: 12|r|nMáx. de jogad. locais: 4",
+    "sp": "Partidas por objetivos y Asesino que enfrentan a 4 equipos de 3 entre sí.|r|n|r|nTamaño de equipo: 3|r|nTamaño máx. grupo: 12|r|nMáx. jugadores locales: 4"
+  },
+  "configuration": {
+    "hopper_name": "Multi Team",
+    "identifier": 123,
+    "category_identifier": 1,
+    "category_index": 1,
+    "player_investment_category": 1,
+    "image_index": 2,
+    "xlast_index": 25,
+    "equivalency_id": 3,
+    "start_time": "None",
+    "end_time": "None",
+    "minimum_games_won": 0,
+    "maximum_games_won": 0,
+    "minimum_games_played": 0,
+    "maximum_games_played": 0,
+    "minimum_grade": 0,
+    "maximum_grade": 21,
+    "min_party_size": 1,
+    "max_party_size": 12,
+    "min_local_players": 1,
+    "max_local_players": 4,
+    "hopper_access_bit": 4294967295,
+    "account_type_access": 2,
+    "require_all_party_members_meet_games_played_requirements": false,
+    "byte89": 0,
+    "require_all_party_members_meet_grade_requirements": false,
+    "require_all_party_members_meet_access_requirements": false,
+    "require_all_party_members_meet_live_account_access_requirements": false,
+    "hide_hopper_from_games_played_restricted_players": false,
+    "byte8e": 0,
+    "hide_hopper_from_grade_restricted_players": false,
+    "hide_hopper_from_access_restricted_players": true,
+    "hide_hopper_from_live_account_access_restricted_players": false,
+    "hide_hopper_due_to_time_restriction": true,
+    "requires_hard_drive": false,
+    "requires_local_party": false,
+    "dword98": 3,
+    "dword9c": 1,
+    "dworda0": 2,
+    "dworda4": 1,
+    "dworda8": 2,
+    "dwordac": 15,
+    "dwordb0": 100663296,
+    "is_ranked": 0,
+    "is_arbitrated": 1,
+    "are_guests_allowed": 1,
+    "are_opponents_visible": 1,
+    "uses_arena_lsp_stats": 0,
+    "dwordbc": 0,
+    "dwordc0": 0,
+    "gapc4": 0,
+    "uses_high_score_leaderboard": 0,
+    "posse_formation": 3,
+    "post_match_countdown_time_seconds": 20,
+    "require_hosts_on_multiple_teams": 0,
+    "repeated_opponents_to_consider_for_penalty": 0,
+    "repeated_opponents_skill_throttle_start": 0,
+    "repeated_opponents_skill_throttle_stop": 0,
+    "is_team_matching_enabled": 0,
+    "gather_start_threshold_seconds": 15,
+    "get_gather_start_game_early_seconds": 30,
+    "get_gather_give_up_seconds": 120,
+    "chance_of_gathering": [
+      9,
+      18,
+      27,
+      36,
+      45,
+      53,
+      62,
+      71,
+      80,
+      89,
+      98,
+      100,
+      0,
+      0,
+      0,
+      0
+    ],
+    "gapf0_5": 0,
+    "dword104": 0,
+    "dword108": 0,
+    "uses_ffa_scoring_for_leaderboard_writes": 0,
+    "should_modify_skill_update_weight_with_game_quality": 0,
+    "trueskill_sigma_multiplier": 3.0,
+    "dword114": 1065353216,
+    "trueskill_tau_dynamics_factor": 1028443341,
+    "trueskill_draw_probability": 10,
+    "pre_match_voice_configuration": 1,
+    "in_match_voice_configuration": 0,
+    "post_match_voice_configuration": 1,
+    "restrict_open_channel": 0,
+    "dword130": 20,
+    "query_configurations": [
+      {
+        "dword0": 35,
+        "gap4": 16777216,
+        "dword8": 25,
+        "gapc": 0,
+        "dword10": 0,
+        "gap14": 0,
+        "dword18": 1176256512,
+        "dword1c": 1176256512,
+        "dword20": 1176256512,
+        "gap24": 65536,
+        "dword28": 160,
+        "dword2c": 0,
+        "dword30": 0,
+        "unknown1": 0,
+        "latency_desirability_configurations": [
+          {
+            "unknown1": 1000593162,
+            "unknown2": 60,
+            "unknown3": 110
+          },
+          {
+            "unknown1": 1008981770,
+            "unknown2": 110,
+            "unknown3": 160
+          }
+        ],
+        "unknown2": [
+          0.023936171,
+          0.023936171,
+          0.047872342,
+          0.06648936,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.27659574,
+          0.27659574,
+          0.27659574,
+          0.0,
+          0.0,
+          0.0026595744,
+          0.0026595744,
+          0.0026595744,
+          0.0
+        ]
+      },
+      {
+        "dword0": 50,
+        "gap4": 0,
+        "dword8": 0,
+        "gapc": 0,
+        "dword10": 0,
+        "gap14": 0,
+        "dword18": 1176256512,
+        "dword1c": 1176256512,
+        "dword20": 1176256512,
+        "gap24": 65536,
+        "dword28": 175,
+        "dword2c": 100,
+        "dword30": 8,
+        "unknown1": 16777216,
+        "latency_desirability_configurations": [
+          {
+            "unknown1": 1014350479,
+            "unknown2": 75,
+            "unknown3": 175
+          },
+          {
+            "unknown1": 1020054733,
+            "unknown2": 175,
+            "unknown3": 300
+          }
+        ],
+        "unknown2": [
+          0.023936171,
+          0.023936171,
+          0.047872342,
+          0.06648936,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.27659574,
+          0.27659574,
+          0.27659574,
+          0.0,
+          0.0,
+          0.0026595744,
+          0.0026595744,
+          0.0026595744,
+          0.0
+        ]
+      },
+      {
+        "dword0": 40,
+        "gap4": 16777216,
+        "dword8": 25,
+        "gapc": 0,
+        "dword10": 0,
+        "gap14": 0,
+        "dword18": 1176256512,
+        "dword1c": 1176256512,
+        "dword20": 1176256512,
+        "gap24": 65536,
+        "dword28": 160,
+        "dword2c": 0,
+        "dword30": 0,
+        "unknown1": 0,
+        "latency_desirability_configurations": [
+          {
+            "unknown1": 1000593162,
+            "unknown2": 60,
+            "unknown3": 110
+          },
+          {
+            "unknown1": 1008981770,
+            "unknown2": 110,
+            "unknown3": 160
+          }
+        ],
+        "unknown2": [
+          0.023936171,
+          0.023936171,
+          0.047872342,
+          0.06648936,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.27659574,
+          0.27659574,
+          0.27659574,
+          0.0,
+          0.0,
+          0.0026595744,
+          0.0026595744,
+          0.0026595744,
+          0.0
+        ]
+      },
+      {
+        "dword0": 50,
+        "gap4": 0,
+        "dword8": 0,
+        "gapc": 0,
+        "dword10": 0,
+        "gap14": 0,
+        "dword18": 1176256512,
+        "dword1c": 1176256512,
+        "dword20": 1176256512,
+        "gap24": 65536,
+        "dword28": 175,
+        "dword2c": 100,
+        "dword30": 8,
+        "unknown1": 16777216,
+        "latency_desirability_configurations": [
+          {
+            "unknown1": 1014350479,
+            "unknown2": 75,
+            "unknown3": 175
+          },
+          {
+            "unknown1": 1020054733,
+            "unknown2": 175,
+            "unknown3": 300
+          }
+        ],
+        "unknown2": [
+          0.023936171,
+          0.023936171,
+          0.047872342,
+          0.06648936,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.27659574,
+          0.27659574,
+          0.27659574,
+          0.0,
+          0.0,
+          0.0026595744,
+          0.0026595744,
+          0.0026595744,
+          0.0
+        ]
+      }
+    ],
+    "games_game_type": 0,
+    "minimum_player_count": 0,
+    "maximum_player_count": 0,
+    "ffa_model_override": 0,
+    "minimum_team_count": 4,
+    "maximum_team_count": 4,
+    "per_team_data": [
+      {
+        "minimum_team_size": 3,
+        "maximum_team_size": 3,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 3,
+        "maximum_team_size": 3,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 3,
+        "maximum_team_size": 3,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 3,
+        "maximum_team_size": 3,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      }
+    ],
+    "maximum_team_imbalance": 0,
+    "big_squad_size_threshold": 0,
+    "dword424": 0,
+    "gap428": 0,
+    "undersized_party_split_permissions": 1,
+    "jackpot_minimum_time_seconds": 120,
+    "jackpot_configurations": [
+      {
+        "unknown1": 75,
+        "unknown2": 150,
+        "unknown3": 400
+      },
+      {
+        "unknown1": 20,
+        "unknown2": 500,
+        "unknown3": 1000
+      },
+      {
+        "unknown1": 5,
+        "unknown2": 3000,
+        "unknown3": 3000
+      }
+    ]
+  }
+}
