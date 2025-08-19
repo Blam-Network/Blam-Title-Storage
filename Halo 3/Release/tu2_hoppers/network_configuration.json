@@ -1,0 +1,2070 @@
+{
+  "config_download": {
+    "master_catalog_file_download_interval_msec": 3600000,
+    "required_file_invalidation_check_interval_msec": 5000,
+    "required_file_download_retry_interval_msec": 5000
+  },
+  "bandwidth": {
+    "bandwidth_outlier_discard_fraction": 0.25,
+    "bandwidth_minimum_measurement_count": 2,
+    "bandwidth_safety_margin_bps": "0x00005000",
+    "bandwidth_minimum_known_good_bps": "0x0000C800",
+    "bandwidth_tracking_minimum_duration_msec": 300000,
+    "bandwidth_tracking_maximum_satiation": 0.5,
+    "bandwidth_dispute_minimum_count": 5,
+    "bandwidth_dispute_threshold_bps": "0x00010000",
+    "bandwidth_dispute_increase_bps": "0x00008000",
+    "host_speculative_migration_check_interval_msec": 30000,
+    "host_speculative_migration_check_interval_custom_msec": 30000,
+    "host_speculative_migration_check_interval_matchmaking_msec": 30000,
+    "host_speculative_migration_remigrate_interval_msec": 60000,
+    "host_speculative_migration_required_lobby_peer_connectivity_difference": 1,
+    "host_speculative_migration_required_match_host_rating_difference": 0,
+    "host_speculative_migration_required_match_host_bandwidth_difference": 0,
+    "host_speculative_migration_required_custom_host_rating_difference": 0,
+    "host_speculative_migration_required_custom_host_bandwidth_difference": 1,
+    "host_preference_latency_table": [
+      0,
+      15,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "host_preference_local_user_table": [
+      3,
+      2,
+      1,
+      0,
+      0
+    ],
+    "host_preferences": [
+      {
+        "connectivity_multiplier": "0x10000000",
+        "host_bonus": "0x00000001",
+        "desired_hostable_peers_multiplier": "0x00000000",
+        "maximum_hostable_peers_multiplier": "0x00000000",
+        "unbounded_hostable_peers_multiplier": "0x00000000",
+        "latency_table_multiplier": "0x00000000",
+        "gamestate_bonus": "0x00000000",
+        "open_nat_bonus": "0x00100000",
+        "hard_drive_bonus": "0x00010000",
+        "local_user_table_multiplier": "0x00000000",
+        "host_rating_multiplier": "0x00000000",
+        "connectivity_rating_multiplier": "0x01000000",
+        "synchronous_hostable_peers_multiplier": "0x00000000"
+      },
+      {
+        "connectivity_multiplier": "0x10000000",
+        "host_bonus": "0x00000001",
+        "desired_hostable_peers_multiplier": "0x01000000",
+        "maximum_hostable_peers_multiplier": "0x00000100",
+        "unbounded_hostable_peers_multiplier": "0x00000010",
+        "latency_table_multiplier": "0x00001000",
+        "gamestate_bonus": "0x00000004",
+        "open_nat_bonus": "0x00000000",
+        "hard_drive_bonus": "0x00000002",
+        "local_user_table_multiplier": "0x00010000",
+        "host_rating_multiplier": "0x00100000",
+        "connectivity_rating_multiplier": "0x00000000",
+        "synchronous_hostable_peers_multiplier": "0x00000000"
+      },
+      {
+        "connectivity_multiplier": "0x10000000",
+        "host_bonus": "0x00000001",
+        "desired_hostable_peers_multiplier": "0x01000000",
+        "maximum_hostable_peers_multiplier": "0x00000800",
+        "unbounded_hostable_peers_multiplier": "0x00000080",
+        "latency_table_multiplier": "0x00008000",
+        "gamestate_bonus": "0x00000004",
+        "open_nat_bonus": "0x00000008",
+        "hard_drive_bonus": "0x00000002",
+        "local_user_table_multiplier": "0x00080000",
+        "host_rating_multiplier": "0x00200000",
+        "connectivity_rating_multiplier": "0x00000010",
+        "synchronous_hostable_peers_multiplier": "0x00000000"
+      },
+      {
+        "connectivity_multiplier": "0x10000000",
+        "host_bonus": "0x00000001",
+        "desired_hostable_peers_multiplier": "0x00000000",
+        "maximum_hostable_peers_multiplier": "0x00000000",
+        "unbounded_hostable_peers_multiplier": "0x00000010",
+        "latency_table_multiplier": "0x00001000",
+        "gamestate_bonus": "0x00000004",
+        "open_nat_bonus": "0x00000000",
+        "hard_drive_bonus": "0x00000002",
+        "local_user_table_multiplier": "0x00010000",
+        "host_rating_multiplier": "0x00100000",
+        "connectivity_rating_multiplier": "0x00000000",
+        "synchronous_hostable_peers_multiplier": "0x01000000"
+      }
+    ],
+    "host_preference_connectivity_rankings_spread": 5,
+    "host_preference_host_rankings_spread": 10,
+    "upstream_bandwidth_absolute_minimum_bps": [
+      0,
+      0,
+      23552,
+      31744,
+      39936,
+      51200,
+      64000,
+      78336,
+      94208,
+      111616,
+      130560,
+      151040,
+      173056,
+      196608,
+      221696,
+      248320,
+      276480
+    ],
+    "upstream_bandwidth_requirement_bps": [
+      0,
+      0,
+      23552,
+      31744,
+      39936,
+      51200,
+      64000,
+      78336,
+      94208,
+      111616,
+      130560,
+      151040,
+      173056,
+      196608,
+      221696,
+      248320,
+      276480
+    ],
+    "upstream_bandwidth_desired_bps": [
+      0,
+      0,
+      102400,
+      143360,
+      184320,
+      235520,
+      291840,
+      353280,
+      419840,
+      491520,
+      568320,
+      650240,
+      737280,
+      829440,
+      926720,
+      1029120,
+      1136640
+    ],
+    "minimum_player_restricted_count": 8,
+    "minimum_host_upstream_bandwidth_bps": "0x00020000",
+    "minimum_host_downstream_bandwidth_bps": "0x00020000",
+    "minimum_host_delegation_advantage_bps": "0x00002800",
+    "good_host_upstream_bandwidth_bps": "0x00040000",
+    "good_host_downstream_bandwidth_bps": "0x00040000",
+    "minimum_voice_repeater_upstream_bandwidth_bps": "0x00020000",
+    "minimum_voice_repeater_downstream_bandwidth_bps": "0x00020000",
+    "voice_channel_bandwidth_bps": "0x00003000"
+  },
+  "life_cycle": {
+    "joining": {
+      "network_session_migration_wait_timeout_msec": 30000,
+      "network_session_migration_disband_timeout_msec": 10000,
+      "join_remote_squad_player_reservation_timeout_msec": 30000,
+      "request_migration_start_rety_interval_msec": 100,
+      "request_migration_abort_rety_interval_msec": 100,
+      "joining_search_qos_bps": "0x00010000",
+      "join_timeout_msec": 10000,
+      "desperation_wait_time_seconds": 180
+    },
+    "matchmaking": {
+      "perform_nat_check": false,
+      "matchmaking_strict_nat_host_percentage": 0.25,
+      "matchmaking_start_failure_wait_time_ms": 5000,
+      "matchmaking_find_match_joinable_session_threshold": 10,
+      "matchmaking_find_match_join_wait_time_ms": 4000,
+      "matchmaking_find_match_search_results_stale_ms": 25000,
+      "matchmaking_gather_join_wait_time_ms": 15000,
+      "matchmaking_search_give_up_time_seconds": 600,
+      "join_request_wait_time_ms": 3000,
+      "prepare_map_display_map_during_loading": true,
+      "prepare_map_veto_timer_seconds": 10,
+      "prepare_map_minimum_load_time_seconds": 5,
+      "prepare_map_countdown_timer_seconds": 5,
+      "prepare_map_vetoed_countdown_timer_seconds": 5,
+      "prepare_map_veto_failed_countdown_timer_seconds": 5,
+      "end_match_write_stats_boot_threshold_seconds": 30,
+      "arbitration_wait_for_establishment_and_connectivity_threshold_seconds": 60,
+      "arbitration_wait_for_completion_threshold_seconds": 30,
+      "post_match_return_to_pre_game_lobby": false,
+      "post_match_stats_refresh_time": 5,
+      "warning_toast_minimum_time_seconds": 14400
+    },
+    "in_game": {
+      "simulation_aborted_host_delay_ms": 4000,
+      "simulation_aborted_peer_delay_ms": 8000
+    }
+  },
+  "logic": {
+    "session_tracker": {
+      "unsuitable_session_cache_count": 250,
+      "qos_bps": "0x00010000",
+      "default_qos_refresh_interval_msec": 20000,
+      "full_qos_timeout_msec": 5000,
+      "maximum_target_sessions_per_default_qos_task": 1,
+      "maximum_qos_tasks": 5
+    },
+    "desirability": {
+      "add_to_match_desirability_bonus": 10,
+      "combined_player_count_per_player_desirability_bonus": 15,
+      "fill_out_match_desirability_bonus": 75,
+      "needed_party_size_desirability_bonus": 50,
+      "gather_time_bonus_threshold_seconds": 30,
+      "gather_time_desirability_bonus": 25,
+      "search_time_bonus_threshold_seconds": 30,
+      "search_time_desirability_bonus": 25,
+      "average_skill_range_for_desirability_bonus": 2,
+      "average_skill_desirability_bonus_factor": 50,
+      "average_mu_range_for_desirability_bonus": 0.5,
+      "average_mu_desirability_bonus_factor": 50,
+      "average_experience_rank_range_for_desirability_bonus": 3,
+      "average_experience_rank_desirability_bonus_factor": 50,
+      "good_host_desirability_bonus": 10,
+      "language_match_desirability_bonus": 10,
+      "gamer_region_match_desirability_bonus": 10,
+      "gamer_zone_match_desirability_bonus": 10,
+      "quitter_match_desirability_bonus": 10,
+      "dlc_match_desirability_bonus": 10,
+      "maximum_ping_for_desirability_bonus": 400,
+      "ping_desirability_bonus_interval": 50,
+      "desirability_bonus_per_ping_interval": 50
+    },
+    "seeker": {
+      "session_search_wait_time_ms": 1000,
+      "failed_session_search_wait_time_ms": 5000,
+      "final_session_search_query_minimum_time_ms": 10000,
+      "search_stage_strict_skill_round_limit": 5,
+      "search_stage_strict_skill_initial_mu_range": 0.05,
+      "search_stage_strict_skill_final_mu_range": 0.5,
+      "search_stage_strict_skill_initial_desired_skill_range": 0,
+      "search_stage_strict_skill_final_desired_skill_range": 3,
+      "search_stage_strict_skill_initial_average_skill_range": 0,
+      "search_stage_strict_skill_final_average_skill_range": 2,
+      "search_stage_strict_skill_initial_average_experience_rank_range": 0,
+      "search_stage_strict_skill_connection_threshold_ms": 150,
+      "search_stage_skill_round_limit": 3,
+      "search_stage_skill_connection_threshold_ms": 180,
+      "search_stage_any_round_limit": 4,
+      "search_stage_any_final_connection_threshold_ms": 1000,
+      "search_stage_any_final_mu_range": 6.0,
+      "search_stage_any_final_average_skill_range": 10,
+      "search_stage_any_final_desired_skill_range": 50
+    },
+    "leaderboard": {
+      "consecutive_failed_download_threshold": 3,
+      "milliseconds_between_failed_downloads": 5000,
+      "milliseconds_between_consecutive_failed_downloads": 300000,
+      "refresh_request_wait_time_ms": 5000
+    },
+    "session_interface": {
+      "peer_properties_interval_msec": 1000,
+      "user_addition_interval_msec": 1000,
+      "user_removal_interval_msec": 1000,
+      "user_properties_interval_msec": 1000,
+      "local_specific_parameter_propagation_msec": 5000,
+      "ready_for_next_match_wait_time_milliseconds": 2000,
+      "stat_replication_wait_threshold_milliseconds": 5000
+    },
+    "base_qos_reply_block": {
+      "qos_listener_update_interval": 100,
+      "disabled_qos_reply_bandwidth_bps": "0x00004000"
+    },
+    "squad_qos_reply_block": {
+      "out_of_game_qos_reply_bandwidth_bps": "0x00008000",
+      "in_game_qos_reply_bandwidth_bps": "0x00004000"
+    },
+    "group_qos_reply_block": {
+      "out_of_game_qos_reply_bandwidth_bps": "0x00010000",
+      "in_game_qos_reply_bandwidth_bps": "0x00004000"
+    },
+    "maximum_players_in_coop": 4,
+    "maximum_players_in_forge": 8
+  },
+  "banhammer": {
+    "machine_file_refresh_seconds": 900,
+    "machine_file_refresh_threshold_seconds": 30,
+    "user_file_refresh_seconds": 900,
+    "user_file_refresh_threshold_seconds": 30,
+    "host_chance_reduction_percentage": 50,
+    "idle_controller_timeout_seconds": 120
+  },
+  "simulation": {
+    "zoom_relevance": {
+      "zoom_0_tolerance": 0.994,
+      "zoom_1_tolerance": 0.999,
+      "zoom_0_relevance_bonus": 0.95,
+      "zoom_1_relevance_bonus": 1.0
+    },
+    "control_relevance": {
+      "zero_relevance_distance": 100.0,
+      "max_relevance": 1.0,
+      "min_relevance": 0.6,
+      "min_period": 0,
+      "max_period": 1000
+    },
+    "position_relevance": {
+      "distance_to_player_threshold": 1.0,
+      "aiming_vector_high_tolerance": 0.99,
+      "aiming_vector_medium_tolerance": 0.5,
+      "distance_to_player_medium_tolerance": 5.0
+    },
+    "netdebug": {
+      "bar_maximum_count": 6,
+      "axis_bounds": [
+        [
+          60,
+          800
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          30,
+          6
+        ],
+        [
+          0,
+          20
+        ]
+      ]
+    },
+    "view": {
+      "game_results_update_interval_msec": 10000,
+      "synchronous_client_block_duration_msec": 5000
+    },
+    "shared": {
+      "action_persist_time": 2.0,
+      "simulation_event_projectile_supercombine_request_fraction": 0.5
+    },
+    "world": {
+      "maximum_catchup_views": 8,
+      "join_timeout": 45000,
+      "host_join_minimum_wait_time": 30000,
+      "host_join_timeout": 135000,
+      "join_total_wait_timeout": 150000,
+      "pause_game_required_machines_fraction": 0.25,
+      "join_activation_blocking_machines_fraction": 0.5,
+      "maximum_catchup_attempts": 3,
+      "catchup_failure_timeout": 2000,
+      "client_join_failure_count": 5,
+      "client_activation_failure_timeout": 180000,
+      "game_simulation_queue_danger_allocation_size_percentage": 0.9,
+      "game_simulation_queue_danger_allocation_count_percentage": 0.9
+    },
+    "events": [
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 3000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.25,
+        "maximum_priority": 0.73
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 3000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.1,
+        "maximum_priority": 0.73
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.1,
+        "maximum_priority": 0.73
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.27,
+        "maximum_priority": 0.73
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.1,
+        "maximum_priority": 0.73
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.1,
+        "maximum_priority": 0.73
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.1,
+        "maximum_priority": 0.73
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 3000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.16,
+        "maximum_priority": 0.73
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.2,
+        "maximum_priority": 0.73
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.15,
+        "maximum_priority": 0.73
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 1000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.2,
+        "maximum_priority": 0.7
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.15,
+        "maximum_priority": 0.73
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.5,
+        "maximum_priority": 0.75
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 1500,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.51,
+        "maximum_priority": 0.75
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.3,
+        "maximum_priority": 0.7
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.5,
+        "maximum_priority": 0.75
+      },
+      {
+        "constant_priority": 0.0,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 100.0,
+        "minimum_priority": 0.5,
+        "maximum_priority": 0.75
+      },
+      {
+        "constant_priority": 0.75,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.7,
+        "cancel_timer_milliseconds": -1,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.7,
+        "cancel_timer_milliseconds": -1,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.6,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.35,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.75,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.68,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.6,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.6,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.75,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.9,
+        "cancel_timer_milliseconds": 10000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.61,
+        "cancel_timer_milliseconds": 10000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.75,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.75,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.65,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.3,
+        "cancel_timer_milliseconds": 5000,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      },
+      {
+        "constant_priority": 0.7,
+        "cancel_timer_milliseconds": -1,
+        "zero_relevance_distance": 0.0,
+        "minimum_priority": 0.0,
+        "maximum_priority": 0.0
+      }
+    ],
+    "entities": [
+      {
+        "creation_configuration": {
+          "constant_priority": 0.7,
+          "creation_zero_relevance_distance": 0.0,
+          "creation_minimum_priority": 0.0,
+          "creation_maximum_priority": 0.0
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.05,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.7,
+          "creation_zero_relevance_distance": 0.0,
+          "creation_minimum_priority": 0.0,
+          "creation_maximum_priority": 0.0
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.05,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.7,
+          "creation_zero_relevance_distance": 0.0,
+          "creation_minimum_priority": 0.0,
+          "creation_maximum_priority": 0.0
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.05,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.7,
+          "creation_zero_relevance_distance": 0.0,
+          "creation_minimum_priority": 0.0,
+          "creation_maximum_priority": 0.0
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.05,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.7,
+          "creation_zero_relevance_distance": 0.0,
+          "creation_minimum_priority": 0.0,
+          "creation_maximum_priority": 0.0
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.05,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.7,
+          "creation_zero_relevance_distance": 0.0,
+          "creation_minimum_priority": 0.0,
+          "creation_maximum_priority": 0.0
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.05,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.7,
+          "creation_zero_relevance_distance": 0.0,
+          "creation_minimum_priority": 0.0,
+          "creation_maximum_priority": 0.0
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.05,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.7,
+          "creation_zero_relevance_distance": 0.0,
+          "creation_minimum_priority": 0.0,
+          "creation_maximum_priority": 0.0
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.05,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.7,
+          "creation_zero_relevance_distance": 0.0,
+          "creation_minimum_priority": 0.0,
+          "creation_maximum_priority": 0.0
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.05,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.7,
+          "creation_zero_relevance_distance": 0.0,
+          "creation_minimum_priority": 0.0,
+          "creation_maximum_priority": 0.0
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.05,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.0,
+          "creation_zero_relevance_distance": 100.0,
+          "creation_minimum_priority": 0.5,
+          "creation_maximum_priority": 0.8
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.1,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.35,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.7,
+          "creation_zero_relevance_distance": 0.0,
+          "creation_minimum_priority": 0.0,
+          "creation_maximum_priority": 0.0
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.1,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.35,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.0,
+          "creation_zero_relevance_distance": 100.0,
+          "creation_minimum_priority": 0.1,
+          "creation_maximum_priority": 0.65
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.05,
+          "normal_maximum_priority": 0.2,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.63,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.0,
+          "creation_zero_relevance_distance": 100.0,
+          "creation_minimum_priority": 0.1,
+          "creation_maximum_priority": 0.65
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.8,
+          "maximum_relevance": 1.0,
+          "minimum_period": 200,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.1,
+          "normal_maximum_priority": 0.24,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.3,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.83,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.0,
+          "creation_zero_relevance_distance": 100.0,
+          "creation_minimum_priority": 0.85,
+          "creation_maximum_priority": 0.9
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 800,
+          "normal_minimum_priority": 0.32,
+          "normal_maximum_priority": 0.55,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.55,
+          "delayed_maximum_priority": 0.7,
+          "maximum_priority": 0.83,
+          "player_priority": 0.9,
+          "dead_priority": 0.9,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.0,
+          "creation_zero_relevance_distance": 100.0,
+          "creation_minimum_priority": 0.1,
+          "creation_maximum_priority": 0.7
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.8,
+          "maximum_relevance": 1.0,
+          "minimum_period": 200,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.1,
+          "normal_maximum_priority": 0.23,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.3,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.82,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.0,
+          "creation_zero_relevance_distance": 100.0,
+          "creation_minimum_priority": 0.1,
+          "creation_maximum_priority": 0.7
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.8,
+          "maximum_relevance": 1.0,
+          "minimum_period": 200,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.1,
+          "normal_maximum_priority": 0.23,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.3,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.82,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.0,
+          "creation_zero_relevance_distance": 100.0,
+          "creation_minimum_priority": 0.1,
+          "creation_maximum_priority": 0.6
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 200,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.04,
+          "normal_maximum_priority": 0.19,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.19,
+          "delayed_maximum_priority": 0.6,
+          "maximum_priority": 0.79,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.0,
+          "creation_zero_relevance_distance": 100.0,
+          "creation_minimum_priority": 0.35,
+          "creation_maximum_priority": 0.8
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 800,
+          "normal_minimum_priority": 0.25,
+          "normal_maximum_priority": 0.55,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.55,
+          "delayed_maximum_priority": 0.7,
+          "maximum_priority": 0.83,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.1
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.0,
+          "creation_zero_relevance_distance": 100.0,
+          "creation_minimum_priority": 0.4,
+          "creation_maximum_priority": 0.8
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.6,
+          "maximum_relevance": 1.0,
+          "minimum_period": 0,
+          "maximum_period": 500,
+          "normal_minimum_priority": 0.3,
+          "normal_maximum_priority": 0.6,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.6,
+          "delayed_maximum_priority": 0.73,
+          "maximum_priority": 0.82,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.0,
+          "creation_zero_relevance_distance": 100.0,
+          "creation_minimum_priority": 0.1,
+          "creation_maximum_priority": 0.8
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.8,
+          "maximum_relevance": 1.0,
+          "minimum_period": 200,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.1,
+          "normal_maximum_priority": 0.23,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.2,
+          "delayed_maximum_priority": 0.72,
+          "maximum_priority": 0.82,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      },
+      {
+        "creation_configuration": {
+          "constant_priority": 0.0,
+          "creation_zero_relevance_distance": 100.0,
+          "creation_minimum_priority": 0.1,
+          "creation_maximum_priority": 0.65
+        },
+        "update_configuration": {
+          "constant_priority": 0.0,
+          "zero_relevance_distance": 100.0,
+          "minimum_relevance": 0.8,
+          "maximum_relevance": 1.0,
+          "minimum_period": 200,
+          "maximum_period": 1000,
+          "normal_minimum_priority": 0.13,
+          "normal_maximum_priority": 0.23,
+          "delayed_time_threshold": 1000,
+          "delayed_minimum_priority": 0.23,
+          "delayed_maximum_priority": 0.67,
+          "maximum_priority": 0.8,
+          "player_priority": 0.0,
+          "dead_priority": 0.0,
+          "in_motion_by_unit": 0.0
+        }
+      }
+    ],
+    "warping": {
+      "simulation_position_update_object_corrective_accept_tolerance": 3.0,
+      "simulation_position_update_object_predicted_accept_tolerance": 2.5,
+      "simulation_position_update_vehicle_corrective_accept_tolerance": 9.0,
+      "simulation_position_update_vehicle_predicted_accept_tolerance": 7.5,
+      "position_update_recent_seconds": 5.0,
+      "position_update_minimum_distance": 0.25
+    },
+    "weapon": {
+      "trigger_recent_spew_time": 0.1,
+      "prediction_delay_timer": 1.0,
+      "predicted_fire_allow_ratio": 0.66,
+      "predicted_fire_always_allow_threshold": 0.1
+    }
+  },
+  "replication": {
+    "event_manager_view": {
+      "replication_event_maximum_blocked_time": 20000
+    },
+    "replication_control_view": {
+      "base_non_player_motion_priority": 0.5,
+      "max_priority_threshold": 1000,
+      "max_priority": 0.84,
+      "medium_priority_base": 0.62,
+      "medium_priority_relevance_scale": 0.25,
+      "min_priority_base": 0.32,
+      "min_priority_relevance_scale": 0.3
+    },
+    "maximum_requests_to_send_in_one_frame": 0
+  },
+  "session": {
+    "session_recreate_timeout_msec": 15000,
+    "join_request_interval_msec": 1000,
+    "join_secure_connection_timeout_msec": 8000,
+    "join_initial_update_timeout_msec": 16000,
+    "join_time_to_hold_in_join_queue_msec": 60000,
+    "join_notify_client_join_in_queue_interval_msec": 2000,
+    "join_abort_interval_msec": 200,
+    "join_abort_timeout_msec": 1000,
+    "host_rejoin_accept_timeout_msec": 6000,
+    "leave_timeout_msec": 1500,
+    "leave_request_interval_msec": 500,
+    "host_handoff_initiate_timeout_msec": 10000,
+    "host_handoff_selection_delay_msec": 30000,
+    "host_handoff_selection_timeout_msec": 60000,
+    "host_transition_timeout_msec": 10000,
+    "host_reestablish_timeout_msec": 15000,
+    "host_reestablish_maximum_send_to_original_host_delay_msec": 10000,
+    "election_failsafe_timeout_msec": 45000,
+    "election_peer_timeout_msec": 4000,
+    "election_ignore_dissension_msec": 6000,
+    "guaranteed_election_send_interval_msec": 1000,
+    "time_synchronization_interval_msec": 120000,
+    "time_synchronization_retry_msec": 5000,
+    "minimum_election_send_interval_msec": 500,
+    "allow_third_party_host_elections": true
+  },
+  "observer": {
+    "secure_connect_attempts": 1,
+    "secure_connect_intervals": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "connect_attempts": 3,
+    "connect_intervals": [
+      0,
+      500,
+      500,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "non_simulation_reconnect_attempts": 3,
+    "non_simulation_reconnect_intervals": [
+      500,
+      500,
+      1000,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "reconnect_attempts": 4,
+    "reconnect_intervals": [
+      500,
+      500,
+      1000,
+      2000,
+      0,
+      0,
+      0,
+      0
+    ],
+    "death_recovery_time": 15000,
+    "heartbeat_send_timeout": 1000,
+    "connection_active_send_timeout": 2000,
+    "connection_alive_send_timeout": 500,
+    "connection_alive_receive_timeout": 2000,
+    "connection_drop_minimum_active_time": 4000,
+    "connection_drop_receive_timeout": 4000,
+    "synchronous_connection_drop_minimum_active_time": 4000,
+    "synchronous_connection_drop_receive_timeout": 10000,
+    "minimum_undesired_connection_timeout_msec": 1000,
+    "maximum_undesired_connection_timeout_msec": 5000,
+    "safety_window_threshold": 0.5,
+    "safety_packet_interval": 1.0,
+    "safety_packet_maximum_interval": 30.0,
+    "packet_rate_multiplier_count": 7,
+    "packet_rate_multipliers": [
+      1.0,
+      0.6666667,
+      0.5,
+      0.33333334,
+      0.25,
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "packet_window_minimum_bytes": 200,
+    "voice_fraction_authority": 0.25,
+    "voice_fraction_client": 0.5,
+    "voice_fraction_non_simulation": 0.75,
+    "voice_maximum_packet_rate": 12.0,
+    "voice_receive_fast_acknowledge_time": 2000,
+    "bandwidth_interval": 2000,
+    "loss_detection_window_size": 30,
+    "flood_max_aperture_msec": 4000,
+    "flood_packet_fraction": 0.5,
+    "desired_payload_bytes_out_of_game": 64,
+    "desired_payload_bytes_simulation": 96,
+    "desired_minimum_packet_rate_multiplier": 0.33333334,
+    "minimum_bandwidth_bps": "0x00002800",
+    "bandwidth_adjust_interval": 1000,
+    "bandwidth_flood_channel_fraction": 0.5,
+    "bandwidth_flood_check_threshold": 3,
+    "bandwidth_flood_backoff_kbps": 40,
+    "bandwidth_flood_backoff_repeat_interval": 5000,
+    "bandwidth_clear_check_threshold": 15,
+    "bandwidth_check_threshold_maximum": 100,
+    "bandwidth_initial_backoff_kbps": 50,
+    "bandwidth_known_good_minimum_kbps": 50,
+    "bandwidth_increment_known_bad_threshold_kbps": 15,
+    "bandwidth_increment_kbps": 8,
+    "generate_stream_events": true,
+    "observer_stream_expansion_interval_msec": 2000,
+    "stream_minimum_bps": "0x00000400",
+    "stream_maximum_bps": "0x00080000",
+    "stream_initial_startup_msec": 1000,
+    "stream_initial_bps": "0x00008430",
+    "stream_initial_total_bps_unreliable": "0x00056400",
+    "stream_initial_total_bps_reliable": "0x0007F000",
+    "stream_initial_minimum_bps_per_stream": "0x00002000",
+    "stream_minimum_great_bandwidth_bps": "0x00011800",
+    "stream_out_of_game_upstream_bandwidth_bps": "0x00005C00",
+    "stream_distributed_client_upstream_bandwidth_bps": "0x00008C00",
+    "stream_distributed_host_upstream_bandwidth_bps": "0x00011800",
+    "stream_synchronous_client_initial_upstream_bandwidth_bps": "0x00007800",
+    "stream_synchronous_host_initial_upstream_bandwidth_bps": "0x0000A000",
+    "stream_synchronous_joining_host_initial_upstream_bandwidth_bps": "0x0000A000",
+    "stream_synchronous_client_upstream_bandwidth_bps": "0x00007800",
+    "stream_synchronous_host_upstream_bandwidth_bps": "0x0000B400",
+    "stream_synchronous_joining_host_upstream_bandwidth_bps": "0x00080000",
+    "stream_synchronous_non_joining_host_upstream_bandwidth_bps": "0x00003000",
+    "stream_synchronous_client_minimum_upstream_bandwidth_bps": "0x00007800",
+    "stream_synchronous_host_minimum_upstream_bandwidth_bps": "0x0000A000",
+    "stream_rtt_noise_msec": 40,
+    "stream_minimum_rtt_msec": 320,
+    "stream_rtt_average_gain_bits": 3,
+    "stream_loss_window_size": 32,
+    "stream_loss_throttle_fraction": 0.1,
+    "stream_throttle_rtt_multiplier": 4,
+    "stream_throttle_reduce_multiplier": 0.8,
+    "stream_throttle_cookie_event_count": 10,
+    "stream_throttle_cookie_backoff_threshold": 21,
+    "stream_bandwidth_step_bps": "0x00000C00",
+    "stream_bandwidth_step_max_fraction": 0.2,
+    "stream_bandwidth_backoff_bps": "0x00001400",
+    "stream_bandwidth_backoff_max_fraction": 0.3,
+    "stream_period_maximum_msec": 5000,
+    "stream_growth_period_minimum_msec": 1500,
+    "stream_throughput_recording_period_minimum_msec": 1500,
+    "stream_throughput_satiated_bandwidth_bps": "0x00007800",
+    "stream_throughput_satiated_stream_fraction": 0.75,
+    "stream_satiation_timeout_msec": 60000,
+    "stream_congestion_bandwidth_average_gain_bits": 2,
+    "stream_congestion_offender_bandwidth_increment_bps": "0x00001800",
+    "stream_congestion_offender_timeout_msec": 20000,
+    "stream_growth_maximum_count": 6,
+    "stream_growth_maximum_fraction": 0.5,
+    "stream_growth_desire_maximum": 20.0,
+    "stream_growth_desire_delay_multiplier": 0,
+    "stream_growth_desire_penalty_bandwidth_multiplier": 0.000390625,
+    "stream_growth_out_of_game_maximum_rtt_increase_msec": 160,
+    "stream_growth_simulation_maximum_rtt_increase_msec": 20,
+    "stream_non_growth_simulation_maximum_rtt_increase_msec": 120,
+    "stream_growth_backoff_rtt_event_threshold": 3,
+    "stream_growth_incremental_rtt_event_threshold": 10,
+    "stream_growth_incremental_rtt_increase_msec": 10,
+    "stream_cautious_expansion_limited_periods_count": 3,
+    "stream_cautious_expansion_instability_timeout_msec": 8000,
+    "bandwidth_monitor_period_count": 6,
+    "bandwidth_monitor_limitation_bps": "0x00002000",
+    "bandwidth_monitor_constriction_fraction": 0.33333334,
+    "bandwidth_monitor_constriction_threshold_bps": "0x00001000",
+    "client_badness_rating_threshold": 25,
+    "bad_bandwidth_throughput_threshold": 50,
+    "disable_bad_client_anticheating": false,
+    "disable_bad_connectivity_anticheating": false,
+    "disable_bad_bandwidth_anticheating": false,
+    "initial_timeout": 9999,
+    "mini_period_minimum_duration": 1000,
+    "mini_period_minimum_rtt_deviation": 5,
+    "stream_wants_more_bandwidth_fudge_factor": 4096,
+    "stream_wants_more_bandwidth_fudge_factor_small": 128,
+    "stream_wants_more_allocation_fudge_factor": 4096,
+    "stream_wants_more_allocation_fudge_factor_small": 128,
+    "stream_maximum_instability_value": 5,
+    "stream_probe_failure_limit": 2,
+    "stream_rebalance_interval_msec": 60000,
+    "packet_loss_rate_gain_bits": 3,
+    "packet_loss_rate_deviation_gain_bits": 2,
+    "maximum_rtt_increase_msec": 0,
+    "maximum_lost_packet_rate_increase": 2,
+    "minimum_packet_loss_deviation": 4,
+    "minimum_probe_packet_loss_deviation": 2,
+    "stream_maximum_bandwidth_maximum_delta": 4096,
+    "stream_maximum_bandwidth_skip_max": 4,
+    "packet_loss_deviation_adjustment": 25,
+    "packet_rate_deviation_adjustment": 200,
+    "consecutive_rate_failures_before_badness": 2,
+    "consecutive_latency_failures_before_badness": 3,
+    "consecutive_packet_loss_failures_before_badness": 2,
+    "consecutive_packet_loss_spike_failures_before_badness": 2,
+    "badness_minimum_host_to_client_bandwidth": 8192,
+    "badness_minimum_allocated_host_to_client_bandwidth": 16384,
+    "badness_minimum_client_to_host_bandwidth": 4096,
+    "badness_minimum_allocated_client_to_host_bandwidth": 8192,
+    "badness_maximum_latency_msec": 400,
+    "badness_maximum_packet_loss_rate": 15,
+    "badness_maximum_packet_loss_spike_count": 4,
+    "stream_congestion_rtt_multiplier": 125,
+    "remote_client_downstream_usage_multiplier": 50,
+    "remote_host_downstream_usage_multiplier": 50,
+    "throttle_congested_stream_bandwidth_multiplier": 50,
+    "throttle_noncongested_stream_bandwidth_multiplier": 100,
+    "bandwidth_estimate_multiplier_reliable": 75,
+    "bandwidth_estimate_multiplier_unreliable": 50,
+    "bandwidth_estimate_multiplier_qos": 50,
+    "qos_to_live_interval_msec": 600000,
+    "synchronous_joining_maximum_stream_growth_shift": 6,
+    "maximum_aggressive_total_growth_bandwidth_bps": "0x00004000",
+    "maximum_cautious_total_growth_bandwidth_bps": "0x00002000",
+    "client_probe_base_delay_msec": 250,
+    "client_probe_additional_client_delay_msec": 100,
+    "client_probe_variability": 20,
+    "stream_stability_deviation_multiplier": 120,
+    "stream_growth_base_upstream_shift": 16,
+    "stream_growth_base_upstream_shift_max": 2,
+    "stream_fail_all_failed_related_probes": 1,
+    "maximum_consecutive_probe_successes": 4,
+    "minimum_packet_rate_for_automatic_congestion": 5,
+    "maximum_rtt_for_automatic_congestion": 1024,
+    "do_collateral_last_resort_throttle": false,
+    "release_throttle_lock_on_first_congest": false,
+    "round_robin_probes": true,
+    "fail_all_member_probes_together": false,
+    "mark_throttled_stream_with_one_failure": false,
+    "check_single_stream_overprobe": true,
+    "use_deviation_only_for_related_rtt_timeout": true,
+    "fast_probe_failed_streams": true,
+    "packet_loss_spike_threshold": 60,
+    "packet_loss_spike_minimum_packet_count": 4,
+    "packet_loss_spike_skip_averaging_any_spike": 1,
+    "stable_probe_start_stream_growth_base": 1024,
+    "stable_probe_start_stream_growth_shift_shift": 0,
+    "stable_probe_maximum_stream_growth_shift": 2,
+    "stable_probe_query_time_msec": 5000,
+    "stable_probe_query_time_minimum_msec": 2000,
+    "stable_probe_settle_time_msec": 6000,
+    "stable_probe_settle_bandwidth_multiplier": 0.8,
+    "stable_probe_throttle_minimum_rollback": 1024,
+    "stable_probe_recover_minimum_time_msec": 5000,
+    "stable_probe_overprobe_minimum_bps": "0x00000080",
+    "stable_probe_overprobe_maximum_bps": "0x00002000",
+    "stable_probe_overprobe_transmit_ratio": 2,
+    "initial_probe_start_stream_growth_base": 1024,
+    "initial_probe_start_stream_growth_shift_shift": 0,
+    "initial_probe_maximum_stream_growth_shift": 2,
+    "initial_probe_query_time_msec": 2000,
+    "initial_probe_query_time_minimum_msec": 2000,
+    "initial_probe_settle_time_msec": 6000,
+    "initial_probe_settle_bandwidth_multiplier": 0.8,
+    "initial_probe_throttle_minimum_rollback": 1024,
+    "initial_probe_recover_minimum_time_msec": 5000,
+    "initial_probe_overprobe_minimum_bps": "0x00000000",
+    "initial_probe_overprobe_maximum_bps": "0x00000000",
+    "initial_probe_overprobe_transmit_ratio": 0,
+    "fast_probe_start_stream_growth_base": 1024,
+    "fast_probe_start_stream_growth_shift_shift": 0,
+    "fast_probe_maximum_stream_growth_shift": 2,
+    "fast_probe_query_time_msec": 5000,
+    "fast_probe_query_time_minimum_msec": 2000,
+    "fast_probe_settle_time_msec": 6000,
+    "fast_probe_settle_bandwidth_multiplier": 0.8,
+    "fast_probe_throttle_minimum_rollback": 1024,
+    "fast_probe_recover_minimum_time_msec": 5000,
+    "fast_probe_overprobe_minimum_bps": "0x00000080",
+    "fast_probe_overprobe_maximum_bps": "0x00002000",
+    "fast_probe_overprobe_transmit_ratio": 2,
+    "slow_probe_start_stream_growth_base": 1024,
+    "slow_probe_start_stream_growth_shift_shift": 0,
+    "slow_probe_maximum_stream_growth_shift": 2,
+    "slow_probe_query_time_msec": 5000,
+    "slow_probe_query_time_minimum_msec": 2000,
+    "slow_probe_settle_time_msec": 6000,
+    "slow_probe_settle_bandwidth_multiplier": 0.8,
+    "slow_probe_throttle_minimum_rollback": 1024,
+    "slow_probe_recover_minimum_time_msec": 5000,
+    "slow_probe_overprobe_minimum_bps": "0x00000080",
+    "slow_probe_overprobe_maximum_bps": "0x00002000",
+    "slow_probe_overprobe_transmit_ratio": 2
+  },
+  "delivery": {
+    "channel": {
+      "connect_request_interval_msec": 500,
+      "connect_request_count": 3,
+      "connect_request_timeout_msec": 2000,
+      "establish_timeout_msec": 6000,
+      "packet_statistics_interval": 5000
+    },
+    "connection": {
+      "sequence_advance_rate": 20,
+      "discard_ancient_reply_sequence_threshold": 64,
+      "packet_skipped_outoforder_threshold": 3,
+      "retain_lost_packets_msec": 5000,
+      "latency_average_gain_bits": 3,
+      "latency_deviation_gain_bits": 2,
+      "timeout_deviations": 4,
+      "timeout_minimum_tolerance_msec": 80,
+      "timeout_minimum_msec": 150,
+      "inactive_timeout_deviations": 2,
+      "inactive_timeout_minimum_tolerance_msec": 15,
+      "inactive_timeout_minimum_msec": 50,
+      "initial_latency_minimum_msec": 9999,
+      "initial_latency_average_msec": 150,
+      "initial_latency_deviation_msec": 1000,
+      "initial_timeout_msec": 200,
+      "backoff_increment_msec": 100,
+      "backoff_max_msec": 700,
+      "backoff_decrement_msec": 200,
+      "bandwidth_warning_latency_multiplier": 3.0,
+      "bandwidth_warning_latency_minimum_increase": 400
+    }
+  },
+  "transport": {
+    "address_resolution_timeout_msec": 10000,
+    "qos_probe_count": [
+      0,
+      4
+    ],
+    "qos_probe_bps": [
+      4096,
+      16384
+    ],
+    "qos_upstream_cap_enabled": true,
+    "qos_upstream_cap_upstream_modifier_percentage": 75,
+    "qos_upstream_cap_correction_modifier": 4
+  },
+  "voice": {
+    "push_to_talk_inactivity_threshold_seconds": 1.0,
+    "maximum_push_to_talk_time_seconds": 10.0,
+    "clients_can_be_preferred_consumers_of_voice_repeater": false,
+    "open_channel_player_count": 6
+  },
+  "data_mine": {
+    "ui_upload_record_threshold": 350,
+    "ui_upload_time_threshold": 600000,
+    "record_uploads_prevent_game_from_starting": false
+  },
+  "griefer_config": {
+    "betrayal_decrement_time": 600000,
+    "eject_decrement_time": 3600000,
+    "betrayal_cutoff": 2.9999,
+    "ejection_cutoff": 2,
+    "UNUSED_friendly_assist_amount": 0.0
+  },
+  "memory": {
+    "network_heap_large_size": 1572864,
+    "network_heap_small_size": 1572864
+  },
+  "user_interface": {
+    "allow_matchmaking_abort_interval_msec": 60000,
+    "networked_playback_maximum_player_count": 4,
+    "basic_training_completion_minimum_games_completed": 10,
+    "basic_training_completion_minimum_experience": 5
+  },
+  "skill_level_configuration": {
+    "bonus_skill_level_wins_required": [
+      0,
+      1,
+      2,
+      5,
+      9,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -65536,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "experience_configuration": {
+    "experience_for_rank": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      3,
+      0,
+      0,
+      5,
+      7,
+      0,
+      0,
+      10,
+      15,
+      0,
+      0,
+      20,
+      30,
+      40,
+      0,
+      50,
+      60,
+      150,
+      300,
+      70,
+      85,
+      200,
+      400,
+      100,
+      150,
+      300,
+      600,
+      200,
+      300,
+      600,
+      1200,
+      300,
+      450,
+      900,
+      1800,
+      400,
+      600,
+      1200,
+      2400,
+      500,
+      1000,
+      2000,
+      4000,
+      600,
+      1200,
+      2500,
+      5000
+    ],
+    "skill_for_rank": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      20,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "hopper_experience_configuration": {
+    "experience_for_rank": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      3,
+      0,
+      0,
+      4,
+      5,
+      0,
+      0,
+      7,
+      10,
+      0,
+      0,
+      12,
+      15,
+      20,
+      0,
+      25,
+      30,
+      35,
+      40,
+      50,
+      60,
+      70,
+      85,
+      100,
+      110,
+      120,
+      135,
+      150,
+      160,
+      170,
+      185,
+      200,
+      225,
+      250,
+      275,
+      300,
+      325,
+      350,
+      375,
+      400,
+      425,
+      450,
+      475,
+      500,
+      1000,
+      1500,
+      2000
+    ],
+    "skill_for_rank": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "alpha_configuration": {
+    "disable_game": false,
+    "disable_custom_games": false,
+    "ui_level": "alpha_ui_level_main",
+    "maximum_multiplayer_split_screen": 4
+  },
+  "crash_handling_configuration": {
+    "display_crash_handling_ui": false,
+    "minidump_generation": "minidump_generation_minimini"
+  },
+  "lsp_configuration": {
+    "port_range_start": 1001,
+    "port_range_count": 2,
+    "server_retry_count": 3,
+    "search_results_fresh_milliseconds": 300000,
+    "recent_activity_milliseconds": 60000
+  },
+  "map_configuration": {
+    "map_list": [
+      {
+        "map_id": 380,
+        "map_status": "map_status_default",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 300,
+        "map_status": "map_status_default",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 390,
+        "map_status": "map_status_default",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 310,
+        "map_status": "map_status_default",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 320,
+        "map_status": "map_status_default",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 330,
+        "map_status": "map_status_default",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 340,
+        "map_status": "map_status_default",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 350,
+        "map_status": "map_status_default",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 400,
+        "map_status": "map_status_default",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 360,
+        "map_status": "map_status_default",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 30,
+        "map_status": "map_status_default",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 301,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 302,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 303,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 410,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 0,
+        "dlc_pack": "dlc_pack_heroic"
+      },
+      {
+        "map_id": 420,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 430,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 440,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 4,
+        "dlc_pack": "dlc_pack_mythic"
+      },
+      {
+        "map_id": 450,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 460,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 470,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 1,
+        "dlc_pack": "dlc_pack_legendary"
+      },
+      {
+        "map_id": 480,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 0,
+        "dlc_pack": "dlc_pack_heroic"
+      },
+      {
+        "map_id": 490,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 3,
+        "dlc_pack": "dlc_pack_mythic"
+      },
+      {
+        "map_id": 500,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 3,
+        "dlc_pack": "dlc_pack_mythic"
+      },
+      {
+        "map_id": 510,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": -1,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 520,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 1,
+        "dlc_pack": "dlc_pack_legendary"
+      },
+      {
+        "map_id": 580,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 0,
+        "dlc_pack": "dlc_pack_heroic"
+      },
+      {
+        "map_id": 590,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 1,
+        "dlc_pack": "dlc_pack_legendary"
+      },
+      {
+        "map_id": 600,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 2,
+        "dlc_pack": "dlc_pack_none"
+      },
+      {
+        "map_id": 720,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 4,
+        "dlc_pack": "dlc_pack_mythic"
+      },
+      {
+        "map_id": 730,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 3,
+        "dlc_pack": "dlc_pack_mythic"
+      },
+      {
+        "map_id": 740,
+        "map_status": "map_status_dlc",
+        "dlc_path_index": 4,
+        "dlc_pack": "dlc_pack_mythic"
+      }
+    ]
+  },
+  "dlc_paths": {
+    "paths": [
+      {
+        "path": "A625E0D7ED51ADDA217AD5F150C843988717E9BD4D"
+      },
+      {
+        "path": "36F0FA570C01BA9F0FED91C6FAEDF2035AAACC244D"
+      },
+      {
+        "path": "E1AE0F002B64A4D0043DC696ADB2208752C8DFDC4D"
+      },
+      {
+        "path": "F8D38D3EA9983BD6C9E364ADDFF7E380A998AE5C4D"
+      },
+      {
+        "path": "FCFE205A564DD53376FC3EFD5C58E93A597D9E434D"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      }
+    ]
+  },
+  "chicken_switches": {
+    "allow_no_hdd_network_coop": false,
+    "allow_matched_hdd_network_coop": false,
+    "disallow_cross_language_coop": false,
+    "disable_prefer_good_connection_changes": false,
+    "allow_vidmaster_alpha_achievement": true,
+    "au2_lsp_acquire_fix_only_enable_if_wb2_is_present": false
+  },
+  "determinism_configuration": {
+    "determinism_version": 4,
+    "determinism_compatible_version": 1
+  }
+}
