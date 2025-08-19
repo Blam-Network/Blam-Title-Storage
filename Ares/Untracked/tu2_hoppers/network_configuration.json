@@ -1793,7 +1793,7 @@
   "alpha_configuration": {
     "disable_game": false,
     "disable_custom_games": false,
-    "ui_level": "alpha_ui_level_internal_beta",
+    "ui_level": "alpha_ui_level_main",
     "maximum_multiplayer_split_screen": 4
   },
   "crash_handling_configuration": {
@@ -1801,7 +1801,7 @@
     "minidump_generation": "minidump_generation_minimini"
   },
   "lsp_configuration": {
-    "port_range_start": 1001,
+    "port_range_start": 2001,
     "port_range_count": 2,
     "server_retry_count": 3,
     "search_results_fresh_milliseconds": 300000,
@@ -2009,62 +2009,62 @@
         "path": "4D5307E60CCF0005"
       },
       {
-        "path": ""
-      },
-      {
-        "path": ""
-      },
-      {
-        "path": ""
-      },
-      {
         "path": "4D5307E60CCF0006"
-      },
-      {
-        "path": ""
-      },
-      {
-        "path": ""
-      },
-      {
-        "path": ""
       },
       {
         "path": "4D5307E60CCF0007"
       },
       {
-        "path": ""
-      },
-      {
-        "path": ""
-      },
-      {
-        "path": ""
+        "path": "4FEEDFEEDFEEDFEED"
       },
       {
         "path": "4FEEDFEEDFEEDFEED"
       },
       {
-        "path": ""
+        "path": "4FEEDFEEDFEEDFEED"
       },
       {
-        "path": ""
+        "path": "4FEEDFEEDFEEDFEED"
       },
       {
-        "path": ""
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
+      },
+      {
+        "path": "4FEEDFEEDFEEDFEED"
       }
     ]
   },
   "chicken_switches": {
-    "allow_no_hdd_network_coop": true,
-    "allow_matched_hdd_network_coop": true,
-    "disallow_cross_language_coop": true,
-    "disable_prefer_good_connection_changes": true,
+    "allow_no_hdd_network_coop": false,
+    "allow_matched_hdd_network_coop": false,
+    "disallow_cross_language_coop": false,
+    "disable_prefer_good_connection_changes": false,
     "allow_vidmaster_alpha_achievement": true,
-    "au2_lsp_acquire_fix_only_enable_if_wb2_is_present": true
+    "au2_lsp_acquire_fix_only_enable_if_wb2_is_present": false
   },
   "determinism_configuration": {
-    "determinism_version": 1162167876,
-    "determinism_compatible_version": 1162167876
+    "determinism_version": 4,
+    "determinism_compatible_version": 1
   }
 }
