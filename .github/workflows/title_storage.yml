@@ -24,7 +24,7 @@ jobs:
     - name: Build [Ares]
       run: './tools/blf_cli title-storage build "./Ares/Untracked" "./title/ares/untracked/username/main" "Ares" untracked'
     - name: Build [Halo Online]
-      run: './tools/blf_cli title-storage build "./Halo Online" "./title/haloonline/tracked/106708" "Halo: Online" 1.106708_cert_ms23___release'
+      run: './tools/blf_cli title-storage build "./Halo Online" "./title/4d530877/donkey/tracked/106708" "Halo: Online" 1.106708_cert_ms23___release'
     - uses: actions/upload-artifact@v4
       with:
         name: "Title Storage"
