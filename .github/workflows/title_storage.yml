@@ -23,6 +23,8 @@ jobs:
       run: './tools/blf_cli title-storage build "./Halo Reach/Release" "./title/4d53085b/tracked/12065" "Halo: Reach" 12065.11.08.24.1738.tu1actual'
     - name: Build [Ares]
       run: './tools/blf_cli title-storage build "./Ares/Untracked" "./title/ares/untracked/username/main" "Ares" untracked'
+    - name: Build [Halo Online]
+      run: './tools/blf_cli title-storage build "./Halo Online" "./title/ares/untracked/username/main" "Halo: Online" 1.106708_cert_ms23___release'
     - uses: actions/upload-artifact@v4
       with:
         name: "Title Storage"
