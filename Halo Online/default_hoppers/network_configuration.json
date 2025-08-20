@@ -1764,8 +1764,8 @@
     "minidump_generation": "minidump_generation_minimini"
   },
   "lsp_configuration": {
-    "port_range_start": 8080,
-    "port_range_count": 4,
+    "port_range_start": 1001,
+    "port_range_count": 2,
     "server_retry_count": 150,
     "search_results_fresh_milliseconds": 300000,
     "recent_activity_milliseconds": 60000
