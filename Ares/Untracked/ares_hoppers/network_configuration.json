@@ -308,10 +308,10 @@
     "maximum_players_in_forge": 8
   },
   "banhammer": {
-    "machine_file_refresh_seconds": 1,
-    "machine_file_refresh_threshold_seconds": 1,
-    "user_file_refresh_seconds": 1,
-    "user_file_refresh_threshold_seconds": 1,
+    "machine_file_refresh_seconds": 900,
+    "machine_file_refresh_threshold_seconds": 30,
+    "user_file_refresh_seconds": 900,
+    "user_file_refresh_threshold_seconds": 30,
     "host_chance_reduction_percentage": 50,
     "idle_controller_timeout_seconds": 120
   },
@@ -1804,8 +1804,8 @@
     "port_range_start": 2001,
     "port_range_count": 2,
     "server_retry_count": 3,
-    "search_results_fresh_milliseconds": 100,
-    "recent_activity_milliseconds": 100
+    "search_results_fresh_milliseconds": 300000,
+    "recent_activity_milliseconds": 60000
   },
   "map_configuration": {
     "map_list": [
