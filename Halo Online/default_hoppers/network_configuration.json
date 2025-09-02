@@ -1,8 +1,8 @@
 {
   "config_download": {
-    "master_catalog_file_download_interval_msec": 1,
-    "required_file_invalidation_check_interval_msec": 1,
-    "required_file_download_retry_interval_msec": 1
+    "master_catalog_file_download_interval_msec": 3600000,
+    "required_file_invalidation_check_interval_msec": 5000,
+    "required_file_download_retry_interval_msec": 5000
   },
   "bandwidth": {
     "bandwidth_outlier_discard_fraction": 0.25,
