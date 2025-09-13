@@ -1,0 +1,4397 @@
+{
+  "m_encoding_version": 73,
+  "m_build_number": 9730,
+  "m_base_variant": {
+    "m_metadata": {
+      "file_type": -1,
+      "size_in_bytes": 0,
+      "unique_id": 0,
+      "parent_unique_id": 0,
+      "root_unique_id": 0,
+      "game_id": 0,
+      "activity": -1,
+      "game_mode": 0,
+      "game_engine_type": 0,
+      "map_id": -1,
+      "unknown1": 0,
+      "creation_time": "1970-01-01 00:00:00",
+      "creator_xuid": "0000000000000000",
+      "creator_name": "",
+      "creator_xuid_is_online": false,
+      "modification_time": "1970-01-01 00:00:00",
+      "modifier_xuid": "0000000000000000",
+      "modifier_name": "",
+      "modifier_xuid_is_online": false,
+      "name": "Rally",
+      "description": "Gentlemen, start your engines."
+    },
+    "m_built_in": false,
+    "m_miscellaneous_options": {
+      "m_teams_enabled": false,
+      "m_round_reset_players": true,
+      "m_round_reset_map": true,
+      "m_round_time_limit_minutes": 10,
+      "m_round_limit": 1,
+      "m_early_victory_win_count": 2,
+      "m_sudden_death_time": 1,
+      "m_grace_period": 0
+    },
+    "m_respawn_options": {
+      "m_inherit_respawn_time": false,
+      "m_respawn_with_teammate": false,
+      "m_respawn_at_location": false,
+      "m_respawn_on_kills": false,
+      "m_lives_per_round": 0,
+      "m_team_lives_per_round": 0,
+      "m_respawn_time_seconds": 5,
+      "m_suicide_penalty_seconds": 5,
+      "m_betrayal_penalty_seconds": 5,
+      "m_respawn_growth_seconds": 0,
+      "m_loadout_cam_time": 0,
+      "m_respawn_player_traits_duration_seconds": 5,
+      "m_respawn_player_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 0,
+          "m_body_multiplier": 0,
+          "m_body_recharge_rate": 0,
+          "m_shield_multiplier": 0,
+          "m_shield_recharge_rate": 0,
+          "m_overshield_recharge_rate": 0,
+          "m_headshot_immunity_setting": 0,
+          "m_vampirism_percentage_setting": 0,
+          "m_assasination_immunity": 0,
+          "m_cannot_die_from_damage": 0
+        },
+        "m_weapon_traits": {
+          "m_damage_modifier_percentage_setting": 0,
+          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -3,
+          "m_initial_secondary_weapon_absolute_index": -3,
+          "m_initial_grenade_count_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_weapon_pickup_setting": 0,
+          "m_equipment_drop_on_death_setting": 0,
+          "m_infinite_equipment_setting": 0,
+          "m_initial_equipment_absolute_index": -3
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 0,
+          "m_gravity_setting": 0,
+          "m_vehicle_usage_setting": 0,
+          "m_double_jump_setting": 0,
+          "m_sprint_setting": 0,
+          "m_equipment_usage_setting": 0,
+          "m_jump_modifier": -1.0
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 0,
+          "m_waypoint_setting": 0,
+          "m_gamertag_setting": 0,
+          "m_aura_setting": 0,
+          "m_forced_change_color_setting": 0
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 0,
+          "m_motion_tracker_range_setting": 0,
+          "m_directional_damage_setting": 0
+        }
+      }
+    },
+    "m_social_options": {
+      "m_flags": 7,
+      "m_team_changing": 1,
+      "m_observers_enabled": false
+    },
+    "m_map_override_options": {
+      "m_flags": 31,
+      "m_base_player_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 0,
+          "m_body_multiplier": 0,
+          "m_body_recharge_rate": 0,
+          "m_shield_multiplier": 0,
+          "m_shield_recharge_rate": 0,
+          "m_overshield_recharge_rate": 0,
+          "m_headshot_immunity_setting": 0,
+          "m_vampirism_percentage_setting": 0,
+          "m_assasination_immunity": 0,
+          "m_cannot_die_from_damage": 0
+        },
+        "m_weapon_traits": {
+          "m_damage_modifier_percentage_setting": 0,
+          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -3,
+          "m_initial_secondary_weapon_absolute_index": -3,
+          "m_initial_grenade_count_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_weapon_pickup_setting": 0,
+          "m_equipment_drop_on_death_setting": 0,
+          "m_infinite_equipment_setting": 0,
+          "m_initial_equipment_absolute_index": 0
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 0,
+          "m_gravity_setting": 0,
+          "m_vehicle_usage_setting": 0,
+          "m_double_jump_setting": 0,
+          "m_sprint_setting": 0,
+          "m_equipment_usage_setting": 0,
+          "m_jump_modifier": -1.0
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 0,
+          "m_waypoint_setting": 0,
+          "m_gamertag_setting": 0,
+          "m_aura_setting": 0,
+          "m_forced_change_color_setting": 0
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 1,
+          "m_motion_tracker_range_setting": 0,
+          "m_directional_damage_setting": 0
+        }
+      },
+      "m_weapon_set_absolute_index": -2,
+      "m_vehicle_set_absolute_index": -2,
+      "m_red_powerup_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 10,
+          "m_body_multiplier": 0,
+          "m_body_recharge_rate": 0,
+          "m_shield_multiplier": 1,
+          "m_shield_recharge_rate": 0,
+          "m_overshield_recharge_rate": 0,
+          "m_headshot_immunity_setting": 0,
+          "m_vampirism_percentage_setting": 0,
+          "m_assasination_immunity": 0,
+          "m_cannot_die_from_damage": 0
+        },
+        "m_weapon_traits": {
+          "m_damage_modifier_percentage_setting": 0,
+          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -3,
+          "m_initial_secondary_weapon_absolute_index": -3,
+          "m_initial_grenade_count_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_weapon_pickup_setting": 0,
+          "m_equipment_drop_on_death_setting": 0,
+          "m_infinite_equipment_setting": 0,
+          "m_initial_equipment_absolute_index": -3
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 0,
+          "m_gravity_setting": 0,
+          "m_vehicle_usage_setting": 0,
+          "m_double_jump_setting": 0,
+          "m_sprint_setting": 0,
+          "m_equipment_usage_setting": 0,
+          "m_jump_modifier": -1.0
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 0,
+          "m_waypoint_setting": 0,
+          "m_gamertag_setting": 0,
+          "m_aura_setting": 0,
+          "m_forced_change_color_setting": 0
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 0,
+          "m_motion_tracker_range_setting": 0,
+          "m_directional_damage_setting": 0
+        }
+      },
+      "m_blue_powerup_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 0,
+          "m_body_multiplier": 0,
+          "m_body_recharge_rate": 0,
+          "m_shield_multiplier": 0,
+          "m_shield_recharge_rate": 0,
+          "m_overshield_recharge_rate": 0,
+          "m_headshot_immunity_setting": 0,
+          "m_vampirism_percentage_setting": 0,
+          "m_assasination_immunity": 0,
+          "m_cannot_die_from_damage": 0
+        },
+        "m_weapon_traits": {
+          "m_damage_modifier_percentage_setting": 0,
+          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -3,
+          "m_initial_secondary_weapon_absolute_index": -3,
+          "m_initial_grenade_count_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_weapon_pickup_setting": 0,
+          "m_equipment_drop_on_death_setting": 0,
+          "m_infinite_equipment_setting": 0,
+          "m_initial_equipment_absolute_index": -3
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 0,
+          "m_gravity_setting": 0,
+          "m_vehicle_usage_setting": 0,
+          "m_double_jump_setting": 0,
+          "m_sprint_setting": 0,
+          "m_equipment_usage_setting": 0,
+          "m_jump_modifier": -1.0
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 3,
+          "m_waypoint_setting": 0,
+          "m_gamertag_setting": 0,
+          "m_aura_setting": 0,
+          "m_forced_change_color_setting": 0
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 0,
+          "m_motion_tracker_range_setting": 0,
+          "m_directional_damage_setting": 0
+        }
+      },
+      "m_yellow_powerup_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 0,
+          "m_body_multiplier": 0,
+          "m_body_recharge_rate": 0,
+          "m_shield_multiplier": 0,
+          "m_shield_recharge_rate": 0,
+          "m_overshield_recharge_rate": 0,
+          "m_headshot_immunity_setting": 0,
+          "m_vampirism_percentage_setting": 0,
+          "m_assasination_immunity": 0,
+          "m_cannot_die_from_damage": 0
+        },
+        "m_weapon_traits": {
+          "m_damage_modifier_percentage_setting": 0,
+          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -3,
+          "m_initial_secondary_weapon_absolute_index": -3,
+          "m_initial_grenade_count_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_weapon_pickup_setting": 0,
+          "m_equipment_drop_on_death_setting": 0,
+          "m_infinite_equipment_setting": 0,
+          "m_initial_equipment_absolute_index": -3
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 0,
+          "m_gravity_setting": 0,
+          "m_vehicle_usage_setting": 0,
+          "m_double_jump_setting": 0,
+          "m_sprint_setting": 0,
+          "m_equipment_usage_setting": 0,
+          "m_jump_modifier": -1.0
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 0,
+          "m_waypoint_setting": 0,
+          "m_gamertag_setting": 0,
+          "m_aura_setting": 0,
+          "m_forced_change_color_setting": 0
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 0,
+          "m_motion_tracker_range_setting": 0,
+          "m_directional_damage_setting": 0
+        }
+      },
+      "m_red_powerup_duration_seconds": 5,
+      "m_blue_powerup_duration_seconds": 30,
+      "m_yellow_powerup_duration_seconds": 30
+    },
+    "m_team_scoring_method": 0,
+    "m_team_options": {
+      "m_model_override": 1,
+      "m_designator_switch_type": 2,
+      "m_teams": [
+        {
+          "m_team_enabled": true,
+          "m_override_color_armour": false,
+          "m_override_color_ui_text": false,
+          "m_override_color_ui_bitmap": false,
+          "m_name": {
+            "strings": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          },
+          "m_team_initial_designator": 1,
+          "m_model_override": 0,
+          "m_team_color_override": -1,
+          "m_team_ui_text_tint_color_override": -1,
+          "m_team_ui_bitmap_tint_color_override": -1
+        },
+        {
+          "m_team_enabled": true,
+          "m_override_color_armour": false,
+          "m_override_color_ui_text": false,
+          "m_override_color_ui_bitmap": false,
+          "m_name": {
+            "strings": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          },
+          "m_team_initial_designator": 2,
+          "m_model_override": 0,
+          "m_team_color_override": -1,
+          "m_team_ui_text_tint_color_override": -1,
+          "m_team_ui_bitmap_tint_color_override": -1
+        },
+        {
+          "m_team_enabled": true,
+          "m_override_color_armour": false,
+          "m_override_color_ui_text": false,
+          "m_override_color_ui_bitmap": false,
+          "m_name": {
+            "strings": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          },
+          "m_team_initial_designator": 3,
+          "m_model_override": 0,
+          "m_team_color_override": -1,
+          "m_team_ui_text_tint_color_override": -1,
+          "m_team_ui_bitmap_tint_color_override": -1
+        },
+        {
+          "m_team_enabled": true,
+          "m_override_color_armour": false,
+          "m_override_color_ui_text": false,
+          "m_override_color_ui_bitmap": false,
+          "m_name": {
+            "strings": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          },
+          "m_team_initial_designator": 4,
+          "m_model_override": 0,
+          "m_team_color_override": -1,
+          "m_team_ui_text_tint_color_override": -1,
+          "m_team_ui_bitmap_tint_color_override": -1
+        },
+        {
+          "m_team_enabled": true,
+          "m_override_color_armour": false,
+          "m_override_color_ui_text": false,
+          "m_override_color_ui_bitmap": false,
+          "m_name": {
+            "strings": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          },
+          "m_team_initial_designator": 5,
+          "m_model_override": 0,
+          "m_team_color_override": -1,
+          "m_team_ui_text_tint_color_override": -1,
+          "m_team_ui_bitmap_tint_color_override": -1
+        },
+        {
+          "m_team_enabled": true,
+          "m_override_color_armour": false,
+          "m_override_color_ui_text": false,
+          "m_override_color_ui_bitmap": false,
+          "m_name": {
+            "strings": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          },
+          "m_team_initial_designator": 6,
+          "m_model_override": 0,
+          "m_team_color_override": -1,
+          "m_team_ui_text_tint_color_override": -1,
+          "m_team_ui_bitmap_tint_color_override": -1
+        },
+        {
+          "m_team_enabled": true,
+          "m_override_color_armour": false,
+          "m_override_color_ui_text": false,
+          "m_override_color_ui_bitmap": false,
+          "m_name": {
+            "strings": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          },
+          "m_team_initial_designator": 7,
+          "m_model_override": 0,
+          "m_team_color_override": -1,
+          "m_team_ui_text_tint_color_override": -1,
+          "m_team_ui_bitmap_tint_color_override": -1
+        },
+        {
+          "m_team_enabled": true,
+          "m_override_color_armour": false,
+          "m_override_color_ui_text": false,
+          "m_override_color_ui_bitmap": false,
+          "m_name": {
+            "strings": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          },
+          "m_team_initial_designator": 8,
+          "m_model_override": 0,
+          "m_team_color_override": -1,
+          "m_team_ui_text_tint_color_override": -1,
+          "m_team_ui_bitmap_tint_color_override": -1
+        }
+      ]
+    }
+  },
+  "m_player_traits": [],
+  "m_user_defined_options": [],
+  "m_script_strings": {
+    "strings": [
+      [
+        "Rally",
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        "Time in Hill",
+        "%n KPH",
+        "Hit checkpoints to earn points.\r\n%n points to win.",
+        "Destination Moved."
+      ],
+      [
+        "Rally",
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        "エリアにいた時間",
+        "%n KPH",
+        "チェックポイントを通過してラップをクリアしよう\r\n%n ポイントで勝利",
+        "目的地が移動した"
+      ],
+      [
+        "Rallye",
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        "Zeit auf dem Hügel",
+        "%n KMH",
+        "Fahren Sie durch Kontrollpunkte, um zu punkten.\r\n%n Punkte zum Sieg.",
+        "Ziel hat sich bewegt."
+      ],
+      [
+        "Rallye",
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        "Temps colline",
+        "%n KM/H",
+        "Passez par les points de contrôle pour marquer des points.\r\n%n points pour gagner.",
+        "Destination déplacée."
+      ],
+      [
+        "Rally",
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        "Tiempo en colina",
+        "%n km/h",
+        "Pasa por los controles para conseguir puntos.\r\n%n puntos para ganar.",
+        "Destino movido."
+      ],
+      [
+        "Rally",
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        "Tiempo en colina",
+        "%n km/h",
+        "Pasa por los controles para conseguir puntos.\r\n%n puntos para ganar.",
+        "Destino movido."
+      ],
+      [
+        "Rally",
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        "Tempo sulla collina",
+        "%n Km/h",
+        "Arrivate fino ai checkpoint per ottenere punti.\r\n%n punti per vincere.",
+        "Destinazione spostata."
+      ],
+      [
+        "랠리",
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        "고지에 머문 시간",
+        "시속 %n",
+        "체크 포인트로 가면 점수를 얻습니다.\r\n%n점을 획득하면 승리합니다.",
+        "목표가 이동했습니다."
+      ],
+      [
+        "集結點",
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        "山丘上的時間",
+        "%n KPH",
+        "駕駛載具到達檢查站以贏得分數。\r\n%n 分獲勝。",
+        "目標移動。"
+      ],
+      [
+        null,
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        "race_spawn",
+        "rally",
+        "rally_flag",
+        "dynamic_influencers",
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  "m_base_name_string_index": 1,
+  "m_localized_name": {
+    "strings": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  "m_localized_description": {
+    "strings": [
+      [
+        "Gentlemen, start your engines."
+      ],
+      [
+        "エンジンの準備はいいか"
+      ],
+      [
+        "Gentlemen, machen Sie sich bereit."
+      ],
+      [
+        "Messieurs, démarrez vos moteurs."
+      ],
+      [
+        "Damas y caballeros, enciendan sus motores."
+      ],
+      [
+        "Damas y caballeros, enciendan sus motores."
+      ],
+      [
+        "Signori, accendete i motori."
+      ],
+      [
+        "여러분, 준비하십시오."
+      ],
+      [
+        "各位，啟動你們的引擎吧。"
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
+    ]
+  },
+  "m_engine_icon": 13,
+  "m_score_to_win_round": 15,
+  "m_symmetric_gametype": false,
+  "m_game_engine": {
+    "m_conditions": [
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 0,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 2,
+              "m_object": {
+                "m_explicit_object_type": 17
+              },
+              "m_variable_index": 1
+            }
+          },
+          "m_right": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 0
+            }
+          },
+          "m_comparison": 2
+        }
+      },
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 5,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 0
+            }
+          },
+          "m_right": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 3
+            }
+          },
+          "m_comparison": 2
+        }
+      },
+      {
+        "m_type": "is_of_type",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 0,
+        "m_object_reference_1": {
+          "m_type": 0,
+          "m_object": {
+            "m_explicit_object_type": 17
+          }
+        },
+        "m_object_type_reference": {
+          "m_object_type_index": 152
+        }
+      },
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 0,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 4
+            }
+          },
+          "m_right": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 1
+            }
+          },
+          "m_comparison": 2
+        }
+      },
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 0,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            }
+          },
+          "m_right": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 0
+              }
+            }
+          },
+          "m_comparison": 2
+        }
+      },
+      {
+        "m_type": "has_forge_label",
+        "m_negated": false,
+        "m_union_group": 1,
+        "m_execute_before_action": 0,
+        "m_object_matches_filter_parameters": {
+          "m_object": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 17
+            }
+          },
+          "m_filter_index": 2
+        }
+      },
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 2,
+        "m_execute_before_action": 0,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 2,
+              "m_object": {
+                "m_explicit_object_type": 17
+              },
+              "m_variable_index": 1
+            }
+          },
+          "m_right": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 0
+            }
+          },
+          "m_comparison": 2
+        }
+      },
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 3,
+        "m_execute_before_action": 2,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 1
+            }
+          },
+          "m_right": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 0
+            }
+          },
+          "m_comparison": 2
+        }
+      },
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 0,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            }
+          },
+          "m_right": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 0
+              }
+            }
+          },
+          "m_comparison": 2
+        }
+      },
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 1,
+        "m_execute_before_action": 3,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            }
+          },
+          "m_right": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 0
+              }
+            }
+          },
+          "m_comparison": 2
+        }
+      },
+      {
+        "m_type": "shape_contains",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 0,
+        "m_object_reference_1": {
+          "m_type": 4,
+          "m_player": {
+            "m_explicit_player_type": 25
+          }
+        },
+        "m_object_reference_2": {
+          "m_type": 0,
+          "m_object": {
+            "m_explicit_object_type": 17
+          }
+        }
+      },
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 0,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            }
+          },
+          "m_right": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 17
+              }
+            }
+          },
+          "m_comparison": 2
+        }
+      },
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 0,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            }
+          },
+          "m_right": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 0
+              }
+            }
+          },
+          "m_comparison": 2
+        }
+      },
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 1,
+        "m_execute_before_action": 2,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 2,
+              "m_object": {
+                "m_explicit_object_type": 17
+              },
+              "m_variable_index": 0
+            }
+          },
+          "m_right": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 50
+            }
+          },
+          "m_comparison": 0
+        }
+      },
+      {
+        "m_type": "shape_contains",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 0,
+        "m_object_reference_1": {
+          "m_type": 4,
+          "m_player": {
+            "m_explicit_player_type": 17
+          }
+        },
+        "m_object_reference_2": {
+          "m_type": 0,
+          "m_object": {
+            "m_explicit_object_type": 17
+          }
+        }
+      },
+      {
+        "m_type": "compare",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 0,
+        "m_if_parameters": {
+          "m_left": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            }
+          },
+          "m_right": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 0
+              }
+            }
+          },
+          "m_comparison": 2
+        }
+      },
+      {
+        "m_type": "is_not_respawning",
+        "m_negated": false,
+        "m_union_group": 1,
+        "m_execute_before_action": 0,
+        "m_player_reference_1": {
+          "m_type": 0,
+          "m_player": {
+            "m_explicit_player_type": 25
+          }
+        }
+      },
+      {
+        "m_type": "is_zero",
+        "m_negated": false,
+        "m_union_group": 0,
+        "m_execute_before_action": 0,
+        "m_timer": {
+          "m_type": "round"
+        }
+      }
+    ],
+    "m_actions": [
+      {
+        "m_type": "unknown_77",
+        "m_target": {
+          "m_target": 1,
+          "m_player": {
+            "m_type": 0,
+            "m_player": {
+              "m_explicit_player_type": 25
+            }
+          }
+        },
+        "m_unknown_data": 129
+      },
+      {
+        "m_type": "set_objective_text",
+        "m_string": {
+          "m_string_index": 8,
+          "m_tokens": [
+            {
+              "m_type": 4,
+              "m_custom_variable": {
+                "m_type": 14
+              }
+            }
+          ]
+        },
+        "m_player_1": {
+          "m_type": 0,
+          "m_player": {
+            "m_explicit_player_type": 25
+          }
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 5
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 1
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 6
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 1,
+              "m_player": {
+                "m_explicit_player_type": 26
+              },
+              "m_variable_index": 3
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "set_text",
+        "m_hud_widget_text_base": {
+          "m_widget_index": 1,
+          "m_string": {
+            "m_string_index": 7,
+            "m_tokens": [
+              {
+                "m_type": 4,
+                "m_custom_variable": {
+                  "m_type": 1,
+                  "m_player": {
+                    "m_explicit_player_type": 26
+                  },
+                  "m_variable_index": 3
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "m_type": "set_meter_parameters",
+        "m_hud_widget_set_meter_parameters": {
+          "m_widget_index": 1,
+          "m_meter_input": {
+            "m_type": 1,
+            "m_variable_1": {
+              "m_type": 1,
+              "m_player": {
+                "m_explicit_player_type": 26
+              },
+              "m_variable_index": 3
+            },
+            "m_variable_2": {
+              "m_type": 0,
+              "m_immediate_value": 200
+            }
+          }
+        }
+      },
+      {
+        "m_type": "run_nested_trigger",
+        "m_for_each_parameters": {
+          "m_trigger_index": 1
+        }
+      },
+      {
+        "m_type": "get_speed",
+        "m_object_1": {
+          "m_type": 4,
+          "m_player": {
+            "m_explicit_player_type": 25
+          }
+        },
+        "m_variable_1": {
+          "m_type": 1,
+          "m_player": {
+            "m_explicit_player_type": 25
+          },
+          "m_variable_index": 3
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 1,
+              "m_player": {
+                "m_explicit_player_type": 25
+              },
+              "m_variable_index": 3
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 109
+            }
+          },
+          "m_operation": 2
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 1,
+              "m_player": {
+                "m_explicit_player_type": 25
+              },
+              "m_variable_index": 3
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 100
+            }
+          },
+          "m_operation": 3
+        }
+      },
+      {
+        "m_type": "run_nested_trigger",
+        "m_for_each_parameters": {
+          "m_trigger_index": 3
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 1
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 1
+            }
+          },
+          "m_operation": 0
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 1
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 0
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "run_nested_trigger",
+        "m_for_each_parameters": {
+          "m_trigger_index": 5
+        }
+      },
+      {
+        "m_type": "random_number",
+        "m_variable_1": {
+          "m_type": 4,
+          "m_variable_index": 1
+        },
+        "m_variable_2": {
+          "m_type": 4,
+          "m_variable_index": 2
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 0
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 2
+            }
+          },
+          "m_operation": 0
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 0
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 1
+            }
+          },
+          "m_operation": 5
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 0
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 1
+            }
+          },
+          "m_operation": 0
+        }
+      },
+      {
+        "m_type": "delete_object",
+        "m_object_1": {
+          "m_type": 0,
+          "m_object": {
+            "m_explicit_object_type": 17
+          }
+        }
+      },
+      {
+        "m_type": "show_message_to",
+        "m_hud_post_message_parameters": {
+          "m_target": {
+            "m_target": 2
+          },
+          "m_sound_index": 43,
+          "m_string": {
+            "m_string_index": 9,
+            "m_tokens": []
+          }
+        }
+      },
+      {
+        "m_type": "set_waypoint_visibility",
+        "m_object_1": {
+          "m_type": 0,
+          "m_object": {
+            "m_explicit_object_type": 17
+          }
+        },
+        "m_player_filter_modifier": {
+          "m_type": 0
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 1
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 1
+            }
+          },
+          "m_operation": 0
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            }
+          },
+          "m_variable_2": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 17
+              }
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 3,
+            "m_team": {
+              "m_type": 5,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            }
+          },
+          "m_variable_2": {
+            "m_type": 3,
+            "m_team": {
+              "m_type": 0,
+              "m_team": {
+                "m_explicit_team_type": 9
+              }
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "set_waypoint_visibility",
+        "m_object_1": {
+          "m_type": 0,
+          "m_object": {
+            "m_explicit_object_type": 1
+          }
+        },
+        "m_player_filter_modifier": {
+          "m_type": 1
+        }
+      },
+      {
+        "m_type": "set_waypoint_icon",
+        "m_navpoint_set_icon_parameters": {
+          "m_object": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 1
+            }
+          },
+          "m_navpoint_icon": 7
+        }
+      },
+      {
+        "m_type": "set_object_shape_visibility",
+        "m_object_1": {
+          "m_type": 0,
+          "m_object": {
+            "m_explicit_object_type": 1
+          }
+        },
+        "m_player_filter_modifier": {
+          "m_type": 0
+        }
+      },
+      {
+        "m_type": "run_nested_trigger",
+        "m_for_each_parameters": {
+          "m_trigger_index": 9
+        }
+      },
+      {
+        "m_type": "set_waypoint_priority",
+        "m_navpoint_set_priority_parameters": {
+          "m_object": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 1
+            }
+          },
+          "m_priority": 2
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 3
+              }
+            }
+          },
+          "m_variable_2": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 0
+              }
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "place_at_me",
+        "m_create_object_parameters": {
+          "m_object_type": {
+            "m_object_type_index": 152
+          },
+          "m_object_reference_1": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 3
+            }
+          },
+          "m_object_reference_2": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 17
+            }
+          },
+          "m_filter_index": 3,
+          "m_flags": 1,
+          "m_offset": 0
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 3,
+            "m_team": {
+              "m_type": 5,
+              "m_object": {
+                "m_explicit_object_type": 3
+              }
+            }
+          },
+          "m_variable_2": {
+            "m_type": 3,
+            "m_team": {
+              "m_type": 0,
+              "m_team": {
+                "m_explicit_team_type": 9
+              }
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 3
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 0
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 4
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 1
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 1
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": -1
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "run_nested_trigger",
+        "m_for_each_parameters": {
+          "m_trigger_index": 7
+        }
+      },
+      {
+        "m_type": "run_nested_trigger",
+        "m_for_each_parameters": {
+          "m_trigger_index": 8
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 4,
+              "m_variable_index": 0
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 0
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 2
+              }
+            }
+          },
+          "m_variable_2": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            }
+          },
+          "m_variable_2": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 0
+              }
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "set_score",
+        "m_set_score_parameters": {
+          "m_target": {
+            "m_target": 1,
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 25
+              }
+            }
+          },
+          "m_operation": 0,
+          "m_variable": {
+            "m_type": 0,
+            "m_immediate_value": 1
+          }
+        }
+      },
+      {
+        "m_type": "set_waypoint_visibility",
+        "m_object_1": {
+          "m_type": 0,
+          "m_object": {
+            "m_explicit_object_type": 3
+          }
+        },
+        "m_player_filter_modifier": {
+          "m_type": 0
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 3
+              }
+            }
+          },
+          "m_variable_2": {
+            "m_type": 2,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 17
+              }
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "run_nested_trigger",
+        "m_for_each_parameters": {
+          "m_trigger_index": 11
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 2,
+              "m_object": {
+                "m_explicit_object_type": 17
+              },
+              "m_variable_index": 1
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 0
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "get_distance",
+        "m_object_get_distance_parameters": {
+          "m_object_1": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 2
+            }
+          },
+          "m_object_2": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 17
+            }
+          },
+          "m_variable": {
+            "m_type": 2,
+            "m_object": {
+              "m_explicit_object_type": 17
+            },
+            "m_variable_index": 0
+          }
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 2,
+              "m_object": {
+                "m_explicit_object_type": 17
+              },
+              "m_variable_index": 1
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 1
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 2,
+              "m_object": {
+                "m_explicit_object_type": 17
+              },
+              "m_variable_index": 1
+            }
+          },
+          "m_variable_2": {
+            "m_type": 0,
+            "m_custom_variable": {
+              "m_type": 0,
+              "m_immediate_value": 1
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "modify_variable",
+        "m_set_parameters": {
+          "m_variable_1": {
+            "m_type": 1,
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            }
+          },
+          "m_variable_2": {
+            "m_type": 1,
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 25
+              }
+            }
+          },
+          "m_operation": 4
+        }
+      },
+      {
+        "m_type": "run_nested_trigger",
+        "m_for_each_parameters": {
+          "m_trigger_index": 14
+        }
+      },
+      {
+        "m_type": "end_round"
+      }
+    ],
+    "m_triggers": [
+      {
+        "m_execution_mode": "normal",
+        "m_trigger_type": "on_init",
+        "m_object_filter_index": -1,
+        "m_first_condition": 0,
+        "m_condition_count": 0,
+        "m_first_action": 2,
+        "m_action_count": 5
+      },
+      {
+        "m_execution_mode": "for_each_player",
+        "m_trigger_type": "subroutine",
+        "m_object_filter_index": -1,
+        "m_first_condition": 0,
+        "m_condition_count": 0,
+        "m_first_action": 0,
+        "m_action_count": 2
+      },
+      {
+        "m_execution_mode": "normal",
+        "m_trigger_type": "local",
+        "m_object_filter_index": -1,
+        "m_first_condition": 0,
+        "m_condition_count": 0,
+        "m_first_action": 10,
+        "m_action_count": 1
+      },
+      {
+        "m_execution_mode": "for_each_player",
+        "m_trigger_type": "subroutine",
+        "m_object_filter_index": -1,
+        "m_first_condition": 0,
+        "m_condition_count": 0,
+        "m_first_action": 7,
+        "m_action_count": 3
+      },
+      {
+        "m_execution_mode": "normal",
+        "m_trigger_type": "normal",
+        "m_object_filter_index": -1,
+        "m_first_condition": 1,
+        "m_condition_count": 1,
+        "m_first_action": 12,
+        "m_action_count": 6
+      },
+      {
+        "m_execution_mode": "for_each_object_with_label",
+        "m_trigger_type": "subroutine",
+        "m_object_filter_index": 2,
+        "m_first_condition": 0,
+        "m_condition_count": 1,
+        "m_first_action": 11,
+        "m_action_count": 1
+      },
+      {
+        "m_execution_mode": "normal",
+        "m_trigger_type": "normal",
+        "m_object_filter_index": -1,
+        "m_first_condition": 8,
+        "m_condition_count": 2,
+        "m_first_action": 34,
+        "m_action_count": 4
+      },
+      {
+        "m_execution_mode": "for_each_object",
+        "m_trigger_type": "subroutine",
+        "m_object_filter_index": -1,
+        "m_first_condition": 2,
+        "m_condition_count": 1,
+        "m_first_action": 18,
+        "m_action_count": 1
+      },
+      {
+        "m_execution_mode": "for_each_object",
+        "m_trigger_type": "subroutine",
+        "m_object_filter_index": -1,
+        "m_first_condition": 4,
+        "m_condition_count": 4,
+        "m_first_action": 20,
+        "m_action_count": 14
+      },
+      {
+        "m_execution_mode": "normal",
+        "m_trigger_type": "subroutine",
+        "m_object_filter_index": -1,
+        "m_first_condition": 3,
+        "m_condition_count": 1,
+        "m_first_action": 19,
+        "m_action_count": 1
+      },
+      {
+        "m_execution_mode": "for_each_object_with_label",
+        "m_trigger_type": "normal",
+        "m_object_filter_index": 2,
+        "m_first_condition": 11,
+        "m_condition_count": 1,
+        "m_first_action": 42,
+        "m_action_count": 2
+      },
+      {
+        "m_execution_mode": "for_each_player",
+        "m_trigger_type": "subroutine",
+        "m_object_filter_index": -1,
+        "m_first_condition": 10,
+        "m_condition_count": 1,
+        "m_first_action": 38,
+        "m_action_count": 4
+      },
+      {
+        "m_execution_mode": "for_each_object_with_label",
+        "m_trigger_type": "normal",
+        "m_object_filter_index": 2,
+        "m_first_condition": 12,
+        "m_condition_count": 2,
+        "m_first_action": 44,
+        "m_action_count": 3
+      },
+      {
+        "m_execution_mode": "for_each_player",
+        "m_trigger_type": "normal",
+        "m_object_filter_index": -1,
+        "m_first_condition": 15,
+        "m_condition_count": 2,
+        "m_first_action": 48,
+        "m_action_count": 2
+      },
+      {
+        "m_execution_mode": "for_each_object_with_label",
+        "m_trigger_type": "subroutine",
+        "m_object_filter_index": 2,
+        "m_first_condition": 14,
+        "m_condition_count": 1,
+        "m_first_action": 47,
+        "m_action_count": 1
+      },
+      {
+        "m_execution_mode": "normal",
+        "m_trigger_type": "normal",
+        "m_object_filter_index": -1,
+        "m_first_condition": 17,
+        "m_condition_count": 1,
+        "m_first_action": 50,
+        "m_action_count": 1
+      }
+    ],
+    "m_requisitions": [],
+    "m_loadouts": [
+      {
+        "m_object_types": [
+          {
+            "m_object_type_index": 21
+          },
+          {
+            "m_object_type_index": -1
+          },
+          {
+            "m_object_type_index": -1
+          },
+          {
+            "m_object_type_index": 39
+          }
+        ],
+        "m_slot_numbers": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "m_loadout_palette": [],
+    "m_statistics": [
+      {
+        "m_name_string_index": 5,
+        "m_format": 0,
+        "m_sort_order": 2,
+        "m_growuping": 1
+      }
+    ],
+    "m_global_variable_metadata": {
+      "m_numeric_variables": [
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          1
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          0
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          0
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          0
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          0
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          0
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          0
+        ]
+      ],
+      "m_timer_variables": [],
+      "m_team_variables": [],
+      "m_player_variables": [
+        0
+      ],
+      "m_object_variables": [
+        1,
+        1,
+        0
+      ]
+    },
+    "m_player_variable_metadata": {
+      "m_numeric_variables": [
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          1
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          1
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          1
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          0
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          0
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          0
+        ]
+      ],
+      "m_timer_variables": [],
+      "m_team_variables": [],
+      "m_player_variables": [],
+      "m_object_variables": [
+        0
+      ]
+    },
+    "m_object_variable_metadata": {
+      "m_numeric_variables": [
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          0
+        ],
+        [
+          {
+            "m_type": 0,
+            "m_immediate_value": 0
+          },
+          0
+        ]
+      ],
+      "m_timer_variables": [],
+      "m_team_variables": [],
+      "m_player_variables": [],
+      "m_object_variables": []
+    },
+    "m_team_variable_metadata": {
+      "m_numeric_variables": [],
+      "m_timer_variables": [],
+      "m_team_variables": [],
+      "m_player_variables": [],
+      "m_object_variables": []
+    },
+    "m_hud_widgets": [
+      9,
+      9
+    ],
+    "m_initialization_trigger_index": 0,
+    "m_local_initialization_trigger_index": -1,
+    "m_host_migration_trigger_index": -1,
+    "m_object_death_event_trigger_index": -1,
+    "m_local_trigger_index": 2,
+    "m_objects_used": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "m_object_filters": [
+      {
+        "m_label_string_index": 2,
+        "m_valid_parameters": 0,
+        "m_min": 0
+      },
+      {
+        "m_label_string_index": 3,
+        "m_valid_parameters": 0,
+        "m_min": 0
+      },
+      {
+        "m_label_string_index": 4,
+        "m_valid_parameters": 0,
+        "m_min": 0
+      },
+      {
+        "m_label_string_index": 5,
+        "m_valid_parameters": 0,
+        "m_min": 0
+      }
+    ]
+  }
+}
