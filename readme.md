@@ -3,8 +3,8 @@ This repository contains configuration file for online functionality of Xbox 360
 Features available vary by title and version, but tend to include Matchmaking Playlists, MOTD messages, etc.
 ## Halo 3 [Release]
 Configuration for the public Release versions of Halo 3. While they all use the same configuration, we currently only target Title-Update 2 `12070.08.09.05.2031.halo3_ship`. If support for TU1 or TU0 is ever required, this is simply a case of including that version's network configuration file.
-- `12070.08.09.05.2031.halo3_ship` (Title-Update 2)
-- `11902.08.01.16.1426.halo3_ship` (Title-Update 1)
+- `12070.08.09.05.2031.halo3_ship` (TU 2)
+- `11902.08.01.16.1426.halo3_ship` (TU 1)
 - `11855.07.08.20.2317.halo3_ship`
 ### Managing Variants
 Map and Game variants can be imported into Halo 3 Release configuration using the [blf_cli](https://github.com/Blam-Network/blf) they can be imported from Halo 3 Xbox 360 packaged variants or from Halo: The Master Chief Collection.
@@ -23,11 +23,26 @@ Configuration for Halo 3 ODST `13895.09.04.27.2201.atlas_release`. ODST doesn't 
 
 ## Halo: Reach [Release]
 Configuration for Release and Post-Release Halo: Reach builds. Similarly to Halo 3 Release, Reach's updates also use the same configuration with the exception ofthe network configuration file, and similarly we currently only target Title-Update 1 `12065.11.08.24.1738.tu1actual`.
-- 12065.11.08.24.1738.tu1actual (TU 1)
-- 11883.10.10.25.1227.dlc_1_ship (Leaked dev build)
-- 11860.10.07.24.0147.omaha_release
+- `12065.11.08.24.1738.tu1actual` (TU 1)
+- `11883.10.10.25.1227.dlc_1_ship` (Leaked dev build)
+- `11860.10.07.24.0147.omaha_release`
 ### Managing Variants
-We don't have any tooling in place for managing Halo: Reach map and game variants, though many have been manually imported.
+We don't have any tooling in place for managing Halo: Reach map and game variants yet, though many have been manually imported.
+
+## Halo: Reach [Beta]
+Configuration for the Public and Private Beta builds of Halo: Reach. All include the same maps, and use the same configuration with the exception of the Network Configuration file.
+- `09730.10.04.09.1309.omaha_delta` (Public Beta)
+- `09664.10.04.06.2121.omaha_beta` (Private Beta TU 1)
+- `09449.10.03.25.1545.omaha_beta` (Private Beta)
+
+## Halo: Reach [Alpha]
+Configuration for Halo: Reach's Private Alpha `08516.10.02.19.1607.omaha_alpha`. Includes the same maps as the Beta, uses older map & game variant versions.
+
+## Halo Online
+Title storage for Halo Online ms23. For use with [ManagedDonkey](https://github.com/twist84/ManagedDonkey).
+
+## Ares
+Title storage for Halo 3 mod testing. Basically the same as Halo 3 Release.
 
 ## Unsupported Versions
 ### Halo 3 Epsilon
@@ -57,21 +72,8 @@ Configuration for various leaked in-developmnent builds between the Alpha and Be
 ### Halo 3 Alpha
 Configuration for Alpha or "Pimps At Sea" versions of Halo 3, including:
 - 06481.06.11.17.1330.alpha_release
-
-
+> **NOTE**: A partial dump of an older build exists, though it does not include any maps other than the mainmenu and does not appear to use BLF files.
 
 ## Halo: Reach
 ### Demo
 Configuration for Halo: Reach's demo `00095.11.04.09.1509.demo`.
-
-### Beta
-Configuration for Halo: Reach's Beta.
-- 09730.10.04.09.1309.omaha_delta
-- 09449.10.03.25.1545.omaha_beta (Private Beta)
-
-### Alpha
-Configuration for Halo: Reach's Private Alpha.
-- 08516.10.02.19.1607.omaha_alpha
-
-## Halo Online
-Title storage for Halo Online ms23. For use with [ManagedDonkey](https://github.com/twist84/ManagedDonkey).
