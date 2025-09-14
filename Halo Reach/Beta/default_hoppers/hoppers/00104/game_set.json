@@ -1,0 +1,85 @@
+{
+  "entries": [
+    {
+      "weight": 5,
+      "minimum_player_count": 1,
+      "maximum_player_count": 2,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": true,
+        "unknown02": 6,
+        "unknown04": 0,
+        "unknown08": 0.5,
+        "unknown0C": 0.5,
+        "unknown10": 0.5,
+        "unknown14": false
+      },
+      "map_id": 7000,
+      "game_name": "Score Attack 2",
+      "game_variant_file_name": "ff_score_attack"
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 1,
+      "maximum_player_count": 2,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": true,
+        "unknown02": 0,
+        "unknown04": 0,
+        "unknown08": 0.5,
+        "unknown0C": 0.5,
+        "unknown10": 0.5,
+        "unknown14": false
+      },
+      "map_id": 7000,
+      "game_name": "Firefight",
+      "game_variant_file_name": "ff_score_attack"
+    },
+    {
+      "weight": 5,
+      "minimum_player_count": 1,
+      "maximum_player_count": 4,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": true,
+        "unknown02": 1,
+        "unknown04": 0,
+        "unknown08": 0.5,
+        "unknown0C": 0.5,
+        "unknown10": 0.5,
+        "unknown14": false
+      },
+      "map_id": 7000,
+      "game_name": "Gruntpocalpyse",
+      "game_variant_file_name": "ff_gruntpocalypse"
+    }
+  ]
+}

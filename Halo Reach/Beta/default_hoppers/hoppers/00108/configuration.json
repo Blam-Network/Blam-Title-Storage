@@ -1,0 +1,388 @@
+{
+  "descriptions": {
+    "cht": "4 名玩家的合作模式戰役。任務與難度均由玩家投票表決。|r|n|r|n派對人數上限：4 名|r|n本機玩家數上限：2 名",
+    "de": "4-Spieler-Koop-Kampagne. Mission und Schwierigkeitsgrad werden nach Stimmenmehrheit entschieden.|r|n|r|nMax. Gruppengröße: 4|r|nMax. lokale Spieler: 2",
+    "en": "4 player Campaign Co-op. Mission and Difficulty are selected via majority vote.|r|n|r|nMax Party Size: 4|r|nMax Local Players: 2",
+    "fr": "Campagne en coop à 4 joueurs. Le choix de la mission et du niveau de difficulté est voté à la majorité.|r|n|r|nTaille de groupe max. : 4|r|nJoueurs en local max. : 2",
+    "it": "Campagna co-op a 4 giocatori. La missione e la difficoltà vengono selezionate in base al voto di maggioranza.|r|n|r|nDimensione massima gruppo: 4|r|nN. massimo giocatori locali: 2",
+    "jpn": "4 プレイヤーによるキャンペーンの協力プレイ。ミッションと難易度は投票で決まる|r|n|r|nパーティー上限： 4|r|nローカルプレイヤー上限： 2",
+    "kor": "4명 캠페인 협동 게임입니다. 다수결로 미션 및 난이도를 선택합니다.|r|n|r|n최대 파티원 수: 4|r|n최대 로컬 플레이어 수: 2인",
+    "mx": "Campaña cooperativa de 4 jugadores. La misión y la dificultad se eligen por mayoría.|r|n|r|nTamaño máx. grupo: 4|r|nMáx. jugadores locales: 2",
+    "pt": "Campanha em cooperação com 4 jogadores. Missão e Dificuldade são selecionados pelo voto da maioria.|r|n|r|nTam. máx. do grupo: 4|r|nMáx. de jogad. locais: 2",
+    "sp": "Campaña cooperativa de 4 jugadores. La misión y la dificultad se eligen por mayoría.|r|n|r|nTamaño máx. grupo: 4|r|nMáx. jugadores locales: 2"
+  },
+  "configuration": {
+    "hopper_name": "Co-Op Campaign",
+    "identifier": 108,
+    "category_identifier": 4,
+    "category_index": 4,
+    "player_investment_category": 1,
+    "image_index": 1,
+    "xlast_index": 9,
+    "equivalency_id": 2,
+    "start_time": "None",
+    "end_time": "None",
+    "minimum_games_won": 0,
+    "maximum_games_won": 0,
+    "minimum_games_played": 0,
+    "maximum_games_played": 0,
+    "minimum_grade": 2,
+    "maximum_grade": 21,
+    "min_party_size": 1,
+    "max_party_size": 2,
+    "min_local_players": 1,
+    "max_local_players": 2,
+    "hopper_access_bit": -1,
+    "account_type_access": 2,
+    "require_all_party_members_meet_games_played_requirements": false,
+    "unknown89": 0,
+    "require_all_party_members_meet_grade_requirements": false,
+    "require_all_party_members_meet_access_requirements": false,
+    "require_all_party_members_meet_live_account_access_requirements": false,
+    "hide_hopper_from_games_played_restricted_players": false,
+    "unknown8e": 0,
+    "hide_hopper_from_grade_restricted_players": false,
+    "hide_hopper_from_access_restricted_players": true,
+    "hide_hopper_from_live_account_access_restricted_players": false,
+    "hide_hopper_due_to_time_restriction": true,
+    "requires_hard_drive": false,
+    "requires_local_party": false,
+    "voting_configuration": {
+      "voting_categories": 3,
+      "number_of_votes_per_peer": 1,
+      "voting_rounds": 8,
+      "veto_rounds": 7,
+      "maximum_load_failures": 2,
+      "voting_time_seconds": 15,
+      "flags": 7
+    },
+    "is_ranked": 0,
+    "is_arbitrated": 0,
+    "are_guests_allowed": 1,
+    "are_opponents_visible": 1,
+    "uses_arena_lsp_stats": 0,
+    "unknownb9": 0,
+    "unknownbc": 0,
+    "unknownc0": 0,
+    "unknownc4": 0,
+    "uses_high_score_leaderboard": 1,
+    "posse_formation": 3,
+    "post_match_countdown_time_seconds": 20,
+    "require_hosts_on_multiple_teams": false,
+    "repeated_opponents_to_consider_for_penalty": 0,
+    "repeated_opponents_skill_throttle_start": 0,
+    "repeated_opponents_skill_throttle_stop": 0,
+    "matchmaking_composition_build_flags": 0,
+    "is_team_matching_enabled": false,
+    "gather_start_threshold_seconds": 15,
+    "get_gather_start_game_early_seconds": 30,
+    "get_gather_give_up_seconds": 120,
+    "chance_of_gathering": [
+      27,
+      53,
+      80,
+      100,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "unknown100": 16777216,
+    "unknown104": 0,
+    "unknown108": 50,
+    "uses_ffa_scoring_for_leaderboard_writes": true,
+    "should_modify_skill_update_weight_with_game_quality": false,
+    "trueskill_sigma_multiplier": 3.0,
+    "unknown114": 1.0,
+    "trueskill_tau_dynamics_factor": 0.05,
+    "trueskill_draw_probability": 19,
+    "pre_match_voice_configuration": 1,
+    "in_match_voice_configuration": 0,
+    "post_match_voice_configuration": 1,
+    "restrict_open_channel": 0,
+    "unknown120": 30,
+    "unknown124": 0,
+    "query_configurations": [
+      {
+        "unknown00": 3,
+        "unknown04": true,
+        "unknown08": 2,
+        "unknown0c": true,
+        "unknown10": 0.5,
+        "unknown14": true,
+        "unknown18": 1200.0,
+        "unknown1c": 1200.0,
+        "unknown20": 1200.0,
+        "unknown24": true,
+        "unknown25": true,
+        "unknown28": 100,
+        "unknown2c": 0,
+        "unknown30": 0,
+        "unknown34": false,
+        "latency_desirability_configurations": [
+          {
+            "unknown00": 0.05,
+            "unknown04": 25,
+            "unknown08": 50
+          },
+          {
+            "unknown00": 0.1,
+            "unknown04": 50,
+            "unknown08": 100
+          }
+        ],
+        "unknown50": [
+          0.1304121,
+          0.06416275,
+          0.12780386,
+          0.12780386,
+          0.0046948357,
+          0.0046948357,
+          0.0046948357,
+          0.0046948357,
+          0.16692749,
+          0.16692749,
+          0.16692749,
+          0.002608242,
+          0.025039123,
+          0.0,
+          0.0,
+          0.0,
+          0.002608242
+        ]
+      },
+      {
+        "unknown00": 50,
+        "unknown04": false,
+        "unknown08": 0,
+        "unknown0c": false,
+        "unknown10": 0.0,
+        "unknown14": true,
+        "unknown18": 10000.0,
+        "unknown1c": 10000.0,
+        "unknown20": 10000.0,
+        "unknown24": false,
+        "unknown25": true,
+        "unknown28": 100,
+        "unknown2c": 0,
+        "unknown30": 0,
+        "unknown34": false,
+        "latency_desirability_configurations": [
+          {
+            "unknown00": 0.05,
+            "unknown04": 25,
+            "unknown08": 50
+          },
+          {
+            "unknown00": 0.1,
+            "unknown04": 50,
+            "unknown08": 100
+          }
+        ],
+        "unknown50": [
+          0.1304121,
+          0.06416275,
+          0.12780386,
+          0.12780386,
+          0.0046948357,
+          0.0046948357,
+          0.0046948357,
+          0.0046948357,
+          0.16692749,
+          0.16692749,
+          0.16692749,
+          0.002608242,
+          0.025039123,
+          0.0,
+          0.0,
+          0.0,
+          0.002608242
+        ]
+      },
+      {
+        "unknown00": 3,
+        "unknown04": true,
+        "unknown08": 2,
+        "unknown0c": false,
+        "unknown10": 0.0,
+        "unknown14": true,
+        "unknown18": 1200.0,
+        "unknown1c": 1200.0,
+        "unknown20": 1200.0,
+        "unknown24": true,
+        "unknown25": true,
+        "unknown28": 100,
+        "unknown2c": 0,
+        "unknown30": 0,
+        "unknown34": false,
+        "latency_desirability_configurations": [
+          {
+            "unknown00": 0.05,
+            "unknown04": 25,
+            "unknown08": 50
+          },
+          {
+            "unknown00": 0.09,
+            "unknown04": 50,
+            "unknown08": 100
+          }
+        ],
+        "unknown50": [
+          0.1304121,
+          0.06416275,
+          0.12780386,
+          0.12780386,
+          0.0046948357,
+          0.0046948357,
+          0.0046948357,
+          0.0046948357,
+          0.16692749,
+          0.16692749,
+          0.16692749,
+          0.002608242,
+          0.025039123,
+          0.0,
+          0.0,
+          0.0,
+          0.002608242
+        ]
+      },
+      {
+        "unknown00": 50,
+        "unknown04": false,
+        "unknown08": 0,
+        "unknown0c": false,
+        "unknown10": 0.0,
+        "unknown14": true,
+        "unknown18": 10000.0,
+        "unknown1c": 10000.0,
+        "unknown20": 10000.0,
+        "unknown24": false,
+        "unknown25": true,
+        "unknown28": 100,
+        "unknown2c": 0,
+        "unknown30": 0,
+        "unknown34": false,
+        "latency_desirability_configurations": [
+          {
+            "unknown00": 0.05,
+            "unknown04": 25,
+            "unknown08": 50
+          },
+          {
+            "unknown00": 0.1,
+            "unknown04": 50,
+            "unknown08": 100
+          }
+        ],
+        "unknown50": [
+          0.1304121,
+          0.06416275,
+          0.12780386,
+          0.12780386,
+          0.0046948357,
+          0.0046948357,
+          0.0046948357,
+          0.0046948357,
+          0.16692749,
+          0.16692749,
+          0.16692749,
+          0.002608242,
+          0.025039123,
+          0.0,
+          0.0,
+          0.0,
+          0.002608242
+        ]
+      }
+    ],
+    "game_type": 2,
+    "is_ffa": true,
+    "minimum_player_count": 1,
+    "maximum_player_count": 2,
+    "ffa_model_override": 0,
+    "minimum_team_count": 0,
+    "maximum_team_count": 0,
+    "per_team_data": [
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      },
+      {
+        "minimum_team_size": 0,
+        "maximum_team_size": 0,
+        "team_model_override": 0,
+        "team_allegiance": 0
+      }
+    ],
+    "maximum_team_imbalance": 0,
+    "big_squad_size_threshold": 0,
+    "unknown418": 0,
+    "unknown41c": 0,
+    "undersized_party_split_permissions": 0,
+    "jackpot_minimum_time_seconds": 120,
+    "jackpot_configurations": [
+      {
+        "unknown1": 75,
+        "unknown2": 150,
+        "unknown3": 400
+      },
+      {
+        "unknown1": 20,
+        "unknown2": 500,
+        "unknown3": 1000
+      },
+      {
+        "unknown1": 5,
+        "unknown2": 3000,
+        "unknown3": 3000
+      }
+    ]
+  }
+}
