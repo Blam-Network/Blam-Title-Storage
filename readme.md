@@ -27,7 +27,16 @@ Configuration for Release and Post-Release Halo: Reach builds. Similarly to Halo
 - `11883.10.10.25.1227.dlc_1_ship` (Leaked dev build)
 - `11860.10.07.24.0147.omaha_release`
 ### Managing Variants
-We don't have any tooling in place for managing Halo: Reach map and game variants yet, though many have been manually imported.
+Map and Game variants can be imported into Halo Reach Release configuration using the [blf_cli](https://github.com/Blam-Network/blf) they can be imported from Halo Reach Xbox 360 packaged variants or from Halo: The Master Chief Collection. Please note that while MCC variants can be imported, there is no conversion of MCC variants back to Xbox 360, importing maps and gametypes from MCC is untested and may not work in all cases.
+```bash
+blf_cli
+  title-storage
+  import-variant
+  "~/Blam-Title-Storage/Halo Reach/Release/default_hoppers"
+  ~/variants/cavern
+  "Halo: Reach"
+  12065.11.08.24.1738.tu1actual
+```
 
 ## Halo: Reach [Beta]
 Configuration for the Public and Private Beta builds of Halo: Reach. All include the same maps, and use the same configuration with the exception of the Network Configuration file.
