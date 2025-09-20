@@ -1,5 +1,5 @@
 {
-  "m_game_engine": 2,
+  "m_game_engine": "custom",
   "m_custom_variant": {
     "m_encoding_version": 73,
     "m_build_number": 9730,
@@ -29,7 +29,7 @@
       },
       "m_built_in": false,
       "m_miscellaneous_options": {
-        "m_teams_enabled": true,
+        "m_teams_enabled": false,
         "m_round_reset_players": true,
         "m_round_reset_map": true,
         "m_round_time_limit_minutes": 8,
@@ -333,9 +333,9 @@
             },
             "m_team_initial_designator": 1,
             "m_model_override": 0,
-            "m_team_color_override": -1,
-            "m_team_ui_text_tint_color_override": -1,
-            "m_team_ui_bitmap_tint_color_override": -1
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
           },
           {
             "m_team_enabled": true,
@@ -360,9 +360,9 @@
             },
             "m_team_initial_designator": 2,
             "m_model_override": 0,
-            "m_team_color_override": -1,
-            "m_team_ui_text_tint_color_override": -1,
-            "m_team_ui_bitmap_tint_color_override": -1
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
           },
           {
             "m_team_enabled": true,
@@ -387,9 +387,9 @@
             },
             "m_team_initial_designator": 3,
             "m_model_override": 0,
-            "m_team_color_override": -1,
-            "m_team_ui_text_tint_color_override": -1,
-            "m_team_ui_bitmap_tint_color_override": -1
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
           },
           {
             "m_team_enabled": true,
@@ -414,9 +414,9 @@
             },
             "m_team_initial_designator": 4,
             "m_model_override": 0,
-            "m_team_color_override": -1,
-            "m_team_ui_text_tint_color_override": -1,
-            "m_team_ui_bitmap_tint_color_override": -1
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
           },
           {
             "m_team_enabled": true,
@@ -441,9 +441,9 @@
             },
             "m_team_initial_designator": 5,
             "m_model_override": 0,
-            "m_team_color_override": -1,
-            "m_team_ui_text_tint_color_override": -1,
-            "m_team_ui_bitmap_tint_color_override": -1
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
           },
           {
             "m_team_enabled": true,
@@ -468,9 +468,9 @@
             },
             "m_team_initial_designator": 6,
             "m_model_override": 0,
-            "m_team_color_override": -1,
-            "m_team_ui_text_tint_color_override": -1,
-            "m_team_ui_bitmap_tint_color_override": -1
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
           },
           {
             "m_team_enabled": true,
@@ -495,9 +495,9 @@
             },
             "m_team_initial_designator": 7,
             "m_model_override": 0,
-            "m_team_color_override": -1,
-            "m_team_ui_text_tint_color_override": -1,
-            "m_team_ui_bitmap_tint_color_override": -1
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
           },
           {
             "m_team_enabled": true,
@@ -522,9 +522,9 @@
             },
             "m_team_initial_designator": 8,
             "m_model_override": 0,
-            "m_team_color_override": -1,
-            "m_team_ui_text_tint_color_override": -1,
-            "m_team_ui_bitmap_tint_color_override": -1
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
           }
         ]
       }
