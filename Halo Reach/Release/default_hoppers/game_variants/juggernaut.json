@@ -1,0 +1,8969 @@
+{
+  "m_game_engine": "custom",
+  "m_custom_variant": {
+    "m_encoding_version": 106,
+    "m_build_number": -1,
+    "m_base_variant": {
+      "m_metadata": {
+        "file_type": 6,
+        "size_in_bytes": 21289,
+        "unique_id": 10099890708197169333,
+        "parent_unique_id": 10099890708197169333,
+        "root_unique_id": 10099890708197169333,
+        "game_id": 0,
+        "activity": 3,
+        "game_mode": 3,
+        "game_engine_type": 2,
+        "map_id": -1,
+        "megalo_category_index": 4,
+        "creation_time": "2010-09-14 00:00:00",
+        "creator_xuid": "0000000000000000",
+        "creator_name": "¦",
+        "creator_xuid_is_online": true,
+        "modification_time": "2010-09-14 00:00:00",
+        "modifier_xuid": "0000000000000000",
+        "modifier_name": "¦",
+        "modifier_xuid_is_online": true,
+        "name": "JUGGERNAUT",
+        "description": "$hr_gvar_Juggernaut_desc",
+        "game_variant_data": {
+          "icon_index": 4
+        }
+      },
+      "m_built_in": false,
+      "m_miscellaneous_options": {
+        "m_teams_enabled": false,
+        "m_round_reset_players": true,
+        "m_round_reset_map": true,
+        "m_perfection_enabled": false,
+        "m_round_time_limit_minutes": 10,
+        "m_round_limit": 1,
+        "m_early_victory_win_count": 0,
+        "m_sudden_death_time": 1,
+        "m_grace_period": 0
+      },
+      "m_respawn_options": {
+        "m_inherit_respawn_time": false,
+        "m_respawn_with_teammate": false,
+        "m_respawn_at_location": false,
+        "m_respawn_on_kills": false,
+        "m_lives_per_round": 0,
+        "m_team_lives_per_round": 0,
+        "m_respawn_time_seconds": 5,
+        "m_suicide_penalty_seconds": 5,
+        "m_betrayal_penalty_seconds": 5,
+        "m_respawn_growth_seconds": 0,
+        "m_loadout_cam_time": 10,
+        "m_respawn_player_traits_duration_seconds": 5,
+        "m_respawn_player_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": 0,
+            "m_body_multiplier": 0,
+            "m_body_recharge_rate": 0,
+            "m_shield_multiplier": 0,
+            "m_shield_recharge_rate": 0,
+            "m_overshield_recharge_rate": 0,
+            "m_headshot_immunity_setting": 0,
+            "m_vampirism_percentage_setting": 0,
+            "m_assasination_immunity": 0,
+            "m_cannot_die_from_damage": 0
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_initial_primary_weapon_absolute_index": -3,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 0,
+            "m_infinite_ammo_setting": 0,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 0,
+            "m_equipment_usage_setting": 0,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": -3
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 0,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 0,
+            "m_double_jump_setting": 0,
+            "m_jump_modifier": -1
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": 0,
+            "m_waypoint_setting": 0,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 0
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        }
+      },
+      "m_social_options": {
+        "m_flags": 7,
+        "m_team_changing": 1,
+        "m_observers_enabled": false
+      },
+      "m_map_override_options": {
+        "m_flags": 30,
+        "m_base_player_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": 0,
+            "m_body_multiplier": 0,
+            "m_body_recharge_rate": 0,
+            "m_shield_multiplier": 0,
+            "m_shield_recharge_rate": 0,
+            "m_overshield_recharge_rate": 0,
+            "m_headshot_immunity_setting": 0,
+            "m_vampirism_percentage_setting": 0,
+            "m_assasination_immunity": 0,
+            "m_cannot_die_from_damage": 0
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_initial_primary_weapon_absolute_index": 1,
+            "m_initial_secondary_weapon_absolute_index": 5,
+            "m_initial_grenade_count_setting": 3,
+            "m_infinite_ammo_setting": 0,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 0,
+            "m_equipment_usage_setting": 0,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": 0
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 0,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 0,
+            "m_double_jump_setting": 0,
+            "m_jump_modifier": -1
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": 0,
+            "m_waypoint_setting": 0,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 0
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        },
+        "m_weapon_set_absolute_index": 5,
+        "m_vehicle_set_absolute_index": 12,
+        "m_red_powerup_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": 12,
+            "m_body_multiplier": 0,
+            "m_body_recharge_rate": 0,
+            "m_shield_multiplier": 6,
+            "m_shield_recharge_rate": 0,
+            "m_overshield_recharge_rate": 0,
+            "m_headshot_immunity_setting": 0,
+            "m_vampirism_percentage_setting": 0,
+            "m_assasination_immunity": 0,
+            "m_cannot_die_from_damage": 0
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_initial_primary_weapon_absolute_index": -3,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 0,
+            "m_infinite_ammo_setting": 0,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 0,
+            "m_equipment_usage_setting": 0,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": -3
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 0,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 0,
+            "m_double_jump_setting": 0,
+            "m_jump_modifier": -1
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": 0,
+            "m_waypoint_setting": 0,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 0
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        },
+        "m_blue_powerup_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": 0,
+            "m_body_multiplier": 0,
+            "m_body_recharge_rate": 0,
+            "m_shield_multiplier": 0,
+            "m_shield_recharge_rate": 0,
+            "m_overshield_recharge_rate": 0,
+            "m_headshot_immunity_setting": 0,
+            "m_vampirism_percentage_setting": 0,
+            "m_assasination_immunity": 0,
+            "m_cannot_die_from_damage": 0
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_initial_primary_weapon_absolute_index": -3,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 0,
+            "m_infinite_ammo_setting": 0,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 0,
+            "m_equipment_usage_setting": 0,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": -3
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 0,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 0,
+            "m_double_jump_setting": 0,
+            "m_jump_modifier": -1
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": 3,
+            "m_waypoint_setting": 0,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 0
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        },
+        "m_yellow_powerup_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": 0,
+            "m_body_multiplier": 0,
+            "m_body_recharge_rate": 0,
+            "m_shield_multiplier": 0,
+            "m_shield_recharge_rate": 0,
+            "m_overshield_recharge_rate": 0,
+            "m_headshot_immunity_setting": 0,
+            "m_vampirism_percentage_setting": 0,
+            "m_assasination_immunity": 0,
+            "m_cannot_die_from_damage": 0
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_initial_primary_weapon_absolute_index": -3,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 0,
+            "m_infinite_ammo_setting": 0,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 0,
+            "m_equipment_usage_setting": 0,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": -3
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 8,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 0,
+            "m_double_jump_setting": 0,
+            "m_jump_modifier": -1
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": 0,
+            "m_waypoint_setting": 0,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 0
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        },
+        "m_red_powerup_duration_seconds": 6,
+        "m_blue_powerup_duration_seconds": 15,
+        "m_yellow_powerup_duration_seconds": 10
+      },
+      "m_team_scoring_method": 0,
+      "m_team_options": {
+        "m_model_override": 0,
+        "m_designator_switch_type": 2,
+        "m_teams": [
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": 1,
+            "m_model_override": 0,
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF",
+            "m_fireteam_count": 1
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": 2,
+            "m_model_override": 0,
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF",
+            "m_fireteam_count": 1
+          },
+          {
+            "m_team_enabled": false,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": 0,
+            "m_model_override": 0,
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF",
+            "m_fireteam_count": 1
+          },
+          {
+            "m_team_enabled": false,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": 0,
+            "m_model_override": 0,
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF",
+            "m_fireteam_count": 1
+          },
+          {
+            "m_team_enabled": false,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": 0,
+            "m_model_override": 0,
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF",
+            "m_fireteam_count": 1
+          },
+          {
+            "m_team_enabled": false,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": 0,
+            "m_model_override": 0,
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF",
+            "m_fireteam_count": 1
+          },
+          {
+            "m_team_enabled": false,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": 0,
+            "m_model_override": 0,
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF",
+            "m_fireteam_count": 1
+          },
+          {
+            "m_team_enabled": false,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": 0,
+            "m_model_override": 0,
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF",
+            "m_fireteam_count": 1
+          }
+        ]
+      },
+      "m_loadouts": {
+        "m_flags": 3,
+        "m_loadout_palettes": [
+          {
+            "m_loadouts": [
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              }
+            ]
+          },
+          {
+            "m_loadouts": [
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              }
+            ]
+          },
+          {
+            "m_loadouts": [
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              }
+            ]
+          },
+          {
+            "m_loadouts": [
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              }
+            ]
+          },
+          {
+            "m_loadouts": [
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              }
+            ]
+          },
+          {
+            "m_loadouts": [
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              },
+              {
+                "m_visible": false,
+                "m_name": -1,
+                "m_initial_primary_weapon_absolute_index": -3,
+                "m_initial_secondary_weapon_absolute_index": -3,
+                "m_initial_equipment_absolute_index": -3,
+                "m_initial_grenade_count_setting": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "m_player_traits": [
+      {
+        "m_name_string_index": 3,
+        "m_description_string_index": 4,
+        "m_player_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": 7,
+            "m_body_multiplier": 0,
+            "m_body_recharge_rate": 0,
+            "m_shield_multiplier": 4,
+            "m_shield_recharge_rate": 4,
+            "m_overshield_recharge_rate": 0,
+            "m_headshot_immunity_setting": 0,
+            "m_vampirism_percentage_setting": 0,
+            "m_assasination_immunity": 2,
+            "m_cannot_die_from_damage": 0
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 11,
+            "m_initial_primary_weapon_absolute_index": 12,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 2,
+            "m_infinite_ammo_setting": 2,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 1,
+            "m_equipment_usage_setting": 1,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": -3
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 11,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 1,
+            "m_double_jump_setting": 0,
+            "m_jump_modifier": 150
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": 0,
+            "m_waypoint_setting": 3,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 10
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        }
+      },
+      {
+        "m_name_string_index": 5,
+        "m_description_string_index": 6,
+        "m_player_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": 12,
+            "m_body_multiplier": 0,
+            "m_body_recharge_rate": 0,
+            "m_shield_multiplier": 4,
+            "m_shield_recharge_rate": 0,
+            "m_overshield_recharge_rate": 0,
+            "m_headshot_immunity_setting": 0,
+            "m_vampirism_percentage_setting": 0,
+            "m_assasination_immunity": 2,
+            "m_cannot_die_from_damage": 0
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 11,
+            "m_initial_primary_weapon_absolute_index": 12,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 2,
+            "m_infinite_ammo_setting": 2,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 1,
+            "m_equipment_usage_setting": 1,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": -3
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 11,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 1,
+            "m_double_jump_setting": 0,
+            "m_jump_modifier": 150
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": 0,
+            "m_waypoint_setting": 3,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 11
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        }
+      }
+    ],
+    "m_user_defined_options": [
+      {
+        "m_name_string_index": 7,
+        "m_description_string_index": 8,
+        "m_default_value_index": 4,
+        "m_values": [
+          {
+            "m_value": -5,
+            "m_name_string_index": 9,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": -1,
+            "m_name_string_index": 11,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 0,
+            "m_name_string_index": 12,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 1,
+            "m_name_string_index": 13,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 5,
+            "m_name_string_index": 14,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 10,
+            "m_name_string_index": 15,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 15,
+            "m_name_string_index": 16,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 25,
+            "m_name_string_index": 17,
+            "m_description_string_index": 10
+          }
+        ],
+        "m_current_value_index": 4
+      },
+      {
+        "m_name_string_index": 18,
+        "m_description_string_index": 19,
+        "m_default_value_index": 5,
+        "m_values": [
+          {
+            "m_value": -5,
+            "m_name_string_index": 9,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": -1,
+            "m_name_string_index": 11,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 0,
+            "m_name_string_index": 12,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 1,
+            "m_name_string_index": 13,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 5,
+            "m_name_string_index": 14,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 10,
+            "m_name_string_index": 15,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 15,
+            "m_name_string_index": 16,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 25,
+            "m_name_string_index": 17,
+            "m_description_string_index": 10
+          }
+        ],
+        "m_current_value_index": 5
+      },
+      {
+        "m_name_string_index": 20,
+        "m_description_string_index": 21,
+        "m_default_value_index": 3,
+        "m_values": [
+          {
+            "m_value": 0,
+            "m_name_string_index": 22,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 1,
+            "m_name_string_index": 23,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 5,
+            "m_name_string_index": 24,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 10,
+            "m_name_string_index": 25,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 15,
+            "m_name_string_index": 26,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 25,
+            "m_name_string_index": 27,
+            "m_description_string_index": 10
+          },
+          {
+            "m_value": 30,
+            "m_name_string_index": 28,
+            "m_description_string_index": 10
+          }
+        ],
+        "m_current_value_index": 3
+      }
+    ],
+    "m_script_strings": {
+      "strings": [
+        [
+          "Juggernaut",
+          "juggernaut",
+          "ffa_only",
+          "Juggernaut Traits",
+          "Traits applied to the Juggernaut.",
+          "New Juggernaut Traits",
+          "Traits applied to the Juggernaut during Safe Time.",
+          "Kill Points",
+          "Points for killing an enemy.",
+          "-5 points",
+          "",
+          "-1 point",
+          "no points",
+          "1 point",
+          "5 points",
+          "10 points",
+          "15 points",
+          "25 points",
+          "Juggernaut Kill Points",
+          "Points for killing an enemy as the Juggernaut.",
+          "Safe Time",
+          "New juggernauts are invincible for this time.",
+          "Disabled",
+          "1 second",
+          "5 seconds",
+          "10 seconds",
+          "15 seconds",
+          "25 seconds",
+          "30 seconds",
+          "Juggernaut Time",
+          "Kill the Juggernaut.\r\n%n points to win.",
+          "Kill the Juggernaut.",
+          "You are the Juggernaut"
+        ],
+        [
+          "Juggernaut",
+          "juggernaut",
+          "ffa_only",
+          "ジャガノート オプション",
+          "ジャガノートに適用されるオプション",
+          "新ジャガノート オプション",
+          "セーフ タイム中にジャガノートに適用されるオプション",
+          "キル ポイント",
+          "敵を倒すと獲得できるポイント",
+          "-5 ポイント",
+          "",
+          "-1 ポイント",
+          "0 ポイント",
+          "1 ポイント",
+          "5 ポイント",
+          "10 ポイント",
+          "15 ポイント",
+          "25 ポイント",
+          "ジャガノート キル ポイント",
+          "ジャガノートとして敵を倒すと獲得できるポイント",
+          "セーフ タイム",
+          "新しいジャガノートは難易度が高い",
+          "オフ",
+          "1 秒",
+          "5 秒",
+          "10 秒",
+          "15 秒",
+          "25 秒",
+          "30 秒",
+          "ｼﾞｬｶﾞﾉｰﾄ ﾀｲﾑ",
+          "ジャガノートを倒せ\r\n%n ポイントで勝利",
+          "ジャガノートを倒せ",
+          "ジャガノートになった"
+        ],
+        [
+          "Moloch",
+          "juggernaut",
+          "ffa_only",
+          "Moloch-Eigenschaften",
+          "Auf den Moloch angewendete Eigenschaften.",
+          "Neue Moloch-Eigenschaften",
+          "Während der sicheren Zeit auf den Moloch angewendete Eigenschaften.",
+          "Volltreffer-Punkte",
+          "Punkte für das ausschalten eines Gegners.",
+          "-5 Punkte",
+          "",
+          "-1 Punkt",
+          "keine Punkte",
+          "1 Punkt",
+          "5 Punkte",
+          "10 Punkte",
+          "15 Punkte",
+          "25 Punkte",
+          "Moloch-Volltreffer-Punkte",
+          "Punkte für das Ausschalten eines Gegners als Moloch.",
+          "Sichere Zeit",
+          "Neue Moloche sind während dieser Zeit unbesiegbar",
+          "Deaktiviert",
+          "1 Sekunde",
+          "5 Sekunden",
+          "10 Sekunden",
+          "15 Sekunden",
+          "25 Sekunden",
+          "30 Sekunden",
+          "Moloch-Zeit",
+          "Schalten Sie den Moloch aus.\r\n%n Punkte zum Sieg.",
+          "Schalten Sie den Moloch aus.",
+          "Sie sind der Moloch!"
+        ],
+        [
+          "Mastodonte",
+          "juggernaut",
+          "ffa_only",
+          "Caractéristiques du Mastodonte",
+          "Caractéristiques appliquées au Mastodonte.",
+          "Caractéristiques nouveau Mastodonte",
+          "Caractéristiques appliquées au Mastodonte en période d'invincibilité.",
+          "Points de frag",
+          "Points pour tuer un ennemi.",
+          "-5 points",
+          "",
+          "-1 point",
+          "aucun point",
+          "1 point",
+          "5 points",
+          "10 points",
+          "15 points",
+          "25 points",
+          "Points de frag Mastodonte",
+          "Points pour tuer un ennemi en tant que Mastodonte.",
+          "Période d'invincibilité",
+          "Les nouveaux mastodontes sont invincibles durant cette période.",
+          "Désactivé",
+          "1 seconde",
+          "5 secondes",
+          "10 secondes",
+          "15 secondes",
+          "25 secondes",
+          "30 secondes",
+          "Temps Mastodonte",
+          "Éliminez le Mastodonte.\r\n%n points pour gagner.",
+          "Tuez le Mastodonte",
+          "Vous êtes le Mastodonte"
+        ],
+        [
+          "Juggernaut",
+          "juggernaut",
+          "ffa_only",
+          "Rasgos de juggernaut",
+          "Rasgos aplicados al juggernaut.",
+          "Rasgos de nuevo juggernaut",
+          "Rasgos aplicados al juggernaut durante el tiempo de seguridad.",
+          "Puntos por abatido",
+          "Puntos por matar a un enemigo.",
+          "-5 puntos",
+          "",
+          "-1 punto",
+          "ningún punto",
+          "1 punto",
+          "5 puntos",
+          "10 puntos",
+          "15 puntos",
+          "25 puntos",
+          "Puntos por matar juggernaut",
+          "Puntos por matar a un enemigo como juggernaut.",
+          "Tiempo de seguridad",
+          "Los nuevos juggernauts son invencibles durante este tiempo.",
+          "Desactivado",
+          "1 segundo",
+          "5 segundos",
+          "10 segundos",
+          "15 segundos",
+          "25 segundos",
+          "30 segundos",
+          "Tiempo de juggernaut",
+          "Mata al juggernaut.\r\n%n puntos para ganar.",
+          "Mata al juggernaut.",
+          "Eres el juggernaut."
+        ],
+        [
+          "Juggernaut",
+          "juggernaut",
+          "ffa_only",
+          "Rasgos de juggernaut",
+          "Rasgos aplicados al juggernaut.",
+          "Rasgos de nuevo juggernaut",
+          "Rasgos aplicados al juggernaut durante el tiempo de seguridad.",
+          "Puntos por abatido",
+          "Puntos por matar a un enemigo.",
+          "-5 puntos",
+          "",
+          "-1 punto",
+          "ningún punto",
+          "1 punto",
+          "5 puntos",
+          "10 puntos",
+          "15 puntos",
+          "25 puntos",
+          "Puntos por matar juggernaut",
+          "Puntos por matar a un enemigo como juggernaut.",
+          "Tiempo de seguridad",
+          "Los nuevos juggernauts son invencibles durante este tiempo.",
+          "Desactivado",
+          "1 segundo",
+          "5 segundos",
+          "10 segundos",
+          "15 segundos",
+          "25 segundos",
+          "30 segundos",
+          "Tiempo de juggernaut",
+          "Mata al juggernaut.\r\n%n puntos para ganar.",
+          "Mata al juggernaut.",
+          "Eres el juggernaut."
+        ],
+        [
+          "Juggernaut",
+          "juggernaut",
+          "ffa_only",
+          "Elementi Juggernaut",
+          "Elementi applicati al Juggernaut.",
+          "Nuovi elementi Juggernaut",
+          "Elementi applicati al Juggernaut durante il Tempo invulnerabilità.",
+          "Punti uccisione",
+          "Punti per l'uccisione di un nemico.",
+          "-5 punti",
+          "",
+          "-1 punto",
+          "nessun punto",
+          "1 punto",
+          "5 punti",
+          "10 punti",
+          "15 punti",
+          "25 punti",
+          "Punti uccisione Juggernaut",
+          "Punti per l'uccisione di un nemico nei panni del Juggernaut.",
+          "Tempo invulnerabilità",
+          "I nuovi juggernaut sono invincibili in questo lasso di tempo.",
+          "No",
+          "1 secondo",
+          "5 secondi",
+          "10 secondi",
+          "15 secondi",
+          "25 secondi",
+          "30 secondi",
+          "Tempo Jug.",
+          "Uccidi il Juggernaut.\r\n%n punti per vincere.",
+          "Uccidi il Juggernaut",
+          "Sei il Juggernaut."
+        ],
+        [
+          "Juggernaut",
+          "juggernaut",
+          "ffa_only",
+          "저그너트 특성",
+          "저그너트에게 적용되는 특성입니다.",
+          "새 저그너트 특성",
+          "무적 시간 동안 저그너트에게 적용되는 특성입니다.",
+          "사살",
+          "적 한 명을 죽일 때 획득하는 점수입니다.",
+          "-5점",
+          "",
+          "-1점",
+          "0점",
+          "1점",
+          "5점",
+          "10점",
+          "15점",
+          "25점",
+          "저그너트 사살",
+          "저그너트가 적을 죽이면 획득하는 점수입니다.",
+          "무적 시간",
+          "새 저그너트는 이 시간 동안 무적입니다.",
+          "설정 해제됨",
+          "1초",
+          "5초",
+          "10초",
+          "15초",
+          "25초",
+          "30초",
+          "저그너트 시간",
+          "저그너트를 죽이십시오.\r\n%n점을 획득하면 승리합니다.",
+          "저그너트를 죽이십시오.",
+          "저그너트가 됨"
+        ],
+        [
+          "毀滅之王",
+          "juggernaut",
+          "ffa_only",
+          "毀滅之王能力",
+          "毀滅之王所具有的能力。",
+          "新毀滅之王能力",
+          "毀滅之王在安全時間內所具有的能力。",
+          "殺敵分數",
+          "擊殺敵人所獲得的分數。",
+          "-5 分",
+          "",
+          "-1 分",
+          "無分數",
+          "1 分",
+          "5 分",
+          "10 分",
+          "15 分",
+          "25 分",
+          "毀滅之王殺敵分數",
+          "扮演毀滅之王殺死敵人所獲得的分數。",
+          "安全時間",
+          "新毀滅之王在這段時間無敵。",
+          "停用",
+          "1 秒",
+          "5 秒",
+          "10 秒",
+          "15 秒",
+          "25 秒",
+          "30 秒",
+          "毀滅時間",
+          "殺死毀滅之王。\r\n%n 分獲勝。",
+          "殺死毀滅之王。",
+          "你是毀滅之王"
+        ],
+        [
+          null,
+          "juggernaut",
+          "ffa_only",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Juggernaut",
+          "juggernaut",
+          "ffa_only",
+          "Traços do juggernaut",
+          "Traços aplicados ao Juggernaut.",
+          "Traços do Juggernaut novo",
+          "Traços aplicados ao Juggernaut durante Tempo seguro.",
+          "Pontos por abate",
+          "Pontos por matar o inimigo.",
+          "-5 pontos",
+          "",
+          "-1 ponto",
+          "nenhum ponto",
+          "1 ponto",
+          "5 pontos",
+          "10 pontos",
+          "15 pontos",
+          "25 pontos",
+          "Ptos. por mortes de Jug.",
+          "Pontos por matar um inimigo como o Juggernaut.",
+          "Tempo seguro",
+          "Novos juggernauts são invencíveis por este tempo.",
+          "Desabilitado",
+          "1 segundo",
+          "5 segundos",
+          "10 segundos",
+          "15 segundos",
+          "25 segundos",
+          "30 segundos",
+          "Tempo Juggernaut",
+          "Mate o Juggernaut.\r\n%n pontos para ganhar.",
+          "Mate o Juggernaut.",
+          "Você é o Juggernaut"
+        ],
+        [
+          null,
+          "juggernaut",
+          "ffa_only",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "m_base_name_string_index": 1,
+    "m_localized_name": {
+      "strings": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "m_localized_description": {
+      "strings": [
+        [
+          "If you meet the Juggernaut, kill the Juggernaut."
+        ],
+        [
+          "ジャガノートを見つけ次第、倒しまくろう"
+        ],
+        [
+          "Wenn Sie dem Moloch begegnen, eliminieren Sie ihn."
+        ],
+        [
+          "Si vous rencontrez le Mastodonte, éliminez-le."
+        ],
+        [
+          "Si te encuentras con el juggernaut, mata al juggernaut."
+        ],
+        [
+          "Si te encuentras con el juggernaut, mata al juggernaut."
+        ],
+        [
+          "Se incontri il Juggernaut, ammazzalo."
+        ],
+        [
+          "저그너트를 만나면 죽이십시오."
+        ],
+        [
+          "如果遇到毀滅之王，請殺死他。"
+        ],
+        [
+          null
+        ],
+        [
+          "Se você encontrar o Juggernaut, mate-o."
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    "m_localized_category": {
+      "strings": [
+        [
+          "Juggernaut"
+        ],
+        [
+          "Juggernaut"
+        ],
+        [
+          "Moloch"
+        ],
+        [
+          "Mastodonte"
+        ],
+        [
+          "Juggernaut"
+        ],
+        [
+          "Juggernaut"
+        ],
+        [
+          "Juggernaut"
+        ],
+        [
+          "Juggernaut"
+        ],
+        [
+          "毀滅之王"
+        ],
+        [
+          null
+        ],
+        [
+          "Juggernaut"
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    "m_engine_icon": 5,
+    "m_engine_category": 5,
+    "m_map_permissions": {
+      "m_except_map_ids": [],
+      "m_allow_by_default": true
+    },
+    "m_player_ratings": {
+      "m_rating_scale": 1.0,
+      "m_kill_weight": 1.0,
+      "m_assist_weight": 1.0,
+      "m_betrayal_weight": 1.0,
+      "m_death_weight": 0.33,
+      "m_normalize_by_max_kills": 1.0,
+      "m_base": 1000.0,
+      "m_range": 1000.0,
+      "m_loss_scalar": 0.96,
+      "m_custom_stat_0": 0.0,
+      "m_custom_stat_1": 0.0,
+      "m_custom_stat_2": 0.0,
+      "m_custom_stat_3": 0.0,
+      "m_expansion_0": 0.0,
+      "m_expansion_1": 0.0,
+      "m_show_in_scoreboard": false
+    },
+    "m_score_to_win_round": 150,
+    "m_fire_teams_enabled": false,
+    "m_symmetric_gametype": true,
+    "m_base_variant_parameters_locked": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "m_base_variant_parameters_hidden": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "m_user_defined_options_locked": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "m_user_defined_options_hidden": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "m_game_engine": {
+      "m_conditions": [
+        {
+          "m_type": 15,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_player_reference_1": {
+            "m_type": 0,
+            "m_player": {
+              "m_explicit_player_type": 25
+            }
+          }
+        },
+        {
+          "m_type": 15,
+          "m_negated": true,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_player_reference_1": {
+            "m_type": 0,
+            "m_player": {
+              "m_explicit_player_type": 25
+            }
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 16
+              }
+            },
+            "m_right": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 0
+              }
+            },
+            "m_comparison": 5
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 16
+              }
+            },
+            "m_right": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 0
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 1,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_right": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 0
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 1,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": true,
+          "m_union_group": 1,
+          "m_execute_before_action": 2,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 2
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 0
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 5,
+          "m_negated": false,
+          "m_union_group": 2,
+          "m_execute_before_action": 3,
+          "m_timer": {
+            "m_type": "player",
+            "m_player": {
+              "m_explicit_player_type": 25
+            },
+            "m_variable_index": 0
+          }
+        },
+        {
+          "m_type": 5,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_timer": {
+            "m_type": "global",
+            "m_variable_index": 1
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": true,
+          "m_union_group": 1,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 0
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 12,
+          "m_negated": true,
+          "m_union_group": 2,
+          "m_execute_before_action": 0,
+          "m_player_reference_1": {
+            "m_type": 0,
+            "m_player": {
+              "m_explicit_player_type": 17
+            }
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 20
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 18
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 1,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 19
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 20
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 1,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 19
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 0
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": true,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 4,
+                "m_variable_index": 2
+              }
+            },
+            "m_right": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 1
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 1,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 19
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 18
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 3,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 4,
+          "m_player_died_parameters": {
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 25
+              }
+            },
+            "m_killer_type": 31
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 1,
+          "m_execute_before_action": 7,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 18
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": true,
+          "m_union_group": 2,
+          "m_execute_before_action": 7,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 4,
+                "m_variable_index": 2
+              }
+            },
+            "m_right": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 1
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 5,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_timer": {
+            "m_type": "global",
+            "m_variable_index": 1
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 1,
+          "m_execute_before_action": 2,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 0
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": true,
+          "m_union_group": 2,
+          "m_execute_before_action": 2,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 18
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": true,
+          "m_union_group": 3,
+          "m_execute_before_action": 3,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 3
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 0
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 8,
+          "m_negated": true,
+          "m_union_group": 4,
+          "m_execute_before_action": 3,
+          "m_object_reference_1": {
+            "m_type": 4,
+            "m_player": {
+              "m_explicit_player_type": 25
+            }
+          }
+        },
+        {
+          "m_type": 5,
+          "m_negated": true,
+          "m_union_group": 0,
+          "m_execute_before_action": 5,
+          "m_timer": {
+            "m_type": "global",
+            "m_variable_index": 0
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 3,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 18
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": true,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 0
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": true,
+          "m_union_group": 1,
+          "m_execute_before_action": 2,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 2
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 0
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 6,
+          "m_negated": true,
+          "m_union_group": 2,
+          "m_execute_before_action": 2,
+          "m_object_reference_1": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 2
+            }
+          },
+          "m_object_type_reference": {
+            "m_object_type_index": 30
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": true,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 0
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 6,
+          "m_negated": true,
+          "m_union_group": 1,
+          "m_execute_before_action": 2,
+          "m_object_reference_1": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 2
+            }
+          },
+          "m_object_type_reference": {
+            "m_object_type_index": 30
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 2,
+                "m_object": {
+                  "m_explicit_object_type": 17
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_right": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 1
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 19
+              }
+            },
+            "m_right": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 0
+              }
+            },
+            "m_comparison": 1
+          }
+        },
+        {
+          "m_type": 5,
+          "m_negated": false,
+          "m_union_group": 1,
+          "m_execute_before_action": 0,
+          "m_timer": {
+            "m_type": "round"
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 1,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": true,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 0
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 1,
+          "m_execute_before_action": 1,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 2
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 0
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        },
+        {
+          "m_type": 1,
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 1,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 2
+                }
+              }
+            },
+            "m_right": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 0
+                }
+              }
+            },
+            "m_comparison": 2
+          }
+        }
+      ],
+      "m_actions": [
+        {
+          "m_type": "set_player_loadout_palette",
+          "m_set_loadout_palette_parameters": {
+            "m_target": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_loadout_palette_index": 2
+          }
+        },
+        {
+          "m_type": "set_player_loadout_palette",
+          "m_set_loadout_palette_parameters": {
+            "m_target": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_loadout_palette_index": 1
+          }
+        },
+        {
+          "m_type": "run_nested_trigger",
+          "m_for_each_parameters": {
+            "m_trigger_index": 1
+          }
+        },
+        {
+          "m_type": "run_nested_trigger",
+          "m_for_each_parameters": {
+            "m_trigger_index": 2
+          }
+        },
+        {
+          "m_type": "set_timer_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 0
+            },
+            "m_rate": 5
+          }
+        },
+        {
+          "m_type": "set_timer_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 1
+            },
+            "m_rate": 5
+          }
+        },
+        {
+          "m_type": "set_objective_text",
+          "m_string": {
+            "m_string_index": 31,
+            "m_tokens": [
+              {
+                "m_type": 4,
+                "m_custom_variable": {
+                  "m_type": 16
+                }
+              }
+            ]
+          },
+          "m_player_1": {
+            "m_type": 0,
+            "m_player": {
+              "m_explicit_player_type": 25
+            }
+          }
+        },
+        {
+          "m_type": "set_objective_text",
+          "m_string": {
+            "m_string_index": 32,
+            "m_tokens": []
+          },
+          "m_player_1": {
+            "m_type": 0,
+            "m_player": {
+              "m_explicit_player_type": 25
+            }
+          }
+        },
+        {
+          "m_type": "run_nested_trigger",
+          "m_for_each_parameters": {
+            "m_trigger_index": 5
+          }
+        },
+        {
+          "m_type": "run_nested_trigger",
+          "m_for_each_parameters": {
+            "m_trigger_index": 6
+          }
+        },
+        {
+          "m_type": "send_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 64,
+            "m_target_1": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_target_2": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 1,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "set_timer_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": 25
+              },
+              "m_variable_index": 0
+            },
+            "m_rate": 0
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 2
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 4,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "set_timer_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": 25
+              },
+              "m_variable_index": 0
+            },
+            "m_rate": 5
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 11,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                },
+                "m_statistic_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": 0
+          }
+        },
+        {
+          "m_type": "reset_timer",
+          "m_timer": {
+            "m_type": "player",
+            "m_player": {
+              "m_explicit_player_type": 25
+            },
+            "m_variable_index": 0
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 0
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "reset_timer",
+          "m_timer": {
+            "m_type": "global",
+            "m_variable_index": 1
+          }
+        },
+        {
+          "m_type": "set_timer_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 1
+            },
+            "m_rate": 5
+          }
+        },
+        {
+          "m_type": "reset_timer",
+          "m_timer": {
+            "m_type": "global",
+            "m_variable_index": 1
+          }
+        },
+        {
+          "m_type": "set_timer_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 1
+            },
+            "m_rate": 5
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 4,
+                "m_variable_index": 2
+              }
+            },
+            "m_variable_2": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "set_score",
+          "m_set_score_parameters": {
+            "m_target": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 19
+                }
+              }
+            },
+            "m_operation": 0,
+            "m_variable": {
+              "m_type": 5,
+              "m_option_index": 1
+            }
+          }
+        },
+        {
+          "m_type": "send_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 65,
+            "m_target_1": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 19
+                }
+              }
+            },
+            "m_target_2": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 20
+                }
+              }
+            }
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 18
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 19
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 0
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 20
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 4,
+                "m_variable_index": 2
+              }
+            },
+            "m_variable_2": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 0
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "get_killer",
+          "m_player_1": {
+            "m_type": 0,
+            "m_player": {
+              "m_explicit_player_type": 25
+            }
+          },
+          "m_player_2": {
+            "m_type": 0,
+            "m_player": {
+              "m_explicit_player_type": 19
+            }
+          }
+        },
+        {
+          "m_type": "run_nested_trigger",
+          "m_for_each_parameters": {
+            "m_trigger_index": 11
+          }
+        },
+        {
+          "m_type": "run_nested_trigger",
+          "m_for_each_parameters": {
+            "m_trigger_index": 12
+          }
+        },
+        {
+          "m_type": "set_score",
+          "m_set_score_parameters": {
+            "m_target": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 19
+                }
+              }
+            },
+            "m_operation": 0,
+            "m_variable": {
+              "m_type": 5,
+              "m_option_index": 0
+            }
+          }
+        },
+        {
+          "m_type": "send_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 67,
+            "m_target_1": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 19
+                }
+              }
+            },
+            "m_target_2": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 18
+                }
+              }
+            }
+          }
+        },
+        {
+          "m_type": "set_objective_text",
+          "m_string": {
+            "m_string_index": 31,
+            "m_tokens": [
+              {
+                "m_type": 4,
+                "m_custom_variable": {
+                  "m_type": 16
+                }
+              }
+            ]
+          },
+          "m_player_1": {
+            "m_type": 0,
+            "m_player": {
+              "m_explicit_player_type": 18
+            }
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 19
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "send_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 152,
+            "m_target_1": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_target_2": {
+              "m_target": 2
+            }
+          }
+        },
+        {
+          "m_type": "reset_timer",
+          "m_timer": {
+            "m_type": "global",
+            "m_variable_index": 0
+          }
+        },
+        {
+          "m_type": "set_timer_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 0
+            },
+            "m_rate": 5
+          }
+        },
+        {
+          "m_type": "remove_weapon_from",
+          "m_biped_drop_weapon_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_primary": true,
+            "m_delete_on_drop": false
+          }
+        },
+        {
+          "m_type": "remove_weapon_from",
+          "m_biped_drop_weapon_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_primary": false,
+            "m_delete_on_drop": false
+          }
+        },
+        {
+          "m_type": "add_weapon_to_biped",
+          "m_biped_give_weapon_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_object_type": {
+              "m_object_type_index": 30
+            },
+            "m_mode": 2
+          }
+        },
+        {
+          "m_type": "modify_object_shields",
+          "m_vitality_adjustment_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_operation": 4,
+            "m_variable": {
+              "m_type": 0,
+              "m_immediate_value": 200
+            }
+          }
+        },
+        {
+          "m_type": "modify_player_grenades",
+          "m_adjust_grenades_parameters": {
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_grenade_type": 0,
+            "m_math_operation": 4,
+            "m_variable": {
+              "m_type": 0,
+              "m_immediate_value": 0
+            }
+          }
+        },
+        {
+          "m_type": "modify_player_grenades",
+          "m_adjust_grenades_parameters": {
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_grenade_type": 1,
+            "m_math_operation": 4,
+            "m_variable": {
+              "m_type": 0,
+              "m_immediate_value": 0
+            }
+          }
+        },
+        {
+          "m_type": "delete_object",
+          "m_object": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 1
+            }
+          }
+        },
+        {
+          "m_type": "place_at_me",
+          "m_create_object_parameters": {
+            "m_object_type": {
+              "m_object_type_index": 141
+            },
+            "m_object_reference_1": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_filter_index": -1,
+            "m_flags": 1,
+            "m_offset": 0,
+            "m_variant_name_index": 0
+          }
+        },
+        {
+          "m_type": "attach_objects",
+          "m_object_attach_parameters": {
+            "m_object_1": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            },
+            "m_object_2": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_offset": 5,
+            "m_absolute_orientation": false
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 18
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 2
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 4,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 3
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 4,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "send_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 152,
+            "m_target_1": {
+              "m_target": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_target_2": {
+              "m_target": 2
+            }
+          }
+        },
+        {
+          "m_type": "remove_weapon_from",
+          "m_biped_drop_weapon_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_primary": true,
+            "m_delete_on_drop": false
+          }
+        },
+        {
+          "m_type": "remove_weapon_from",
+          "m_biped_drop_weapon_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_primary": false,
+            "m_delete_on_drop": false
+          }
+        },
+        {
+          "m_type": "add_weapon_to_biped",
+          "m_biped_give_weapon_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_object_type": {
+              "m_object_type_index": 30
+            },
+            "m_mode": 2
+          }
+        },
+        {
+          "m_type": "modify_object_shields",
+          "m_vitality_adjustment_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_operation": 4,
+            "m_variable": {
+              "m_type": 0,
+              "m_immediate_value": 200
+            }
+          }
+        },
+        {
+          "m_type": "modify_player_grenades",
+          "m_adjust_grenades_parameters": {
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_grenade_type": 0,
+            "m_math_operation": 4,
+            "m_variable": {
+              "m_type": 0,
+              "m_immediate_value": 0
+            }
+          }
+        },
+        {
+          "m_type": "modify_player_grenades",
+          "m_adjust_grenades_parameters": {
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_grenade_type": 1,
+            "m_math_operation": 4,
+            "m_variable": {
+              "m_type": 0,
+              "m_immediate_value": 0
+            }
+          }
+        },
+        {
+          "m_type": "reset_timer",
+          "m_timer": {
+            "m_type": "global",
+            "m_variable_index": 0
+          }
+        },
+        {
+          "m_type": "set_timer_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 0
+            },
+            "m_rate": 5
+          }
+        },
+        {
+          "m_type": "delete_object",
+          "m_object": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 1
+            }
+          }
+        },
+        {
+          "m_type": "place_at_me",
+          "m_create_object_parameters": {
+            "m_object_type": {
+              "m_object_type_index": 141
+            },
+            "m_object_reference_1": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_filter_index": -1,
+            "m_flags": 1,
+            "m_offset": 0,
+            "m_variant_name_index": 0
+          }
+        },
+        {
+          "m_type": "attach_objects",
+          "m_object_attach_parameters": {
+            "m_object_1": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 1
+              }
+            },
+            "m_object_2": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_offset": 5,
+            "m_absolute_orientation": false
+          }
+        },
+        {
+          "m_type": "set_waypoint_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 25
+              }
+            },
+            "m_navpoint_icon": 0
+          }
+        },
+        {
+          "m_type": "set_waypoint_priority",
+          "m_navpoint_set_priority_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 25
+              }
+            },
+            "m_priority": 0
+          }
+        },
+        {
+          "m_type": "run_nested_trigger",
+          "m_for_each_parameters": {
+            "m_trigger_index": 15
+          }
+        },
+        {
+          "m_type": "apply_player_traits",
+          "m_apply_player_traits_parameters": {
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_trait_index": 0
+          }
+        },
+        {
+          "m_type": "set_waypoint_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_navpoint_icon": 4
+          }
+        },
+        {
+          "m_type": "set_waypoint_priority",
+          "m_navpoint_set_priority_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_priority": 2
+          }
+        },
+        {
+          "m_type": "set_objective_text",
+          "m_string": {
+            "m_string_index": 33,
+            "m_tokens": []
+          },
+          "m_player_1": {
+            "m_type": 0,
+            "m_player": {
+              "m_explicit_player_type": 17
+            }
+          }
+        },
+        {
+          "m_type": "apply_player_traits",
+          "m_apply_player_traits_parameters": {
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_trait_index": 1
+          }
+        },
+        {
+          "m_type": "set_waypoint_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_navpoint_icon": 8
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 2,
+                "m_object": {
+                  "m_explicit_object_type": 17
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 18
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 0
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "get_carrier",
+          "m_object": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 17
+            }
+          },
+          "m_player_1": {
+            "m_type": 0,
+            "m_player": {
+              "m_explicit_player_type": 18
+            }
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 2,
+                "m_object": {
+                  "m_explicit_object_type": 17
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": 0,
+              "m_custom_variable": {
+                "m_type": 0,
+                "m_immediate_value": 0
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 2
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 0
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "get_player_weapon",
+          "m_player_get_weapon_parameters": {
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_primary": false,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 2
+              }
+            }
+          }
+        },
+        {
+          "m_type": "remove_weapon_from",
+          "m_biped_drop_weapon_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_primary": false,
+            "m_delete_on_drop": false
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 2
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 0
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "get_player_weapon",
+          "m_player_get_weapon_parameters": {
+            "m_player": {
+              "m_type": 0,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_primary": true,
+            "m_object": {
+              "m_type": 0,
+              "m_object": {
+                "m_explicit_object_type": 2
+              }
+            }
+          }
+        },
+        {
+          "m_type": "add_weapon_to_biped",
+          "m_biped_give_weapon_parameters": {
+            "m_object": {
+              "m_type": 4,
+              "m_player": {
+                "m_explicit_player_type": 17
+              }
+            },
+            "m_object_type": {
+              "m_object_type_index": 30
+            },
+            "m_mode": 2
+          }
+        },
+        {
+          "m_type": "delete_object",
+          "m_object": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 17
+            }
+          }
+        },
+        {
+          "m_type": "end_round"
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 3,
+              "m_team": {
+                "m_type": 4,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 3,
+              "m_team": {
+                "m_type": 0,
+                "m_team": {
+                  "m_explicit_team_type": 1
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 3,
+              "m_team": {
+                "m_type": 4,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 3,
+              "m_team": {
+                "m_type": 0,
+                "m_team": {
+                  "m_explicit_team_type": 2
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 2
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 4,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 17
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 1,
+              "m_player": {
+                "m_type": 0,
+                "m_player": {
+                  "m_explicit_player_type": 0
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "delete_object",
+          "m_object": {
+            "m_type": 0,
+            "m_object": {
+              "m_explicit_object_type": 17
+            }
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 0,
+                "m_object": {
+                  "m_explicit_object_type": 2
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 2,
+              "m_object": {
+                "m_type": 4,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        },
+        {
+          "m_type": "modify_variable",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": 3,
+              "m_team": {
+                "m_type": 4,
+                "m_player": {
+                  "m_explicit_player_type": 25
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": 3,
+              "m_team": {
+                "m_type": 0,
+                "m_team": {
+                  "m_explicit_team_type": 0
+                }
+              }
+            },
+            "m_operation": 4
+          }
+        }
+      ],
+      "m_triggers": [
+        {
+          "m_execution_mode": "for_each_player",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 2,
+          "m_condition_count": 0,
+          "m_first_action": 2,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 0,
+          "m_condition_count": 1,
+          "m_first_action": 0,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 1,
+          "m_condition_count": 1,
+          "m_first_action": 1,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 2,
+          "m_condition_count": 0,
+          "m_first_action": 4,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "for_each_player",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 4,
+          "m_condition_count": 1,
+          "m_first_action": 8,
+          "m_action_count": 4
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 2,
+          "m_condition_count": 1,
+          "m_first_action": 6,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 3,
+          "m_condition_count": 1,
+          "m_first_action": 7,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "for_each_player",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 5,
+          "m_condition_count": 3,
+          "m_first_action": 12,
+          "m_action_count": 5
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 8,
+          "m_condition_count": 3,
+          "m_first_action": 17,
+          "m_action_count": 3
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "on_host_migration",
+          "m_object_filter_index": -1,
+          "m_first_condition": 11,
+          "m_condition_count": 0,
+          "m_first_action": 20,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "for_each_player",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 16,
+          "m_condition_count": 3,
+          "m_first_action": 25,
+          "m_action_count": 23
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 11,
+          "m_condition_count": 3,
+          "m_first_action": 22,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 14,
+          "m_condition_count": 2,
+          "m_first_action": 23,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "for_each_player_randomly",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 19,
+          "m_condition_count": 5,
+          "m_first_action": 48,
+          "m_action_count": 16
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 24,
+          "m_condition_count": 1,
+          "m_first_action": 66,
+          "m_action_count": 7
+        },
+        {
+          "m_execution_mode": "for_each_player",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 24,
+          "m_condition_count": 0,
+          "m_first_action": 64,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "for_each_object_with_label",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": 2,
+          "m_first_condition": 25,
+          "m_condition_count": 1,
+          "m_first_action": 73,
+          "m_action_count": 4
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 26,
+          "m_condition_count": 3,
+          "m_first_action": 77,
+          "m_action_count": 3
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 29,
+          "m_condition_count": 2,
+          "m_first_action": 80,
+          "m_action_count": 3
+        },
+        {
+          "m_execution_mode": "for_each_object_with_label",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": 2,
+          "m_first_condition": 31,
+          "m_condition_count": 1,
+          "m_first_action": 83,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "normal",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 32,
+          "m_condition_count": 2,
+          "m_first_action": 84,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "for_each_player",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 34,
+          "m_condition_count": 1,
+          "m_first_action": 85,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "for_each_player",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 35,
+          "m_condition_count": 2,
+          "m_first_action": 87,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "for_each_object_with_label",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": 5,
+          "m_first_condition": 37,
+          "m_condition_count": 0,
+          "m_first_action": 89,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "for_each_player",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 37,
+          "m_condition_count": 1,
+          "m_first_action": 90,
+          "m_action_count": 2
+        }
+      ],
+      "m_statistics": [
+        {
+          "m_name_string_index": 29,
+          "m_format": 3,
+          "m_sort_order": 1,
+          "m_growuping": 0
+        }
+      ],
+      "m_global_variable_metadata": {
+        "m_numeric_variables": [
+          [
+            {
+              "m_type": 0,
+              "m_immediate_value": 0
+            },
+            0
+          ],
+          [
+            {
+              "m_type": 0,
+              "m_immediate_value": 0
+            },
+            0
+          ],
+          [
+            {
+              "m_type": 0,
+              "m_immediate_value": 0
+            },
+            0
+          ]
+        ],
+        "m_timer_variables": [
+          {
+            "m_type": 5,
+            "m_option_index": 2
+          },
+          {
+            "m_type": 0,
+            "m_immediate_value": 5
+          }
+        ],
+        "m_team_variables": [],
+        "m_player_variables": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "m_object_variables": [
+          1,
+          0,
+          0
+        ]
+      },
+      "m_player_variable_metadata": {
+        "m_numeric_variables": [
+          [
+            {
+              "m_type": 0,
+              "m_immediate_value": 0
+            },
+            1
+          ]
+        ],
+        "m_timer_variables": [
+          {
+            "m_type": 0,
+            "m_immediate_value": 1
+          }
+        ],
+        "m_team_variables": [],
+        "m_player_variables": [],
+        "m_object_variables": []
+      },
+      "m_object_variable_metadata": {
+        "m_numeric_variables": [
+          [
+            {
+              "m_type": 0,
+              "m_immediate_value": 0
+            },
+            0
+          ]
+        ],
+        "m_timer_variables": [],
+        "m_team_variables": [],
+        "m_player_variables": [],
+        "m_object_variables": []
+      },
+      "m_team_variable_metadata": {
+        "m_numeric_variables": [],
+        "m_timer_variables": [],
+        "m_team_variables": [],
+        "m_player_variables": [],
+        "m_object_variables": []
+      },
+      "m_hud_widgets": [],
+      "m_initialization_trigger_index": 0,
+      "m_local_initialization_trigger_index": 0,
+      "m_host_migration_trigger_index": 10,
+      "m_double_migration_trigger_index": 0,
+      "m_object_death_event_trigger_index": 0,
+      "m_local_trigger_index": 0,
+      "m_pregame_trigger_index": 0,
+      "m_objects_used": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "m_object_filters": [
+        {
+          "m_label_string_index": 2,
+          "m_valid_parameters": 0,
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 3,
+          "m_valid_parameters": 0,
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 0,
+          "m_valid_parameters": 1,
+          "m_object_type": {
+            "m_object_type_index": 30
+          },
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 0,
+          "m_valid_parameters": 1,
+          "m_object_type": {
+            "m_object_type_index": 20
+          },
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 0,
+          "m_valid_parameters": 1,
+          "m_object_type": {
+            "m_object_type_index": 5
+          },
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 0,
+          "m_valid_parameters": 1,
+          "m_object_type": {
+            "m_object_type_index": 76
+          },
+          "m_min": 0
+        }
+      ]
+    }
+  }
+}
