@@ -4,15 +4,15 @@
       "weight": 100,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -24,22 +24,24 @@
         "unknown14": false
       },
       "map_id": 10080,
-      "game_name": "Fistfight",
-      "game_variant_file_name": "ff_arcade_fistfight"
+      "game_variant_file": {
+        "name": "Fistfight",
+        "file_name": "ff_arcade_fistfight"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -51,22 +53,24 @@
         "unknown14": false
       },
       "map_id": 10080,
-      "game_name": "Nadefight",
-      "game_variant_file_name": "ff_arcade_nadefight"
+      "game_variant_file": {
+        "name": "Nadefight",
+        "file_name": "ff_arcade_nadefight"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -78,22 +82,24 @@
         "unknown14": false
       },
       "map_id": 10080,
-      "game_name": "Rocketfight",
-      "game_variant_file_name": "ff_arcade_rocketfight"
+      "game_variant_file": {
+        "name": "Rocketfight",
+        "file_name": "ff_arcade_rocketfight"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -105,22 +111,24 @@
         "unknown14": false
       },
       "map_id": 10080,
-      "game_name": "Sniperfight",
-      "game_variant_file_name": "ff_arcade_sniperfight"
+      "game_variant_file": {
+        "name": "Sniperfight",
+        "file_name": "ff_arcade_sniperfight"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -132,22 +140,24 @@
         "unknown14": false
       },
       "map_id": 10080,
-      "game_name": "FRGfight",
-      "game_variant_file_name": "ff_arcade_frgfight"
+      "game_variant_file": {
+        "name": "FRGfight",
+        "file_name": "ff_arcade_frgfight"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -159,22 +169,24 @@
         "unknown14": false
       },
       "map_id": 10080,
-      "game_name": "Plasmafight",
-      "game_variant_file_name": "ff_arcade_plasmafight"
+      "game_variant_file": {
+        "name": "Plasmafight",
+        "file_name": "ff_arcade_plasmafight"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -186,22 +198,24 @@
         "unknown14": false
       },
       "map_id": 10080,
-      "game_name": "Fiestafight",
-      "game_variant_file_name": "ff_arcade_fiestafight"
+      "game_variant_file": {
+        "name": "Fiestafight",
+        "file_name": "ff_arcade_fiestafight"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -213,22 +227,24 @@
         "unknown14": false
       },
       "map_id": 10080,
-      "game_name": "Arcadefight",
-      "game_variant_file_name": "ff_arcade_arcadefight"
+      "game_variant_file": {
+        "name": "Arcadefight",
+        "file_name": "ff_arcade_arcadefight"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -240,22 +256,24 @@
         "unknown14": false
       },
       "map_id": 10080,
-      "game_name": "FF Limited NEP",
-      "game_variant_file_name": "ff_ltd_geb"
+      "game_variant_file": {
+        "name": "FF Limited NEP",
+        "file_name": "ff_ltd_geb"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -267,8 +285,10 @@
         "unknown14": false
       },
       "map_id": 10080,
-      "game_name": "Arcadefight NEP",
-      "game_variant_file_name": "ff_arcade_geb"
+      "game_variant_file": {
+        "name": "Arcadefight NEP",
+        "file_name": "ff_arcade_geb"
+      }
     }
   ]
 }

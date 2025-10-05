@@ -4,15 +4,15 @@
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -24,24 +24,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Pinwheel",
-      "map_variant_file_name": "forgeworld_grif_pinwheel"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Pinwheel",
+        "file_name": "forgeworld_grif_pinwheel"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -53,24 +57,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Bloody Grifball",
-      "map_variant_file_name": "forgeworld_grif_bloody_grifball"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Bloody Grifball",
+        "file_name": "forgeworld_grif_bloody_grifball"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -82,24 +90,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Oracles Revenge",
-      "map_variant_file_name": "forgeworld_grif_oracles_revenge"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Oracles Revenge",
+        "file_name": "forgeworld_grif_oracles_revenge"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -111,24 +123,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Alembic Gold",
-      "map_variant_file_name": "forgeworld_grif_alembic_gold"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Alembic Gold",
+        "file_name": "forgeworld_grif_alembic_gold"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -140,24 +156,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Erora",
-      "map_variant_file_name": "forgeworld_grif_erora"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Erora",
+        "file_name": "forgeworld_grif_erora"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -169,24 +189,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Belle Court",
-      "map_variant_file_name": "forgeworld_grif_belle_court"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Belle Court",
+        "file_name": "forgeworld_grif_belle_court"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -198,24 +222,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Manhattan Prjct",
-      "map_variant_file_name": "forgeworld_grif_m_project"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Manhattan Prjct",
+        "file_name": "forgeworld_grif_m_project"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -227,24 +255,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Brightside",
-      "map_variant_file_name": "forgeworld_grif_brightside"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Brightside",
+        "file_name": "forgeworld_grif_brightside"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -256,24 +288,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Omega Temple",
-      "map_variant_file_name": "forgeworld_grif_omega_temple"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Omega Temple",
+        "file_name": "forgeworld_grif_omega_temple"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -285,24 +321,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "The Vault",
-      "map_variant_file_name": "forgeworld_grif_the_vault"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "The Vault",
+        "file_name": "forgeworld_grif_the_vault"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -314,24 +354,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "GB Foundry",
-      "map_variant_file_name": "forgeworld_grif_gb_foundry"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "GB Foundry",
+        "file_name": "forgeworld_grif_gb_foundry"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -343,24 +387,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Methodical",
-      "map_variant_file_name": "forgeworld_grif_methodical"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Methodical",
+        "file_name": "forgeworld_grif_methodical"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -372,24 +420,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Impact Arena",
-      "map_variant_file_name": "forgeworld_grif_impact_arena"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Impact Arena",
+        "file_name": "forgeworld_grif_impact_arena"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -401,24 +453,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Illuminati",
-      "map_variant_file_name": "forgeworld_grif_illuminati"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Illuminati",
+        "file_name": "forgeworld_grif_illuminati"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -430,24 +486,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball",
-      "game_variant_file_name": "grifball_vanilla",
-      "map_name": "Federation Sq.",
-      "map_variant_file_name": "grif_federation_square"
+      "game_variant_file": {
+        "name": "Grifball",
+        "file_name": "grifball_vanilla"
+      },
+      "map_variant_file": {
+        "name": "Federation Sq.",
+        "file_name": "grif_federation_square"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -459,24 +519,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball Dash",
-      "game_variant_file_name": "grifball_dash",
-      "map_name": "Cliffside",
-      "map_variant_file_name": "forgeworld_grif_cliffside"
+      "game_variant_file": {
+        "name": "Grifball Dash",
+        "file_name": "grifball_dash"
+      },
+      "map_variant_file": {
+        "name": "Cliffside",
+        "file_name": "forgeworld_grif_cliffside"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -488,24 +552,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball Dash",
-      "game_variant_file_name": "grifball_dash",
-      "map_name": "Concave Arena",
-      "map_variant_file_name": "forgeworld_grif_concave_arena"
+      "game_variant_file": {
+        "name": "Grifball Dash",
+        "file_name": "grifball_dash"
+      },
+      "map_variant_file": {
+        "name": "Concave Arena",
+        "file_name": "forgeworld_grif_concave_arena"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -517,24 +585,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball Dash",
-      "game_variant_file_name": "grifball_dash",
-      "map_name": "The View",
-      "map_variant_file_name": "forgeworld_grif_the_view"
+      "game_variant_file": {
+        "name": "Grifball Dash",
+        "file_name": "grifball_dash"
+      },
+      "map_variant_file": {
+        "name": "The View",
+        "file_name": "forgeworld_grif_the_view"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -546,24 +618,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball Dash",
-      "game_variant_file_name": "grifball_dash",
-      "map_name": "High Tide",
-      "map_variant_file_name": "forgeworld_grif_high_tide"
+      "game_variant_file": {
+        "name": "Grifball Dash",
+        "file_name": "grifball_dash"
+      },
+      "map_variant_file": {
+        "name": "High Tide",
+        "file_name": "forgeworld_grif_high_tide"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -575,24 +651,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball Dash",
-      "game_variant_file_name": "grifball_dash",
-      "map_name": "Sierra Vista",
-      "map_variant_file_name": "forgeworld_grif_sierra_vista"
+      "game_variant_file": {
+        "name": "Grifball Dash",
+        "file_name": "grifball_dash"
+      },
+      "map_variant_file": {
+        "name": "Sierra Vista",
+        "file_name": "forgeworld_grif_sierra_vista"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -604,24 +684,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball Dash",
-      "game_variant_file_name": "grifball_dash",
-      "map_name": "Temple Prime",
-      "map_variant_file_name": "forgeworld_grif_temple_prime"
+      "game_variant_file": {
+        "name": "Grifball Dash",
+        "file_name": "grifball_dash"
+      },
+      "map_variant_file": {
+        "name": "Temple Prime",
+        "file_name": "forgeworld_grif_temple_prime"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -633,24 +717,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Grifball Dash",
-      "game_variant_file_name": "grifball_dash",
-      "map_name": "Inspiration",
-      "map_variant_file_name": "forgeworld_grif_inspiration"
+      "game_variant_file": {
+        "name": "Grifball Dash",
+        "file_name": "grifball_dash"
+      },
+      "map_variant_file": {
+        "name": "Inspiration",
+        "file_name": "forgeworld_grif_inspiration"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -662,24 +750,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "ZealotBlargball",
-      "game_variant_file_name": "grifball_zealot_blargball",
-      "map_name": "The View",
-      "map_variant_file_name": "forgeworld_grif_the_view"
+      "game_variant_file": {
+        "name": "ZealotBlargball",
+        "file_name": "grifball_zealot_blargball"
+      },
+      "map_variant_file": {
+        "name": "The View",
+        "file_name": "forgeworld_grif_the_view"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -691,24 +783,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "ZealotBlargball",
-      "game_variant_file_name": "grifball_zealot_blargball",
-      "map_name": "High Tide",
-      "map_variant_file_name": "forgeworld_grif_high_tide"
+      "game_variant_file": {
+        "name": "ZealotBlargball",
+        "file_name": "grifball_zealot_blargball"
+      },
+      "map_variant_file": {
+        "name": "High Tide",
+        "file_name": "forgeworld_grif_high_tide"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -720,24 +816,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "ZealotBlargball",
-      "game_variant_file_name": "grifball_zealot_blargball",
-      "map_name": "Indomitable",
-      "map_variant_file_name": "forgeworld_grif_indo_cach"
+      "game_variant_file": {
+        "name": "ZealotBlargball",
+        "file_name": "grifball_zealot_blargball"
+      },
+      "map_variant_file": {
+        "name": "Indomitable",
+        "file_name": "forgeworld_grif_indo_cach"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -749,24 +849,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Blargball",
-      "game_variant_file_name": "grifball_blargball",
-      "map_name": "Clover X",
-      "map_variant_file_name": "forgeworld_grif_clover_x"
+      "game_variant_file": {
+        "name": "Blargball",
+        "file_name": "grifball_blargball"
+      },
+      "map_variant_file": {
+        "name": "Clover X",
+        "file_name": "forgeworld_grif_clover_x"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -778,24 +882,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Blargball",
-      "game_variant_file_name": "grifball_blargball",
-      "map_name": "Pyramid",
-      "map_variant_file_name": "forgeworld_grif_fore_pyra"
+      "game_variant_file": {
+        "name": "Blargball",
+        "file_name": "grifball_blargball"
+      },
+      "map_variant_file": {
+        "name": "Pyramid",
+        "file_name": "forgeworld_grif_fore_pyra"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -807,24 +915,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Jetpack",
-      "game_variant_file_name": "grifball_jetpack",
-      "map_name": "Heimdalls Might",
-      "map_variant_file_name": "forgeworld_grif_heimdalls_might"
+      "game_variant_file": {
+        "name": "Jetpack",
+        "file_name": "grifball_jetpack"
+      },
+      "map_variant_file": {
+        "name": "Heimdalls Might",
+        "file_name": "forgeworld_grif_heimdalls_might"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -836,24 +948,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Hand Egg GB",
-      "game_variant_file_name": "grifball_hand_egg",
-      "map_name": "Hyperbaric",
-      "map_variant_file_name": "forgeworld_grif_hyperbaric"
+      "game_variant_file": {
+        "name": "Hand Egg GB",
+        "file_name": "grifball_hand_egg"
+      },
+      "map_variant_file": {
+        "name": "Hyperbaric",
+        "file_name": "forgeworld_grif_hyperbaric"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -865,24 +981,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Jump Pack",
-      "game_variant_file_name": "grifball_jump_pack",
-      "map_name": "Get Off My Lawn",
-      "map_variant_file_name": "forgeworld_grif_get_off_my_lawn"
+      "game_variant_file": {
+        "name": "Jump Pack",
+        "file_name": "grifball_jump_pack"
+      },
+      "map_variant_file": {
+        "name": "Get Off My Lawn",
+        "file_name": "forgeworld_grif_get_off_my_lawn"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -894,24 +1014,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Blargball",
-      "game_variant_file_name": "grifball_blargball",
-      "map_name": "Exultant GFlect",
-      "map_variant_file_name": "forgeworld_grif_teg"
+      "game_variant_file": {
+        "name": "Blargball",
+        "file_name": "grifball_blargball"
+      },
+      "map_variant_file": {
+        "name": "Exultant GFlect",
+        "file_name": "forgeworld_grif_teg"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -923,10 +1047,14 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "Blargball",
-      "game_variant_file_name": "grifball_blargball",
-      "map_name": "Malice N Envy",
-      "map_variant_file_name": "forgeworld_grif_malice_n_envy"
+      "game_variant_file": {
+        "name": "Blargball",
+        "file_name": "grifball_blargball"
+      },
+      "map_variant_file": {
+        "name": "Malice N Envy",
+        "file_name": "forgeworld_grif_malice_n_envy"
+      }
     }
   ]
 }

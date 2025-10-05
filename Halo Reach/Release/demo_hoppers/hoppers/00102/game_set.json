@@ -4,15 +4,15 @@
       "weight": 12,
       "minimum_player_count": 4,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -24,24 +24,28 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "Slayer",
-      "game_variant_file_name": "slayer_ffa",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "Slayer",
+        "file_name": "slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     },
     {
       "weight": 6,
       "minimum_player_count": 4,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -53,24 +57,28 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "Slayer DMRs",
-      "game_variant_file_name": "slayer_ffa_dmr",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "Slayer DMRs",
+        "file_name": "slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     },
     {
       "weight": 12,
       "minimum_player_count": 4,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -82,24 +90,28 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "Headhunter",
-      "game_variant_file_name": "headhunter_default",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "Headhunter",
+        "file_name": "headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     },
     {
       "weight": 6,
       "minimum_player_count": 4,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -111,10 +123,14 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "Crazy King",
-      "game_variant_file_name": "koth_ffa_crazyking",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "Crazy King",
+        "file_name": "koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     }
   ]
 }

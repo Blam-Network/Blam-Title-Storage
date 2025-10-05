@@ -1954,7 +1954,7 @@
   },
   "crash_handling_configuration": {
     "display_crash_handling_ui": true,
-    "minidump_generation": "minidump_generation_regular"
+    "minidump_generation": "minidump_generation_minimini"
   },
   "lsp_configuration": {
     "port_range_start": 1011,
@@ -2495,7 +2495,7 @@
     "unknown1BF0": 393216.0,
     "unknown1BF4": 524288.0,
     "unknown1BF8": 0.5,
-    "url": "https://discord.gg/haloclassichub"
+    "url": "halo.xbox.com"
   },
   "experience_and_credits_configuration": {
     "player_rank_cap": 20,
@@ -2802,10 +2802,10 @@
     ]
   },
   "allow_bungie_pro_file_share_without_gold": true,
-  "router_url": "www.bungie.net/router",
-  "arena_url": "www.bungie.net/arena",
-  "invasion_url": "www.bungie.net/invasion",
-  "network_details_url": "www.bungie.net/network_details",
+  "router_url": "halo.xbox.com",
+  "arena_url": "halo.xbox.com",
+  "invasion_url": "halo.xbox.com",
+  "network_details_url": "halo.xbox.com",
   "dlc_paths": {
     "paths": [
       {

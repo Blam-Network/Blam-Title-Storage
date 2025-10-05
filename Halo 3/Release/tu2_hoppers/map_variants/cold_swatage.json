@@ -15,33 +15,33 @@
     "game_engine_type": 0,
     "campaign_difficulty": -1,
     "hopper_id": -1,
-    "game_id": 12
+    "game_id": 0
   },
-  "m_map_variant_version": 194,
-  "m_number_of_scenario_objects": 203,
-  "m_number_of_variant_objects": 103,
-  "m_number_of_placeable_object_quotas": 0,
-  "m_map_id": 39371142,
+  "m_map_variant_version": 12,
+  "m_number_of_scenario_objects": 194,
+  "m_number_of_variant_objects": 203,
+  "m_number_of_placeable_object_quotas": 103,
+  "m_map_id": 600,
   "m_world_bounds": {
     "x": {
-      "lower": 9.235225e20,
-      "upper": -108923464.0
+      "lower": -16.797989,
+      "upper": 25.600004
     },
     "y": {
-      "lower": -1.6569985e-23,
-      "upper": -110494590.0
+      "lower": -12.600006,
+      "upper": 12.800005
     },
     "z": {
-      "lower": -1.5304367e29,
-      "upper": 4.1347197e29
+      "lower": -3.7646463,
+      "upper": 14.090003
     }
   },
-  "m_game_engine_subtype": 672762,
-  "m_maximum_budget": 2.4063e-41,
-  "m_spent_budget": 0.0,
-  "m_helpers_enabled": true,
-  "m_built_in": true,
-  "m_original_map_rsa_signature_hash": "00000000",
+  "m_game_engine_subtype": 10,
+  "m_maximum_budget": 500.0,
+  "m_spent_budget": 148.0,
+  "m_helpers_enabled": false,
+  "m_built_in": false,
+  "m_original_map_rsa_signature_hash": "A468CD10",
   "m_variant_objects": [
     {
       "flags": 0,
@@ -81,15 +81,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -122,15 +122,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -163,15 +163,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -204,15 +204,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -245,15 +245,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -286,15 +286,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -327,15 +327,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -368,15 +368,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -409,97 +409,97 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2765134e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 139,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 27,
-      "variant_quota_index": 1052304473,
+      "editor_object_index": 0,
+      "variant_quota_index": 27,
       "position": {
-        "x": 5.196086,
-        "y": 0.3593459,
-        "z": 0.031665385
+        "x": 0.36111715,
+        "y": 5.196086,
+        "z": 0.3593459
       },
       "forward": {
-        "i": 0.02473361,
-        "j": -0.9991925,
-        "k": 0.9994734
+        "i": 0.031665385,
+        "j": 0.02473361,
+        "k": -0.9991925
       },
       "up": {
-        "i": -0.0078698695,
-        "j": 0.031479478,
-        "k": 0.0
+        "i": 0.9994734,
+        "j": -0.0078698695,
+        "k": 0.031479478
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 45,
-        "symmetry_placement_flags": 2,
-        "owner_team": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
         "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "spawn_time": 45,
+        "object_type": 2,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2765134e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 139,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 27,
-      "variant_quota_index": 1062959595,
+      "editor_object_index": 0,
+      "variant_quota_index": 27,
       "position": {
-        "x": 5.2073264,
-        "y": 0.35798356,
-        "z": 0.007871362
+        "x": 0.8573291,
+        "y": 5.2073264,
+        "z": 0.35798356
       },
       "forward": {
-        "i": -0.024734378,
-        "j": -0.99966305,
-        "k": 0.999969
+        "i": 0.007871362,
+        "j": -0.024734378,
+        "k": -0.99966305
       },
       "up": {
-        "i": 0.0,
-        "j": 0.007873772,
-        "k": 0.0
+        "i": 0.999969,
+        "j": 0.0,
+        "k": 0.007873772
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 45,
-        "symmetry_placement_flags": 2,
-        "owner_team": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
         "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "spawn_time": 45,
+        "object_type": 2,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -532,15 +532,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.5520199e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 169,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 26,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 26,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -573,15 +573,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.5520199e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 169,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 26,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 26,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -614,15 +614,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -655,179 +655,179 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2765134e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 139,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 26,
-      "variant_quota_index": 1091316474,
+      "editor_object_index": 0,
+      "variant_quota_index": 26,
       "position": {
-        "x": -4.021713,
-        "y": -0.45553568,
-        "z": -0.3789166
+        "x": 8.760492,
+        "y": -4.021713,
+        "z": -0.45553568
       },
       "forward": {
-        "i": 0.0,
-        "j": -0.9254309,
-        "k": 0.9254309
+        "i": -0.3789166,
+        "j": 0.0,
+        "k": -0.9254309
       },
       "up": {
-        "i": 0.0,
-        "j": -0.3789166,
-        "k": 0.0
+        "i": 0.9254309,
+        "j": 0.0,
+        "k": -0.3789166
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 45,
-        "symmetry_placement_flags": 2,
-        "owner_team": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
         "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "spawn_time": 45,
+        "object_type": 2,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2765134e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 139,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 26,
-      "variant_quota_index": 1091694331,
+      "editor_object_index": 0,
+      "variant_quota_index": 26,
       "position": {
-        "x": -3.7011845,
-        "y": -0.45880494,
-        "z": -0.39129406
+        "x": 9.120845,
+        "y": -3.7011845,
+        "z": -0.45880494
       },
       "forward": {
-        "i": 0.0,
-        "j": -0.9202657,
-        "k": 0.9202657
+        "i": -0.39129406,
+        "j": 0.0,
+        "k": -0.9202657
       },
       "up": {
-        "i": 0.0,
-        "j": -0.39129406,
-        "k": 0.0
+        "i": 0.9202657,
+        "j": 0.0,
+        "k": -0.39129406
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 45,
-        "symmetry_placement_flags": 2,
-        "owner_team": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
         "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "spawn_time": 45,
+        "object_type": 2,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2765134e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 139,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 27,
-      "variant_quota_index": -1052738896,
+      "editor_object_index": 0,
+      "variant_quota_index": 27,
       "position": {
-        "x": -3.3577893,
-        "y": 1.1494349,
-        "z": 0.0
+        "x": -12.029953,
+        "y": -3.3577893,
+        "z": 1.1494349
       },
       "forward": {
         "i": 0.0,
-        "j": -1.0,
-        "k": 1.0
+        "j": 0.0,
+        "k": -1.0
       },
       "up": {
-        "i": 0.0,
+        "i": 1.0,
         "j": 0.0,
         "k": 0.0
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 45,
-        "symmetry_placement_flags": 2,
-        "owner_team": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
         "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "spawn_time": 45,
+        "object_type": 2,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2765134e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 139,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 27,
-      "variant_quota_index": -1052738896,
+      "editor_object_index": 0,
+      "variant_quota_index": 27,
       "position": {
-        "x": -3.8740454,
-        "y": 1.1486174,
-        "z": 0.0
+        "x": -12.029953,
+        "y": -3.8740454,
+        "z": 1.1486174
       },
       "forward": {
         "i": 0.0,
-        "j": -1.0,
-        "k": 1.0
+        "j": 0.0,
+        "k": -1.0
       },
       "up": {
-        "i": 0.0,
+        "i": 1.0,
         "j": 0.0,
         "k": 0.0
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 45,
-        "symmetry_placement_flags": 2,
-        "owner_team": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
         "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "spawn_time": 45,
+        "object_type": 2,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -860,15 +860,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -901,15 +901,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 3.765255e-39
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 41,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": -1,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": -1,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -942,15 +942,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -983,15 +983,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1024,15 +1024,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 69,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 69,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1065,15 +1065,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 69,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 69,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1106,15 +1106,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1147,15 +1147,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1188,15 +1188,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1229,15 +1229,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1270,15 +1270,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1311,15 +1311,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1352,15 +1352,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1393,15 +1393,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1434,15 +1434,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1475,15 +1475,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1516,15 +1516,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1557,15 +1557,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1598,15 +1598,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1639,15 +1639,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1680,15 +1680,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1721,15 +1721,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1762,15 +1762,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1803,15 +1803,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1844,15 +1844,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1885,15 +1885,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1926,15 +1926,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -1967,15 +1967,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 66,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 66,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2008,15 +2008,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 66,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 66,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2049,15 +2049,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2090,15 +2090,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2131,15 +2131,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2172,15 +2172,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2213,15 +2213,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2254,15 +2254,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2295,15 +2295,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2336,15 +2336,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2377,15 +2377,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2418,15 +2418,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2459,15 +2459,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2500,15 +2500,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2541,15 +2541,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2582,15 +2582,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 73,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 73,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2623,15 +2623,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 73,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 73,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2664,15 +2664,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 73,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 73,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2705,15 +2705,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 65,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 65,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2746,15 +2746,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 65,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 65,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2787,15 +2787,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 72,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 72,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2828,15 +2828,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 72,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 72,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2869,15 +2869,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 72,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 72,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2910,15 +2910,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 81,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 81,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2951,15 +2951,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 81,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 81,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -2992,15 +2992,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 67,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 67,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3033,15 +3033,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 67,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 67,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3074,15 +3074,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 68,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 68,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3115,15 +3115,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 68,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 68,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3156,15 +3156,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 70,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 70,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3197,15 +3197,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 70,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 70,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3238,15 +3238,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 71,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 71,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3279,15 +3279,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 71,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 71,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3320,15 +3320,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 79,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 79,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3361,15 +3361,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 79,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 79,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3894,15 +3894,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3935,15 +3935,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -3976,15 +3976,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4058,15 +4058,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 72,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 72,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4099,15 +4099,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 73,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 73,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4140,15 +4140,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 67,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 67,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4181,15 +4181,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 67,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 67,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4222,15 +4222,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4263,15 +4263,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 92,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 92,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4304,15 +4304,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 92,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 92,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4345,15 +4345,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 92,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 92,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4386,15 +4386,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 92,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 92,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4427,15 +4427,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4468,15 +4468,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 68,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 68,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4509,15 +4509,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 68,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 68,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4550,15 +4550,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 69,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 69,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4591,15 +4591,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 69,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 69,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4632,15 +4632,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 70,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 70,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4673,15 +4673,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 70,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 70,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4714,15 +4714,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 71,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 71,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4755,15 +4755,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 71,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 71,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4796,15 +4796,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4837,15 +4837,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4878,15 +4878,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4919,15 +4919,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -4960,15 +4960,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5001,15 +5001,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5042,15 +5042,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5083,15 +5083,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5124,15 +5124,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5165,15 +5165,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5206,15 +5206,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5247,15 +5247,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5288,15 +5288,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 64,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 64,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5329,15 +5329,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 61,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 61,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5370,15 +5370,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 62,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 62,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5411,15 +5411,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 61,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 61,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5452,15 +5452,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 62,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 62,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5493,15 +5493,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 61,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 61,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5534,15 +5534,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 62,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 62,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5575,15 +5575,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 84,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 84,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5616,15 +5616,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 83,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 83,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5657,15 +5657,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 84,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 84,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5698,15 +5698,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 83,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 83,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5739,15 +5739,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 86,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 86,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5780,15 +5780,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 85,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 85,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5821,15 +5821,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 86,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 86,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5862,15 +5862,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 85,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 85,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5903,15 +5903,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 87,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 87,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5944,15 +5944,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 87,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 87,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -5985,15 +5985,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 87,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 87,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6026,15 +6026,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 87,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 87,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6067,15 +6067,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 87,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 87,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6108,15 +6108,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 88,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 88,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6149,15 +6149,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 88,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 88,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6190,15 +6190,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 88,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 88,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6231,15 +6231,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 89,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 89,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6272,15 +6272,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 89,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 89,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6313,15 +6313,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 89,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 89,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6354,15 +6354,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 89,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 89,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6395,15 +6395,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 89,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 89,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6436,15 +6436,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 90,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 90,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6477,15 +6477,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 90,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 90,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6518,15 +6518,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 90,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 90,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6559,15 +6559,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 90,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 90,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6600,15 +6600,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 90,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 90,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6641,15 +6641,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 91,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 91,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6682,15 +6682,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 91,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 91,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6723,15 +6723,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 91,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 91,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6764,15 +6764,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 91,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 91,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6805,15 +6805,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 91,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 91,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -6846,15 +6846,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 85,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 85,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7092,15 +7092,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 88,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 88,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7133,15 +7133,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 8.2652e-40
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 9,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 88,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 88,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7174,15 +7174,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 93,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 93,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7215,15 +7215,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 93,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 93,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7256,15 +7256,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 94,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 94,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7297,15 +7297,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 94,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 94,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7338,15 +7338,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 95,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 95,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7379,15 +7379,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 95,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 95,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7420,15 +7420,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 96,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 96,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7461,15 +7461,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 96,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 96,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7502,15 +7502,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 97,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 97,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7543,15 +7543,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 97,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 97,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7584,15 +7584,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 98,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 98,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7625,15 +7625,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 98,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 98,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7666,15 +7666,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 99,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 99,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7707,15 +7707,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 99,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 99,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7748,15 +7748,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 100,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 100,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7789,15 +7789,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 100,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 100,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7830,15 +7830,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 101,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 101,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7871,15 +7871,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 101,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 101,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7912,15 +7912,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 102,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 102,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7953,15 +7953,15 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.2581463e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 137,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 102,
-      "variant_quota_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 102,
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -7994,289 +7994,289 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.203045e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 131,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 26,
-      "variant_quota_index": 1092393741,
+      "editor_object_index": 0,
+      "variant_quota_index": 26,
       "position": {
-        "x": 0.9210861,
-        "y": 2.733427,
-        "z": 0.99899054
+        "x": 9.787854,
+        "y": 0.9210861,
+        "z": 2.733427
       },
       "forward": {
-        "i": 0.028740104,
-        "j": 0.034523632,
-        "k": -0.043187827
+        "i": 0.99899054,
+        "j": 0.028740104,
+        "k": 0.034523632
       },
       "up": {
-        "i": 0.4030864,
-        "j": 0.9141424,
-        "k": 0.0
+        "i": -0.043187827,
+        "j": 0.4030864,
+        "k": 0.9141424
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 45,
-        "symmetry_placement_flags": 2,
-        "owner_team": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
         "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "spawn_time": 45,
+        "object_type": 2,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.203045e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 131,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 26,
-      "variant_quota_index": 1092688835,
+      "editor_object_index": 0,
+      "variant_quota_index": 26,
       "position": {
-        "x": 1.1923915,
-        "y": 2.7146282,
-        "z": 0.2205129
+        "x": 10.069278,
+        "y": 1.1923915,
+        "z": 2.7146282
       },
       "forward": {
-        "i": -0.3859775,
-        "j": -0.89576524,
-        "k": 0.05080072
+        "i": 0.2205129,
+        "j": -0.3859775,
+        "k": -0.89576524
       },
       "up": {
-        "i": 0.9216702,
-        "j": -0.38463402,
-        "k": 0.0
+        "i": 0.05080072,
+        "j": 0.9216702,
+        "k": -0.38463402
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 45,
-        "symmetry_placement_flags": 2,
-        "owner_team": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
         "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "spawn_time": 45,
+        "object_type": 2,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.203045e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 131,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 8,
-      "variant_quota_index": -1054493181,
+      "editor_object_index": 0,
+      "variant_quota_index": 8,
       "position": {
-        "x": 1.1389058,
-        "y": -0.3808857,
-        "z": 0.6950641
+        "x": -10.356936,
+        "y": 1.1389058,
+        "z": -0.3808857
       },
       "forward": {
-        "i": -0.057311647,
-        "j": 0.71665984,
-        "k": 0.21348558
+        "i": 0.6950641,
+        "j": -0.057311647,
+        "k": 0.71665984
       },
       "up": {
-        "i": 0.96830964,
-        "j": -0.12961625,
-        "k": 0.0
+        "i": 0.21348558,
+        "j": 0.96830964,
+        "k": -0.12961625
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 316,
-        "symmetry_placement_flags": 1,
-        "owner_team": 0,
-        "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
+        "shared_storage": 1,
+        "spawn_time": 60,
+        "object_type": 1,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.203045e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 131,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 27,
-      "variant_quota_index": -1060361738,
+      "editor_object_index": 0,
+      "variant_quota_index": 27,
       "position": {
-        "x": -4.623236,
-        "y": -0.4206626,
-        "z": 0.023615459
+        "x": -6.380122,
+        "y": -4.623236,
+        "z": -0.4206626
       },
       "forward": {
-        "i": 0.0,
-        "j": -0.99972117,
-        "k": 0.9618452
+        "i": 0.023615459,
+        "j": 0.0,
+        "k": -0.99972117
       },
       "up": {
-        "i": -0.27264905,
-        "j": 0.022720752,
-        "k": 0.0
+        "i": 0.9618452,
+        "j": -0.27264905,
+        "k": 0.022720752
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 45,
-        "symmetry_placement_flags": 2,
-        "owner_team": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
         "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "spawn_time": 45,
+        "object_type": 2,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.203045e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 131,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 27,
-      "variant_quota_index": -1060368522,
+      "editor_object_index": 0,
+      "variant_quota_index": 27,
       "position": {
-        "x": -4.9743824,
-        "y": -0.42256975,
-        "z": 0.078497194
+        "x": -6.3768873,
+        "y": -4.9743824,
+        "z": -0.42256975
       },
       "forward": {
-        "i": 0.0,
-        "j": -0.9969144,
-        "k": 0.9969144
+        "i": 0.078497194,
+        "j": 0.0,
+        "k": -0.9969144
       },
       "up": {
-        "i": 0.0,
-        "j": 0.078497194,
-        "k": 0.0
+        "i": 0.9969144,
+        "j": 0.0,
+        "k": 0.078497194
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 45,
-        "symmetry_placement_flags": 2,
-        "owner_team": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
         "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "spawn_time": 45,
+        "object_type": 2,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.203045e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 131,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 8,
-      "variant_quota_index": -1067811714,
+      "editor_object_index": 0,
+      "variant_quota_index": 8,
       "position": {
-        "x": 4.3271337,
-        "y": 2.727161,
-        "z": -0.6222821
+        "x": -3.4138484,
+        "y": 4.3271337,
+        "z": 2.727161
       },
       "forward": {
-        "i": 0.78275985,
-        "j": -0.007225223,
-        "k": -0.7824316
+        "i": -0.6222821,
+        "j": 0.78275985,
+        "k": -0.007225223
       },
       "up": {
-        "i": -0.6222487,
-        "j": -0.024643514,
-        "k": 0.0
+        "i": -0.7824316,
+        "j": -0.6222487,
+        "k": -0.024643514
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 316,
-        "symmetry_placement_flags": 1,
-        "owner_team": 0,
-        "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
+        "shared_storage": 1,
+        "spawn_time": 60,
+        "object_type": 1,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.203045e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 131,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 8,
-      "variant_quota_index": -1061968137,
+      "editor_object_index": 0,
+      "variant_quota_index": 8,
       "position": {
-        "x": 5.234457,
-        "y": -0.47215468,
-        "z": 0.96205544
+        "x": -5.6141315,
+        "y": 5.234457,
+        "z": -0.47215468
       },
       "forward": {
-        "i": -0.2728277,
-        "j": -0.0037812148,
-        "k": 0.27259433
+        "i": 0.96205544,
+        "j": -0.2728277,
+        "k": -0.0037812148
       },
       "up": {
-        "i": 0.96165216,
-        "j": -0.030288257,
-        "k": 0.0
+        "i": 0.27259433,
+        "j": 0.96165216,
+        "k": -0.030288257
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 316,
-        "symmetry_placement_flags": 1,
-        "owner_team": 0,
-        "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
+        "shared_storage": 1,
+        "spawn_time": 60,
+        "object_type": 1,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
@@ -8322,43 +8322,43 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": 1.203045e-38
+        "boundary_negative_height": 0.0
       }
     },
     {
-      "flags": 0,
+      "flags": 131,
       "reuse_timeout": 0,
       "object_datum_index": 0,
-      "editor_object_index": 8,
-      "variant_quota_index": 1091665839,
+      "editor_object_index": 0,
+      "variant_quota_index": 8,
       "position": {
-        "x": -5.23251,
-        "y": 3.1042242,
-        "z": 0.94085795
+        "x": 9.093673,
+        "y": -5.23251,
+        "z": 3.1042242
       },
       "forward": {
-        "i": -0.33529022,
-        "j": 0.048650555,
-        "k": 0.3337548
+        "i": 0.94085795,
+        "j": -0.33529022,
+        "k": 0.048650555
       },
       "up": {
-        "i": 0.9419302,
-        "j": 0.037083864,
-        "k": 0.0
+        "i": 0.3337548,
+        "j": 0.9419302,
+        "k": 0.037083864
       },
       "parent_object_identifier": {
         "m_unique_id": 0,
-        "m_origin_bsp_index": 1023,
-        "m_type": 12,
-        "m_source": 8
+        "m_origin_bsp_index": 0,
+        "m_type": 0,
+        "m_source": 0
       },
       "multiplayer_game_object_properties": {
-        "game_engine_flags": 316,
-        "symmetry_placement_flags": 1,
-        "owner_team": 0,
-        "shared_storage": 0,
-        "spawn_time": 0,
-        "object_type": 0,
+        "game_engine_flags": 1023,
+        "symmetry_placement_flags": 12,
+        "owner_team": 8,
+        "shared_storage": 1,
+        "spawn_time": 60,
+        "object_type": 1,
         "boundary_shape": 0,
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
@@ -26280,11 +26280,13 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": null
+        "boundary_negative_height": 0.0
       }
     }
   ],
   "m_object_type_start_index": [
+    -1,
+    0,
     1,
     9,
     -1,
@@ -26296,834 +26298,832 @@
     129,
     -1,
     -1,
-    -1,
-    -4365,
-    3453
+    -1
   ],
   "m_quotas": [
     {
-      "object_definition_index": "00000004",
-      "minimum_count": 65,
-      "maximum_count": 112,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.2011475e29
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 65,
-      "maximum_count": 32,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -6.1968044e24
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.0504781e25
-    },
-    {
-      "object_definition_index": "00000010",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -3.2494827e25
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -6.8012606e25
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.1160793e26
-    },
-    {
-      "object_definition_index": "00000010",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -3.0590559e26
-    },
-    {
-      "object_definition_index": "00000010",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.9098824e29
-    },
-    {
-      "object_definition_index": "00040410",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -4.425637e26
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -6.8687e26
-    },
-    {
-      "object_definition_index": "00000010",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.0205386e27
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -4.6066133e29
-    },
-    {
-      "object_definition_index": "00000010",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.5347813e27
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.224383e27
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.0681034e28
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.968368e29
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 192,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -9.708507e29
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 192,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.7954043e28
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.3078858e30
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 192,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.0308538e30
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.1052881e28
-    },
-    {
-      "object_definition_index": "00000010",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.50623e30
-    },
-    {
-      "object_definition_index": "00000001",
-      "minimum_count": 65,
-      "maximum_count": 32,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -4.0221316e30
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.6278447e30
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -7.5293496e30
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -3.816176e24
-    },
-    {
-      "object_definition_index": "001E0420",
-      "minimum_count": 63,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -4.7984432e24
-    },
-    {
-      "object_definition_index": "001E0620",
-      "minimum_count": 63,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.0390294e24
-    },
-    {
-      "object_definition_index": "00000020",
-      "minimum_count": 63,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -9.708157e30
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -7.009877e20
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -3.1582771e22
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.046355e31
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -7.981851e23
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -7.6741844e21
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.2137894e22
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -3.5272177e22
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.3791184e31
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -7.4623824e23
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -6.659568e23
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.3949643e31
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 0,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.4504248e31
-    },
-    {
-      "object_definition_index": "00000014",
-      "minimum_count": 64,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.7990341e31
-    },
-    {
-      "object_definition_index": "00000014",
-      "minimum_count": 64,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.1719704e31
-    },
-    {
-      "object_definition_index": "00000010",
-      "minimum_count": 64,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.5047338e31
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.5839631e31
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.6631925e31
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 64,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.7424219e31
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 64,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.9484182e31
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 64,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -3.0593394e31
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 64,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -3.1385687e31
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 64,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -3.4554862e31
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 160,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -3.5347156e31
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -3.8357872e31
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -4.185544e31
-    },
-    {
-      "object_definition_index": "00000004",
-      "minimum_count": 64,
-      "maximum_count": 128,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -4.946146e31
-    },
-    {
-      "object_definition_index": "00000001",
-      "minimum_count": 65,
-      "maximum_count": 112,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.579981e31
-    },
-    {
-      "object_definition_index": "00000001",
-      "minimum_count": 65,
-      "maximum_count": 112,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.675056e31
-    },
-    {
-      "object_definition_index": "00000001",
-      "minimum_count": 65,
-      "maximum_count": 112,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.801823e31
-    },
-    {
-      "object_definition_index": "00000001",
-      "minimum_count": 65,
-      "maximum_count": 112,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.8968984e31
-    },
-    {
-      "object_definition_index": "00000001",
-      "minimum_count": 65,
-      "maximum_count": 112,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.9919736e31
-    },
-    {
-      "object_definition_index": "00000001",
-      "minimum_count": 65,
-      "maximum_count": 112,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -6.087049e31
-    },
-    {
-      "object_definition_index": "00080308",
-      "minimum_count": 64,
-      "maximum_count": 160,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -6.815959e31
-    },
-    {
-      "object_definition_index": "00080308",
-      "minimum_count": 64,
-      "maximum_count": 160,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -7.1645683e31
-    },
-    {
-      "object_definition_index": "00000008",
-      "minimum_count": 64,
-      "maximum_count": 160,
-      "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.9399514e20
-    },
-    {
-      "object_definition_index": "00643664",
+      "object_definition_index": "EEF30D7D",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -4.796185e20
+      "maximum_allowed": 4,
+      "price_per_item": 15.0
     },
     {
-      "object_definition_index": "00000014",
+      "object_definition_index": "EFC20E4C",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.2573608e20
+      "maximum_allowed": 8,
+      "price_per_item": 10.0
     },
     {
-      "object_definition_index": "00000014",
+      "object_definition_index": "E8A4072E",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.326537e20
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000014",
+      "object_definition_index": "E90B0795",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.349596e20
+      "maximum_allowed": 16,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000014",
+      "object_definition_index": "E9D70861",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -4.7731263e20
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000014",
+      "object_definition_index": "EA6108EB",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.4187722e20
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000014",
+      "object_definition_index": "EB2F09B9",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.4648898e20
+      "maximum_allowed": 16,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000014",
+      "object_definition_index": "EB7D0A07",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -4.819244e20
+      "maximum_allowed": 16,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "F06B0EF5",
+      "minimum_count": 0,
+      "maximum_count": 4,
+      "placed_on_map": 4,
+      "maximum_allowed": 16,
+      "price_per_item": 2.0
+    },
+    {
+      "object_definition_index": "EBB70A41",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.2804195e20
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "EC0E0A98",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.4709561e32
+      "maximum_allowed": 16,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "EC530ADD",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.4772945e32
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "F0BA0F44",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.4836328e32
+      "maximum_allowed": 16,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "ED030B8D",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.4899712e32
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "ED870C11",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.3726547e20
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "EE0A0C94",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.441831e20
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "F0F10F7B",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.4963095e32
+      "maximum_allowed": 4,
+      "price_per_item": 6.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "F1440FCE",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.3034783e20
+      "maximum_allowed": 4,
+      "price_per_item": 6.0
     },
     {
-      "object_definition_index": "00000014",
+      "object_definition_index": "EE680CF2",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.5026479e32
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "F184100E",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -7.19626e31
+      "maximum_allowed": 4,
+      "price_per_item": 6.0
     },
     {
-      "object_definition_index": "00000010",
+      "object_definition_index": "F1CD1057",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -9.765649e31
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000010",
+      "object_definition_index": "EE880D12",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.03361e32
+      "maximum_allowed": 16,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000010",
+      "object_definition_index": "F1FD1087",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.2808056e32
+      "maximum_allowed": 1,
+      "price_per_item": 10.0
     },
     {
-      "object_definition_index": "00000010",
+      "object_definition_index": "F24B10D5",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.287144e32
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "F28E1118",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.3441891e32
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "F2BE1148",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.3505275e32
+      "maximum_allowed": 4,
+      "price_per_item": 4.0
     },
     {
-      "object_definition_index": "00000008",
+      "object_definition_index": "E84A06D4",
+      "minimum_count": 0,
+      "maximum_count": 30,
+      "placed_on_map": 4,
+      "maximum_allowed": 32,
+      "price_per_item": 1.0
+    },
+    {
+      "object_definition_index": "E87E0708",
+      "minimum_count": 0,
+      "maximum_count": 30,
+      "placed_on_map": 6,
+      "maximum_allowed": 32,
+      "price_per_item": 1.0
+    },
+    {
+      "object_definition_index": "E75C05E6",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.4519411e32
+      "maximum_allowed": 32,
+      "price_per_item": 1.0
     },
     {
-      "object_definition_index": "0000000C",
+      "object_definition_index": "F2F5117F",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.4646178e32
+      "maximum_allowed": 8,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "0000000C",
+      "object_definition_index": "E21800A2",
       "minimum_count": 0,
       "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -5.3957135e20
+      "maximum_allowed": 4,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00FF04FF",
-      "minimum_count": 191,
-      "maximum_count": 128,
+      "object_definition_index": "E4D60360",
+      "minimum_count": 0,
+      "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.801034e32
+      "maximum_allowed": 4,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00FF02FF",
-      "minimum_count": 191,
-      "maximum_count": 128,
+      "object_definition_index": "F304118E",
+      "minimum_count": 0,
+      "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.8644176e32
+      "maximum_allowed": 4,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00FF02FF",
-      "minimum_count": 191,
-      "maximum_count": 128,
+      "object_definition_index": "E72905B3",
+      "minimum_count": 0,
+      "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.9151244e32
+      "maximum_allowed": 4,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00FF02FF",
-      "minimum_count": 191,
-      "maximum_count": 128,
+      "object_definition_index": "E3D0025A",
+      "minimum_count": 0,
+      "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -1.9658312e32
+      "maximum_allowed": 4,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00FF02FF",
-      "minimum_count": 191,
-      "maximum_count": 128,
+      "object_definition_index": "E4960320",
+      "minimum_count": 0,
+      "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.016538e32
+      "maximum_allowed": 4,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00FF02FF",
-      "minimum_count": 191,
-      "maximum_count": 128,
+      "object_definition_index": "E4EF0379",
+      "minimum_count": 0,
+      "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.0672448e32
+      "maximum_allowed": 4,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00FF02FF",
-      "minimum_count": 191,
-      "maximum_count": 128,
+      "object_definition_index": "F32E11B8",
+      "minimum_count": 0,
+      "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.1179516e32
+      "maximum_allowed": 4,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00FF02FF",
-      "minimum_count": 191,
-      "maximum_count": 128,
+      "object_definition_index": "E71E05A8",
+      "minimum_count": 0,
+      "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.1686584e32
+      "maximum_allowed": 4,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00FF02FF",
-      "minimum_count": 191,
-      "maximum_count": 128,
+      "object_definition_index": "E70D0597",
+      "minimum_count": 0,
+      "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.2193652e32
+      "maximum_allowed": 4,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00FF02FF",
-      "minimum_count": 191,
-      "maximum_count": 128,
+      "object_definition_index": "F33011BA",
+      "minimum_count": 0,
+      "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
-      "price_per_item": -2.270072e32
+      "maximum_allowed": 4,
+      "price_per_item": 2.0
     },
     {
-      "object_definition_index": "00FF02FF",
-      "minimum_count": 191,
-      "maximum_count": 128,
+      "object_definition_index": "F33711C1",
+      "minimum_count": 0,
+      "maximum_count": 0,
       "placed_on_map": 0,
-      "maximum_allowed": 0,
+      "maximum_allowed": 20,
+      "price_per_item": 4.0
+    },
+    {
+      "object_definition_index": "F36311ED",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 20,
+      "price_per_item": 4.0
+    },
+    {
+      "object_definition_index": "F3891213",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 16,
+      "price_per_item": 4.0
+    },
+    {
+      "object_definition_index": "F39E1228",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 4.0
+    },
+    {
+      "object_definition_index": "F3A3122D",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 4.0
+    },
+    {
+      "object_definition_index": "F3A81232",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 3.0
+    },
+    {
+      "object_definition_index": "F3AD1237",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 3.0
+    },
+    {
+      "object_definition_index": "F3BA1244",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 4,
+      "price_per_item": 3.0
+    },
+    {
+      "object_definition_index": "F3C1124B",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 4,
+      "price_per_item": 3.0
+    },
+    {
+      "object_definition_index": "F3C61250",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 3.0
+    },
+    {
+      "object_definition_index": "F3DA1264",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 4,
+      "price_per_item": 5.0
+    },
+    {
+      "object_definition_index": "F3DF1269",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 4.0
+    },
+    {
+      "object_definition_index": "F3F2127C",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 4.0
+    },
+    {
+      "object_definition_index": "F404128E",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 4,
+      "price_per_item": 4.0
+    },
+    {
+      "object_definition_index": "F41C12A6",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 1,
+      "price_per_item": 15.0
+    },
+    {
+      "object_definition_index": "F43012BA",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 1,
+      "price_per_item": 15.0
+    },
+    {
+      "object_definition_index": "F43312BD",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 1,
+      "price_per_item": 15.0
+    },
+    {
+      "object_definition_index": "F43712C1",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 1,
+      "price_per_item": 15.0
+    },
+    {
+      "object_definition_index": "F43A12C4",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 1,
+      "price_per_item": 15.0
+    },
+    {
+      "object_definition_index": "F43D12C7",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 1,
+      "price_per_item": 15.0
+    },
+    {
+      "object_definition_index": "F44012CA",
+      "minimum_count": 0,
+      "maximum_count": 8,
+      "placed_on_map": 3,
+      "maximum_allowed": 8,
+      "price_per_item": 5.0
+    },
+    {
+      "object_definition_index": "F45712E1",
+      "minimum_count": 0,
+      "maximum_count": 8,
+      "placed_on_map": 3,
+      "maximum_allowed": 8,
+      "price_per_item": 5.0
+    },
+    {
+      "object_definition_index": "F46212EC",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 5.0
+    },
+    {
+      "object_definition_index": "E17F0009",
+      "minimum_count": 0,
+      "maximum_count": 100,
+      "placed_on_map": 54,
+      "maximum_allowed": 100,
       "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1D0005A",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 20,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1E4006E",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 20,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1E70071",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 20,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1E80072",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 20,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1CF0059",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 20,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1EB0075",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 20,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1ED0077",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 20,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1D1005B",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1E5006F",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4E81372",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4E91373",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4EA1374",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4EB1375",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1E90073",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1EC0076",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4EC1376",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1E60070",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 20,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4ED1377",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F46312ED",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 16,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F49A1324",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 16,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4A3132D",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 16,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4CA1354",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 16,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4CB1355",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4D4135E",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4D5135F",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 8,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4E5136F",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 12,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "F4E71371",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "placed_on_map": 0,
+      "maximum_allowed": 12,
+      "price_per_item": 0.0
+    },
+    {
+      "object_definition_index": "E1EA0074",
+      "minimum_count": 0,
+      "maximum_count": 255,
+      "placed_on_map": 4,
+      "maximum_allowed": -1,
+      "price_per_item": -1.0
+    },
+    {
+      "object_definition_index": "F50E1398",
+      "minimum_count": 0,
+      "maximum_count": 255,
+      "placed_on_map": 2,
+      "maximum_allowed": -1,
+      "price_per_item": -1.0
+    },
+    {
+      "object_definition_index": "F513139D",
+      "minimum_count": 0,
+      "maximum_count": 255,
+      "placed_on_map": 2,
+      "maximum_allowed": -1,
+      "price_per_item": -1.0
+    },
+    {
+      "object_definition_index": "F51713A1",
+      "minimum_count": 0,
+      "maximum_count": 255,
+      "placed_on_map": 2,
+      "maximum_allowed": -1,
+      "price_per_item": -1.0
+    },
+    {
+      "object_definition_index": "F51B13A5",
+      "minimum_count": 0,
+      "maximum_count": 255,
+      "placed_on_map": 2,
+      "maximum_allowed": -1,
+      "price_per_item": -1.0
+    },
+    {
+      "object_definition_index": "F51F13A9",
+      "minimum_count": 0,
+      "maximum_count": 255,
+      "placed_on_map": 2,
+      "maximum_allowed": -1,
+      "price_per_item": -1.0
+    },
+    {
+      "object_definition_index": "F52313AD",
+      "minimum_count": 0,
+      "maximum_count": 255,
+      "placed_on_map": 2,
+      "maximum_allowed": -1,
+      "price_per_item": -1.0
+    },
+    {
+      "object_definition_index": "F52713B1",
+      "minimum_count": 0,
+      "maximum_count": 255,
+      "placed_on_map": 2,
+      "maximum_allowed": -1,
+      "price_per_item": -1.0
+    },
+    {
+      "object_definition_index": "F52B13B5",
+      "minimum_count": 0,
+      "maximum_count": 255,
+      "placed_on_map": 2,
+      "maximum_allowed": -1,
+      "price_per_item": -1.0
+    },
+    {
+      "object_definition_index": "F52F13B9",
+      "minimum_count": 0,
+      "maximum_count": 255,
+      "placed_on_map": 2,
+      "maximum_allowed": -1,
+      "price_per_item": -1.0
+    },
+    {
+      "object_definition_index": "F53313BD",
+      "minimum_count": 0,
+      "maximum_count": 255,
+      "placed_on_map": 2,
+      "maximum_allowed": -1,
+      "price_per_item": -1.0
     },
     {
       "object_definition_index": "00000000",

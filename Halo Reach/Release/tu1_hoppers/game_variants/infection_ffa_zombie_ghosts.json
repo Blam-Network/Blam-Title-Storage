@@ -12116,13 +12116,13 @@
     },
     "m_au1_settings": {
       "m_flags": 0,
-      "m_precision_bloom": 2.0,
+      "m_precision_bloom": 1.003937,
       "m_active_camo_energy_curve_min": 0.0,
       "m_active_camo_energy_curve_max": 0.0,
-      "m_armor_lock_damage_drain": 1.2,
-      "m_armor_lock_damage_drain_limit": 2.0,
-      "m_magnum_damage": 10.0,
-      "m_magnum_fire_delay": 10.0
+      "m_armor_lock_damage_drain": 0.01968504,
+      "m_armor_lock_damage_drain_limit": 0.06692913,
+      "m_magnum_damage": 1.003937,
+      "m_magnum_fire_delay": 1.003937
     }
   }
 }

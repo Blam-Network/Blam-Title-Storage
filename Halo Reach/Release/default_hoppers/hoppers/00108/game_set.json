@@ -4,15 +4,15 @@
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 1,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 1,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -24,22 +24,24 @@
         "unknown14": false
       },
       "map_id": 5010,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 1,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 1,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -51,22 +53,24 @@
         "unknown14": false
       },
       "map_id": 5020,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 1,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 1,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -78,22 +82,24 @@
         "unknown14": false
       },
       "map_id": 5030,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 1,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 1,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -105,22 +111,24 @@
         "unknown14": false
       },
       "map_id": 5035,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 1,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 1,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -132,22 +140,24 @@
         "unknown14": false
       },
       "map_id": 5045,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 1,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 1,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -159,22 +169,24 @@
         "unknown14": false
       },
       "map_id": 5050,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 1,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 1,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -186,22 +198,24 @@
         "unknown14": false
       },
       "map_id": 5052,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 1,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 1,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -213,22 +227,24 @@
         "unknown14": false
       },
       "map_id": 5060,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 1,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 1,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -240,22 +256,24 @@
         "unknown14": false
       },
       "map_id": 5070,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -267,22 +285,24 @@
         "unknown14": false
       },
       "map_id": 5010,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -294,22 +314,24 @@
         "unknown14": false
       },
       "map_id": 5020,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -321,22 +343,24 @@
         "unknown14": false
       },
       "map_id": 5030,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -348,22 +372,24 @@
         "unknown14": false
       },
       "map_id": 5035,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -375,22 +401,24 @@
         "unknown14": false
       },
       "map_id": 5045,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -402,22 +430,24 @@
         "unknown14": false
       },
       "map_id": 5050,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -429,22 +459,24 @@
         "unknown14": false
       },
       "map_id": 5052,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -456,22 +488,24 @@
         "unknown14": false
       },
       "map_id": 5060,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -483,22 +517,24 @@
         "unknown14": false
       },
       "map_id": 5070,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 3,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 3,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -510,22 +546,24 @@
         "unknown14": false
       },
       "map_id": 5010,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 3,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 3,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -537,22 +575,24 @@
         "unknown14": false
       },
       "map_id": 5020,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 3,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 3,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -564,22 +604,24 @@
         "unknown14": false
       },
       "map_id": 5030,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 3,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 3,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -591,22 +633,24 @@
         "unknown14": false
       },
       "map_id": 5035,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 3,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 3,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -618,22 +662,24 @@
         "unknown14": false
       },
       "map_id": 5045,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 3,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 3,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -645,22 +691,24 @@
         "unknown14": false
       },
       "map_id": 5050,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 3,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 3,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -672,22 +720,24 @@
         "unknown14": false
       },
       "map_id": 5052,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 3,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 3,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -699,22 +749,24 @@
         "unknown14": false
       },
       "map_id": 5060,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 2,
       "maximum_player_count": 4,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 3,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 3,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -726,8 +778,10 @@
         "unknown14": false
       },
       "map_id": 5070,
-      "game_name": "Campaign",
-      "game_variant_file_name": "campaign_default"
+      "game_variant_file": {
+        "name": "Campaign",
+        "file_name": "campaign_default"
+      }
     }
   ]
 }

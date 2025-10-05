@@ -4,15 +4,15 @@
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -24,22 +24,24 @@
         "unknown14": false
       },
       "map_id": 7060,
-      "game_name": "Score Attack",
-      "game_variant_file_name": "ff_score_attack"
+      "game_variant_file": {
+        "name": "Score Attack",
+        "file_name": "ff_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -51,22 +53,24 @@
         "unknown14": false
       },
       "map_id": 7110,
-      "game_name": "Score Attack",
-      "game_variant_file_name": "ff_score_attack"
+      "game_variant_file": {
+        "name": "Score Attack",
+        "file_name": "ff_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -78,22 +82,24 @@
         "unknown14": false
       },
       "map_id": 7020,
-      "game_name": "Score Attack",
-      "game_variant_file_name": "ff_score_attack"
+      "game_variant_file": {
+        "name": "Score Attack",
+        "file_name": "ff_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -105,22 +111,24 @@
         "unknown14": false
       },
       "map_id": 7080,
-      "game_name": "Score Attack",
-      "game_variant_file_name": "ff_score_attack"
+      "game_variant_file": {
+        "name": "Score Attack",
+        "file_name": "ff_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -132,22 +140,24 @@
         "unknown14": false
       },
       "map_id": 7030,
-      "game_name": "Score Attack",
-      "game_variant_file_name": "ff_score_attack"
+      "game_variant_file": {
+        "name": "Score Attack",
+        "file_name": "ff_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -159,22 +169,24 @@
         "unknown14": false
       },
       "map_id": 7130,
-      "game_name": "Score Attack",
-      "game_variant_file_name": "ff_score_attack"
+      "game_variant_file": {
+        "name": "Score Attack",
+        "file_name": "ff_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -186,22 +198,24 @@
         "unknown14": false
       },
       "map_id": 7000,
-      "game_name": "Score Attack",
-      "game_variant_file_name": "ff_score_attack"
+      "game_variant_file": {
+        "name": "Score Attack",
+        "file_name": "ff_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -213,22 +227,24 @@
         "unknown14": false
       },
       "map_id": 7040,
-      "game_name": "Score Attack",
-      "game_variant_file_name": "ff_score_attack"
+      "game_variant_file": {
+        "name": "Score Attack",
+        "file_name": "ff_score_attack"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 1,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 1,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -240,22 +256,24 @@
         "unknown14": true
       },
       "map_id": 10080,
-      "game_name": "Score Attack",
-      "game_variant_file_name": "ff_score_attack"
+      "game_variant_file": {
+        "name": "Score Attack",
+        "file_name": "ff_score_attack"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 2,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 2,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -267,22 +285,24 @@
         "unknown14": true
       },
       "map_id": 7500,
-      "game_name": "Score Attack",
-      "game_variant_file_name": "ff_score_attack"
+      "game_variant_file": {
+        "name": "Score Attack",
+        "file_name": "ff_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -294,22 +314,24 @@
         "unknown14": false
       },
       "map_id": 7060,
-      "game_name": "2x Score Attack",
-      "game_variant_file_name": "ff_2x_score_attack"
+      "game_variant_file": {
+        "name": "2x Score Attack",
+        "file_name": "ff_2x_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -321,22 +343,24 @@
         "unknown14": false
       },
       "map_id": 7110,
-      "game_name": "2x Score Attack",
-      "game_variant_file_name": "ff_2x_score_attack"
+      "game_variant_file": {
+        "name": "2x Score Attack",
+        "file_name": "ff_2x_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -348,22 +372,24 @@
         "unknown14": false
       },
       "map_id": 7020,
-      "game_name": "2x Score Attack",
-      "game_variant_file_name": "ff_2x_score_attack"
+      "game_variant_file": {
+        "name": "2x Score Attack",
+        "file_name": "ff_2x_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -375,22 +401,24 @@
         "unknown14": false
       },
       "map_id": 7080,
-      "game_name": "2x Score Attack",
-      "game_variant_file_name": "ff_2x_score_attack"
+      "game_variant_file": {
+        "name": "2x Score Attack",
+        "file_name": "ff_2x_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -402,22 +430,24 @@
         "unknown14": false
       },
       "map_id": 7030,
-      "game_name": "2x Score Attack",
-      "game_variant_file_name": "ff_2x_score_attack"
+      "game_variant_file": {
+        "name": "2x Score Attack",
+        "file_name": "ff_2x_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -429,22 +459,24 @@
         "unknown14": false
       },
       "map_id": 7130,
-      "game_name": "2x Score Attack",
-      "game_variant_file_name": "ff_2x_score_attack"
+      "game_variant_file": {
+        "name": "2x Score Attack",
+        "file_name": "ff_2x_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -456,22 +488,24 @@
         "unknown14": false
       },
       "map_id": 7000,
-      "game_name": "2x Score Attack",
-      "game_variant_file_name": "ff_2x_score_attack"
+      "game_variant_file": {
+        "name": "2x Score Attack",
+        "file_name": "ff_2x_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -483,22 +517,24 @@
         "unknown14": false
       },
       "map_id": 7040,
-      "game_name": "2x Score Attack",
-      "game_variant_file_name": "ff_2x_score_attack"
+      "game_variant_file": {
+        "name": "2x Score Attack",
+        "file_name": "ff_2x_score_attack"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 1,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 1,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -510,22 +546,24 @@
         "unknown14": true
       },
       "map_id": 10080,
-      "game_name": "2x Score Attack",
-      "game_variant_file_name": "ff_2x_score_attack"
+      "game_variant_file": {
+        "name": "2x Score Attack",
+        "file_name": "ff_2x_score_attack"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 2,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 2,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -537,22 +575,24 @@
         "unknown14": true
       },
       "map_id": 7500,
-      "game_name": "2x Score Attack",
-      "game_variant_file_name": "ff_2x_score_attack"
+      "game_variant_file": {
+        "name": "2x Score Attack",
+        "file_name": "ff_2x_score_attack"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -564,22 +604,24 @@
         "unknown14": false
       },
       "map_id": 7060,
-      "game_name": "Gruntpocalypse",
-      "game_variant_file_name": "ff_gruntpocalypse"
+      "game_variant_file": {
+        "name": "Gruntpocalypse",
+        "file_name": "ff_gruntpocalypse"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -591,22 +633,24 @@
         "unknown14": false
       },
       "map_id": 7110,
-      "game_name": "Gruntpocalypse",
-      "game_variant_file_name": "ff_gruntpocalypse"
+      "game_variant_file": {
+        "name": "Gruntpocalypse",
+        "file_name": "ff_gruntpocalypse"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -618,22 +662,24 @@
         "unknown14": false
       },
       "map_id": 7020,
-      "game_name": "Gruntpocalypse",
-      "game_variant_file_name": "ff_gruntpocalypse"
+      "game_variant_file": {
+        "name": "Gruntpocalypse",
+        "file_name": "ff_gruntpocalypse"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -645,22 +691,24 @@
         "unknown14": false
       },
       "map_id": 7080,
-      "game_name": "Gruntpocalypse",
-      "game_variant_file_name": "ff_gruntpocalypse"
+      "game_variant_file": {
+        "name": "Gruntpocalypse",
+        "file_name": "ff_gruntpocalypse"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -672,22 +720,24 @@
         "unknown14": false
       },
       "map_id": 7030,
-      "game_name": "Gruntpocalypse",
-      "game_variant_file_name": "ff_gruntpocalypse"
+      "game_variant_file": {
+        "name": "Gruntpocalypse",
+        "file_name": "ff_gruntpocalypse"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -699,22 +749,24 @@
         "unknown14": false
       },
       "map_id": 7130,
-      "game_name": "Gruntpocalypse",
-      "game_variant_file_name": "ff_gruntpocalypse"
+      "game_variant_file": {
+        "name": "Gruntpocalypse",
+        "file_name": "ff_gruntpocalypse"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -726,22 +778,24 @@
         "unknown14": false
       },
       "map_id": 7000,
-      "game_name": "Gruntpocalypse",
-      "game_variant_file_name": "ff_gruntpocalypse"
+      "game_variant_file": {
+        "name": "Gruntpocalypse",
+        "file_name": "ff_gruntpocalypse"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -753,22 +807,24 @@
         "unknown14": false
       },
       "map_id": 7040,
-      "game_name": "Gruntpocalypse",
-      "game_variant_file_name": "ff_gruntpocalypse"
+      "game_variant_file": {
+        "name": "Gruntpocalypse",
+        "file_name": "ff_gruntpocalypse"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 1,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 1,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -780,22 +836,24 @@
         "unknown14": true
       },
       "map_id": 10080,
-      "game_name": "Gruntpocalypse",
-      "game_variant_file_name": "ff_gruntpocalypse"
+      "game_variant_file": {
+        "name": "Gruntpocalypse",
+        "file_name": "ff_gruntpocalypse"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 2,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 2,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -807,22 +865,24 @@
         "unknown14": true
       },
       "map_id": 7500,
-      "game_name": "Gruntpocalypse",
-      "game_variant_file_name": "ff_gruntpocalypse"
+      "game_variant_file": {
+        "name": "Gruntpocalypse",
+        "file_name": "ff_gruntpocalypse"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -834,22 +894,24 @@
         "unknown14": false
       },
       "map_id": 7060,
-      "game_name": "Skirmigeddon",
-      "game_variant_file_name": "ff_skirmiggedon"
+      "game_variant_file": {
+        "name": "Skirmigeddon",
+        "file_name": "ff_skirmiggedon"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -861,22 +923,24 @@
         "unknown14": false
       },
       "map_id": 7110,
-      "game_name": "Skirmigeddon",
-      "game_variant_file_name": "ff_skirmiggedon"
+      "game_variant_file": {
+        "name": "Skirmigeddon",
+        "file_name": "ff_skirmiggedon"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -888,22 +952,24 @@
         "unknown14": false
       },
       "map_id": 7020,
-      "game_name": "Skirmigeddon",
-      "game_variant_file_name": "ff_skirmiggedon"
+      "game_variant_file": {
+        "name": "Skirmigeddon",
+        "file_name": "ff_skirmiggedon"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -915,22 +981,24 @@
         "unknown14": false
       },
       "map_id": 7080,
-      "game_name": "Skirmigeddon",
-      "game_variant_file_name": "ff_skirmiggedon"
+      "game_variant_file": {
+        "name": "Skirmigeddon",
+        "file_name": "ff_skirmiggedon"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -942,22 +1010,24 @@
         "unknown14": false
       },
       "map_id": 7030,
-      "game_name": "Skirmigeddon",
-      "game_variant_file_name": "ff_skirmiggedon"
+      "game_variant_file": {
+        "name": "Skirmigeddon",
+        "file_name": "ff_skirmiggedon"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -969,22 +1039,24 @@
         "unknown14": false
       },
       "map_id": 7130,
-      "game_name": "Skirmigeddon",
-      "game_variant_file_name": "ff_skirmiggedon"
+      "game_variant_file": {
+        "name": "Skirmigeddon",
+        "file_name": "ff_skirmiggedon"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -996,22 +1068,24 @@
         "unknown14": false
       },
       "map_id": 7000,
-      "game_name": "Skirmigeddon",
-      "game_variant_file_name": "ff_skirmiggedon"
+      "game_variant_file": {
+        "name": "Skirmigeddon",
+        "file_name": "ff_skirmiggedon"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1023,22 +1097,24 @@
         "unknown14": false
       },
       "map_id": 7040,
-      "game_name": "Skirmigeddon",
-      "game_variant_file_name": "ff_skirmiggedon"
+      "game_variant_file": {
+        "name": "Skirmigeddon",
+        "file_name": "ff_skirmiggedon"
+      }
     },
     {
       "weight": 50,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 1,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 1,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1050,22 +1126,24 @@
         "unknown14": true
       },
       "map_id": 10080,
-      "game_name": "Skirmigeddon",
-      "game_variant_file_name": "ff_skirmiggedon"
+      "game_variant_file": {
+        "name": "Skirmigeddon",
+        "file_name": "ff_skirmiggedon"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 2,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 2,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1077,22 +1155,24 @@
         "unknown14": true
       },
       "map_id": 7500,
-      "game_name": "Skirmigeddon",
-      "game_variant_file_name": "ff_skirmiggedon"
+      "game_variant_file": {
+        "name": "Skirmigeddon",
+        "file_name": "ff_skirmiggedon"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1104,22 +1184,24 @@
         "unknown14": false
       },
       "map_id": 7060,
-      "game_name": "Crashsite",
-      "game_variant_file_name": "ff_crash_site"
+      "game_variant_file": {
+        "name": "Crashsite",
+        "file_name": "ff_crash_site"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1131,22 +1213,24 @@
         "unknown14": false
       },
       "map_id": 7110,
-      "game_name": "Crashsite",
-      "game_variant_file_name": "ff_crash_site"
+      "game_variant_file": {
+        "name": "Crashsite",
+        "file_name": "ff_crash_site"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1158,22 +1242,24 @@
         "unknown14": false
       },
       "map_id": 7020,
-      "game_name": "Crashsite",
-      "game_variant_file_name": "ff_crash_site"
+      "game_variant_file": {
+        "name": "Crashsite",
+        "file_name": "ff_crash_site"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1185,22 +1271,24 @@
         "unknown14": false
       },
       "map_id": 7080,
-      "game_name": "Crashsite",
-      "game_variant_file_name": "ff_crash_site"
+      "game_variant_file": {
+        "name": "Crashsite",
+        "file_name": "ff_crash_site"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1212,22 +1300,24 @@
         "unknown14": false
       },
       "map_id": 7030,
-      "game_name": "Crashsite",
-      "game_variant_file_name": "ff_crash_site"
+      "game_variant_file": {
+        "name": "Crashsite",
+        "file_name": "ff_crash_site"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1239,22 +1329,24 @@
         "unknown14": false
       },
       "map_id": 7130,
-      "game_name": "Crashsite",
-      "game_variant_file_name": "ff_crash_site"
+      "game_variant_file": {
+        "name": "Crashsite",
+        "file_name": "ff_crash_site"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1266,22 +1358,24 @@
         "unknown14": false
       },
       "map_id": 7000,
-      "game_name": "Crashsite",
-      "game_variant_file_name": "ff_crash_site"
+      "game_variant_file": {
+        "name": "Crashsite",
+        "file_name": "ff_crash_site"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1293,22 +1387,24 @@
         "unknown14": false
       },
       "map_id": 7040,
-      "game_name": "Crashsite",
-      "game_variant_file_name": "ff_crash_site"
+      "game_variant_file": {
+        "name": "Crashsite",
+        "file_name": "ff_crash_site"
+      }
     },
     {
       "weight": 50,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 1,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 1,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1320,22 +1416,24 @@
         "unknown14": true
       },
       "map_id": 10080,
-      "game_name": "Crashsite",
-      "game_variant_file_name": "ff_crash_site"
+      "game_variant_file": {
+        "name": "Crashsite",
+        "file_name": "ff_crash_site"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 2,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 2,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1347,22 +1445,24 @@
         "unknown14": true
       },
       "map_id": 7500,
-      "game_name": "Crashsite",
-      "game_variant_file_name": "ff_crash_site"
+      "game_variant_file": {
+        "name": "Crashsite",
+        "file_name": "ff_crash_site"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1374,22 +1474,24 @@
         "unknown14": false
       },
       "map_id": 7060,
-      "game_name": "Sniper Attack",
-      "game_variant_file_name": "ff_sniper_attack"
+      "game_variant_file": {
+        "name": "Sniper Attack",
+        "file_name": "ff_sniper_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1401,22 +1503,24 @@
         "unknown14": false
       },
       "map_id": 7110,
-      "game_name": "Sniper Attack",
-      "game_variant_file_name": "ff_sniper_attack"
+      "game_variant_file": {
+        "name": "Sniper Attack",
+        "file_name": "ff_sniper_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1428,22 +1532,24 @@
         "unknown14": false
       },
       "map_id": 7020,
-      "game_name": "Sniper Attack",
-      "game_variant_file_name": "ff_sniper_attack"
+      "game_variant_file": {
+        "name": "Sniper Attack",
+        "file_name": "ff_sniper_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1455,22 +1561,24 @@
         "unknown14": false
       },
       "map_id": 7080,
-      "game_name": "Sniper Attack",
-      "game_variant_file_name": "ff_sniper_attack"
+      "game_variant_file": {
+        "name": "Sniper Attack",
+        "file_name": "ff_sniper_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1482,22 +1590,24 @@
         "unknown14": false
       },
       "map_id": 7030,
-      "game_name": "Sniper Attack",
-      "game_variant_file_name": "ff_sniper_attack"
+      "game_variant_file": {
+        "name": "Sniper Attack",
+        "file_name": "ff_sniper_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1509,22 +1619,24 @@
         "unknown14": false
       },
       "map_id": 7130,
-      "game_name": "Sniper Attack",
-      "game_variant_file_name": "ff_sniper_attack"
+      "game_variant_file": {
+        "name": "Sniper Attack",
+        "file_name": "ff_sniper_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1536,22 +1648,24 @@
         "unknown14": false
       },
       "map_id": 7000,
-      "game_name": "Sniper Attack",
-      "game_variant_file_name": "ff_sniper_attack"
+      "game_variant_file": {
+        "name": "Sniper Attack",
+        "file_name": "ff_sniper_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1563,22 +1677,24 @@
         "unknown14": false
       },
       "map_id": 7040,
-      "game_name": "Sniper Attack",
-      "game_variant_file_name": "ff_sniper_attack"
+      "game_variant_file": {
+        "name": "Sniper Attack",
+        "file_name": "ff_sniper_attack"
+      }
     },
     {
       "weight": 100,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 1,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 1,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1590,22 +1706,24 @@
         "unknown14": true
       },
       "map_id": 10080,
-      "game_name": "Sniper Attack",
-      "game_variant_file_name": "ff_sniper_attack"
+      "game_variant_file": {
+        "name": "Sniper Attack",
+        "file_name": "ff_sniper_attack"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1617,22 +1735,24 @@
         "unknown14": true
       },
       "map_id": 7500,
-      "game_name": "Sniper Attack",
-      "game_variant_file_name": "ff_sniper_attack"
+      "game_variant_file": {
+        "name": "Sniper Attack",
+        "file_name": "ff_sniper_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1644,22 +1764,24 @@
         "unknown14": false
       },
       "map_id": 7060,
-      "game_name": "Rocket Attack",
-      "game_variant_file_name": "ff_rocket_attack"
+      "game_variant_file": {
+        "name": "Rocket Attack",
+        "file_name": "ff_rocket_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1671,22 +1793,24 @@
         "unknown14": false
       },
       "map_id": 7110,
-      "game_name": "Rocket Attack",
-      "game_variant_file_name": "ff_rocket_attack"
+      "game_variant_file": {
+        "name": "Rocket Attack",
+        "file_name": "ff_rocket_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1698,22 +1822,24 @@
         "unknown14": false
       },
       "map_id": 7020,
-      "game_name": "Rocket Attack",
-      "game_variant_file_name": "ff_rocket_attack"
+      "game_variant_file": {
+        "name": "Rocket Attack",
+        "file_name": "ff_rocket_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1725,22 +1851,24 @@
         "unknown14": false
       },
       "map_id": 7080,
-      "game_name": "Rocket Attack",
-      "game_variant_file_name": "ff_rocket_attack"
+      "game_variant_file": {
+        "name": "Rocket Attack",
+        "file_name": "ff_rocket_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1752,22 +1880,24 @@
         "unknown14": false
       },
       "map_id": 7030,
-      "game_name": "Rocket Attack",
-      "game_variant_file_name": "ff_rocket_attack"
+      "game_variant_file": {
+        "name": "Rocket Attack",
+        "file_name": "ff_rocket_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1779,22 +1909,24 @@
         "unknown14": false
       },
       "map_id": 7130,
-      "game_name": "Rocket Attack",
-      "game_variant_file_name": "ff_rocket_attack"
+      "game_variant_file": {
+        "name": "Rocket Attack",
+        "file_name": "ff_rocket_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1806,22 +1938,24 @@
         "unknown14": false
       },
       "map_id": 7000,
-      "game_name": "Rocket Attack",
-      "game_variant_file_name": "ff_rocket_attack"
+      "game_variant_file": {
+        "name": "Rocket Attack",
+        "file_name": "ff_rocket_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1833,22 +1967,24 @@
         "unknown14": false
       },
       "map_id": 7040,
-      "game_name": "Rocket Attack",
-      "game_variant_file_name": "ff_rocket_attack"
+      "game_variant_file": {
+        "name": "Rocket Attack",
+        "file_name": "ff_rocket_attack"
+      }
     },
     {
       "weight": 50,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 1,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 1,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1860,22 +1996,24 @@
         "unknown14": true
       },
       "map_id": 10080,
-      "game_name": "Rocket Attack",
-      "game_variant_file_name": "ff_rocket_attack"
+      "game_variant_file": {
+        "name": "Rocket Attack",
+        "file_name": "ff_rocket_attack"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1887,22 +2025,24 @@
         "unknown14": true
       },
       "map_id": 7500,
-      "game_name": "Rocket Attack",
-      "game_variant_file_name": "ff_rocket_attack"
+      "game_variant_file": {
+        "name": "Rocket Attack",
+        "file_name": "ff_rocket_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1914,22 +2054,24 @@
         "unknown14": false
       },
       "map_id": 7060,
-      "game_name": "FRG Attack",
-      "game_variant_file_name": "ff_frg_attack"
+      "game_variant_file": {
+        "name": "FRG Attack",
+        "file_name": "ff_frg_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1941,22 +2083,24 @@
         "unknown14": false
       },
       "map_id": 7110,
-      "game_name": "FRG Attack",
-      "game_variant_file_name": "ff_frg_attack"
+      "game_variant_file": {
+        "name": "FRG Attack",
+        "file_name": "ff_frg_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1968,22 +2112,24 @@
         "unknown14": false
       },
       "map_id": 7020,
-      "game_name": "FRG Attack",
-      "game_variant_file_name": "ff_frg_attack"
+      "game_variant_file": {
+        "name": "FRG Attack",
+        "file_name": "ff_frg_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1995,22 +2141,24 @@
         "unknown14": false
       },
       "map_id": 7080,
-      "game_name": "FRG Attack",
-      "game_variant_file_name": "ff_frg_attack"
+      "game_variant_file": {
+        "name": "FRG Attack",
+        "file_name": "ff_frg_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2022,22 +2170,24 @@
         "unknown14": false
       },
       "map_id": 7030,
-      "game_name": "FRG Attack",
-      "game_variant_file_name": "ff_frg_attack"
+      "game_variant_file": {
+        "name": "FRG Attack",
+        "file_name": "ff_frg_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2049,22 +2199,24 @@
         "unknown14": false
       },
       "map_id": 7130,
-      "game_name": "FRG Attack",
-      "game_variant_file_name": "ff_frg_attack"
+      "game_variant_file": {
+        "name": "FRG Attack",
+        "file_name": "ff_frg_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2076,22 +2228,24 @@
         "unknown14": false
       },
       "map_id": 7000,
-      "game_name": "FRG Attack",
-      "game_variant_file_name": "ff_frg_attack"
+      "game_variant_file": {
+        "name": "FRG Attack",
+        "file_name": "ff_frg_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2103,22 +2257,24 @@
         "unknown14": false
       },
       "map_id": 7040,
-      "game_name": "FRG Attack",
-      "game_variant_file_name": "ff_frg_attack"
+      "game_variant_file": {
+        "name": "FRG Attack",
+        "file_name": "ff_frg_attack"
+      }
     },
     {
       "weight": 50,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 1,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 1,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2130,22 +2286,24 @@
         "unknown14": true
       },
       "map_id": 10080,
-      "game_name": "FRG Attack",
-      "game_variant_file_name": "ff_frg_attack"
+      "game_variant_file": {
+        "name": "FRG Attack",
+        "file_name": "ff_frg_attack"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2157,22 +2315,24 @@
         "unknown14": true
       },
       "map_id": 7500,
-      "game_name": "FRG Attack",
-      "game_variant_file_name": "ff_frg_attack"
+      "game_variant_file": {
+        "name": "FRG Attack",
+        "file_name": "ff_frg_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2184,22 +2344,24 @@
         "unknown14": false
       },
       "map_id": 7060,
-      "game_name": "Fiesta Attack",
-      "game_variant_file_name": "ff_fiesta_attack"
+      "game_variant_file": {
+        "name": "Fiesta Attack",
+        "file_name": "ff_fiesta_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2211,22 +2373,24 @@
         "unknown14": false
       },
       "map_id": 7110,
-      "game_name": "Fiesta Attack",
-      "game_variant_file_name": "ff_fiesta_attack"
+      "game_variant_file": {
+        "name": "Fiesta Attack",
+        "file_name": "ff_fiesta_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2238,22 +2402,24 @@
         "unknown14": false
       },
       "map_id": 7020,
-      "game_name": "Fiesta Attack",
-      "game_variant_file_name": "ff_fiesta_attack"
+      "game_variant_file": {
+        "name": "Fiesta Attack",
+        "file_name": "ff_fiesta_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2265,22 +2431,24 @@
         "unknown14": false
       },
       "map_id": 7080,
-      "game_name": "Fiesta Attack",
-      "game_variant_file_name": "ff_fiesta_attack"
+      "game_variant_file": {
+        "name": "Fiesta Attack",
+        "file_name": "ff_fiesta_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2292,22 +2460,24 @@
         "unknown14": false
       },
       "map_id": 7030,
-      "game_name": "Fiesta Attack",
-      "game_variant_file_name": "ff_fiesta_attack"
+      "game_variant_file": {
+        "name": "Fiesta Attack",
+        "file_name": "ff_fiesta_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2319,22 +2489,24 @@
         "unknown14": false
       },
       "map_id": 7130,
-      "game_name": "Fiesta Attack",
-      "game_variant_file_name": "ff_fiesta_attack"
+      "game_variant_file": {
+        "name": "Fiesta Attack",
+        "file_name": "ff_fiesta_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2346,22 +2518,24 @@
         "unknown14": false
       },
       "map_id": 7000,
-      "game_name": "Fiesta Attack",
-      "game_variant_file_name": "ff_fiesta_attack"
+      "game_variant_file": {
+        "name": "Fiesta Attack",
+        "file_name": "ff_fiesta_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2373,22 +2547,24 @@
         "unknown14": false
       },
       "map_id": 7040,
-      "game_name": "Fiesta Attack",
-      "game_variant_file_name": "ff_fiesta_attack"
+      "game_variant_file": {
+        "name": "Fiesta Attack",
+        "file_name": "ff_fiesta_attack"
+      }
     },
     {
       "weight": 50,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 1,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 1,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2400,22 +2576,24 @@
         "unknown14": true
       },
       "map_id": 10080,
-      "game_name": "Fiesta Attack",
-      "game_variant_file_name": "ff_fiesta_attack"
+      "game_variant_file": {
+        "name": "Fiesta Attack",
+        "file_name": "ff_fiesta_attack"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2427,22 +2605,24 @@
         "unknown14": true
       },
       "map_id": 7500,
-      "game_name": "Fiesta Attack",
-      "game_variant_file_name": "ff_fiesta_attack"
+      "game_variant_file": {
+        "name": "Fiesta Attack",
+        "file_name": "ff_fiesta_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2454,22 +2634,24 @@
         "unknown14": false
       },
       "map_id": 7060,
-      "game_name": "Mythic Attack",
-      "game_variant_file_name": "ff_mythic_score_attack"
+      "game_variant_file": {
+        "name": "Mythic Attack",
+        "file_name": "ff_mythic_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2481,22 +2663,24 @@
         "unknown14": false
       },
       "map_id": 7110,
-      "game_name": "Mythic Attack",
-      "game_variant_file_name": "ff_mythic_score_attack"
+      "game_variant_file": {
+        "name": "Mythic Attack",
+        "file_name": "ff_mythic_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2508,22 +2692,24 @@
         "unknown14": false
       },
       "map_id": 7020,
-      "game_name": "Mythic Attack",
-      "game_variant_file_name": "ff_mythic_score_attack"
+      "game_variant_file": {
+        "name": "Mythic Attack",
+        "file_name": "ff_mythic_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2535,22 +2721,24 @@
         "unknown14": false
       },
       "map_id": 7080,
-      "game_name": "Mythic Attack",
-      "game_variant_file_name": "ff_mythic_score_attack"
+      "game_variant_file": {
+        "name": "Mythic Attack",
+        "file_name": "ff_mythic_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2562,22 +2750,24 @@
         "unknown14": false
       },
       "map_id": 7030,
-      "game_name": "Mythic Attack",
-      "game_variant_file_name": "ff_mythic_score_attack"
+      "game_variant_file": {
+        "name": "Mythic Attack",
+        "file_name": "ff_mythic_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2589,22 +2779,24 @@
         "unknown14": false
       },
       "map_id": 7130,
-      "game_name": "Mythic Attack",
-      "game_variant_file_name": "ff_mythic_score_attack"
+      "game_variant_file": {
+        "name": "Mythic Attack",
+        "file_name": "ff_mythic_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2616,22 +2808,24 @@
         "unknown14": false
       },
       "map_id": 7000,
-      "game_name": "Mythic Attack",
-      "game_variant_file_name": "ff_mythic_score_attack"
+      "game_variant_file": {
+        "name": "Mythic Attack",
+        "file_name": "ff_mythic_score_attack"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2643,22 +2837,24 @@
         "unknown14": false
       },
       "map_id": 7040,
-      "game_name": "Mythic Attack",
-      "game_variant_file_name": "ff_mythic_score_attack"
+      "game_variant_file": {
+        "name": "Mythic Attack",
+        "file_name": "ff_mythic_score_attack"
+      }
     },
     {
       "weight": 50,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 1,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 1,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2670,22 +2866,24 @@
         "unknown14": true
       },
       "map_id": 10080,
-      "game_name": "Mythic Attack",
-      "game_variant_file_name": "ff_mythic_score_attack"
+      "game_variant_file": {
+        "name": "Mythic Attack",
+        "file_name": "ff_mythic_score_attack"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 1,
       "maximum_player_count": 2,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 2.3509887e-38,
-        "dword04": 2,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": true,
+        "unknown04": 2,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2697,8 +2895,10 @@
         "unknown14": true
       },
       "map_id": 7500,
-      "game_name": "Mythic Attack",
-      "game_variant_file_name": "ff_mythic_score_attack"
+      "game_variant_file": {
+        "name": "Mythic Attack",
+        "file_name": "ff_mythic_score_attack"
+      }
     }
   ]
 }

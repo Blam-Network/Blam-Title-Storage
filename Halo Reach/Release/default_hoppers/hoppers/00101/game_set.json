@@ -4,15 +4,15 @@
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -24,24 +24,28 @@
         "unknown14": false
       },
       "map_id": 1040,
-      "game_name": "TU Headhunter",
-      "game_variant_file_name": "tu1_headhunter_default",
-      "map_name": "Zealot",
-      "map_variant_file_name": "aftship_default"
+      "game_variant_file": {
+        "name": "TU Headhunter",
+        "file_name": "tu1_headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "Zealot",
+        "file_name": "aftship_default"
+      }
     },
     {
       "weight": 2,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -53,24 +57,28 @@
         "unknown14": false
       },
       "map_id": 1150,
-      "game_name": "TU Juggernaut",
-      "game_variant_file_name": "tu1_juggernaut_default",
-      "map_name": "Reflection",
-      "map_variant_file_name": "ivory_tower_default"
+      "game_variant_file": {
+        "name": "TU Juggernaut",
+        "file_name": "tu1_juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Reflection",
+        "file_name": "ivory_tower_default"
+      }
     },
     {
       "weight": 2,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -82,24 +90,28 @@
         "unknown14": false
       },
       "map_id": 1020,
-      "game_name": "TU Juggernaut",
-      "game_variant_file_name": "tu1_juggernaut_default",
-      "map_name": "Countdown",
-      "map_variant_file_name": "launch_station_default"
+      "game_variant_file": {
+        "name": "TU Juggernaut",
+        "file_name": "tu1_juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Countdown",
+        "file_name": "launch_station_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -111,24 +123,28 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     },
     {
       "weight": 2,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -140,24 +156,28 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "TU Oddball",
-      "game_variant_file_name": "tu1_oddball_ffa",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "TU Oddball",
+        "file_name": "tu1_oddball_ffa"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -169,24 +189,28 @@
         "unknown14": false
       },
       "map_id": 1150,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Reflection",
-      "map_variant_file_name": "ivory_tower_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Reflection",
+        "file_name": "ivory_tower_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -198,24 +222,28 @@
         "unknown14": false
       },
       "map_id": 1020,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Countdown",
-      "map_variant_file_name": "launch_station_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Countdown",
+        "file_name": "launch_station_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -227,24 +255,28 @@
         "unknown14": false
       },
       "map_id": 1000,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Sword Base",
-      "map_variant_file_name": "sword_base_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "file_name": "sword_base_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -256,24 +288,28 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -285,24 +321,28 @@
         "unknown14": false
       },
       "map_id": 1000,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Sword Base",
-      "map_variant_file_name": "sword_base_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "file_name": "sword_base_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -314,24 +354,28 @@
         "unknown14": false
       },
       "map_id": 1020,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Countdown",
-      "map_variant_file_name": "launch_station_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Countdown",
+        "file_name": "launch_station_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -343,24 +387,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Pinnacle",
-      "map_variant_file_name": "coastline_azimuth_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Pinnacle",
+        "file_name": "coastline_azimuth_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -372,24 +420,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Uncaged",
-      "map_variant_file_name": "coastline_uncaged_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Uncaged",
+        "file_name": "coastline_uncaged_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -401,24 +453,28 @@
         "unknown14": false
       },
       "map_id": 1040,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Arena Zealot",
-      "map_variant_file_name": "zealot_arena"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Arena Zealot",
+        "file_name": "zealot_arena"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -430,24 +486,28 @@
         "unknown14": true
       },
       "map_id": 1500,
-      "game_name": "TU Headhunter",
-      "game_variant_file_name": "tu1_headhunter_default",
-      "map_name": "Uplink",
-      "map_variant_file_name": "condemned_uplink"
+      "game_variant_file": {
+        "name": "TU Headhunter",
+        "file_name": "tu1_headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "Uplink",
+        "file_name": "condemned_uplink"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -459,24 +519,28 @@
         "unknown14": true
       },
       "map_id": 1500,
-      "game_name": "TU Juggernaut",
-      "game_variant_file_name": "tu1_juggernaut_default",
-      "map_name": "Uplink",
-      "map_variant_file_name": "condemned_uplink"
+      "game_variant_file": {
+        "name": "TU Juggernaut",
+        "file_name": "tu1_juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Uplink",
+        "file_name": "condemned_uplink"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -488,24 +552,28 @@
         "unknown14": true
       },
       "map_id": 1500,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Uplink",
-      "map_variant_file_name": "condemned_uplink"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Uplink",
+        "file_name": "condemned_uplink"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -517,24 +585,28 @@
         "unknown14": true
       },
       "map_id": 1500,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Uplink",
-      "map_variant_file_name": "condemned_uplink"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Uplink",
+        "file_name": "condemned_uplink"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -546,24 +618,28 @@
         "unknown14": true
       },
       "map_id": 1500,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Uplink",
-      "map_variant_file_name": "condemned_uplink"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Uplink",
+        "file_name": "condemned_uplink"
+      }
     },
     {
       "weight": 15,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -575,24 +651,28 @@
         "unknown14": true
       },
       "map_id": 1500,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Uplink",
-      "map_variant_file_name": "condemned_uplink"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Uplink",
+        "file_name": "condemned_uplink"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -604,24 +684,28 @@
         "unknown14": true
       },
       "map_id": 1500,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Uplink",
-      "map_variant_file_name": "condemned_uplink"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Uplink",
+        "file_name": "condemned_uplink"
+      }
     },
     {
       "weight": 50,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -633,24 +717,28 @@
         "unknown14": true
       },
       "map_id": 10070,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Solitary",
-      "map_variant_file_name": "prisoner_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Solitary",
+        "file_name": "prisoner_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -662,24 +750,28 @@
         "unknown14": true
       },
       "map_id": 10070,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Solitary",
-      "map_variant_file_name": "prisoner_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Solitary",
+        "file_name": "prisoner_default"
+      }
     },
     {
       "weight": 40,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -691,24 +783,28 @@
         "unknown14": true
       },
       "map_id": 10070,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Solitary",
-      "map_variant_file_name": "prisoner_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Solitary",
+        "file_name": "prisoner_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -720,24 +816,28 @@
         "unknown14": true
       },
       "map_id": 10070,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Solitary",
-      "map_variant_file_name": "prisoner_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Solitary",
+        "file_name": "prisoner_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -749,24 +849,28 @@
         "unknown14": true
       },
       "map_id": 10070,
-      "game_name": "TU Headhunter",
-      "game_variant_file_name": "tu1_headhunter_default",
-      "map_name": "Solitary",
-      "map_variant_file_name": "prisoner_default"
+      "game_variant_file": {
+        "name": "TU Headhunter",
+        "file_name": "tu1_headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "Solitary",
+        "file_name": "prisoner_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -778,24 +882,28 @@
         "unknown14": true
       },
       "map_id": 10070,
-      "game_name": "TU Juggernaut",
-      "game_variant_file_name": "tu1_juggernaut_default",
-      "map_name": "Solitary",
-      "map_variant_file_name": "prisoner_default"
+      "game_variant_file": {
+        "name": "TU Juggernaut",
+        "file_name": "tu1_juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Solitary",
+        "file_name": "prisoner_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -807,24 +915,28 @@
         "unknown14": true
       },
       "map_id": 10070,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Solitary",
-      "map_variant_file_name": "prisoner_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Solitary",
+        "file_name": "prisoner_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -836,24 +948,28 @@
         "unknown14": true
       },
       "map_id": 10070,
-      "game_name": "TU Oddball",
-      "game_variant_file_name": "tu1_oddball_ffa",
-      "map_name": "Solitary",
-      "map_variant_file_name": "prisoner_default"
+      "game_variant_file": {
+        "name": "TU Oddball",
+        "file_name": "tu1_oddball_ffa"
+      },
+      "map_variant_file": {
+        "name": "Solitary",
+        "file_name": "prisoner_default"
+      }
     },
     {
       "weight": 50,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -865,24 +981,28 @@
         "unknown14": true
       },
       "map_id": 10010,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Penance",
-      "map_variant_file_name": "damnation_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Penance",
+        "file_name": "damnation_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -894,24 +1014,28 @@
         "unknown14": true
       },
       "map_id": 10010,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Penance",
-      "map_variant_file_name": "damnation_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Penance",
+        "file_name": "damnation_default"
+      }
     },
     {
       "weight": 40,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -923,24 +1047,28 @@
         "unknown14": true
       },
       "map_id": 10010,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Penance",
-      "map_variant_file_name": "damnation_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Penance",
+        "file_name": "damnation_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -952,24 +1080,28 @@
         "unknown14": true
       },
       "map_id": 10010,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Penance",
-      "map_variant_file_name": "damnation_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Penance",
+        "file_name": "damnation_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -981,24 +1113,28 @@
         "unknown14": true
       },
       "map_id": 10010,
-      "game_name": "TU Headhunter",
-      "game_variant_file_name": "tu1_headhunter_default",
-      "map_name": "Penance",
-      "map_variant_file_name": "damnation_default"
+      "game_variant_file": {
+        "name": "TU Headhunter",
+        "file_name": "tu1_headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "Penance",
+        "file_name": "damnation_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1010,24 +1146,28 @@
         "unknown14": true
       },
       "map_id": 10010,
-      "game_name": "TU Juggernaut",
-      "game_variant_file_name": "tu1_juggernaut_default",
-      "map_name": "Penance",
-      "map_variant_file_name": "damnation_default"
+      "game_variant_file": {
+        "name": "TU Juggernaut",
+        "file_name": "tu1_juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Penance",
+        "file_name": "damnation_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1039,24 +1179,28 @@
         "unknown14": true
       },
       "map_id": 10010,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Penance",
-      "map_variant_file_name": "damnation_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Penance",
+        "file_name": "damnation_default"
+      }
     },
     {
       "weight": 50,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1068,24 +1212,28 @@
         "unknown14": true
       },
       "map_id": 10020,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Battle Canyon",
-      "map_variant_file_name": "beaver_creek_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Battle Canyon",
+        "file_name": "beaver_creek_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1097,24 +1245,28 @@
         "unknown14": true
       },
       "map_id": 10020,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Battle Canyon",
-      "map_variant_file_name": "beaver_creek_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Battle Canyon",
+        "file_name": "beaver_creek_default"
+      }
     },
     {
       "weight": 40,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1126,24 +1278,28 @@
         "unknown14": true
       },
       "map_id": 10020,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Battle Canyon",
-      "map_variant_file_name": "beaver_creek_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Battle Canyon",
+        "file_name": "beaver_creek_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1155,24 +1311,28 @@
         "unknown14": true
       },
       "map_id": 10020,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Battle Canyon",
-      "map_variant_file_name": "beaver_creek_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Battle Canyon",
+        "file_name": "beaver_creek_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1184,24 +1344,28 @@
         "unknown14": true
       },
       "map_id": 10020,
-      "game_name": "TU Headhunter",
-      "game_variant_file_name": "tu1_headhunter_default",
-      "map_name": "Battle Canyon",
-      "map_variant_file_name": "beaver_creek_default"
+      "game_variant_file": {
+        "name": "TU Headhunter",
+        "file_name": "tu1_headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "Battle Canyon",
+        "file_name": "beaver_creek_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1213,24 +1377,28 @@
         "unknown14": true
       },
       "map_id": 10020,
-      "game_name": "TU Juggernaut",
-      "game_variant_file_name": "tu1_juggernaut_default",
-      "map_name": "Battle Canyon",
-      "map_variant_file_name": "beaver_creek_default"
+      "game_variant_file": {
+        "name": "TU Juggernaut",
+        "file_name": "tu1_juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Battle Canyon",
+        "file_name": "beaver_creek_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1242,24 +1410,28 @@
         "unknown14": true
       },
       "map_id": 10020,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Battle Canyon",
-      "map_variant_file_name": "beaver_creek_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Battle Canyon",
+        "file_name": "beaver_creek_default"
+      }
     },
     {
       "weight": 50,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1271,24 +1443,28 @@
         "unknown14": true
       },
       "map_id": 10060,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "High Noon",
-      "map_variant_file_name": "hangemhigh_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "High Noon",
+        "file_name": "hangemhigh_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1300,24 +1476,28 @@
         "unknown14": true
       },
       "map_id": 10060,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "High Noon",
-      "map_variant_file_name": "hangemhigh_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "High Noon",
+        "file_name": "hangemhigh_default"
+      }
     },
     {
       "weight": 40,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1329,24 +1509,28 @@
         "unknown14": true
       },
       "map_id": 10060,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "High Noon",
-      "map_variant_file_name": "hangemhigh_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "High Noon",
+        "file_name": "hangemhigh_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1358,24 +1542,28 @@
         "unknown14": true
       },
       "map_id": 10060,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "High Noon",
-      "map_variant_file_name": "hangemhigh_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "High Noon",
+        "file_name": "hangemhigh_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1387,24 +1575,28 @@
         "unknown14": true
       },
       "map_id": 10060,
-      "game_name": "TU Headhunter",
-      "game_variant_file_name": "tu1_headhunter_default",
-      "map_name": "High Noon",
-      "map_variant_file_name": "hangemhigh_default"
+      "game_variant_file": {
+        "name": "TU Headhunter",
+        "file_name": "tu1_headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "High Noon",
+        "file_name": "hangemhigh_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1416,24 +1608,28 @@
         "unknown14": true
       },
       "map_id": 10060,
-      "game_name": "TU Juggernaut",
-      "game_variant_file_name": "tu1_juggernaut_default",
-      "map_name": "High Noon",
-      "map_variant_file_name": "hangemhigh_default"
+      "game_variant_file": {
+        "name": "TU Juggernaut",
+        "file_name": "tu1_juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "High Noon",
+        "file_name": "hangemhigh_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 0,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -1445,24 +1641,28 @@
         "unknown14": true
       },
       "map_id": 10060,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "High Noon",
-      "map_variant_file_name": "hangemhigh_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "High Noon",
+        "file_name": "hangemhigh_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1474,24 +1674,28 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "TU Headhunter",
-      "game_variant_file_name": "tu1_headhunter_default",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "TU Headhunter",
+        "file_name": "tu1_headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1503,24 +1707,28 @@
         "unknown14": false
       },
       "map_id": 1035,
-      "game_name": "TU Juggernaut",
-      "game_variant_file_name": "tu1_juggernaut_default",
-      "map_name": "Boardwalk",
-      "map_variant_file_name": "panoptical_default"
+      "game_variant_file": {
+        "name": "TU Juggernaut",
+        "file_name": "tu1_juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Boardwalk",
+        "file_name": "panoptical_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1532,24 +1740,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Pinnacle",
-      "map_variant_file_name": "coastline_azimuth_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Pinnacle",
+        "file_name": "coastline_azimuth_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1561,24 +1773,28 @@
         "unknown14": false
       },
       "map_id": 1150,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Reflection",
-      "map_variant_file_name": "ivory_tower_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Reflection",
+        "file_name": "ivory_tower_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1590,24 +1806,28 @@
         "unknown14": false
       },
       "map_id": 1000,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Sword Base",
-      "map_variant_file_name": "sword_base_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "file_name": "sword_base_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1619,24 +1839,28 @@
         "unknown14": false
       },
       "map_id": 1040,
-      "game_name": "TU Oddball",
-      "game_variant_file_name": "tu1_oddball_ffa",
-      "map_name": "Zealot",
-      "map_variant_file_name": "aftship_default"
+      "game_variant_file": {
+        "name": "TU Oddball",
+        "file_name": "tu1_oddball_ffa"
+      },
+      "map_variant_file": {
+        "name": "Zealot",
+        "file_name": "aftship_default"
+      }
     },
     {
       "weight": 30,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1648,24 +1872,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Pinnacle",
-      "map_variant_file_name": "coastline_azimuth_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Pinnacle",
+        "file_name": "coastline_azimuth_default"
+      }
     },
     {
       "weight": 30,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1677,24 +1905,28 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     },
     {
       "weight": 30,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1706,24 +1938,28 @@
         "unknown14": false
       },
       "map_id": 1040,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Arena Zealot",
-      "map_variant_file_name": "zealot_arena"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Arena Zealot",
+        "file_name": "zealot_arena"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1735,24 +1971,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Asylum",
-      "map_variant_file_name": "coastline_asylum_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Asylum",
+        "file_name": "coastline_asylum_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1764,24 +2004,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Pinnacle",
-      "map_variant_file_name": "coastline_azimuth_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Pinnacle",
+        "file_name": "coastline_azimuth_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1793,24 +2037,28 @@
         "unknown14": false
       },
       "map_id": 1150,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Reflection",
-      "map_variant_file_name": "ivory_tower_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Reflection",
+        "file_name": "ivory_tower_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1822,24 +2070,28 @@
         "unknown14": false
       },
       "map_id": 1040,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Arena Zealot",
-      "map_variant_file_name": "zealot_arena"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Arena Zealot",
+        "file_name": "zealot_arena"
+      }
     },
     {
       "weight": 30,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1851,24 +2103,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Asylum",
-      "map_variant_file_name": "coastline_asylum_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Asylum",
+        "file_name": "coastline_asylum_default"
+      }
     },
     {
       "weight": 25,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1880,24 +2136,28 @@
         "unknown14": false
       },
       "map_id": 1150,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Reflection",
-      "map_variant_file_name": "ivory_tower_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Reflection",
+        "file_name": "ivory_tower_default"
+      }
     },
     {
       "weight": 30,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1909,24 +2169,28 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     },
     {
       "weight": 25,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1938,24 +2202,28 @@
         "unknown14": false
       },
       "map_id": 1000,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Sword Base",
-      "map_variant_file_name": "sword_base_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "file_name": "sword_base_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1967,24 +2235,28 @@
         "unknown14": false
       },
       "map_id": 1150,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Reflection",
-      "map_variant_file_name": "ivory_tower_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Reflection",
+        "file_name": "ivory_tower_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -1996,24 +2268,28 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2025,24 +2301,28 @@
         "unknown14": false
       },
       "map_id": 1000,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Sword Base",
-      "map_variant_file_name": "sword_base_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "file_name": "sword_base_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2054,24 +2334,28 @@
         "unknown14": true
       },
       "map_id": 2001,
-      "game_name": "TU Headhunter",
-      "game_variant_file_name": "tu1_headhunter_default",
-      "map_name": "Anchor 9",
-      "map_variant_file_name": "anchor9_default"
+      "game_variant_file": {
+        "name": "TU Headhunter",
+        "file_name": "tu1_headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "Anchor 9",
+        "file_name": "anchor9_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2083,24 +2367,28 @@
         "unknown14": true
       },
       "map_id": 2001,
-      "game_name": "TU Juggernaut",
-      "game_variant_file_name": "tu1_juggernaut_default",
-      "map_name": "Unanchored",
-      "map_variant_file_name": "unanchored_default"
+      "game_variant_file": {
+        "name": "TU Juggernaut",
+        "file_name": "tu1_juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Unanchored",
+        "file_name": "unanchored_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2112,24 +2400,28 @@
         "unknown14": true
       },
       "map_id": 2004,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Tempest",
-      "map_variant_file_name": "tempest_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Tempest",
+        "file_name": "tempest_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2141,24 +2433,28 @@
         "unknown14": true
       },
       "map_id": 2001,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Anchor 9",
-      "map_variant_file_name": "anchor9_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Anchor 9",
+        "file_name": "anchor9_default"
+      }
     },
     {
       "weight": 30,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 1,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2170,24 +2466,28 @@
         "unknown14": true
       },
       "map_id": 2001,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Anchor 9",
-      "map_variant_file_name": "anchor9_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Anchor 9",
+        "file_name": "anchor9_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2199,24 +2499,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Headhunter",
-      "game_variant_file_name": "tu1_headhunter_default",
-      "map_name": "Asylum",
-      "map_variant_file_name": "coastline_asylum_default"
+      "game_variant_file": {
+        "name": "TU Headhunter",
+        "file_name": "tu1_headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "Asylum",
+        "file_name": "coastline_asylum_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2228,24 +2532,28 @@
         "unknown14": false
       },
       "map_id": 1000,
-      "game_name": "TU Headhunter",
-      "game_variant_file_name": "tu1_headhunter_default",
-      "map_name": "Sword Base",
-      "map_variant_file_name": "sword_base_default"
+      "game_variant_file": {
+        "name": "TU Headhunter",
+        "file_name": "tu1_headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "file_name": "sword_base_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2257,24 +2565,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Juggernaut",
-      "game_variant_file_name": "tu1_juggernaut_default",
-      "map_name": "Pinnacle",
-      "map_variant_file_name": "coastline_azimuth_default"
+      "game_variant_file": {
+        "name": "TU Juggernaut",
+        "file_name": "tu1_juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Pinnacle",
+        "file_name": "coastline_azimuth_default"
+      }
     },
     {
       "weight": 1,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2286,24 +2598,28 @@
         "unknown14": false
       },
       "map_id": 1055,
-      "game_name": "TU Juggernaut",
-      "game_variant_file_name": "tu1_juggernaut_default",
-      "map_name": "Powerhouse",
-      "map_variant_file_name": "settlement_default"
+      "game_variant_file": {
+        "name": "TU Juggernaut",
+        "file_name": "tu1_juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2315,24 +2631,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Asylum",
-      "map_variant_file_name": "coastline_asylum_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Asylum",
+        "file_name": "coastline_asylum_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2344,24 +2664,28 @@
         "unknown14": false
       },
       "map_id": 1020,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Countdown",
-      "map_variant_file_name": "launch_station_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Countdown",
+        "file_name": "launch_station_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2373,24 +2697,28 @@
         "unknown14": false
       },
       "map_id": 1150,
-      "game_name": "TU Oddball",
-      "game_variant_file_name": "tu1_oddball_ffa",
-      "map_name": "Reflection",
-      "map_variant_file_name": "ivory_tower_default"
+      "game_variant_file": {
+        "name": "TU Oddball",
+        "file_name": "tu1_oddball_ffa"
+      },
+      "map_variant_file": {
+        "name": "Reflection",
+        "file_name": "ivory_tower_default"
+      }
     },
     {
       "weight": 30,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2402,24 +2730,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Asylum",
-      "map_variant_file_name": "coastline_asylum_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Asylum",
+        "file_name": "coastline_asylum_default"
+      }
     },
     {
       "weight": 30,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2431,24 +2763,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Uncaged",
-      "map_variant_file_name": "coastline_uncaged_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Uncaged",
+        "file_name": "coastline_uncaged_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2460,24 +2796,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Uncaged",
-      "map_variant_file_name": "coastline_uncaged_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Uncaged",
+        "file_name": "coastline_uncaged_default"
+      }
     },
     {
       "weight": 10,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2489,24 +2829,28 @@
         "unknown14": false
       },
       "map_id": 1020,
-      "game_name": "TU Elite Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa_covy",
-      "map_name": "Countdown",
-      "map_variant_file_name": "launch_station_default"
+      "game_variant_file": {
+        "name": "TU Elite Slayer",
+        "file_name": "tu1_slayer_ffa_covy"
+      },
+      "map_variant_file": {
+        "name": "Countdown",
+        "file_name": "launch_station_default"
+      }
     },
     {
       "weight": 30,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2518,24 +2862,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Pinnacle",
-      "map_variant_file_name": "coastline_azimuth_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Pinnacle",
+        "file_name": "coastline_azimuth_default"
+      }
     },
     {
       "weight": 25,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2547,24 +2895,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Uncaged",
-      "map_variant_file_name": "coastline_uncaged_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Uncaged",
+        "file_name": "coastline_uncaged_default"
+      }
     },
     {
       "weight": 30,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2576,24 +2928,28 @@
         "unknown14": false
       },
       "map_id": 1040,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Arena Zealot",
-      "map_variant_file_name": "zealot_arena"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Arena Zealot",
+        "file_name": "zealot_arena"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2605,24 +2961,28 @@
         "unknown14": false
       },
       "map_id": 3006,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Asylum",
-      "map_variant_file_name": "coastline_asylum_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Asylum",
+        "file_name": "coastline_asylum_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": false,
@@ -2634,24 +2994,28 @@
         "unknown14": false
       },
       "map_id": 1020,
-      "game_name": "TU Slayer Pro",
-      "game_variant_file_name": "tu1_slayer_ffa_pro",
-      "map_name": "Countdown",
-      "map_variant_file_name": "launch_station_default"
+      "game_variant_file": {
+        "name": "TU Slayer Pro",
+        "file_name": "tu1_slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Countdown",
+        "file_name": "launch_station_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 8,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2663,24 +3027,28 @@
         "unknown14": true
       },
       "map_id": 2004,
-      "game_name": "TU Headhunter",
-      "game_variant_file_name": "tu1_headhunter_default",
-      "map_name": "Tempest",
-      "map_variant_file_name": "tempest_default"
+      "game_variant_file": {
+        "name": "TU Headhunter",
+        "file_name": "tu1_headhunter_default"
+      },
+      "map_variant_file": {
+        "name": "Tempest",
+        "file_name": "tempest_default"
+      }
     },
     {
       "weight": 5,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2692,24 +3060,28 @@
         "unknown14": true
       },
       "map_id": 2001,
-      "game_name": "TU Crazy King",
-      "game_variant_file_name": "tu1_koth_ffa_crazyking",
-      "map_name": "Anchor 9",
-      "map_variant_file_name": "anchor9_default"
+      "game_variant_file": {
+        "name": "TU Crazy King",
+        "file_name": "tu1_koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Anchor 9",
+        "file_name": "anchor9_default"
+      }
     },
     {
       "weight": 30,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2721,24 +3093,28 @@
         "unknown14": true
       },
       "map_id": 2001,
-      "game_name": "TU Slayer",
-      "game_variant_file_name": "tu1_slayer_ffa",
-      "map_name": "Anchor 9",
-      "map_variant_file_name": "anchor9_default"
+      "game_variant_file": {
+        "name": "TU Slayer",
+        "file_name": "tu1_slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Anchor 9",
+        "file_name": "anchor9_default"
+      }
     },
     {
       "weight": 20,
       "minimum_player_count": 6,
       "maximum_player_count": 8,
-      "dwordc": 9,
-      "dword10": 2,
-      "dword14": 0,
-      "dword18": 50,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
       "campaign_and_survival_data": {
-        "dword00": 0.0,
-        "dword04": 0,
-        "dword08": 0,
-        "dword0C": 0
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
       },
       "replicated_data": {
         "unknown00": true,
@@ -2750,10 +3126,14 @@
         "unknown14": true
       },
       "map_id": 2001,
-      "game_name": "TU Slayer DMRs",
-      "game_variant_file_name": "tu1_slayer_ffa_dmr",
-      "map_name": "Anchor 9",
-      "map_variant_file_name": "anchor9_default"
+      "game_variant_file": {
+        "name": "TU Slayer DMRs",
+        "file_name": "tu1_slayer_ffa_dmr"
+      },
+      "map_variant_file": {
+        "name": "Anchor 9",
+        "file_name": "anchor9_default"
+      }
     }
   ]
 }

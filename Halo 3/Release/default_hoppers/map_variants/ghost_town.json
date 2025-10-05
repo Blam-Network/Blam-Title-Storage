@@ -15,33 +15,33 @@
     "game_engine_type": 0,
     "campaign_difficulty": -1,
     "hopper_id": -1,
-    "game_id": 12
+    "game_id": 0
   },
-  "m_map_variant_version": 0,
+  "m_map_variant_version": 12,
   "m_number_of_scenario_objects": 0,
   "m_number_of_variant_objects": 0,
   "m_number_of_placeable_object_quotas": 0,
-  "m_map_id": 38698879,
+  "m_map_id": 590,
   "m_world_bounds": {
     "x": {
-      "lower": null,
-      "upper": null
+      "lower": 3.4028235e38,
+      "upper": -3.4028235e38
     },
     "y": {
-      "lower": null,
-      "upper": null
+      "lower": 3.4028235e38,
+      "upper": -3.4028235e38
     },
     "z": {
-      "lower": null,
-      "upper": null
+      "lower": 3.4028235e38,
+      "upper": -3.4028235e38
     }
   },
-  "m_game_engine_subtype": 655360,
+  "m_game_engine_subtype": 10,
   "m_maximum_budget": 0.0,
-  "m_spent_budget": 1e-45,
-  "m_helpers_enabled": true,
+  "m_spent_budget": 0.0,
+  "m_helpers_enabled": false,
   "m_built_in": true,
-  "m_original_map_rsa_signature_hash": "00000000",
+  "m_original_map_rsa_signature_hash": "2915FE0F",
   "m_variant_objects": [
     {
       "flags": 0,
@@ -26280,7 +26280,7 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": null
+        "boundary_negative_height": 0.0
       }
     }
   ],
@@ -26297,8 +26297,8 @@
     -1,
     -1,
     -1,
-    0,
-    0
+    -1,
+    -1
   ],
   "m_quotas": [
     {
