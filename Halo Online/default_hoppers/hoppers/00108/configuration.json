@@ -2,13 +2,13 @@
   "descriptions": {
     "cht": "<color argb=#FF8692d4>殺戮之王和其他自由參賽類型的混合遊戲，在這裡，您只能靠自己！</color>|r|n|r|n夥伴人數上限：1",
     "de": "<color argb=#FF8692d4>Eine Mischung aus Showdown und anderen 'Jeder gegen jeden'- Spielen. Hier sind Sie auf sich allein gestellt.</color>|r|nMax. Gruppengröße: 1",
-    "en": "<color argb=#FF8692d4>A mix of Slayer and other Free For All games. Here, you must stand on your own.</color>|r|n|r|nMax Party Size: 1",
+    "en": "<color argb=#FF8692d4>A mix of Slayer and other Free For All games. Here, you must stand on your own.</color>|r|n|r|nMax Party Size: 6",
     "fr": "<color argb=#FF8692d4>Un mélange de parties Assassin et Chacun pour soi. Ici, vous êtes livré à vous-même.</color>|r|n|r|nTaille de groupe max : 1",
     "it": "<color argb=#FF8692d4>Un insieme di partite Massacro e Tutti contro tutti. Dovrai cavartela da solo.</color>|r|nDimensione massima gruppo: 1",
     "jpn": "<color argb=#FF8692d4>スレイヤーおよび各種個人戦に個人で参加</color>|r|n|r|nパーティーの上限： 1",
     "kor": "<color argb=#FF8692d4>슬레이어와 FFA의 혼합 게임입니다. 혼자 살아남아야 합니다.</color>|r|n|r|n최대 파티원 수: 1",
     "mx": "<color argb=#FF8692d4>Un mezcla de partidas Asesino y de otras partidas Todos contra todos. Aquí tendrás que luchar solo.</color> Tamaño máximo del grupo: 1",
-    "ru": "",
+    "pt": "<color argb=#FF8692d4>Uma mistura de Assassino e jogos Liberados para todos. Aqui, você deve se virar sozinho.</color> Tamanho máx. do Grupo: 1",
     "sp": "<color argb=#FF8692d4>Un mezcla de partidas Asesino y de otras partidas Todos contra todos. Aquí tendrás que luchar solo.</color> Tamaño máximo del grupo: 1"
   },
   "configuration": {
@@ -39,7 +39,7 @@
     "hide_hopper_from_access_restricted_players": true,
     "hide_hopper_from_live_account_access_restricted_players": false,
     "hide_hopper_due_to_time_restriction": true,
-    "requires_all_downloadable_maps": false,
+    "requires_all_downloadable_maps": true,
     "veto_enabled": true,
     "guests_allowed": false,
     "require_hosts_on_multiple_teams": true,

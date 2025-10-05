@@ -8,7 +8,7 @@
     "jpn": "<color argb=#FF8692d4>遠距離射撃の精度がカギとなるチーム戦向けプレイリスト</color>|r|nすべての追加マップが必要|r|nチーム サイズ： 3-4|r|nパーティーの上限： 4",
     "kor": "<color argb=#FF8692d4>매우 긴 사선에서 벌어지므로 정확한 라이플 사격이 필요한 팀 기반의 게임입니다.</color>|r|n모든 DLC 필요|r|n팀원 수: 3-4|r|n최대 파티원 수: 4",
     "mx": "<color argb=#FF8692d4>Líneas visuales largas y rifles de largo alcance. Combate de precisión en grandes distancias.</color> Precisa todo el contenido Tamaño equipo: 3-4|r|nTamaño máximo grupo: 4",
-    "ru": "",
+    "pt": "<color argb=#FF8692d4>Linhas de visão longas e rifles longos. Combate de precisão em longas distâncias.</color>|r|nReq. todos os DLC.|r|nTamanho da Equipe: 3-4|r|nTam. máx. do grupo: 4",
     "sp": "<color argb=#FF8692d4>Líneas visuales largas y rifles de largo alcance. Combate de precisión en grandes distancias.</color> Precisa todo el contenido Tamaño equipo: 3-4|r|nTamaño máximo grupo: 4"
   },
   "configuration": {
@@ -39,7 +39,7 @@
     "hide_hopper_from_access_restricted_players": true,
     "hide_hopper_from_live_account_access_restricted_players": false,
     "hide_hopper_due_to_time_restriction": true,
-    "requires_all_downloadable_maps": false,
+    "requires_all_downloadable_maps": true,
     "veto_enabled": true,
     "guests_allowed": false,
     "require_hosts_on_multiple_teams": true,

@@ -8,7 +8,7 @@
     "jpn": "<color argb=#FF8692d4>Mythic マップの個人戦で 7 EXP を獲得し、次の階級へと一歩近づこう</color>|r|nすべての追加マップが必要|r|nパーティーの上限： 7",
     "kor": "<color argb=#FF8692d4>리콘을 찾고 계십니까? 이 신화 지도를 사용하는 FFA 게임에서 7 EXP를 잽싸게 따내면 리콘이 더 가까워질 것입니다.</color>|r|n모든 DLC 필요|r|n최대 파티원 수: 7",
     "mx": "<color argb=#FF8692d4>¿Todavía quieres más? Consigue 7 EXP en esta lista de juego Todos contra todos con mapas Míticos y estarás más cerca.</color>|r|nPrecisa todo el contenido|r|nTamaño máximo de grupo: 7",
-    "ru": "",
+    "pt": "<color argb=#FF8692d4>Já está abalando o Recon?  Pegue 7 EXP nesta lista de jogos FFA com Mapas Míticos, e você estará um passo mais perto.</color>|r|nReq. todos os DLC.|r|nTam. máx. do grupo: 7",
     "sp": "<color argb=#FF8692d4>¿Todavía quieres más? Consigue 7 EXP en esta lista de juego Todos contra todos con mapas Míticos y estarás más cerca.</color>|r|nPrecisa todo el contenido|r|nTamaño máximo de grupo: 7"
   },
   "configuration": {
@@ -39,7 +39,7 @@
     "hide_hopper_from_access_restricted_players": true,
     "hide_hopper_from_live_account_access_restricted_players": false,
     "hide_hopper_due_to_time_restriction": true,
-    "requires_all_downloadable_maps": false,
+    "requires_all_downloadable_maps": true,
     "veto_enabled": true,
     "guests_allowed": true,
     "require_hosts_on_multiple_teams": false,

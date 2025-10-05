@@ -8,7 +8,7 @@
     "jpn": "<color argb=#FF8692d4>Action Sack が復活。EXP は 0 からスタート。大勢で興奮を味わえること間違いなし</color>|r|nすべての追加マップが必要|r|nチーム サイズ： 3-4|r|nパーティーの上限： 8",
     "kor": "<color argb=#FF8692d4>Action Sack이 돌아왔습니다. 경험치는 얻지 못하지만 마음대로 느긋하게 놀 수 있습니다.</color>|r|n모든 DLC 필요|r|n팀원 수: 3-4|r|n최대 파티원 수: 8",
     "mx": "<color argb=#FF8692d4>Saco de acción regresa con toda la diversión y 0 de EXP.</color>|r|nPrecisa todo el contenido.|r|nTamaño equipo: 3-4|r|nTamaño máximo grupo: 8",
-    "ru": "",
+    "pt": "<color argb=#FF8692d4>O Action Sack voltou, oferecendo fantásticos 0 EXP e uma confusa e louca diversão social.</color>|r|nReq. todos os DLC|r|nTamanho da Equipe: 3-4|r|nTam. máx. do grupo: 8",
     "sp": "<color argb=#FF8692d4>Saco de acción regresa con toda la diversión y 0 de EXP.</color>|r|nPrecisa todo el contenido.|r|nTamaño equipo: 3-4|r|nTamaño máximo grupo: 8"
   },
   "configuration": {
@@ -17,7 +17,7 @@
     "hopper_category": 1,
     "hopper_type": 2,
     "image_index": 9,
-    "xlast_index": 5,
+    "xlast_index": 15,
     "rich_presence_id": 13,
     "start_time": "None",
     "end_time": "None",
@@ -39,7 +39,7 @@
     "hide_hopper_from_access_restricted_players": true,
     "hide_hopper_from_live_account_access_restricted_players": false,
     "hide_hopper_due_to_time_restriction": true,
-    "requires_all_downloadable_maps": false,
+    "requires_all_downloadable_maps": true,
     "veto_enabled": true,
     "guests_allowed": true,
     "require_hosts_on_multiple_teams": false,

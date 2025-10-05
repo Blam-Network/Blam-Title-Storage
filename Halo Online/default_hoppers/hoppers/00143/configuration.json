@@ -8,7 +8,7 @@
     "jpn": "<color argb=#FF8692d4>Mythic の全 6 マップによる各種対戦で熱く盛り上がろう</color>|r|nすべての追加マップが必要|r|nチーム サイズ： 3-4|r|nパーティーの上限： 8",
     "kor": "<color argb=#FF8692d4>신화 지도 팩이 있으십니까? 6개의 신화 지도에서 팀 슬레이어와 목표 완수 게임을 즐기십시오.</color>|r|n모든 DLC 필요|r|n팀원 수: 3-4|r|n최대 파티원 수: 8",
     "mx": "<color argb=#FF8692d4>¿Tienes contenido Mítico?  Dale caña con las partidas Asesino por equipos y Objetivo en todos los mapas Míticos.</color>|r|nPrecisa todo el contenido|r|nEquipo: 3-4. Grupo: 8",
-    "ru": "",
+    "pt": "<color argb=#FF8692d4>Tem o Mítico?  Entre no jogo com mais Assassino da Equipe e Objetivo em todos os seis Mapas Míticos</color>|r|nReq. todos os DLC.|r|nTamanho da Equipe: 3-4|r|nTam. máx. do grupo: 8",
     "sp": "<color argb=#FF8692d4>¿Tienes contenido Mítico?  Dale caña con las partidas Asesino por equipos y Objetivo en todos los mapas Míticos.</color>|r|nPrecisa todo el contenido|r|nEquipo: 3-4. Grupo: 8"
   },
   "configuration": {
@@ -39,7 +39,7 @@
     "hide_hopper_from_access_restricted_players": true,
     "hide_hopper_from_live_account_access_restricted_players": false,
     "hide_hopper_due_to_time_restriction": true,
-    "requires_all_downloadable_maps": false,
+    "requires_all_downloadable_maps": true,
     "veto_enabled": true,
     "guests_allowed": true,
     "require_hosts_on_multiple_teams": false,

@@ -1,0 +1,9 @@
+map_variant_file_name,game_variant_file_name,weight,minimum_player_count,skip_after_veto,optional
+default_high_ground,team_elimination,2,6,false,false
+default_last_resort,team_elimination,2,6,false,false
+default_the_pit,team_elimination,2,6,false,false
+default_valhalla,team_elimination,2,6,false,false
+default_high_ground,team_elim_snipers,1,6,false,false
+default_narrows,team_elim_snipers,1,6,false,false
+default_the_pit,team_elim_snipers,1,6,false,false
+default_valhalla,team_elim_snipers,1,6,false,false

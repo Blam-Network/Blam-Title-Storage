@@ -8,7 +8,7 @@
     "jpn": "<color argb=#FF8692d4>2 チーム以上の各種対戦にパートナーと参加</color>|r|n|r|nチーム サイズ： 2|r|nパーティーの上限： 8",
     "kor": "<color argb=#FF8692d4>두 팀 이상이 할 수 있는 다양한 게임들입니다. FFA와 유사하지만 파트너를 가질 수 있습니다.</color>|r|n|r|n팀원 수: 2|r|n최대 파티원 수: 8",
     "mx": "<color argb=#FF8692d4>Una mezcla de partidas para más de dos equipos.</color>|r|nTamaño del equipo: 2|r|nTamaño máximo del grupo: 8",
-    "ru": "",
+    "pt": "<color argb=#FF8692d4>Uma mistura de jogos para mais de duas equipes.</color> Tamanho da equipe: 2|r|nTamanho máx. do grupo: 8",
     "sp": "<color argb=#FF8692d4>Una mezcla de partidas para más de dos equipos.</color>|r|nTamaño del equipo: 2|r|nTamaño máximo del grupo: 8"
   },
   "configuration": {
@@ -17,7 +17,7 @@
     "hopper_category": 1,
     "hopper_type": 2,
     "image_index": 10,
-    "xlast_index": 6,
+    "xlast_index": 15,
     "rich_presence_id": 6,
     "start_time": "None",
     "end_time": "None",
@@ -39,7 +39,7 @@
     "hide_hopper_from_access_restricted_players": true,
     "hide_hopper_from_live_account_access_restricted_players": false,
     "hide_hopper_due_to_time_restriction": true,
-    "requires_all_downloadable_maps": false,
+    "requires_all_downloadable_maps": true,
     "veto_enabled": true,
     "guests_allowed": true,
     "require_hosts_on_multiple_teams": false,
