@@ -17,6 +17,8 @@ jobs:
     - uses: actions/checkout@v4
     - name: Build [Halo 3]
       run: ./tools/blf_cli title-storage build "./Halo 3/Release" "./title/tracked/12070" "Halo 3" 12070.08.09.05.2031.halo3_ship
+    - name: Build [Halo 3] (Epsilon)
+      run: ./tools/blf_cli title-storage build "./Halo 3/Epsilon" "./title/tracked/11856" "Halo 3" 11856.07.08.20.2332.release
     - name: Build [Halo 3 ODST]
       run: './tools/blf_cli title-storage build "./Halo 3 ODST/Release" "./title/4d530877/tracked/13895" "Halo 3: ODST" 13895.09.04.27.2201.atlas_release'
     - name: Build [Halo Reach]
