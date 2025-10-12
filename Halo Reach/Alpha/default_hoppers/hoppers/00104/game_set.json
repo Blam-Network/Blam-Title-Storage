@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "weight": 1,
+      "minimum_player_count": 6,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": true,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 2,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 7000,
+      "game_variant_file": {
+        "name": "Network Test 1",
+        "file_name": "generator_defense"
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entries": [
+    {
+      "weight": 5,
+      "minimum_player_count": 12,
+      "maximum_player_count": 12,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 0,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1080,
+      "game_variant_file": {
+        "name": "Invasion",
+        "file_name": "1nvasion",
+        "author": "Bungie",
+        "description": ""
+      },
+      "map_variant_file": {
+        "name": "Boneyard",
+        "file_name": "boneyard_default",
+        "author": "Bungie",
+        "description": ""
+      }
+    },
+    {
+      "weight": 5,
+      "minimum_player_count": 12,
+      "maximum_player_count": 12,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 1,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1080,
+      "game_variant_file": {
+        "name": "Invasion",
+        "file_name": "1nvasion",
+        "author": "Bungie",
+        "description": ""
+      },
+      "map_variant_file": {
+        "name": "Boneyard",
+        "file_name": "boneyard_default",
+        "author": "Bungie",
+        "description": ""
+      }
+    }
+  ]
+}
