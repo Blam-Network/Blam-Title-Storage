@@ -2,7 +2,7 @@
   "m_game_engine": "custom",
   "m_custom_variant": {
     "m_encoding_version": 73,
-    "m_build_number": 9730,
+    "m_build_number": 9449,
     "m_base_variant": {
       "m_metadata": {
         "file_type": -1,
@@ -535,7 +535,7 @@
         "m_description_string_index": 4,
         "m_player_traits": {
           "m_shield_vitality_traits": {
-            "m_damage_resistance_percentage_setting": 6,
+            "m_damage_resistance_percentage_setting": 7,
             "m_body_multiplier": 0,
             "m_body_recharge_rate": 0,
             "m_shield_multiplier": 4,
@@ -560,7 +560,7 @@
             "m_initial_equipment_absolute_index": -3
           },
           "m_movement_traits": {
-            "m_speed_setting": 8,
+            "m_speed_setting": 11,
             "m_gravity_setting": 0,
             "m_vehicle_usage_setting": 1,
             "m_double_jump_setting": 0,
@@ -612,7 +612,7 @@
             "m_initial_equipment_absolute_index": -3
           },
           "m_movement_traits": {
-            "m_speed_setting": 8,
+            "m_speed_setting": 11,
             "m_gravity_setting": 0,
             "m_vehicle_usage_setting": 1,
             "m_double_jump_setting": 0,

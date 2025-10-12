@@ -2,7 +2,7 @@
   "m_game_engine": "custom",
   "m_custom_variant": {
     "m_encoding_version": 73,
-    "m_build_number": 9730,
+    "m_build_number": 9449,
     "m_base_variant": {
       "m_metadata": {
         "file_type": -1,
@@ -563,7 +563,7 @@
           "dynamic_influencers",
           "Zeit auf dem Hügel",
           "%n KMH",
-          "Fahren Sie durch Kontrollpunkte, um zu punkten.\r\n%n Punkte zum Sieg.",
+          "Tauschen Sie durch Kontrollpunkte, um zu punkten.\r\n%n Punkte zum Sieg.",
           "Ziel hat sich bewegt."
         ],
         [
@@ -611,14 +611,14 @@
           "Destinazione spostata."
         ],
         [
-          "랠리",
+          "깃발 꽂기",
           "race_spawn",
           "rally",
           "rally_flag",
           "dynamic_influencers",
           "고지에 머문 시간",
           "시속 %n",
-          "체크 포인트로 가면 점수를 얻습니다.\r\n%n점을 획득하면 승리합니다.",
+          "체크 포인트를 지나면 점수를 얻습니다.\r\n%n점을 획득하면 승리합니다.",
           "목표가 이동했습니다."
         ],
         [
@@ -629,7 +629,7 @@
           "dynamic_influencers",
           "山丘上的時間",
           "%n KPH",
-          "駕駛載具到達檢查站以贏得分數。\r\n%n 分獲勝。",
+          "駕駛載具通過檢查站以贏得分數。\r\n%n 分獲勝。",
           "目標移動。"
         ],
         [
