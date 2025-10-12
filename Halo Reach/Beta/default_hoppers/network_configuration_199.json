@@ -327,14 +327,14 @@
       "group_leave_timeout": 5000,
       "prepare_map_minimum_load_time_seconds": 5,
       "prepare_map_countdown_timer_seconds": 5,
-      "unknown1": "0x0000001E",
-      "end_match_write_stats_boot_threshold_seconds": 60,
-      "arbitration_wait_for_establishment_and_connectivity_threshold_seconds": 30,
-      "arbitration_wait_for_completion_threshold_seconds": 0,
+      "end_match_write_stats_boot_threshold_seconds": 30,
+      "arbitration_wait_for_establishment_and_connectivity_threshold_seconds": 60,
+      "arbitration_wait_for_completion_threshold_seconds": 30,
       "unknown2C_voting_system": 0,
       "post_match_return_to_pre_game_lobby": false,
-      "post_match_stats_refresh_time": 4,
-      "warning_toast_minimum_time_seconds": 4000,
+      "post_match_stats_refresh_time": 14400,
+      "warning_toast_minimum_time_seconds": 4,
+      "unknown78": 4000,
       "unknown7c_matchmaking_search_stale_timeout": 25000,
       "unknown80": 600,
       "unknown84_gather_timeout": 3000,
@@ -358,10 +358,10 @@
     "unknown14": 2,
     "unknown18": 0.5,
     "unknown1c": 4,
-    "unknown20_time": 5000,
-    "unknown24_time": 20000,
-    "unknown28_time": 10000,
-    "unknown2c_clamp": 125,
+    "unknown20_time": 1000,
+    "unknown24_time": 5000,
+    "unknown28_time": 5000,
+    "unknown2c_clamp": 175,
     "unknown30": 0.1,
     "unknown34": 0.1,
     "unknown38": 0.1,
@@ -474,7 +474,7 @@
       "unknown28": 10,
       "unknown2C": 20,
       "unknown30": 10000,
-      "unknown34": 1073741824,
+      "unknown34": 2.0,
       "unknown38": [
         8,
         8,
@@ -485,7 +485,7 @@
       ],
       "unknown50": 0.05,
       "unknown54": 1.0,
-      "unknown58": 0.5,
+      "simulation_event_projectile_supercombine_request_fraction": 0.5,
       "unknown5C": 0.95,
       "unknown60": 0.75,
       "maximum_catchup_views": 8,
@@ -1815,12 +1815,12 @@
     "basic_training_completion_minimum_experience": 5
   },
   "alpha_configuration": {
-    "disable_game": true,
-    "disable_custom_games": true,
+    "disable_game": false,
+    "disable_custom_games": false,
     "ui_level": "alpha_ui_level_main",
     "maximum_multiplayer_split_screen": 4,
-    "unknown1": 0,
-    "unknown2": 0
+    "unknown1": 1.0,
+    "unknown2": false
   },
   "crash_handling_configuration": {
     "display_crash_handling_ui": false,
@@ -2158,11 +2158,7 @@
     "unknown1AFC_bandwidth_quality_statistics_from_lsp_flag": false,
     "unknown1AFD_simulation_flag": false,
     "enable_user_image_upload": true,
-    "unknown1AFF": false,
-    "unknown1B00": false,
-    "unknown1B01": false,
-    "unknown1B02": false,
-    "unknown1B03": false
+    "unknown1AFF": true
   },
   "unknown1b08": 30000,
   "unknown1b0c": 30000,
@@ -2209,9 +2205,7 @@
     "file_manifest_refresh_threshold_seconds": 30,
     "machine_file_refresh_seconds": 900,
     "machine_file_refresh_threshold_seconds": 30,
-    "user_file_refresh_seconds": 5,
-    "user_file_refresh_threshold_seconds": 5,
-    "title_files_refresh_seconds": 900,
-    "title_files_refresh_threshold_seconds": 0
+    "user_file_refresh_seconds": 900,
+    "user_file_refresh_threshold_seconds": 30
   }
 }

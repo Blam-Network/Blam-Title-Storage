@@ -1,15 +1,6 @@
 {
   "descriptions": {
-    "cht": "",
-    "de": "",
-    "en": "4-on-4 Slayer and Objective gametypes focused on strategy, teamwork, and absurd amounts of fun.",
-    "fr": "",
-    "it": "",
-    "jpn": "",
-    "kor": "",
-    "mx": "",
-    "pt": "",
-    "sp": ""
+    "en": "4-on-4 Slayer and Objective gametypes focused on strategy, teamwork, and absurd amounts of fun."
   },
   "configuration": {
     "hopper_name": "Grab Bag",
@@ -45,8 +36,6 @@
     "hide_hopper_from_access_restricted_players": true,
     "hide_hopper_from_live_account_access_restricted_players": false,
     "hide_hopper_due_to_time_restriction": true,
-    "requires_hard_drive": false,
-    "requires_local_party": false,
     "voting_configuration": {
       "voting_categories": 2,
       "number_of_votes_per_peer": 1,
@@ -95,13 +84,10 @@
       0,
       0
     ],
-    "unknown100": 0,
-    "unknown104": 0,
-    "unknown108": 0,
     "uses_ffa_scoring_for_leaderboard_writes": true,
     "should_modify_skill_update_weight_with_game_quality": false,
     "trueskill_sigma_multiplier": 3.0,
-    "unknown114": 1.0,
+    "unknown104": 0,
     "trueskill_tau_dynamics_factor": 0.05,
     "trueskill_draw_probability": 20,
     "pre_match_voice_configuration": 1,
@@ -366,23 +352,6 @@
     "unknown418": 0,
     "unknown41c": 0,
     "undersized_party_split_permissions": 1,
-    "jackpot_minimum_time_seconds": 120,
-    "jackpot_configurations": [
-      {
-        "unknown1": 95,
-        "unknown2": 67,
-        "unknown3": 107
-      },
-      {
-        "unknown1": 4,
-        "unknown2": 347,
-        "unknown3": 367
-      },
-      {
-        "unknown1": 1,
-        "unknown2": 777,
-        "unknown3": 777
-      }
-    ]
+    "jackpot_minimum_time_seconds": 120
   }
 }

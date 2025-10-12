@@ -1,15 +1,6 @@
 {
   "descriptions": {
-    "cht": "Spartan on Spartan, 8-players free-for-all action. Don't leave that Lone Wolf stuff behind. This time, you're going in alone.",
-    "de": "Spartan on Spartan, 8-players free-for-all action. Don't leave that Lone Wolf stuff behind. This time, you're going in alone.",
-    "en": "Spartan on Spartan, 8-players free-for-all action. Don't leave that Lone Wolf stuff behind. This time, you're going in alone.",
-    "fr": "Spartan on Spartan, 8-players free-for-all action. Don't leave that Lone Wolf stuff behind. This time, you're going in alone.",
-    "it": "Spartan on Spartan, 8-players free-for-all action. Don't leave that Lone Wolf stuff behind. This time, you're going in alone.",
-    "jpn": "Spartan on Spartan, 8-players free-for-all action. Don't leave that Lone Wolf stuff behind. This time, you're going in alone.",
-    "kor": "Spartan on Spartan, 8-players free-for-all action. Don't leave that Lone Wolf stuff behind. This time, you're going in alone.",
-    "mx": "Spartan on Spartan, 8-players free-for-all action. Don't leave that Lone Wolf stuff behind. This time, you're going in alone.",
-    "pt": "Spartan on Spartan, 8-players free-for-all action. Don't leave that Lone Wolf stuff behind. This time, you're going in alone.",
-    "sp": "Spartan on Spartan, 8-players free-for-all action. Don't leave that Lone Wolf stuff behind. This time, you're going in alone."
+    "en": "Spartan on Spartan, 8-players free-for-all action. Don't leave that Lone Wolf stuff behind. This time, you're going in alone."
   },
   "configuration": {
     "hopper_name": "Free For All",
@@ -45,8 +36,6 @@
     "hide_hopper_from_access_restricted_players": true,
     "hide_hopper_from_live_account_access_restricted_players": false,
     "hide_hopper_due_to_time_restriction": true,
-    "requires_hard_drive": false,
-    "requires_local_party": false,
     "voting_configuration": {
       "voting_categories": 3,
       "number_of_votes_per_peer": 1,
@@ -95,13 +84,10 @@
       0,
       0
     ],
-    "unknown100": 0,
-    "unknown104": 0,
-    "unknown108": 0,
     "uses_ffa_scoring_for_leaderboard_writes": true,
     "should_modify_skill_update_weight_with_game_quality": false,
     "trueskill_sigma_multiplier": 3.0,
-    "unknown114": 1.0,
+    "unknown104": 0,
     "trueskill_tau_dynamics_factor": 0.05,
     "trueskill_draw_probability": 5,
     "pre_match_voice_configuration": 1,
@@ -366,23 +352,6 @@
     "unknown418": 0,
     "unknown41c": 0,
     "undersized_party_split_permissions": 1,
-    "jackpot_minimum_time_seconds": 120,
-    "jackpot_configurations": [
-      {
-        "unknown1": 75,
-        "unknown2": 150,
-        "unknown3": 400
-      },
-      {
-        "unknown1": 20,
-        "unknown2": 500,
-        "unknown3": 1000
-      },
-      {
-        "unknown1": 5,
-        "unknown2": 3000,
-        "unknown3": 3000
-      }
-    ]
+    "jackpot_minimum_time_seconds": 120
   }
 }

@@ -1,21 +1,12 @@
 {
   "descriptions": {
-    "cht": "Spartans defend a trio of UNSC generators against 3 Elites in this objective game. Please help us test networking!",
-    "de": "Spartans defend a trio of UNSC generators against 3 Elites in this objective game. Please help us test networking!",
-    "en": "Spartans defend a trio of UNSC generators against 3 Elites in this objective game. Please help us test networking!",
-    "fr": "Spartans defend a trio of UNSC generators against 3 Elites in this objective game. Please help us test networking!",
-    "it": "Spartans defend a trio of UNSC generators against 3 Elites in this objective game. Please help us test networking!",
-    "jpn": "Spartans defend a trio of UNSC generators against 3 Elites in this objective game. Please help us test networking!",
-    "kor": "Spartans defend a trio of UNSC generators against 3 Elites in this objective game. Please help us test networking!",
-    "mx": "Spartans defend a trio of UNSC generators against 3 Elites in this objective game. Please help us test networking!",
-    "pt": "Spartans defend a trio of UNSC generators against 3 Elites in this objective game. Please help us test networking!",
-    "sp": "Spartans defend a trio of UNSC generators against 3 Elites in this objective game. Please help us test networking!"
+    "en": "Spartans defend a trio of UNSC generators against 3 Elites in this objective game. Please help us test networking!"
   },
   "configuration": {
     "hopper_name": "Network Test 1",
     "identifier": 104,
-    "category_identifier": 4,
-    "category_index": 4,
+    "category_identifier": 0,
+    "category_index": 0,
     "player_investment_category": 1,
     "image_index": 4,
     "xlast_index": 19,
@@ -45,8 +36,6 @@
     "hide_hopper_from_access_restricted_players": true,
     "hide_hopper_from_live_account_access_restricted_players": false,
     "hide_hopper_due_to_time_restriction": true,
-    "requires_hard_drive": false,
-    "requires_local_party": true,
     "voting_configuration": {
       "voting_categories": 1,
       "number_of_votes_per_peer": 1,
@@ -95,24 +84,18 @@
       0,
       0
     ],
-    "unknown100": 16777216,
-    "unknown104": 0,
-    "unknown108": 50,
     "uses_ffa_scoring_for_leaderboard_writes": false,
     "should_modify_skill_update_weight_with_game_quality": false,
     "trueskill_sigma_multiplier": 3.0,
-    "unknown114": 1.0,
+    "unknown104": 0,
     "trueskill_tau_dynamics_factor": 0.05,
     "trueskill_draw_probability": 1,
     "pre_match_voice_configuration": 1,
     "in_match_voice_configuration": 0,
     "post_match_voice_configuration": 1,
     "restrict_open_channel": 0,
-    "unknown130": 30,
     "unknown120": 30,
     "unknown124": 0,
-    "unknown418": 0,
-    "unknown41c": 0,
     "query_configurations": [
       {
         "unknown00": 3,
@@ -366,26 +349,9 @@
     ],
     "maximum_team_imbalance": 0,
     "big_squad_size_threshold": 0,
-    "unknown424": 0,
-    "unknown428": 0,
+    "unknown418": 0,
+    "unknown41c": 0,
     "undersized_party_split_permissions": 0,
-    "jackpot_minimum_time_seconds": 120,
-    "jackpot_configurations": [
-      {
-        "unknown1": 75,
-        "unknown2": 150,
-        "unknown3": 400
-      },
-      {
-        "unknown1": 20,
-        "unknown2": 500,
-        "unknown3": 1000
-      },
-      {
-        "unknown1": 5,
-        "unknown2": 3000,
-        "unknown3": 3000
-      }
-    ]
+    "jackpot_minimum_time_seconds": 120
   }
 }
