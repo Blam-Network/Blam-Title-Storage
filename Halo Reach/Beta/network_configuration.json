@@ -1815,8 +1815,8 @@
     "basic_training_completion_minimum_experience": 5
   },
   "alpha_configuration": {
-    "disable_game": false,
-    "disable_custom_games": false,
+    "disable_game": true,
+    "disable_custom_games": true,
     "ui_level": "alpha_ui_level_main",
     "maximum_multiplayer_split_screen": 4,
     "unknown1": 0,
@@ -2209,8 +2209,8 @@
     "file_manifest_refresh_threshold_seconds": 30,
     "machine_file_refresh_seconds": 900,
     "machine_file_refresh_threshold_seconds": 30,
-    "user_file_refresh_seconds": 900,
-    "user_file_refresh_threshold_seconds": 30,
+    "user_file_refresh_seconds": 5,
+    "user_file_refresh_threshold_seconds": 5,
     "title_files_refresh_seconds": 900,
     "title_files_refresh_threshold_seconds": 0
   }
