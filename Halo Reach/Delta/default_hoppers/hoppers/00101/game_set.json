@@ -1,0 +1,480 @@
+{
+  "entries": [
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 1,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "Oddball",
+        "author": "Bungie",
+        "file_name": "oddball_ffa"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "author": "Bungie",
+        "file_name": "settlement_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 2,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "FFA Slayer",
+        "author": "Bungie",
+        "file_name": "slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "author": "Bungie",
+        "file_name": "settlement_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 3,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "FFA Slayer Pro",
+        "author": "Bungie",
+        "file_name": "slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "author": "Bungie",
+        "file_name": "settlement_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 4,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "Headhunter",
+        "author": "Bungie",
+        "file_name": "headhunter"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "author": "Bungie",
+        "file_name": "settlement_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 4,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1000,
+      "game_variant_file": {
+        "name": "Crazy King",
+        "author": "Bungie",
+        "file_name": "koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "author": "Bungie",
+        "file_name": "sword_base_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 5,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1000,
+      "game_variant_file": {
+        "name": "Oddball",
+        "author": "Bungie",
+        "file_name": "oddball_ffa"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "author": "Bungie",
+        "file_name": "sword_base_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 6,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1000,
+      "game_variant_file": {
+        "name": "FFA Slayer Pro",
+        "author": "Bungie",
+        "file_name": "slayer_ffa_pro"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "author": "Bungie",
+        "file_name": "sword_base_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 7,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "Classic Slayer",
+        "author": "Bungie",
+        "file_name": "slayer_classic"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "author": "Bungie",
+        "file_name": "settlement_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 8,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1000,
+      "game_variant_file": {
+        "name": "Classic Slayer",
+        "author": "Bungie",
+        "file_name": "slayer_classic"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "author": "Bungie",
+        "file_name": "sword_base_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 9,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "Juggernaut",
+        "author": "Bungie",
+        "file_name": "juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "author": "Bungie",
+        "file_name": "settlement_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 11,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1000,
+      "game_variant_file": {
+        "name": "FFA Slayer",
+        "author": "Bungie",
+        "file_name": "slayer_ffa"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "author": "Bungie",
+        "file_name": "sword_base_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 12,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1000,
+      "game_variant_file": {
+        "name": "Headhunter",
+        "author": "Bungie",
+        "file_name": "headhunter"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "author": "Bungie",
+        "file_name": "sword_base_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 13,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "Crazy King",
+        "author": "Bungie",
+        "file_name": "koth_ffa_crazyking"
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "author": "Bungie",
+        "file_name": "settlement_default"
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 4,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 14,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1000,
+      "game_variant_file": {
+        "name": "Juggernaut",
+        "author": "Bungie",
+        "file_name": "juggernaut_default"
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "author": "Bungie",
+        "file_name": "sword_base_default"
+      }
+    }
+  ]
+}
