@@ -29,12 +29,12 @@
       },
       "m_built_in": false,
       "m_miscellaneous_options": {
-        "m_teams_enabled": false,
+        "m_teams_enabled": true,
         "m_round_reset_players": true,
         "m_round_reset_map": true,
         "m_round_time_limit_minutes": 10,
         "m_round_limit": 1,
-        "m_early_victory_win_count": 0,
+        "m_early_victory_win_count": 2,
         "m_sudden_death_time": 1,
         "m_grace_period": 0
       },
@@ -49,7 +49,7 @@
         "m_suicide_penalty_seconds": 5,
         "m_betrayal_penalty_seconds": 5,
         "m_respawn_growth_seconds": 0,
-        "m_loadout_cam_time": 10,
+        "m_loadout_cam_time": 7,
         "m_respawn_player_traits_duration_seconds": 5,
         "m_respawn_player_traits": {
           "m_shield_vitality_traits": {
@@ -117,7 +117,7 @@
           "m_weapon_traits": {
             "m_damage_modifier_percentage_setting": 0,
             "m_melee_damage_modifier_percentage_setting": 0,
-            "m_initial_primary_weapon_absolute_index": 1,
+            "m_initial_primary_weapon_absolute_index": 0,
             "m_initial_secondary_weapon_absolute_index": 6,
             "m_initial_grenade_count_setting": 4,
             "m_infinite_ammo_setting": 0,
@@ -144,7 +144,7 @@
             "m_forced_change_color_setting": 0
           },
           "m_sensor_traits": {
-            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_setting": 1,
             "m_motion_tracker_range_setting": 0,
             "m_directional_damage_setting": 0
           }
@@ -532,7 +532,7 @@
             "m_description_string_index": 1
           }
         ],
-        "m_current_value_index": 0
+        "m_current_value_index": 1
       },
       {
         "m_name_string_index": 26,
@@ -583,7 +583,7 @@
             "m_description_string_index": 1
           }
         ],
-        "m_current_value_index": 0
+        "m_current_value_index": 2
       },
       {
         "m_name_string_index": 2,
@@ -1412,7 +1412,7 @@
       ]
     },
     "m_engine_icon": 1,
-    "m_score_to_win_round": 25,
+    "m_score_to_win_round": 50,
     "m_symmetric_gametype": false,
     "m_game_engine": {
       "m_conditions": [
@@ -2959,10 +2959,8 @@
       "m_loadout_palette": [
         {
           "m_loadouts": [
-            1,
-            2,
-            3,
-            17
+            4,
+            19
           ]
         }
       ],

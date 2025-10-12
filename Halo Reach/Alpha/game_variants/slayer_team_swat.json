@@ -24,17 +24,17 @@
         "modifier_xuid": "0000000000000000",
         "modifier_name": "",
         "modifier_xuid_is_online": false,
-        "name": "SLAYER",
+        "name": "SWAT",
         "description": "Score points by killing players on the opposing team."
       },
       "m_built_in": false,
       "m_miscellaneous_options": {
-        "m_teams_enabled": false,
+        "m_teams_enabled": true,
         "m_round_reset_players": true,
         "m_round_reset_map": true,
-        "m_round_time_limit_minutes": 10,
+        "m_round_time_limit_minutes": 12,
         "m_round_limit": 1,
-        "m_early_victory_win_count": 0,
+        "m_early_victory_win_count": 2,
         "m_sudden_death_time": 1,
         "m_grace_period": 0
       },
@@ -49,7 +49,7 @@
         "m_suicide_penalty_seconds": 5,
         "m_betrayal_penalty_seconds": 5,
         "m_respawn_growth_seconds": 0,
-        "m_loadout_cam_time": 10,
+        "m_loadout_cam_time": 0,
         "m_respawn_player_traits_duration_seconds": 5,
         "m_respawn_player_traits": {
           "m_shield_vitality_traits": {
@@ -98,29 +98,29 @@
         }
       },
       "m_social_options": {
-        "m_flags": 7,
+        "m_flags": 31,
         "m_team_changing": 1,
         "m_observers_enabled": false
       },
       "m_map_override_options": {
-        "m_flags": 31,
+        "m_flags": 30,
         "m_base_player_traits": {
           "m_shield_vitality_traits": {
             "m_damage_resistance_percentage_setting": 0,
-            "m_shield_recharge_rate": 0,
+            "m_shield_recharge_rate": 4,
             "m_overshield_recharge_rate": 0,
             "m_vampirism_percentage_setting": 0,
             "m_headshot_immunity_setting": 0,
-            "m_shield_multiplier": 0,
+            "m_shield_multiplier": 1,
             "m_assasination_immunity": 0
           },
           "m_weapon_traits": {
             "m_damage_modifier_percentage_setting": 0,
             "m_melee_damage_modifier_percentage_setting": 0,
-            "m_initial_primary_weapon_absolute_index": 1,
+            "m_initial_primary_weapon_absolute_index": 0,
             "m_initial_secondary_weapon_absolute_index": 6,
-            "m_initial_grenade_count_setting": 4,
-            "m_infinite_ammo_setting": 0,
+            "m_initial_grenade_count_setting": 2,
+            "m_infinite_ammo_setting": 2,
             "m_recharging_grenades_setting": 0,
             "m_weapon_pickup_setting": 0,
             "m_equipment_drop_on_death_setting": 0,
@@ -132,7 +132,7 @@
             "m_gravity_setting": 0,
             "m_vehicle_usage_setting": 0,
             "m_double_jump_setting": 0,
-            "m_sprint_setting": 0,
+            "m_sprint_setting": 1,
             "m_equipment_usage_setting": 0,
             "m_jump_modifier": -1.0
           },
@@ -144,13 +144,13 @@
             "m_forced_change_color_setting": 0
           },
           "m_sensor_traits": {
-            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_setting": 1,
             "m_motion_tracker_range_setting": 0,
             "m_directional_damage_setting": 0
           }
         },
-        "m_weapon_set_absolute_index": -2,
-        "m_vehicle_set_absolute_index": -2,
+        "m_weapon_set_absolute_index": -1,
+        "m_vehicle_set_absolute_index": -1,
         "m_red_powerup_traits": {
           "m_shield_vitality_traits": {
             "m_damage_resistance_percentage_setting": 12,
@@ -583,7 +583,7 @@
             "m_description_string_index": 1
           }
         ],
-        "m_current_value_index": 0
+        "m_current_value_index": 4
       },
       {
         "m_name_string_index": 2,
@@ -1357,18 +1357,42 @@
     "m_base_name_string_index": 33,
     "m_localized_name": {
       "strings": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [
+          "SWAT"
+        ],
+        [
+          "SWAT"
+        ],
+        [
+          "SWAT"
+        ],
+        [
+          "SWAT"
+        ],
+        [
+          "SWAT"
+        ],
+        [
+          "SWAT"
+        ],
+        [
+          "SWAT"
+        ],
+        [
+          "SWAT"
+        ],
+        [
+          "SWAT"
+        ],
+        [
+          "SWAT"
+        ],
+        [
+          "SWAT"
+        ],
+        [
+          "SWAT"
+        ]
       ]
     },
     "m_localized_description": {
@@ -1412,7 +1436,7 @@
       ]
     },
     "m_engine_icon": 1,
-    "m_score_to_win_round": 25,
+    "m_score_to_win_round": 50,
     "m_symmetric_gametype": false,
     "m_game_engine": {
       "m_conditions": [
