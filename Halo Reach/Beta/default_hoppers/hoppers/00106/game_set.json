@@ -1,0 +1,337 @@
+{
+  "entries": [
+    {
+      "weight": 1,
+      "minimum_player_count": 8,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 0,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "Team Slayer",
+        "file_name": "slayer_team",
+        "author": "Bungie",
+        "description": ""
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default",
+        "author": "Bungie",
+        "description": ""
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 8,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 1,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1000,
+      "game_variant_file": {
+        "name": "Team Slayer Pro",
+        "file_name": "slayer_team_pro",
+        "author": "Bungie",
+        "description": ""
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "file_name": "sword_base_default",
+        "author": "Bungie",
+        "description": ""
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 8,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 0,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 2,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "Classic Slayer",
+        "file_name": "slayer_team_classic",
+        "author": "Bungie",
+        "description": ""
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default",
+        "author": "Bungie",
+        "description": ""
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 8,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 3,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "Team Slayer",
+        "file_name": "slayer_team",
+        "author": "Bungie",
+        "description": ""
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "file_name": "sword_base_default",
+        "author": "Bungie",
+        "description": ""
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 8,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 4,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "Team Slayer Pro",
+        "file_name": "slayer_team_pro",
+        "author": "Bungie",
+        "description": ""
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default",
+        "author": "Bungie",
+        "description": ""
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 8,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 1,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 5,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1000,
+      "game_variant_file": {
+        "name": "Classic Slayer",
+        "file_name": "slayer_team_classic",
+        "author": "Bungie",
+        "description": ""
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "file_name": "sword_base_default",
+        "author": "Bungie",
+        "description": ""
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 8,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 6,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1055,
+      "game_variant_file": {
+        "name": "Team Slayer",
+        "file_name": "slayer_team",
+        "author": "Bungie",
+        "description": ""
+      },
+      "map_variant_file": {
+        "name": "Powerhouse",
+        "file_name": "settlement_default",
+        "author": "Bungie",
+        "description": ""
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 8,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 7,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1000,
+      "game_variant_file": {
+        "name": "Team Slayer Pro",
+        "file_name": "slayer_team_pro",
+        "author": "Bungie",
+        "description": ""
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "file_name": "sword_base_default",
+        "author": "Bungie",
+        "description": ""
+      }
+    },
+    {
+      "weight": 1,
+      "minimum_player_count": 8,
+      "maximum_player_count": 8,
+      "voting_max_fails": 9,
+      "voting_round": 2,
+      "min_skill": 0,
+      "max_skill": 50,
+      "campaign_and_survival_data": {
+        "unknown00": false,
+        "unknown04": 0,
+        "unknown08": 0,
+        "unknown0C": 0
+      },
+      "replicated_data": {
+        "unknown00": false,
+        "unknown02": 8,
+        "unknown04": 0,
+        "unknown08": 0.0,
+        "unknown0C": 0.0,
+        "unknown10": 0.0,
+        "unknown14": false
+      },
+      "map_id": 1000,
+      "game_variant_file": {
+        "name": "Classic Slayer",
+        "file_name": "slayer_team_classic",
+        "author": "Bungie",
+        "description": ""
+      },
+      "map_variant_file": {
+        "name": "Sword Base",
+        "file_name": "sword_base_default",
+        "author": "Bungie",
+        "description": ""
+      }
+    }
+  ]
+}
