@@ -23,11 +23,11 @@ jobs:
       run: './tools/blf_cli title-storage build "./Halo 3 ODST/Release" "./title/4d530877/tracked/13895" "Halo 3: ODST" 13895.09.04.27.2201.atlas_release'
     - name: Build [Halo Reach]
       run: |
-        './tools/blf_cli title-storage build "./Halo Reach/Release" "./title/4d53085b/tracked/12065" "Halo: Reach" 12065.11.08.24.1738.tu1actual'
-        './tools/blf_cli title-storage build "./Halo Reach/Delta" "./title/4d53885c/tracked/09730" "Halo: Reach" 09730.10.04.09.1309.omaha_delta'
-        './tools/blf_cli title-storage build "./Halo Reach/Beta" "./title/4d53885c/tracked/09664" "Halo: Reach" 09730.10.04.09.1309.omaha_delta'
-        './tools/blf_cli title-storage build "./Halo Reach/Beta" "./title/4d53885c/tracked/09449" "Halo: Reach" 09449.10.03.25.1545.omaha_beta'
-        './tools/blf_cli title-storage build "./Halo Reach/Alpha" "./title/4d53885c/tracked/08516" "Halo: Reach" 08516.10.02.19.1607.omaha_alpha'
+        ./tools/blf_cli title-storage build "./Halo Reach/Release" "./title/4d53085b/tracked/12065" "Halo: Reach" 12065.11.08.24.1738.tu1actual
+        ./tools/blf_cli title-storage build "./Halo Reach/Delta" "./title/4d53885c/tracked/09730" "Halo: Reach" 09730.10.04.09.1309.omaha_delta
+        ./tools/blf_cli title-storage build "./Halo Reach/Beta" "./title/4d53885c/tracked/09664" "Halo: Reach" 09730.10.04.09.1309.omaha_delta
+        ./tools/blf_cli title-storage build "./Halo Reach/Beta" "./title/4d53885c/tracked/09449" "Halo: Reach" 09449.10.03.25.1545.omaha_beta
+        ./tools/blf_cli title-storage build "./Halo Reach/Alpha" "./title/4d53885c/tracked/08516" "Halo: Reach" 08516.10.02.19.1607.omaha_alpha
     - name: Build [Ares]
       run: './tools/blf_cli title-storage build "./Ares/Untracked" "./title/ares/untracked/username/main" "Ares" untracked'
     - name: Build [Halo Online]
