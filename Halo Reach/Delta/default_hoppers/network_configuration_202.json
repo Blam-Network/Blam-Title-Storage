@@ -320,11 +320,11 @@
     "matchmaking": {
       "perform_nat_check": false,
       "matchmaking_strict_nat_host_percentage": 0.25,
-      "posse_leave_timeout": 20000,
-      "unknown0c_posse_start_matchmaking": 5000,
-      "posse_session_creation_timeout": 20000,
-      "squad_peers_join_session_timeout": 5000,
-      "group_leave_timeout": 20000,
+      "posse_leave_timeout": 5000,
+      "unknown0c_posse_start_matchmaking": 20000,
+      "posse_session_creation_timeout": 5000,
+      "squad_peers_join_session_timeout": 20000,
+      "group_leave_timeout": 5000,
       "prepare_map_minimum_load_time_seconds": 5,
       "prepare_map_countdown_timer_seconds": 5,
       "unknown1": "0x0000001E",
@@ -1815,8 +1815,8 @@
     "basic_training_completion_minimum_experience": 5
   },
   "alpha_configuration": {
-    "disable_game": true,
-    "disable_custom_games": true,
+    "disable_game": false,
+    "disable_custom_games": false,
     "ui_level": "alpha_ui_level_main",
     "maximum_multiplayer_split_screen": 4,
     "unknown1": 0,
