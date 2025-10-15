@@ -1,0 +1,251 @@
+{
+  "m_game_engine": "oddball",
+  "m_base_variant": {
+    "m_name": "Ninjaball",
+    "m_description": "Ball carrier fast and agile.",
+    "m_miscellaneous_options": {
+      "m_flags": 0,
+      "m_round_time_limit_minutes": 12,
+      "m_round_limit": 1,
+      "m_early_victory_win_count": 0
+    },
+    "m_respawn_options": {
+      "m_flags": 0,
+      "m_lives_per_round": 0,
+      "m_team_lives_per_round": 0,
+      "m_respawn_time_seconds": 5,
+      "m_suicide_penalty_seconds": 10,
+      "m_betrayal_penalty_seconds": 0,
+      "m_respawn_growth_seconds": 0,
+      "m_respawn_player_traits_duration_seconds": 0,
+      "m_respawn_player_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 0,
+          "m_shield_recharge_rate_percentage_setting": 0,
+          "m_vampirism_percentage_setting": 0,
+          "m_headshot_immunity_setting": 0,
+          "m_shield_multiplier_setting": 0
+        },
+        "m_weapon_traits": {
+          "m_damage_modifier_percentage_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -1,
+          "m_initial_secondary_weapon_absolute_index": -1,
+          "m_initial_grenade_type_absolute_index": -1,
+          "m_initial_grenade_count_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_weapon_pickup_setting": 0
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 0,
+          "m_gravity_setting": 0,
+          "m_vehicle_usage_setting": 0
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 0,
+          "m_waypoint_setting": 0,
+          "m_aura_setting": 0,
+          "m_forced_change_color_setting": 0
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 0,
+          "m_motion_tracker_range_setting": 0
+        }
+      }
+    },
+    "m_social_options": {
+      "m_flags": 16
+    },
+    "m_map_override_options": {
+      "m_flags": 1,
+      "m_base_player_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 4,
+          "m_shield_recharge_rate_percentage_setting": 7,
+          "m_vampirism_percentage_setting": 1,
+          "m_headshot_immunity_setting": 2,
+          "m_shield_multiplier_setting": 2
+        },
+        "m_weapon_traits": {
+          "m_damage_modifier_percentage_setting": 6,
+          "m_initial_primary_weapon_absolute_index": 1,
+          "m_initial_secondary_weapon_absolute_index": -1,
+          "m_initial_grenade_type_absolute_index": 0,
+          "m_initial_grenade_count_setting": 4,
+          "m_recharging_grenades_setting": 2,
+          "m_infinite_ammo_setting": 1,
+          "m_weapon_pickup_setting": 1
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 5,
+          "m_gravity_setting": 3,
+          "m_vehicle_usage_setting": 3
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 0,
+          "m_waypoint_setting": 2,
+          "m_aura_setting": 1,
+          "m_forced_change_color_setting": 1
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 0,
+          "m_motion_tracker_range_setting": 3
+        }
+      },
+      "m_weapon_set_absolute_index": -1,
+      "m_vehicle_set_absolute_index": -1,
+      "m_red_powerup_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 0,
+          "m_shield_recharge_rate_percentage_setting": 0,
+          "m_vampirism_percentage_setting": 0,
+          "m_headshot_immunity_setting": 0,
+          "m_shield_multiplier_setting": 4
+        },
+        "m_weapon_traits": {
+          "m_damage_modifier_percentage_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -1,
+          "m_initial_secondary_weapon_absolute_index": -1,
+          "m_initial_grenade_type_absolute_index": -1,
+          "m_initial_grenade_count_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_weapon_pickup_setting": 0
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 5,
+          "m_gravity_setting": 3,
+          "m_vehicle_usage_setting": 3
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 1,
+          "m_waypoint_setting": 2,
+          "m_aura_setting": 1,
+          "m_forced_change_color_setting": 1
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 3,
+          "m_motion_tracker_range_setting": 2
+        }
+      },
+      "m_blue_powerup_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 4,
+          "m_shield_recharge_rate_percentage_setting": 7,
+          "m_vampirism_percentage_setting": 1,
+          "m_headshot_immunity_setting": 2,
+          "m_shield_multiplier_setting": 2
+        },
+        "m_weapon_traits": {
+          "m_damage_modifier_percentage_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -1,
+          "m_initial_secondary_weapon_absolute_index": -1,
+          "m_initial_grenade_type_absolute_index": -1,
+          "m_initial_grenade_count_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_weapon_pickup_setting": 0
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 5,
+          "m_gravity_setting": 3,
+          "m_vehicle_usage_setting": 3
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 3,
+          "m_waypoint_setting": 0,
+          "m_aura_setting": 0,
+          "m_forced_change_color_setting": 0
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 3,
+          "m_motion_tracker_range_setting": 2
+        }
+      },
+      "m_yellow_powerup_traits": {
+        "m_shield_vitality_traits": {
+          "m_damage_resistance_percentage_setting": 4,
+          "m_shield_recharge_rate_percentage_setting": 7,
+          "m_vampirism_percentage_setting": 1,
+          "m_headshot_immunity_setting": 2,
+          "m_shield_multiplier_setting": 2
+        },
+        "m_weapon_traits": {
+          "m_damage_modifier_percentage_setting": 0,
+          "m_initial_primary_weapon_absolute_index": -1,
+          "m_initial_secondary_weapon_absolute_index": -1,
+          "m_initial_grenade_type_absolute_index": -1,
+          "m_initial_grenade_count_setting": 0,
+          "m_recharging_grenades_setting": 0,
+          "m_infinite_ammo_setting": 0,
+          "m_weapon_pickup_setting": 0
+        },
+        "m_movement_traits": {
+          "m_speed_setting": 9,
+          "m_gravity_setting": 1,
+          "m_vehicle_usage_setting": 0
+        },
+        "m_appearance_traits": {
+          "m_active_camo_setting": 1,
+          "m_waypoint_setting": 2,
+          "m_aura_setting": 1,
+          "m_forced_change_color_setting": 1
+        },
+        "m_sensor_traits": {
+          "m_motion_tracker_setting": 3,
+          "m_motion_tracker_range_setting": 2
+        }
+      },
+      "m_red_powerup_duration_seconds": 5,
+      "m_blue_powerup_duration_seconds": 30,
+      "m_yellow_powerup_duration_seconds": 10
+    },
+    "m_team_scoring_method": 0
+  },
+  "m_oddball_variant": {
+    "m_variant_flags": 0,
+    "m_team_scoring": 0,
+    "m_score_to_win": 100,
+    "m_carrying_points": 1,
+    "m_kill_points": 0,
+    "m_ball_kill_points": 0,
+    "m_carrier_kill_points": 0,
+    "m_ball_count": 1,
+    "m_ball_spawn_delay": 5,
+    "m_ball_inactive_respawn_delay": 30,
+    "m_carrier_traits": {
+      "m_shield_vitality_traits": {
+        "m_damage_resistance_percentage_setting": 0,
+        "m_shield_recharge_rate_percentage_setting": 0,
+        "m_vampirism_percentage_setting": 0,
+        "m_headshot_immunity_setting": 0,
+        "m_shield_multiplier_setting": 0
+      },
+      "m_weapon_traits": {
+        "m_damage_modifier_percentage_setting": 9,
+        "m_initial_primary_weapon_absolute_index": 1,
+        "m_initial_secondary_weapon_absolute_index": -1,
+        "m_initial_grenade_type_absolute_index": 0,
+        "m_initial_grenade_count_setting": 0,
+        "m_recharging_grenades_setting": 0,
+        "m_infinite_ammo_setting": 0,
+        "m_weapon_pickup_setting": 0
+      },
+      "m_movement_traits": {
+        "m_speed_setting": 8,
+        "m_gravity_setting": 1,
+        "m_vehicle_usage_setting": 1
+      },
+      "m_appearance_traits": {
+        "m_active_camo_setting": 3,
+        "m_waypoint_setting": 3,
+        "m_aura_setting": 0,
+        "m_forced_change_color_setting": 0
+      },
+      "m_sensor_traits": {
+        "m_motion_tracker_setting": 0,
+        "m_motion_tracker_range_setting": 0
+      }
+    }
+  }
+}
