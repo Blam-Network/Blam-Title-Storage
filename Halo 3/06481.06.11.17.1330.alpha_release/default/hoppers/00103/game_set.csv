@@ -1,0 +1,10 @@
+map_id,game_variant_file_name,weight,minimum_player_count,skip_after_veto
+310,5v5_team_slayer,4,6,false
+340,5v5_team_slayer,4,6,false
+360,5v5_team_slayer,5,6,false
+310,team_rockets,1,6,true
+340,team_rockets,1,6,true
+360,team_rockets,1,6,true
+310,team_slayer_br,2,6,false
+340,team_slayer_br,2,6,false
+360,team_slayer_br,1,6,false

@@ -1,0 +1,16 @@
+map_id,game_variant_file_name,weight,minimum_player_count,skip_after_veto
+360,team_slayer,5,6,false
+310,team_slayer,5,6,false
+340,team_slayer,5,4,false
+360,team_oddball,2,6,false
+310,team_oddball,2,4,false
+340,team_oddball,2,4,false
+360,team_crazy_king,2,6,false
+310,team_crazy_king,2,4,false
+340,team_crazy_king,2,4,false
+360,2v2_vip,2,6,false
+310,2v2_vip,2,4,false
+340,2v2_vip,2,4,false
+360,2v2_team_swords,2,4,true
+310,2v2_team_swords,2,6,true
+340,2v2_team_swords,2,4,true
