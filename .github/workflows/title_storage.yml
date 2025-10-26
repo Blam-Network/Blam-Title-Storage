@@ -20,10 +20,13 @@ jobs:
         ./tools/blf_cli title-storage build "./Halo 3/Release" "./title/tracked/12070" "Halo 3" 12070.08.09.05.2031.halo3_ship
         ./tools/blf_cli title-storage build "./Halo 3/Epsilon" "./title/tracked/11856" "Halo 3" 11856.07.08.20.2332.release
         ./tools/blf_cli title-storage build "./Halo 3/Release" "./title/tracked/11855" "Halo 3" 11856.07.08.20.2332.release
-        ./tools/blf_cli title-storage build "./Halo 3/Epsilon" "./title/tracked/11729" "Halo 3" 11856.07.08.20.2332.release
-        ./tools/blf_cli title-storage build "./Halo 3/Epsilon" "./title/tracked/11637" "Halo 3" 11856.07.08.20.2332.release
+        ./tools/blf_cli title-storage build "./Halo 3/11729.07.08.10.0021.main" "./title/tracked/11729" "Halo 3" 11729.07.08.10.0021.main
+        ./tools/blf_cli title-storage build "./Halo 3/Epsilon" "./title/tracked/11637" "Halo 3" 11637.07.08.02.2348.release
         ./tools/blf_cli title-storage build "./Halo 3/Delta" "./title/tracked/10015" "Halo 3" 10015.07.05.14.2217.delta
         ./tools/blf_cli title-storage build "./Halo 3/Delta" "./title/tracked/09699" "Halo 3" 10015.07.05.14.2217.delta
+        ./tools/blf_cli title-storage build "./Halo 3/08172.07.03.08.2240.delta" "./title/tracked/08172" "Halo 3" 08172.07.03.08.2240.delta
+        ./tools/blf_cli title-storage build "./Halo 3/08117.07.03.07.1702.delta" "./title/tracked/08117" "Halo 3" 08117.07.03.07.1702.delta
+        ./tools/blf_cli title-storage build "./Halo 3/06481.06.11.17.1330.alpha_release" "./title/tracked/06481" "Halo 3" 06481.06.11.17.1330.alpha_release     
     - name: Build [Halo 3 ODST]
       run: './tools/blf_cli title-storage build "./Halo 3 ODST/Release" "./title/4d530877/tracked/13895" "Halo 3: ODST" 13895.09.04.27.2201.atlas_release'
     - name: Build [Halo Reach]
