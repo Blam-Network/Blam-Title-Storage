@@ -368,19 +368,19 @@
     "jackpot_minimum_time_seconds": 120,
     "jackpot_configurations": [
       {
-        "unknown1": 75,
-        "unknown2": 150,
-        "unknown3": 400
+        "chance": 75,
+        "minimum_cookies": 150,
+        "maximum_cookies": 400
       },
       {
-        "unknown1": 20,
-        "unknown2": 500,
-        "unknown3": 1000
+        "chance": 20,
+        "minimum_cookies": 500,
+        "maximum_cookies": 1000
       },
       {
-        "unknown1": 5,
-        "unknown2": 3000,
-        "unknown3": 3000
+        "chance": 5,
+        "minimum_cookies": 3000,
+        "maximum_cookies": 3000
       }
     ]
   }

@@ -20,7 +20,7 @@
     "image_index": 0,
     "xlast_index": 22,
     "equivalency_id": 9,
-    "start_time": "2011-03-01 11:05:00",
+    "start_time": "1970-01-01 00:00:00",
     "end_time": "None",
     "minimum_games_won": 0,
     "maximum_games_won": 0,
@@ -368,19 +368,19 @@
     "jackpot_minimum_time_seconds": 120,
     "jackpot_configurations": [
       {
-        "unknown1": 75,
-        "unknown2": 300,
-        "unknown3": 800
+        "chance": 75,
+        "minimum_cookies": 300,
+        "maximum_cookies": 800
       },
       {
-        "unknown1": 20,
-        "unknown2": 1000,
-        "unknown3": 2000
+        "chance": 20,
+        "minimum_cookies": 1000,
+        "maximum_cookies": 2000
       },
       {
-        "unknown1": 5,
-        "unknown2": 6000,
-        "unknown3": 6000
+        "chance": 5,
+        "minimum_cookies": 6000,
+        "maximum_cookies": 6000
       }
     ]
   }
