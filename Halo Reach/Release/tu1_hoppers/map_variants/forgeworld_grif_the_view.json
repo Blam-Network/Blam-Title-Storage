@@ -68,14 +68,14 @@
         "z": 48.99993
       },
       "forward": {
-        "i": 0.99998844,
-        "j": 0.004819218,
-        "k": -0.00019173225
+        "i": 0.9999536,
+        "j": 0.009636953,
+        "k": -0.0002381776
       },
       "up": {
-        "i": 0.004819218,
-        "j": -0.99998844,
-        "k": 0.0
+        "i": 0.009637988,
+        "j": -0.99994195,
+        "k": 0.004818994
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -102,14 +102,14 @@
         "z": 48.99993
       },
       "forward": {
-        "i": 1.0,
-        "j": 0.0,
-        "k": 0.00019173225
+        "i": 0.99998844,
+        "j": -0.0048200297,
+        "k": 0.00016850544
       },
       "up": {
-        "i": 0.0,
-        "j": 1.0,
-        "k": 0.0
+        "i": 0.0048191617,
+        "j": 0.99997675,
+        "k": 0.0048191617
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -177,14 +177,14 @@
         "z": 48.99993
       },
       "forward": {
-        "i": 1.0,
-        "j": 0.0,
-        "k": 0.00019173225
+        "i": 0.99998844,
+        "j": -0.0048200297,
+        "k": 0.00016850544
       },
       "up": {
-        "i": 0.0,
-        "j": 1.0,
-        "k": 0.0
+        "i": 0.0048191617,
+        "j": 0.99997675,
+        "k": 0.0048191617
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -2251,14 +2251,14 @@
         "z": 51.69995
       },
       "forward": {
-        "i": -0.70625377,
-        "j": 0.00019168742,
-        "k": -0.70795876
+        "i": -0.70625424,
+        "j": 0.00019168408,
+        "k": -0.70795834
       },
       "up": {
-        "i": 0.7079551,
-        "j": 0.0034118297,
-        "k": -0.7062492
+        "i": 0.7079428,
+        "j": 0.00682354,
+        "k": -0.7062369
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -2285,451 +2285,9 @@
         "z": 51.69995
       },
       "forward": {
-        "i": 0.7079591,
-        "j": -0.0005752166,
-        "k": -0.7062532
-      },
-      "up": {
-        "i": -0.7062533,
-        "j": 0.0,
-        "k": -0.70795923
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": 15.099915,
-        "y": 9.899933,
-        "z": 54.70012
-      },
-      "forward": {
-        "i": 0.00019168854,
-        "j": -0.7062533,
-        "k": 0.70795923
-      },
-      "up": {
-        "i": 0.0,
-        "j": -0.70795923,
-        "k": -0.7062533
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 71,
-      "variant_index": 10,
-      "position": {
-        "x": -14.918564,
-        "y": -0.0036621094,
-        "z": 49.5
-      },
-      "forward": {
-        "i": 0.0034083542,
-        "j": -0.7069713,
-        "k": 0.707234
-      },
-      "up": {
-        "i": -0.99998844,
-        "j": 0.0,
-        "k": 0.004819218
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": -4.499939,
-        "y": -15.099915,
-        "z": 51.69995
-      },
-      "forward": {
-        "i": -0.7062533,
-        "j": 0.00019168854,
-        "k": -0.70795923
-      },
-      "up": {
-        "i": 0.70795923,
-        "j": 0.0,
-        "k": -0.7062533
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 71,
-      "variant_index": 10,
-      "position": {
-        "x": -0.00065612793,
-        "y": -14.502167,
-        "z": 49.20012
-      },
-      "forward": {
-        "i": -0.70751345,
-        "j": 0.0,
-        "k": 0.70669985
-      },
-      "up": {
-        "i": 0.0,
-        "j": 1.0,
-        "k": 0.0
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": 9.89978,
-        "y": -15.099915,
-        "z": 54.70012
-      },
-      "forward": {
-        "i": -0.70625377,
-        "j": -0.00019168742,
-        "k": 0.70795876
-      },
-      "up": {
-        "i": -0.7079551,
-        "j": 0.0034118297,
-        "k": -0.7062492
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": -9.900177,
-        "y": -15.099915,
-        "z": 54.70012
-      },
-      "forward": {
-        "i": 0.7062537,
-        "j": -0.0001916002,
-        "k": 0.7079588
-      },
-      "up": {
-        "i": 0.7079551,
-        "j": 0.0034118297,
-        "k": -0.7062492
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": 15.107254,
-        "y": -4.5007935,
-        "z": 51.69995
-      },
-      "forward": {
-        "i": 0.00019168854,
-        "j": -0.7062554,
-        "k": -0.7079572
-      },
-      "up": {
-        "i": 0.0,
-        "j": 0.7079572,
-        "k": -0.7062554
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": 4.5,
-        "y": 15.100098,
-        "z": 51.69995
-      },
-      "forward": {
-        "i": 0.70795923,
-        "j": 0.00019160111,
-        "k": -0.7062533
-      },
-      "up": {
-        "i": -0.7062533,
-        "j": 0.0,
-        "k": -0.70795923
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 71,
-      "variant_index": 10,
-      "position": {
-        "x": -0.00019836426,
-        "y": 14.501038,
-        "z": 49.20012
-      },
-      "forward": {
-        "i": 0.7075134,
-        "j": 0.0034057412,
-        "k": 0.7066918
-      },
-      "up": {
-        "i": 0.0,
-        "j": -0.99998844,
-        "k": 0.004819218
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": 9.900238,
-        "y": 15.102692,
-        "z": 54.70012
-      },
-      "forward": {
-        "i": -0.70625377,
-        "j": -0.00019168742,
-        "k": 0.70795876
-      },
-      "up": {
-        "i": -0.7079551,
-        "j": 0.0034118297,
-        "k": -0.7062492
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": -9.900177,
-        "y": 15.100098,
-        "z": 54.70012
-      },
-      "forward": {
-        "i": 0.7062549,
-        "j": 0.00019160002,
-        "k": 0.7079577
-      },
-      "up": {
-        "i": 0.7079531,
-        "j": 0.0034036182,
-        "k": -0.70625126
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": 15.099915,
-        "y": -9.900085,
-        "z": 54.70012
-      },
-      "forward": {
-        "i": 0.00019160002,
-        "j": 0.7062549,
-        "k": 0.7079577
-      },
-      "up": {
-        "i": 0.0034036182,
-        "j": 0.7079531,
-        "k": -0.70625126
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": 15.099915,
-        "y": 4.4999695,
-        "z": 51.69995
-      },
-      "forward": {
-        "i": -0.0001916002,
-        "j": 0.7079588,
-        "k": -0.7062537
+        "i": 0.8170276,
+        "j": 0.4101724,
+        "k": -0.4052465
       },
       "up": {
         "i": 0.0034118297,
@@ -2756,19 +2314,461 @@
       "variant_quota_index": 74,
       "variant_index": 9,
       "position": {
+        "x": 15.099915,
+        "y": 9.899933,
+        "z": 54.70012
+      },
+      "forward": {
+        "i": 0.00019168742,
+        "j": -0.7062528,
+        "k": 0.7079597
+      },
+      "up": {
+        "i": 0.0034118297,
+        "j": -0.7079551,
+        "k": -0.7062492
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 71,
+      "variant_index": 10,
+      "position": {
+        "x": -14.918564,
+        "y": -0.0036621094,
+        "z": 49.5
+      },
+      "forward": {
+        "i": 0.0034097391,
+        "j": -0.70696306,
+        "k": 0.70724225
+      },
+      "up": {
+        "i": -0.99994195,
+        "j": 0.004818994,
+        "k": 0.009637988
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": -4.499939,
+        "y": -15.099915,
+        "z": 51.69995
+      },
+      "forward": {
+        "i": -0.70625377,
+        "j": 0.00019168742,
+        "k": -0.70795876
+      },
+      "up": {
+        "i": 0.7079551,
+        "j": 0.0034118297,
+        "k": -0.7062492
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 71,
+      "variant_index": 10,
+      "position": {
+        "x": -0.00065612793,
+        "y": -14.502167,
+        "z": 49.20012
+      },
+      "forward": {
+        "i": -0.7075053,
+        "j": 0.000003841473,
+        "k": 0.70670813
+      },
+      "up": {
+        "i": 0.0048191617,
+        "j": 0.99997675,
+        "k": 0.0048191617
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": 9.89978,
+        "y": -15.099915,
+        "z": 54.70012
+      },
+      "forward": {
+        "i": -0.70625424,
+        "j": -0.00019168408,
+        "k": 0.70795834
+      },
+      "up": {
+        "i": -0.7079428,
+        "j": 0.00682354,
+        "k": -0.7062369
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": -9.900177,
+        "y": -15.099915,
+        "z": 54.70012
+      },
+      "forward": {
+        "i": 0.7062543,
+        "j": -0.00019159625,
+        "k": 0.7079583
+      },
+      "up": {
+        "i": 0.7079428,
+        "j": 0.00682354,
+        "k": -0.7062369
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": 15.107254,
+        "y": -4.5007935,
+        "z": 51.69995
+      },
+      "forward": {
+        "i": 0.00019168742,
+        "j": -0.70625377,
+        "k": -0.70795876
+      },
+      "up": {
+        "i": 0.0034118297,
+        "j": 0.7079551,
+        "k": -0.7062492
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": 4.5,
+        "y": 15.100098,
+        "z": 51.69995
+      },
+      "forward": {
+        "i": 0.8168065,
+        "j": 0.4103936,
+        "k": -0.40546823
+      },
+      "up": {
+        "i": 0.0034118297,
+        "j": -0.7062492,
+        "k": -0.7079551
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 71,
+      "variant_index": 10,
+      "position": {
+        "x": -0.00019836426,
+        "y": 14.501038,
+        "z": 49.20012
+      },
+      "forward": {
+        "i": 0.70750517,
+        "j": 0.01022059,
+        "k": 0.70663434
+      },
+      "up": {
+        "i": 0.004818994,
+        "j": -0.99994195,
+        "k": 0.009637988
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": 9.900238,
+        "y": 15.102692,
+        "z": 54.70012
+      },
+      "forward": {
+        "i": -0.70625424,
+        "j": -0.00019168408,
+        "k": 0.70795834
+      },
+      "up": {
+        "i": -0.7079428,
+        "j": 0.00682354,
+        "k": -0.7062369
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": -9.900177,
+        "y": 15.100098,
+        "z": 54.70012
+      },
+      "forward": {
+        "i": 0.70625246,
+        "j": 0.0001915971,
+        "k": 0.7079601
+      },
+      "up": {
+        "i": 0.7079428,
+        "j": 0.00682354,
+        "k": -0.7062369
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": 15.099915,
+        "y": -9.900085,
+        "z": 54.70012
+      },
+      "forward": {
+        "i": 0.0001915971,
+        "j": 0.70625246,
+        "k": 0.7079601
+      },
+      "up": {
+        "i": 0.00682354,
+        "j": 0.7079428,
+        "k": -0.7062369
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": 15.099915,
+        "y": 4.4999695,
+        "z": 51.69995
+      },
+      "forward": {
+        "i": -0.00019159622,
+        "j": 0.7079583,
+        "k": -0.7062543
+      },
+      "up": {
+        "i": 0.0068235397,
+        "j": -0.70623684,
+        "k": -0.7079427
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
         "x": 16.499771,
         "y": 15.100098,
         "z": 56.399994
       },
       "forward": {
-        "i": -0.70625377,
-        "j": -0.00019168742,
-        "k": 0.70795876
+        "i": -0.70625424,
+        "j": -0.00019168408,
+        "k": 0.70795834
       },
       "up": {
-        "i": -0.7079551,
-        "j": 0.0034118297,
-        "k": -0.7062492
+        "i": -0.7079428,
+        "j": 0.00682354,
+        "k": -0.7062369
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -2795,14 +2795,14 @@
         "z": 56.399994
       },
       "forward": {
-        "i": 0.00019168854,
-        "j": -0.7062533,
-        "k": 0.70795923
+        "i": 0.00019168742,
+        "j": -0.7062528,
+        "k": 0.7079597
       },
       "up": {
-        "i": 0.0,
-        "j": -0.70795923,
-        "k": -0.7062533
+        "i": 0.0034118297,
+        "j": -0.7079551,
+        "k": -0.7062492
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -2826,210 +2826,6 @@
       "position": {
         "x": 15.099915,
         "y": -16.500092,
-        "z": 56.399994
-      },
-      "forward": {
-        "i": -0.00019160111,
-        "j": 0.7062554,
-        "k": 0.7079572
-      },
-      "up": {
-        "i": 0.0,
-        "j": 0.7079572,
-        "k": -0.7062554
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": 16.498856,
-        "y": -15.107452,
-        "z": 56.399994
-      },
-      "forward": {
-        "i": -0.7062533,
-        "j": 0.00019168854,
-        "k": 0.70795923
-      },
-      "up": {
-        "i": -0.70795923,
-        "j": 0.0,
-        "k": -0.7062533
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": -15.104904,
-        "y": 4.500641,
-        "z": 51.699677
-      },
-      "forward": {
-        "i": 0.00019160111,
-        "j": 0.70795923,
-        "k": -0.7062533
-      },
-      "up": {
-        "i": 0.0,
-        "j": -0.7062533,
-        "k": -0.70795923
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": -15.104446,
-        "y": -4.499817,
-        "z": 51.69995
-      },
-      "forward": {
-        "i": -0.00019168745,
-        "j": -0.7062549,
-        "k": -0.7079577
-      },
-      "up": {
-        "i": 0.0034036182,
-        "j": 0.7079531,
-        "k": -0.70625126
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": -15.0998535,
-        "y": 9.899933,
-        "z": 54.70012
-      },
-      "forward": {
-        "i": -0.00019168854,
-        "j": -0.70795923,
-        "k": 0.7062533
-      },
-      "up": {
-        "i": 0.0,
-        "j": -0.7062533,
-        "k": -0.70795923
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": -15.0998535,
-        "y": -9.900085,
-        "z": 54.70012
-      },
-      "forward": {
-        "i": -0.00019160111,
-        "j": 0.7062554,
-        "k": 0.7079572
-      },
-      "up": {
-        "i": 0.0,
-        "j": 0.7079572,
-        "k": -0.7062554
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": -15.104904,
-        "y": -16.499756,
         "z": 56.399994
       },
       "forward": {
@@ -3062,19 +2858,223 @@
       "variant_quota_index": 74,
       "variant_index": 9,
       "position": {
+        "x": 16.498856,
+        "y": -15.107452,
+        "z": 56.399994
+      },
+      "forward": {
+        "i": -0.7062528,
+        "j": 0.00019168742,
+        "k": 0.7079597
+      },
+      "up": {
+        "i": -0.7079551,
+        "j": 0.0034118297,
+        "k": -0.7062492
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": -15.104904,
+        "y": 4.500641,
+        "z": 51.699677
+      },
+      "forward": {
+        "i": 0.00019159979,
+        "j": 0.7079598,
+        "k": -0.70625275
+      },
+      "up": {
+        "i": 0.0034118297,
+        "j": -0.7062492,
+        "k": -0.7079551
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": -15.104446,
+        "y": -4.499817,
+        "z": 51.69995
+      },
+      "forward": {
+        "i": -0.00019168411,
+        "j": -0.7062524,
+        "k": -0.7079602
+      },
+      "up": {
+        "i": 0.00682354,
+        "j": 0.7079428,
+        "k": -0.7062369
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": -15.0998535,
+        "y": 9.899933,
+        "z": 54.70012
+      },
+      "forward": {
+        "i": -0.00019168742,
+        "j": -0.7079597,
+        "k": 0.7062528
+      },
+      "up": {
+        "i": 0.0034118297,
+        "j": -0.7062492,
+        "k": -0.7079551
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": -15.0998535,
+        "y": -9.900085,
+        "z": 54.70012
+      },
+      "forward": {
+        "i": -0.0001916002,
+        "j": 0.7062537,
+        "k": 0.7079588
+      },
+      "up": {
+        "i": 0.0034118297,
+        "j": 0.7079551,
+        "k": -0.7062492
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": -15.104904,
+        "y": -16.499756,
+        "z": 56.399994
+      },
+      "forward": {
+        "i": -0.00019159625,
+        "j": 0.7062543,
+        "k": 0.7079583
+      },
+      "up": {
+        "i": 0.00682354,
+        "j": 0.7079428,
+        "k": -0.7062369
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
         "x": -16.501556,
         "y": -15.102539,
         "z": 56.399994
       },
       "forward": {
-        "i": 0.70625275,
-        "j": 0.00019159979,
-        "k": 0.7079598
+        "i": 0.70625246,
+        "j": 0.0001915971,
+        "k": 0.7079601
       },
       "up": {
-        "i": 0.7079551,
-        "j": 0.0034118297,
-        "k": -0.7062492
+        "i": 0.7079428,
+        "j": 0.00682354,
+        "k": -0.7062369
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3101,14 +3101,14 @@
         "z": 56.399994
       },
       "forward": {
-        "i": -0.00019168854,
-        "j": -0.70795923,
-        "k": 0.7062533
+        "i": -0.00019168742,
+        "j": -0.7079597,
+        "k": 0.7062528
       },
       "up": {
-        "i": 0.0,
-        "j": -0.7062533,
-        "k": -0.70795923
+        "i": 0.0034118297,
+        "j": -0.7062492,
+        "k": -0.7079551
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3135,14 +3135,14 @@
         "z": 56.399994
       },
       "forward": {
-        "i": 0.7062537,
-        "j": -0.0001916002,
-        "k": 0.7079588
+        "i": 0.7062543,
+        "j": -0.00019159625,
+        "k": 0.7079583
       },
       "up": {
-        "i": 0.7079551,
-        "j": 0.0034118297,
-        "k": -0.7062492
+        "i": 0.7079428,
+        "j": 0.00682354,
+        "k": -0.7062369
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3169,14 +3169,14 @@
         "z": 50.500427
       },
       "forward": {
-        "i": -0.004821989,
-        "j": 0.00019166851,
-        "k": -0.99998844
+        "i": -0.000003694512,
+        "j": 0.00019165294,
+        "k": -1.0
       },
       "up": {
-        "i": 0.9998839,
-        "j": 0.014456144,
-        "k": -0.004818714
+        "i": 0.99981433,
+        "j": 0.019273516,
+        "k": 0.0
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3203,14 +3203,14 @@
         "z": 50.499878
       },
       "forward": {
-        "i": 0.009639948,
-        "j": -0.00019167962,
-        "k": 0.9999535
+        "i": 0.014457234,
+        "j": -0.0001916863,
+        "k": 0.99989545
       },
       "up": {
-        "i": -0.99990714,
-        "j": -0.009637653,
-        "k": 0.009637653
+        "i": -0.9998839,
+        "j": -0.004818714,
+        "k": 0.014456144
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3319,14 +3319,14 @@
         "z": 46.00003
       },
       "forward": {
-        "i": -0.7079588,
-        "j": 0.0001916002,
-        "k": -0.7062537
+        "i": -0.816128,
+        "j": -0.4130234,
+        "k": -0.40416193
       },
       "up": {
-        "i": -0.7062492,
-        "j": 0.0034118297,
-        "k": 0.7079551
+        "i": 0.0068235397,
+        "j": -0.70623684,
+        "k": 0.7079427
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3353,14 +3353,14 @@
         "z": 46.00003
       },
       "forward": {
-        "i": 0.7062549,
-        "j": 0.00019168745,
-        "k": -0.7079577
+        "i": 0.7096479,
+        "j": 0.00019168413,
+        "k": -0.7045565
       },
       "up": {
-        "i": 0.7079531,
-        "j": 0.0034036182,
-        "k": 0.70625126
+        "i": 0.7045394,
+        "j": 0.006790737,
+        "k": 0.70963246
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3387,14 +3387,14 @@
         "z": 46.00003
       },
       "forward": {
-        "i": 0.7062549,
-        "j": 0.00019168745,
-        "k": -0.7079577
+        "i": 0.7096479,
+        "j": 0.00019168413,
+        "k": -0.7045565
       },
       "up": {
-        "i": 0.7079531,
-        "j": 0.0034036182,
-        "k": 0.70625126
+        "i": 0.7045394,
+        "j": 0.006790737,
+        "k": 0.70963246
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3421,14 +3421,14 @@
         "z": 46.00003
       },
       "forward": {
-        "i": -0.7079588,
-        "j": 0.0001916002,
-        "k": -0.7062537
+        "i": -0.816128,
+        "j": -0.4130234,
+        "k": -0.40416193
       },
       "up": {
-        "i": -0.7062492,
-        "j": 0.0034118297,
-        "k": 0.7079551
+        "i": 0.0068235397,
+        "j": -0.70623684,
+        "k": 0.7079427
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3455,14 +3455,14 @@
         "z": 46.00003
       },
       "forward": {
-        "i": 0.00019168745,
-        "j": 0.70795673,
-        "k": -0.70625585
+        "i": 0.00019168413,
+        "j": 0.70455474,
+        "k": -0.7096497
       },
       "up": {
-        "i": 0.0034036182,
-        "j": 0.70625126,
-        "k": 0.7079531
+        "i": 0.006790737,
+        "j": 0.70963246,
+        "k": 0.7045394
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3489,14 +3489,14 @@
         "z": 46.00003
       },
       "forward": {
-        "i": 0.00019168745,
-        "j": 0.7062549,
-        "k": -0.7079577
+        "i": 0.00019168413,
+        "j": 0.7096479,
+        "k": -0.7045565
       },
       "up": {
-        "i": 0.0034036182,
-        "j": 0.7079531,
-        "k": 0.70625126
+        "i": 0.006790737,
+        "j": 0.7045394,
+        "k": 0.70963246
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3520,40 +3520,6 @@
       "position": {
         "x": 15.096695,
         "y": 16.50058,
-        "z": 46.00003
-      },
-      "forward": {
-        "i": 0.00019160111,
-        "j": -0.7079572,
-        "k": -0.7062554
-      },
-      "up": {
-        "i": 0.0,
-        "j": -0.7062554,
-        "k": 0.7079572
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 74,
-      "variant_index": 9,
-      "position": {
-        "x": -15.0998535,
-        "y": 16.499939,
         "z": 46.00003
       },
       "forward": {
@@ -3583,6 +3549,40 @@
       "reuse_timeout": 0,
       "object_datum_index": 0,
       "editor_object_index": 0,
+      "variant_quota_index": 74,
+      "variant_index": 9,
+      "position": {
+        "x": -15.0998535,
+        "y": 16.499939,
+        "z": 46.00003
+      },
+      "forward": {
+        "i": 0.00019159622,
+        "j": -0.7079583,
+        "k": -0.7062543
+      },
+      "up": {
+        "i": 0.0068235397,
+        "j": -0.70623684,
+        "k": 0.7079427
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
       "variant_quota_index": 55,
       "variant_index": 0,
       "position": {
@@ -3591,14 +3591,14 @@
         "z": 50.01043
       },
       "forward": {
-        "i": -0.00016850544,
-        "j": -0.99998844,
-        "k": 0.0048200297
+        "i": -0.00009883469,
+        "j": -0.9999536,
+        "k": 0.009639054
       },
       "up": {
-        "i": 0.0048191617,
-        "j": 0.0048191617,
-        "k": 0.99997675
+        "i": 0.009637653,
+        "j": 0.009637653,
+        "k": 0.99990714
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3625,14 +3625,14 @@
         "z": 50.010155
       },
       "forward": {
-        "i": -0.0005519973,
-        "j": -0.99998826,
-        "k": 0.004821877
+        "i": -0.00048231316,
+        "j": -0.99995345,
+        "k": 0.009642748
       },
       "up": {
-        "i": 0.0048191617,
-        "j": 0.0048191617,
-        "k": 0.99997675
+        "i": 0.009637653,
+        "j": 0.009637653,
+        "k": 0.99990714
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3659,14 +3659,14 @@
         "z": 50.01097
       },
       "forward": {
-        "i": 0.0002148672,
-        "j": -0.99998844,
-        "k": 0.0048181824
+        "i": 0.0002845246,
+        "j": -0.9999536,
+        "k": 0.009635359
       },
       "up": {
-        "i": 0.0048191617,
-        "j": 0.0048191617,
-        "k": 0.99997675
+        "i": 0.009637653,
+        "j": 0.009637653,
+        "k": 0.99990714
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3693,14 +3693,14 @@
         "z": 50.00988
       },
       "forward": {
-        "i": -0.00016850544,
-        "j": -0.99998844,
-        "k": 0.0048200297
+        "i": -0.00009883469,
+        "j": -0.9999536,
+        "k": 0.009639054
       },
       "up": {
-        "i": 0.0048191617,
-        "j": 0.0048191617,
-        "k": 0.99997675
+        "i": 0.009637653,
+        "j": 0.009637653,
+        "k": 0.99990714
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3945,14 +3945,14 @@
         "z": 48.99993
       },
       "forward": {
-        "i": 1.0,
-        "j": 0.0,
-        "k": -0.00019173225
+        "i": 0.99998844,
+        "j": 0.004818182,
+        "k": -0.00021495463
       },
       "up": {
-        "i": 0.0,
-        "j": -1.0,
-        "k": 0.0
+        "i": 0.0048191617,
+        "j": -0.99997675,
+        "k": 0.0048191617
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -3979,14 +3979,14 @@
         "z": 48.99993
       },
       "forward": {
-        "i": 1.0,
-        "j": 0.0,
-        "k": 0.00019173225
+        "i": 0.99998844,
+        "j": -0.0048200297,
+        "k": 0.00016850544
       },
       "up": {
-        "i": 0.0,
-        "j": 1.0,
-        "k": 0.0
+        "i": 0.0048191617,
+        "j": 0.99997675,
+        "k": 0.0048191617
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -4013,14 +4013,14 @@
         "z": 48.99993
       },
       "forward": {
-        "i": -0.99998844,
-        "j": -0.0048200293,
-        "k": -0.00016838624
+        "i": -0.9999536,
+        "j": -0.009639053,
+        "k": -0.00009871548
       },
       "up": {
-        "i": 0.0048191617,
-        "j": -0.99997675,
-        "k": 0.0048191617
+        "i": 0.009637653,
+        "j": -0.99990714,
+        "k": 0.009637653
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -4047,14 +4047,14 @@
         "z": 48.99993
       },
       "forward": {
-        "i": 0.99998844,
-        "j": -0.0048181824,
-        "k": -0.0002148672
+        "i": 0.9999535,
+        "j": -0.009635358,
+        "k": -0.00028452458
       },
       "up": {
-        "i": 0.0048191617,
-        "j": 0.99997675,
-        "k": 0.0048191617
+        "i": 0.009637653,
+        "j": 0.99990714,
+        "k": 0.009637653
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -4081,150 +4081,150 @@
         "z": 48.99993
       },
       "forward": {
-        "i": -1.0,
-        "j": 9.241526e-7,
-        "k": 0.00019176179
-      },
-      "up": {
-        "i": 0.0,
-        "j": -0.99998844,
-        "k": 0.004819218
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 71,
-      "variant_index": 3,
-      "position": {
-        "x": -7.500229,
-        "y": 0.40014648,
-        "z": 48.99993
-      },
-      "forward": {
-        "i": 0.99998844,
-        "j": 0.0048200293,
-        "k": 0.00016841802
-      },
-      "up": {
-        "i": 0.0048191617,
-        "j": -0.99997675,
-        "k": 0.0048191617
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 71,
-      "variant_index": 3,
-      "position": {
-        "x": -7.500229,
-        "y": -0.3999939,
-        "z": 48.99993
-      },
-      "forward": {
-        "i": -0.99998826,
-        "j": 0.0048163314,
-        "k": 0.0005986848
-      },
-      "up": {
-        "i": 0.0048191617,
-        "j": 0.99997675,
-        "k": 0.0048191617
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 71,
-      "variant_index": 3,
-      "position": {
-        "x": -12.500244,
-        "y": 0.40014648,
-        "z": 48.99993
-      },
-      "forward": {
-        "i": 0.99998844,
-        "j": 0.0048200293,
-        "k": 0.00016841802
-      },
-      "up": {
-        "i": 0.0048191617,
-        "j": -0.99997675,
-        "k": 0.0048191617
-      },
-      "spawn_relative_to": -1,
-      "multiplayer_game_object_properties": {
-        "game_engine_flags": 0,
-        "user_data": 0,
-        "spawn_time": 0,
-        "cached_type": 0,
-        "label_index": -1,
-        "placement_flags": 204,
-        "team": 8,
-        "primary_change_color_index": -1
-      }
-    },
-    {
-      "flags": 1,
-      "reuse_timeout": 0,
-      "object_datum_index": 0,
-      "editor_object_index": 0,
-      "variant_quota_index": 71,
-      "variant_index": 3,
-      "position": {
-        "x": -12.500244,
-        "y": -0.3999939,
-        "z": 48.99993
-      },
-      "forward": {
         "i": -0.99998844,
-        "j": 0.0048181824,
-        "k": 0.00021483543
+        "j": -0.0048169224,
+        "k": 0.00023820109
       },
       "up": {
-        "i": 0.0048191617,
-        "j": 0.99997675,
-        "k": 0.0048191617
+        "i": 0.004818994,
+        "j": -0.99994195,
+        "k": 0.009637988
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 71,
+      "variant_index": 3,
+      "position": {
+        "x": -7.500229,
+        "y": 0.40014648,
+        "z": 48.99993
+      },
+      "forward": {
+        "i": 0.9999536,
+        "j": 0.009639053,
+        "k": 0.00009874726
+      },
+      "up": {
+        "i": 0.009637653,
+        "j": -0.99990714,
+        "k": 0.009637653
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 71,
+      "variant_index": 3,
+      "position": {
+        "x": -7.500229,
+        "y": -0.3999939,
+        "z": 48.99993
+      },
+      "forward": {
+        "i": -0.99995345,
+        "j": 0.009631658,
+        "k": 0.0006683289
+      },
+      "up": {
+        "i": 0.009637653,
+        "j": 0.99990714,
+        "k": 0.009637653
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 71,
+      "variant_index": 3,
+      "position": {
+        "x": -12.500244,
+        "y": 0.40014648,
+        "z": 48.99993
+      },
+      "forward": {
+        "i": 0.9999536,
+        "j": 0.009639053,
+        "k": 0.00009874726
+      },
+      "up": {
+        "i": 0.009637653,
+        "j": -0.99990714,
+        "k": 0.009637653
+      },
+      "spawn_relative_to": -1,
+      "multiplayer_game_object_properties": {
+        "game_engine_flags": 0,
+        "user_data": 0,
+        "spawn_time": 0,
+        "cached_type": 0,
+        "label_index": -1,
+        "placement_flags": 204,
+        "team": 8,
+        "primary_change_color_index": -1
+      }
+    },
+    {
+      "flags": 1,
+      "reuse_timeout": 0,
+      "object_datum_index": 0,
+      "editor_object_index": 0,
+      "variant_quota_index": 71,
+      "variant_index": 3,
+      "position": {
+        "x": -12.500244,
+        "y": -0.3999939,
+        "z": 48.99993
+      },
+      "forward": {
+        "i": -0.9999535,
+        "j": 0.009635358,
+        "k": 0.0002844928
+      },
+      "up": {
+        "i": 0.009637653,
+        "j": 0.99990714,
+        "k": 0.009637653
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -4578,14 +4578,14 @@
         "z": 50.010696
       },
       "forward": {
-        "i": -0.00016850544,
-        "j": -0.99998844,
-        "k": 0.0048200297
+        "i": -0.00009883469,
+        "j": -0.9999536,
+        "k": 0.009639054
       },
       "up": {
-        "i": 0.0048191617,
-        "j": 0.0048191617,
-        "k": 0.99997675
+        "i": 0.009637653,
+        "j": 0.009637653,
+        "k": 0.99990714
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -4612,14 +4612,14 @@
         "z": 50.009064
       },
       "forward": {
-        "i": 0.00019164258,
-        "j": -1.0,
-        "k": -9.2357806e-7
+        "i": 0.00019159887,
+        "j": -0.9999535,
+        "k": 0.009637177
       },
       "up": {
-        "i": 0.004819218,
-        "j": 0.0,
-        "k": 0.99998844
+        "i": 0.004818994,
+        "j": 0.009637988,
+        "k": 0.99994195
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -4646,14 +4646,14 @@
         "z": 50.011787
       },
       "forward": {
-        "i": -0.99998844,
-        "j": -0.0001915989,
-        "k": 0.0048201415
+        "i": -0.9999535,
+        "j": -0.00019159219,
+        "k": 0.009639947
       },
       "up": {
-        "i": 0.0048191617,
-        "j": 0.0048191617,
-        "k": 0.99997675
+        "i": 0.009637653,
+        "j": 0.009637653,
+        "k": 0.99990714
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -4714,14 +4714,14 @@
         "z": 50.011246
       },
       "forward": {
-        "i": -0.7072177,
-        "j": -0.706963,
-        "k": 0.006815323
+        "i": -0.70714384,
+        "j": -0.70693845,
+        "k": 0.0136297
       },
       "up": {
-        "i": 0.0048191617,
-        "j": 0.0048191617,
-        "k": 0.99997675
+        "i": 0.009637653,
+        "j": 0.009637653,
+        "k": 0.99990714
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -4748,14 +4748,14 @@
         "z": 50.009613
       },
       "forward": {
-        "i": 0.7075216,
-        "j": -0.70669174,
-        "k": -0.0000039997976
+        "i": 0.70754623,
+        "j": -0.7066671,
+        "k": -0.000008472707
       },
       "up": {
-        "i": 0.0048191617,
-        "j": 0.0048191617,
-        "k": 0.99997675
+        "i": 0.009637653,
+        "j": 0.009637653,
+        "k": 0.99990714
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -4782,14 +4782,14 @@
         "z": 50.00988
       },
       "forward": {
-        "i": 0.000598359,
-        "j": -0.99998826,
-        "k": 0.0048163333
+        "i": 0.00066800305,
+        "j": -0.99995345,
+        "k": 0.009631661
       },
       "up": {
-        "i": 0.0048191617,
-        "j": 0.0048191617,
-        "k": 0.99997675
+        "i": 0.009637653,
+        "j": 0.009637653,
+        "k": 0.99990714
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
@@ -4959,14 +4959,14 @@
         "z": 49.5
       },
       "forward": {
-        "i": -0.003408354,
-        "j": 0.70723397,
-        "k": 0.7069714
+        "i": -0.010223361,
+        "j": 0.7072093,
+        "k": 0.70693034
       },
       "up": {
-        "i": 0.99998844,
-        "j": 0.004819218,
-        "k": 0.0
+        "i": 0.99994195,
+        "j": 0.009637988,
+        "k": 0.004818994
       },
       "spawn_relative_to": -1,
       "multiplayer_game_object_properties": {
