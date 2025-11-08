@@ -1,3 +1,4 @@
 map_id,game_variant_file_name,weight,minimum_player_count,skip_after_veto
-310,crazy_king,1,2,false
-360,default_slayer,1,2,false
+310,crazy_king,1,16,false
+360,default_slayer,1,16,false
+340,default_slayer,8,16,false
