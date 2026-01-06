@@ -210,7 +210,7 @@
       "prepare_map_countdown_timer_seconds": 5,
       "prepare_map_vetoed_countdown_timer_seconds": 5,
       "prepare_map_veto_failed_countdown_timer_seconds": 5,
-      "end_match_write_stats_boot_threshold_seconds": 5,
+      "end_match_write_stats_boot_threshold_seconds": 30,
       "arbitration_wait_for_establishment_and_connectivity_threshold_seconds": 60,
       "arbitration_wait_for_completion_threshold_seconds": 30,
       "post_match_return_to_pre_game_lobby": false,
