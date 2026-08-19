@@ -1,0 +1,6487 @@
+{
+  "m_game_engine": "megalogamengine",
+  "m_custom_variant": {
+    "m_encoding_version": 73,
+    "m_build_number": 9730,
+    "m_base_variant": {
+      "m_metadata": {
+        "general": {
+          "file_type": -1,
+          "size_in_bytes": 0,
+          "unique_id": 0,
+          "parent_unique_id": 0,
+          "root_unique_id": 0,
+          "game_id": 0,
+          "activity": -1,
+          "game_mode": 0,
+          "game_engine_type": 0,
+          "map_id": -1
+        },
+        "display": {
+          "megalo_category_index": 0,
+          "padding": 0
+        },
+        "creation_history": {
+          "timestamp": "1970-01-01 00:00:00",
+          "xuid": "0000000000000000",
+          "name": "",
+          "is_online": false
+        },
+        "modification_history": {
+          "timestamp": "1970-01-01 00:00:00",
+          "xuid": "0000000000000000",
+          "name": "",
+          "is_online": false
+        },
+        "name": "ODDBALL",
+        "description": "Hold the skull to earn points. It's like Hamlet with guns."
+      },
+      "m_built_in": false,
+      "m_miscellaneous_options": {
+        "m_teams_enabled": false,
+        "m_round_reset_players": true,
+        "m_round_reset_map": true,
+        "m_round_time_limit_minutes": 12,
+        "m_round_limit": 1,
+        "m_early_victory_win_count": 0,
+        "m_sudden_death_time": 1,
+        "m_grace_period": 0
+      },
+      "m_respawn_options": {
+        "m_inherit_respawn_time": false,
+        "m_respawn_with_teammate": false,
+        "m_respawn_at_location": false,
+        "m_respawn_on_kills": false,
+        "m_lives_per_round": 0,
+        "m_team_lives_per_round": 0,
+        "m_respawn_time_seconds": 5,
+        "m_suicide_penalty_seconds": 5,
+        "m_betrayal_penalty_seconds": 5,
+        "m_respawn_growth_seconds": 0,
+        "m_loadout_cam_time": 10,
+        "m_respawn_player_traits_duration_seconds": 5,
+        "m_respawn_player_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": "unchanged",
+            "m_body_multiplier": "unchanged",
+            "m_body_recharge_rate": "unchanged",
+            "m_shield_multiplier": "unchanged",
+            "m_shield_recharge_rate": "unchanged",
+            "m_overshield_recharge_rate": "unchanged",
+            "m_headshot_immunity_setting": "unchanged",
+            "m_vampirism_percentage_setting": "unchanged",
+            "m_assasination_immunity": "unchanged",
+            "m_cannot_die_from_damage": "unchanged"
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_initial_primary_weapon_absolute_index": -3,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 0,
+            "m_infinite_ammo_setting": 0,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 0,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": -3
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 0,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 0,
+            "m_double_jump_setting": 0,
+            "m_sprint_setting": 0,
+            "m_equipment_usage_setting": 0,
+            "m_jump_modifier": -1.0
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": "off",
+            "m_waypoint_setting": 0,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 0
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        }
+      },
+      "m_social_options": {
+        "m_flags": {
+          "friendly_fire_enabled": true,
+          "betrayal_booting_enabled": true,
+          "enemy_voice_enabled": true,
+          "open_channel_voice_enabled": false,
+          "dead_player_voice_enabled": false
+        },
+        "m_team_changing": "enabled",
+        "m_observers_enabled": false
+      },
+      "m_map_override_options": {
+        "m_flags": 31,
+        "m_base_player_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": "unchanged",
+            "m_body_multiplier": "unchanged",
+            "m_body_recharge_rate": "unchanged",
+            "m_shield_multiplier": "unchanged",
+            "m_shield_recharge_rate": "unchanged",
+            "m_overshield_recharge_rate": "unchanged",
+            "m_headshot_immunity_setting": "unchanged",
+            "m_vampirism_percentage_setting": "unchanged",
+            "m_assasination_immunity": "unchanged",
+            "m_cannot_die_from_damage": "unchanged"
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_initial_primary_weapon_absolute_index": -3,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 0,
+            "m_infinite_ammo_setting": 0,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 0,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": 0
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 0,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 0,
+            "m_double_jump_setting": 0,
+            "m_sprint_setting": 0,
+            "m_equipment_usage_setting": 0,
+            "m_jump_modifier": -1.0
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": "off",
+            "m_waypoint_setting": 0,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 0
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        },
+        "m_weapon_set_absolute_index": -2,
+        "m_vehicle_set_absolute_index": -2,
+        "m_red_powerup_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": "unchanged",
+            "m_body_multiplier": "unchanged",
+            "m_body_recharge_rate": "unchanged",
+            "m_shield_multiplier": "unchanged",
+            "m_shield_recharge_rate": "unchanged",
+            "m_overshield_recharge_rate": "unchanged",
+            "m_headshot_immunity_setting": "unchanged",
+            "m_vampirism_percentage_setting": "unchanged",
+            "m_assasination_immunity": "unchanged",
+            "m_cannot_die_from_damage": "unchanged"
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_initial_primary_weapon_absolute_index": -3,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 0,
+            "m_infinite_ammo_setting": 0,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 0,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": -3
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 0,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 0,
+            "m_double_jump_setting": 0,
+            "m_sprint_setting": 0,
+            "m_equipment_usage_setting": 0,
+            "m_jump_modifier": -1.0
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": "off",
+            "m_waypoint_setting": 0,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 0
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        },
+        "m_blue_powerup_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": "unchanged",
+            "m_body_multiplier": "unchanged",
+            "m_body_recharge_rate": "unchanged",
+            "m_shield_multiplier": "unchanged",
+            "m_shield_recharge_rate": "unchanged",
+            "m_overshield_recharge_rate": "unchanged",
+            "m_headshot_immunity_setting": "unchanged",
+            "m_vampirism_percentage_setting": "unchanged",
+            "m_assasination_immunity": "unchanged",
+            "m_cannot_die_from_damage": "unchanged"
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_initial_primary_weapon_absolute_index": -3,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 0,
+            "m_infinite_ammo_setting": 0,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 0,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": -3
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 0,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 0,
+            "m_double_jump_setting": 0,
+            "m_sprint_setting": 0,
+            "m_equipment_usage_setting": 0,
+            "m_jump_modifier": -1.0
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": "off",
+            "m_waypoint_setting": 0,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 0
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        },
+        "m_yellow_powerup_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": "unchanged",
+            "m_body_multiplier": "unchanged",
+            "m_body_recharge_rate": "unchanged",
+            "m_shield_multiplier": "unchanged",
+            "m_shield_recharge_rate": "unchanged",
+            "m_overshield_recharge_rate": "unchanged",
+            "m_headshot_immunity_setting": "unchanged",
+            "m_vampirism_percentage_setting": "unchanged",
+            "m_assasination_immunity": "unchanged",
+            "m_cannot_die_from_damage": "unchanged"
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_initial_primary_weapon_absolute_index": -3,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 0,
+            "m_infinite_ammo_setting": 0,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 0,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": -3
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 0,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 0,
+            "m_double_jump_setting": 0,
+            "m_sprint_setting": 0,
+            "m_equipment_usage_setting": 0,
+            "m_jump_modifier": -1.0
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": "off",
+            "m_waypoint_setting": 0,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 0
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 0,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        },
+        "m_red_powerup_duration_seconds": 5,
+        "m_blue_powerup_duration_seconds": 30,
+        "m_yellow_powerup_duration_seconds": 30
+      },
+      "m_team_scoring_method": "sum",
+      "m_team_options": {
+        "m_model_override": "spartan",
+        "m_designator_switch_type": "rotate",
+        "m_teams": [
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": "attackers",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": "third_party",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": "fourth_party",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": "fifth_party",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": "sixth_party",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": "seventh_party",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": "eighth_party",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            "m_team_initial_designator": "neutral",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          }
+        ]
+      }
+    },
+    "m_player_traits": [
+      {
+        "m_name_string_index": 13,
+        "m_description_string_index": 14,
+        "m_player_traits": {
+          "m_shield_vitality_traits": {
+            "m_damage_resistance_percentage_setting": "unchanged",
+            "m_body_multiplier": "unchanged",
+            "m_body_recharge_rate": "unchanged",
+            "m_shield_multiplier": "unchanged",
+            "m_shield_recharge_rate": "unchanged",
+            "m_overshield_recharge_rate": "unchanged",
+            "m_headshot_immunity_setting": "unchanged",
+            "m_vampirism_percentage_setting": "unchanged",
+            "m_assasination_immunity": "unchanged",
+            "m_cannot_die_from_damage": "unchanged"
+          },
+          "m_weapon_traits": {
+            "m_damage_modifier_percentage_setting": 0,
+            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_initial_primary_weapon_absolute_index": -3,
+            "m_initial_secondary_weapon_absolute_index": -3,
+            "m_initial_grenade_count_setting": 0,
+            "m_infinite_ammo_setting": 0,
+            "m_recharging_grenades_setting": 0,
+            "m_weapon_pickup_setting": 0,
+            "m_equipment_drop_on_death_setting": 0,
+            "m_infinite_equipment_setting": 0,
+            "m_initial_equipment_absolute_index": -3
+          },
+          "m_movement_traits": {
+            "m_speed_setting": 4,
+            "m_gravity_setting": 0,
+            "m_vehicle_usage_setting": 2,
+            "m_double_jump_setting": 0,
+            "m_sprint_setting": 0,
+            "m_equipment_usage_setting": 0,
+            "m_jump_modifier": -1.0
+          },
+          "m_appearance_traits": {
+            "m_active_camo_setting": "off",
+            "m_waypoint_setting": 0,
+            "m_gamertag_setting": 0,
+            "m_aura_setting": 0,
+            "m_forced_change_color_setting": 0
+          },
+          "m_sensor_traits": {
+            "m_motion_tracker_setting": 1,
+            "m_motion_tracker_range_setting": 0,
+            "m_directional_damage_setting": 0
+          }
+        }
+      }
+    ],
+    "m_user_defined_options": [
+      {
+        "m_name_string_index": 5,
+        "m_description_string_index": 6,
+        "m_range_default_value": {
+          "m_value": 1,
+          "m_name_string_index": -1,
+          "m_description_string_index": -1
+        },
+        "m_range_min_value": {
+          "m_value": 1,
+          "m_name_string_index": -1,
+          "m_description_string_index": -1
+        },
+        "m_range_max_value": {
+          "m_value": 3,
+          "m_name_string_index": -1,
+          "m_description_string_index": -1
+        },
+        "m_range_current_value": 1
+      },
+      {
+        "m_name_string_index": 7,
+        "m_description_string_index": 8,
+        "m_default_value_index": 0,
+        "m_values": [
+          {
+            "m_value": 0,
+            "m_name_string_index": 9,
+            "m_description_string_index": 6
+          },
+          {
+            "m_value": 1,
+            "m_name_string_index": 10,
+            "m_description_string_index": 6
+          }
+        ],
+        "m_current_value_index": 0
+      },
+      {
+        "m_name_string_index": 11,
+        "m_description_string_index": 12,
+        "m_default_value_index": 0,
+        "m_values": [
+          {
+            "m_value": 0,
+            "m_name_string_index": 9,
+            "m_description_string_index": 6
+          },
+          {
+            "m_value": 1,
+            "m_name_string_index": 10,
+            "m_description_string_index": 6
+          }
+        ],
+        "m_current_value_index": 0
+      },
+      {
+        "m_name_string_index": 15,
+        "m_description_string_index": 16,
+        "m_default_value_index": 1,
+        "m_values": [
+          {
+            "m_value": 0,
+            "m_name_string_index": 9,
+            "m_description_string_index": 6
+          },
+          {
+            "m_value": 1,
+            "m_name_string_index": 10,
+            "m_description_string_index": 6
+          }
+        ],
+        "m_current_value_index": 1
+      }
+    ],
+    "m_script_strings": {
+      "strings": [
+        [
+          "ODDBALL",
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          "Ball Count",
+          "",
+          "Hot Potato",
+          "The ball is a bomb, and it will explode when you least expect it.",
+          "No",
+          "Yes",
+          "Auto-Pickup Ball",
+          "",
+          "Ball Carrier Traits",
+          "Traits applied when a player is carrying the Oddball",
+          "Use Loadouts",
+          "",
+          "CARRY TIME",
+          "BALL KILLS",
+          "Hold the skull to earn points.\r\n%n points to win."
+        ],
+        [
+          "Oddball",
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          "\u30dc\u30fc\u30eb\u306e\u6570",
+          "",
+          "\u30db\u30c3\u30c8 \u30dd\u30c6\u30c8",
+          "\u30dc\u30fc\u30eb\u306f\u7206\u5f3e\u3067\u3001\u3044\u3064\u7206\u767a\u3059\u308b\u304b\u308f\u304b\u3089\u306a\u3044",
+          "\u3044\u3044\u3048",
+          "\u306f\u3044",
+          "\u81ea\u52d5\u3067\u5165\u624b\u3057\u305f\u30dc\u30fc\u30eb",
+          "",
+          "\u30dc\u30fc\u30eb \u30ad\u30e3\u30ea\u30a2 \u30aa\u30d7\u30b7\u30e7\u30f3",
+          "\u30aa\u30c3\u30c9\u30dc\u30fc\u30eb\u3092\u6301\u3063\u3066\u3044\u308b\u3042\u3044\u3060\u9069\u7528\u3055\u308c\u308b\u8a2d\u5b9a",
+          "\u6b66\u5668\u30bb\u30c3\u30c8\u3092\u4f7f\u7528\u3059\u308b",
+          "",
+          "\u30ad\u30e3\u30ea\u30fc \u30bf\u30a4\u30e0",
+          "\u30dc\u30fc\u30eb \u30ad\u30eb",
+          "\u30b9\u30ab\u30eb\u3092\u30ad\u30fc\u30d7\u3057\u7d9a\u3051\u308c\u3070\u30dd\u30a4\u30f3\u30c8\u3092\u7372\u5f97\r\n%n \u30dd\u30a4\u30f3\u30c8\u3067\u52dd\u5229"
+        ],
+        [
+          "ODDBALL",
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          "Ball-Anzahl",
+          "",
+          "Hei\u00dfes Eisen",
+          "Der Ball ist eine Bombe, die explodiert, wenn man es am wenigsten erwartet.",
+          "Nein",
+          "Ja",
+          "Autopickup-Ball",
+          "",
+          "Balltr\u00e4ger-Eigenschaften",
+          "Angewendete Eigenschaften, wenn ein Spieler den Oddball tr\u00e4gt",
+          "Ausr\u00fcstung verwenden",
+          "",
+          "TRAGEZEIT",
+          "BALL-VOLLTR.",
+          "Halten Sie den Sch\u00e4del, um zu punkten.\r\n%n Punkte zum Sieg."
+        ],
+        [
+          "CR\u00c2NE",
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          "Nombre de cr\u00e2nes",
+          "",
+          "Patate chaude",
+          "Le cr\u00e2ne est une bombe\u00a0: il explosera \u00e0 l'improviste.",
+          "Non",
+          "Oui",
+          "Ramassage auto.",
+          "",
+          "Caract. du porteur de cr\u00e2ne",
+          "Caract\u00e9ristiques appliqu\u00e9es lorsque le joueur porte le cr\u00e2ne",
+          "Utiliser paquetages",
+          "",
+          "TEMPS DE CONSERVATION",
+          "FRAGS CR\u00c2NE",
+          "Conservez le cr\u00e2ne pour marquer des points.\r\n%n points pour gagner."
+        ],
+        [
+          "BOLA LOCA",
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          "N\u00famero de bolas",
+          "",
+          "Patata caliente",
+          "La bola es una bomba y explotar\u00e1 cuando menos te lo esperes.",
+          "No",
+          "S\u00ed",
+          "Recogida autom\u00e1tica de bola",
+          "",
+          "Caracter\u00edsticas del portador de la bola",
+          "Rasgos aplicados cuando un jugador lleva la bola loca",
+          "Usar equipamientos",
+          "",
+          "TIEMPO DE TRANSPORTE",
+          "MUERTOS BOLA",
+          "Conserva la calavera para conseguir puntos.\r\n%n puntos para ganar."
+        ],
+        [
+          "BOLA LOCA",
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          "N\u00famero de bolas",
+          "",
+          "Patata caliente",
+          "La bola es una bomba y explotar\u00e1 cuando menos te lo esperes.",
+          "No",
+          "S\u00ed",
+          "Recogida autom\u00e1tica de bola",
+          "",
+          "Caracter\u00edsticas del portador de la bola",
+          "Rasgos aplicados cuando un jugador lleva la bola loca",
+          "Usar equipamientos",
+          "",
+          "TIEMPO DE TRANSPORTE",
+          "MUERTOS BOLA",
+          "Conserva la calavera para conseguir puntos.\r\n%n puntos para ganar."
+        ],
+        [
+          "TESCHIO",
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          "Conteggio teschio",
+          "",
+          "Patata bollente",
+          "Il teschio \u00e8 una bomba, ed esploder\u00e0 quando meno te l'aspetti.",
+          "No",
+          "S\u00ec",
+          "Auto raccolta teschio",
+          "",
+          "Elementi portatore teschio",
+          "Elementi attivi quando un giocatore sta portando il teschio",
+          "Utilizza equipaggiamento",
+          "",
+          "TEMPO DI TRASPORTO",
+          "Ucc. con Teschio",
+          "Mantieni il possesso del teschio per ottenere punti.\r\n%n punti per vincere."
+        ],
+        [
+          "\uc544\ub4dc \ubcfc",
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          "\ubcfc \uac1c\uc218",
+          "",
+          "\ub728\uac70\uc6b4 \uac10\uc790",
+          "\ubcfc\uc740 \uc5b8\uc81c \ud130\uc9c8\uc9c0 \ubaa8\ub974\ub294 \ud3ed\ud0c4\uc785\ub2c8\ub2e4.",
+          "\uc544\ub2c8\uc624",
+          "\uc608",
+          "\ubcfc \uc790\ub3d9 \uc9d1\uae30",
+          "",
+          "\ubcfc \uc6b4\ubc18\uc790 \ud2b9\uc131",
+          "\uc544\ub4dc \ubcfc\uc744 \uc6b4\ubc18\ud558\ub294 \ud50c\ub808\uc774\uc5b4\uc5d0\uac8c \uc801\uc6a9\ub418\ub294 \ud2b9\uc131\uc785\ub2c8\ub2e4",
+          "\ubbf8\ub9ac \uc9c0\uc815\ud55c \uac1c\uc778\uc7a5\ube44 \uc0ac\uc6a9",
+          "",
+          "\ud574\uace8\uc744 \uc7a1\uc740 \uc2dc\uac04",
+          "\uc0ac\uc0b4 \uc218",
+          "\ud574\uace8\uc744 \uc7a1\uace0 \uc788\uc73c\uba74 \uc810\uc218\uac00 \uc62c\ub77c\uac11\ub2c8\ub2e4.\r\n%n\uc810\uc744 \ud68d\ub4dd\ud558\uba74 \uc2b9\ub9ac\ud569\ub2c8\ub2e4."
+        ],
+        [
+          "\u4fdd\u885b\u4e4b\u738b",
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          "\u6cd5\u754c\u8056\u9ab8\u8a08\u6578",
+          "",
+          "\u71d9\u624b\u5c71\u828b",
+          "\u8056\u9ab8\u8b8a\u70b8\u5f48\u4e86\uff0c\u4e26\u4e14\u6703\u5728\u4f60\u6700\u610f\u60f3\u4e0d\u5230\u7684\u6642\u5019\u7206\u70b8\u3002",
+          "\u5426",
+          "\u662f",
+          "\u81ea\u52d5\u64bf\u8d77\u8056\u9ab8",
+          "",
+          "\u8056\u9ab8\u651c\u5e36\u8005\u80fd\u529b",
+          "\u73a9\u5bb6\u651c\u5e36\u8056\u9ab8\u6642\u6240\u5177\u6709\u7684\u80fd\u529b",
+          "\u4f7f\u7528\u88dd\u5099",
+          "",
+          "\u651c\u5e36\u6642\u9593",
+          "\u7528\u8056\u9ab8\u6bba\u6575\u6578",
+          "\u5b88\u4f4f\u9ab7\u9acf\u982d\u4ee5\u8d0f\u5f97\u9ede\u6578\u3002\r\n%n \u5206\u7372\u52dd\u3002"
+        ],
+        [
+          null,
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "oddball",
+          "oddball_ball_spawn",
+          "slayer",
+          "symmetrical_spawns",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "m_base_name_string_index": 1,
+    "m_localized_name": {
+      "strings": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "m_localized_description": {
+      "strings": [
+        [
+          "Hold the skull to earn points. It's like Hamlet with guns."
+        ],
+        [
+          "\u30b9\u30ab\u30eb\u3092\u30ad\u30fc\u30d7\u3057\u7d9a\u3051\u308c\u3070\u30dd\u30a4\u30f3\u30c8\u3092\u7372\u5f97"
+        ],
+        [
+          "Kontrollieren Sie den Sch\u00e4del, um Punkte zu verdienen. Wie bei Hamlet, nur mit Gewehren."
+        ],
+        [
+          "Conservez le cr\u00e2ne pour gagner des points. Genre Hamlet, les flingues en plus."
+        ],
+        [
+          "Sost\u00e9n la calavera para ganar puntos. Es como Hamlet, pero con pistolas."
+        ],
+        [
+          "Sost\u00e9n la calavera para ganar puntos. Es como Hamlet, pero con pistolas."
+        ],
+        [
+          "Mantieni il possesso del teschio per ottenere punti. \u00c8 come Amleto con le pistole."
+        ],
+        [
+          "\ud574\uace8\uc744 \uc7a1\uace0 \uc788\uc73c\uba74 \uc810\uc218\uac00 \uc62c\ub77c\uac11\ub2c8\ub2e4. \uc790, \uc900\ube44\ub418\uc168\uc2b5\ub2c8\uae4c?"
+        ],
+        [
+          "\u5b88\u4f4f\u8056\u9ab8\u624d\u80fd\u7d2f\u7a4d\u9ede\u6578\uff0c\u5c31\u50cf\u5e36\u69cd\u7684\u54c8\u59c6\u96f7\u7279\uff1f"
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    "m_engine_icon": 2,
+    "m_score_to_win_round": 150,
+    "m_symmetric_gametype": false,
+    "m_game_engine": {
+      "m_conditions": [
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 1,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "option",
+                "m_option_index": 3
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 0
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "option",
+                "m_option_index": 0
+              }
+            },
+            "m_comparison": "less_than"
+          }
+        },
+        {
+          "m_type": "object_matches_filter",
+          "m_negated": false,
+          "m_union_group": 1,
+          "m_execute_before_action": 0,
+          "m_object_matches_filter_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_filter_index": 1
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 2,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "object_number",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 0
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 3,
+          "m_execute_before_action": 12,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "option",
+                "m_option_index": 2
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "timer_expired",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 0
+            }
+          }
+        },
+        {
+          "m_type": "timer_expired",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              },
+              "m_variable_index": 0
+            }
+          }
+        },
+        {
+          "m_type": "object_out_of_bounds",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_object_out_of_bounds_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "object_in_area",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_object_in_area_parameters": {
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": true,
+          "m_union_group": 0,
+          "m_execute_before_action": 3,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "global_1"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "no_object"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": true,
+          "m_union_group": 1,
+          "m_execute_before_action": 11,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "timer_expired",
+          "m_negated": false,
+          "m_union_group": 2,
+          "m_execute_before_action": 20,
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              },
+              "m_variable_index": 2
+            }
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_timer",
+              "m_custom_timer": {
+                "m_type": "object",
+                "m_object": {
+                  "m_explicit_object_type": "global_1"
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 6
+              }
+            },
+            "m_comparison": "less_than"
+          }
+        },
+        {
+          "m_type": "object_is_type",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_object_is_type_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_object_type": {
+              "m_object_type_index": 5
+            }
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 0
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "option",
+                "m_option_index": 0
+              }
+            },
+            "m_comparison": "less_than"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 1,
+          "m_execute_before_action": 2,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "object_number",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 0
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 2,
+          "m_execute_before_action": 2,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "spawn_object",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 2
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 3,
+          "m_execute_before_action": 15,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "option",
+                "m_option_index": 2
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "timer_expired",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              },
+              "m_variable_index": 0
+            }
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 1
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": true,
+          "m_union_group": 1,
+          "m_execute_before_action": 1,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "global_0"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "no_object"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": true,
+          "m_union_group": 2,
+          "m_execute_before_action": 2,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 1
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 2
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": true,
+          "m_union_group": 1,
+          "m_execute_before_action": 1,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "global_0"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "no_object"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 2,
+          "m_execute_before_action": 2,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": true,
+          "m_union_group": 0,
+          "m_execute_before_action": 4,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 1
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 1,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "option",
+                "m_option_index": 2
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": true,
+          "m_union_group": 2,
+          "m_execute_before_action": 1,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "global_0"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "no_object"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 3,
+          "m_execute_before_action": 2,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "timer_expired",
+          "m_negated": false,
+          "m_union_group": 4,
+          "m_execute_before_action": 2,
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              },
+              "m_variable_index": 1
+            }
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 1
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "timer_expired",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              },
+              "m_variable_index": 0
+            }
+          }
+        },
+        {
+          "m_type": "object_out_of_bounds",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_object_out_of_bounds_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "object_matches_filter",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_object_matches_filter_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_filter_index": 1
+          }
+        },
+        {
+          "m_type": "object_in_area",
+          "m_negated": false,
+          "m_union_group": 1,
+          "m_execute_before_action": 0,
+          "m_object_in_area_parameters": {
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "option",
+                "m_option_index": 1
+              }
+            },
+            "m_right": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": true,
+          "m_union_group": 1,
+          "m_execute_before_action": 3,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "global_1"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "no_object"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": true,
+          "m_union_group": 2,
+          "m_execute_before_action": 10,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "timer_expired",
+          "m_negated": false,
+          "m_union_group": 3,
+          "m_execute_before_action": 17,
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              },
+              "m_variable_index": 1
+            }
+          }
+        },
+        {
+          "m_type": "timer_expired",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "round"
+            }
+          }
+        },
+        {
+          "m_type": "player_died",
+          "m_negated": false,
+          "m_union_group": 0,
+          "m_execute_before_action": 0,
+          "m_player_died_parameters": {
+            "m_player": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              }
+            },
+            "m_killer_type": {
+              "environment": true,
+              "suicide": true,
+              "enemy": true,
+              "betrayal": true,
+              "quit_game": true
+            }
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": true,
+          "m_union_group": 1,
+          "m_execute_before_action": 3,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_1"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        },
+        {
+          "m_type": "if",
+          "m_negated": false,
+          "m_union_group": 2,
+          "m_execute_before_action": 4,
+          "m_if_parameters": {
+            "m_left": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_right": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_1"
+                }
+              }
+            },
+            "m_comparison": "equal_to"
+          }
+        }
+      ],
+      "m_actions": [
+        {
+          "m_type": "player_set_objective",
+          "m_player_set_objective_parameters": {
+            "m_player": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              }
+            },
+            "m_string": {
+              "m_string_index": 20,
+              "m_tokens": [
+                {
+                  "m_type": "custom_variable",
+                  "m_custom_variable": {
+                    "m_type": "symmetric_gametype"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "m_type": "set_loadout_palette",
+          "m_set_loadout_palette_parameters": {
+            "m_target": {
+              "m_target": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "current"
+                }
+              }
+            },
+            "m_palette_index": 13
+          }
+        },
+        {
+          "m_type": "create_object",
+          "m_create_object_parameters": {
+            "m_object_type": {
+              "m_object_type_index": 5
+            },
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_filter_index": -1,
+            "m_flags": {
+              "never_garbage_collect": true,
+              "suppress_effect": true,
+              "absolute_orientation": true
+            },
+            "m_offset": 5
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "global_1"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "no_object"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "create_object",
+          "m_create_object_parameters": {
+            "m_object_type": {
+              "m_object_type_index": 152
+            },
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_filter_index": -1,
+            "m_flags": {
+              "never_garbage_collect": true,
+              "suppress_effect": true,
+              "absolute_orientation": true
+            },
+            "m_offset": 0
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "team",
+              "m_team": {
+                "m_type": "object_owner_team",
+                "m_object": {
+                  "m_explicit_object_type": "global_1"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "team",
+              "m_team": {
+                "m_type": "global_team",
+                "m_team": {
+                  "m_explicit_team_type": "neutral"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "object_attach",
+          "m_object_attach_parameters": {
+            "m_object_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_object_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_offset": 0
+          }
+        },
+        {
+          "m_type": "navpoint_set_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_navpoint_icon": "king"
+          }
+        },
+        {
+          "m_type": "navpoint_set_priority",
+          "m_navpoint_set_priority_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_priority": "high"
+          }
+        },
+        {
+          "m_type": "set_boundary",
+          "m_set_boundary_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_shape": "sphere",
+            "m_variable_1": {
+              "m_type": "constant",
+              "m_immediate_value": 10
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "object_number",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "add"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 1
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "weapon_set_pickup_priority",
+          "m_weapon_set_pickup_priority_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_weapon_pickup_priority": "high"
+          }
+        },
+        {
+          "m_type": "weapon_set_pickup_priority",
+          "m_weapon_set_pickup_priority_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_weapon_pickup_priority": "automatic"
+          }
+        },
+        {
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              },
+              "m_variable_index": 1
+            }
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              },
+              "m_variable_index": 1
+            },
+            "m_rate": "minus_100x"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 1
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 0
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "submit_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 46,
+            "m_target_1": {
+              "m_target": "everyone"
+            },
+            "m_target_2": {
+              "m_target": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 1
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 0
+            },
+            "m_rate": "minus_100x"
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 2
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 3
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 0
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "submit_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 51,
+            "m_target_1": {
+              "m_target": "everyone"
+            },
+            "m_target_2": {
+              "m_target": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 0
+            }
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              },
+              "m_variable_index": 0
+            },
+            "m_rate": "zero"
+          }
+        },
+        {
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
+            "m_object": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              }
+            },
+            "m_player_filter_modifier": {
+              "m_type": "allies"
+            }
+          }
+        },
+        {
+          "m_type": "navpoint_set_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              }
+            },
+            "m_navpoint_icon": "speaker"
+          }
+        },
+        {
+          "m_type": "navpoint_set_priority",
+          "m_navpoint_set_priority_parameters": {
+            "m_object": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              }
+            },
+            "m_priority": "normal"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "object_number",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 0
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "set_boundary",
+          "m_set_boundary_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_shape": "cylinder",
+            "m_variable_1": {
+              "m_type": "constant",
+              "m_immediate_value": 20
+            },
+            "m_variable_2": {
+              "m_type": "constant",
+              "m_immediate_value": 10
+            },
+            "m_variable_3": {
+              "m_type": "constant",
+              "m_immediate_value": 10
+            }
+          }
+        },
+        {
+          "m_type": "delete_object",
+          "m_delete_object_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "delete_object",
+          "m_delete_object_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "object_number",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              },
+              "m_variable_index": 0
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "global_1"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 9
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 10
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              },
+              "m_variable_index": 0
+            },
+            "m_rate": "minus_100x"
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 11
+          }
+        },
+        {
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_player_filter_modifier": {
+              "m_type": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "navpoint_set_priority",
+          "m_navpoint_set_priority_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_priority": "high"
+          }
+        },
+        {
+          "m_type": "navpoint_set_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_navpoint_icon": "king"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "add"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "get_player_holding_object",
+          "m_get_player_holding_object_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_player": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "apply_player_traits",
+          "m_apply_player_traits_parameters": {
+            "m_player": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            },
+            "m_trait_index": 0
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              },
+              "m_variable_index": 0
+            },
+            "m_rate": "minus_100x"
+          }
+        },
+        {
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
+            "m_object": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            },
+            "m_player_filter_modifier": {
+              "m_type": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "navpoint_set_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            },
+            "m_navpoint_icon": "king"
+          }
+        },
+        {
+          "m_type": "navpoint_set_priority",
+          "m_navpoint_set_priority_parameters": {
+            "m_object": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            },
+            "m_priority": "high"
+          }
+        },
+        {
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_player_filter_modifier": {
+              "m_type": "no_one"
+            }
+          }
+        },
+        {
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              },
+              "m_variable_index": 0
+            }
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              },
+              "m_variable_index": 1
+            },
+            "m_rate": "minus_100x"
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              },
+              "m_variable_index": 2
+            },
+            "m_rate": "minus_100x"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "player_stat",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                },
+                "m_statistic_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "add"
+          }
+        },
+        {
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              },
+              "m_variable_index": 2
+            }
+          }
+        },
+        {
+          "m_type": "navpoint_set_priority",
+          "m_navpoint_set_priority_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_priority": "blink"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "global_1"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 13
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 2
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 0
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "random",
+          "m_random_parameters": {
+            "m_variable_1": {
+              "m_type": "constant",
+              "m_immediate_value": 5
+            },
+            "m_variable_2": {
+              "m_type": "global_number",
+              "m_variable_index": 2
+            }
+          }
+        },
+        {
+          "m_type": "create_object",
+          "m_create_object_parameters": {
+            "m_object_type": {
+              "m_object_type_index": 5
+            },
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_filter_index": -1,
+            "m_flags": {
+              "never_garbage_collect": true,
+              "suppress_effect": true,
+              "absolute_orientation": true
+            },
+            "m_offset": 5
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "global_1"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "no_object"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "create_object",
+          "m_create_object_parameters": {
+            "m_object_type": {
+              "m_object_type_index": 152
+            },
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_filter_index": -1,
+            "m_flags": {
+              "never_garbage_collect": true,
+              "suppress_effect": true,
+              "absolute_orientation": true
+            },
+            "m_offset": 0
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "team",
+              "m_team": {
+                "m_type": "object_owner_team",
+                "m_object": {
+                  "m_explicit_object_type": "global_1"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "team",
+              "m_team": {
+                "m_type": "global_team",
+                "m_team": {
+                  "m_explicit_team_type": "neutral"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "object_attach",
+          "m_object_attach_parameters": {
+            "m_object_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_object_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_offset": 0
+          }
+        },
+        {
+          "m_type": "navpoint_set_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_navpoint_icon": "king"
+          }
+        },
+        {
+          "m_type": "navpoint_set_priority",
+          "m_navpoint_set_priority_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_priority": "high"
+          }
+        },
+        {
+          "m_type": "set_boundary",
+          "m_set_boundary_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_shape": "sphere",
+            "m_variable_1": {
+              "m_type": "constant",
+              "m_immediate_value": 10
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "object_number",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "add"
+          }
+        },
+        {
+          "m_type": "submit_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 52,
+            "m_target_1": {
+              "m_target": "everyone"
+            },
+            "m_target_2": {
+              "m_target": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 1
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "weapon_set_pickup_priority",
+          "m_weapon_set_pickup_priority_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_weapon_pickup_priority": "high"
+          }
+        },
+        {
+          "m_type": "weapon_set_pickup_priority",
+          "m_weapon_set_pickup_priority_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_weapon_pickup_priority": "automatic"
+          }
+        },
+        {
+          "m_type": "set_score",
+          "m_set_score_parameters": {
+            "m_target": {
+              "m_target": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "current"
+                }
+              }
+            },
+            "m_operation": "add",
+            "m_variable": {
+              "m_type": "constant",
+              "m_immediate_value": 1
+            }
+          }
+        },
+        {
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              },
+              "m_variable_index": 0
+            }
+          }
+        },
+        {
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              },
+              "m_variable_index": 1
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "get_player_holding_object",
+          "m_get_player_holding_object_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_player": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "submit_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 47,
+            "m_target_1": {
+              "m_target": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_target_2": {
+              "m_target": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 1
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 2
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "get_player_holding_object",
+          "m_get_player_holding_object_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_player": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "submit_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 48,
+            "m_target_1": {
+              "m_target": "everyone"
+            },
+            "m_target_2": {
+              "m_target": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 1
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "global_0"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "navpoint_set_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_navpoint_icon": "king"
+          }
+        },
+        {
+          "m_type": "navpoint_set_priority",
+          "m_navpoint_set_priority_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_priority": "high"
+          }
+        },
+        {
+          "m_type": "get_player_holding_object",
+          "m_get_player_holding_object_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_player": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "submit_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 47,
+            "m_target_1": {
+              "m_target": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_target_2": {
+              "m_target": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 1
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 2
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "get_player_holding_object",
+          "m_get_player_holding_object_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_player": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              },
+              "m_variable_index": 1
+            }
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              },
+              "m_variable_index": 1
+            },
+            "m_rate": "minus_100x"
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 19
+          }
+        },
+        {
+          "m_type": "set_boundary",
+          "m_set_boundary_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_shape": "sphere",
+            "m_variable_1": {
+              "m_type": "constant",
+              "m_immediate_value": 10
+            }
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 21
+          }
+        },
+        {
+          "m_type": "delete_object",
+          "m_delete_object_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "submit_incident",
+          "m_submit_incident_parameters": {
+            "m_incident_id": 52,
+            "m_target_1": {
+              "m_target": "everyone"
+            },
+            "m_target_2": {
+              "m_target": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "delete_object",
+          "m_delete_object_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "play_sound",
+          "m_play_sound_parameters": {
+            "m_sound_index": "ball_taken",
+            "m_immediate": false,
+            "m_target": {
+              "m_target": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "object_number",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                },
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              },
+              "m_variable_index": 0
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "global_1"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "object",
+              "m_object": {
+                "m_type": "global_object",
+                "m_object": {
+                  "m_explicit_object_type": "current"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 23
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 24
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              },
+              "m_variable_index": 0
+            },
+            "m_rate": "minus_100x"
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              },
+              "m_variable_index": 1
+            },
+            "m_rate": "zero"
+          }
+        },
+        {
+          "m_type": "for_each",
+          "m_for_each_parameters": {
+            "m_trigger_index": 25
+          }
+        },
+        {
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_player_filter_modifier": {
+              "m_type": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "global_number",
+                "m_variable_index": 0
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "add"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "get_player_holding_object",
+          "m_get_player_holding_object_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_player": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "apply_player_traits",
+          "m_apply_player_traits_parameters": {
+            "m_player": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            },
+            "m_trait_index": 0
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              },
+              "m_variable_index": 0
+            },
+            "m_rate": "minus_100x"
+          }
+        },
+        {
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
+            "m_object": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            },
+            "m_player_filter_modifier": {
+              "m_type": "everyone"
+            }
+          }
+        },
+        {
+          "m_type": "navpoint_set_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            },
+            "m_navpoint_icon": "flag"
+          }
+        },
+        {
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_player_filter_modifier": {
+              "m_type": "no_one"
+            }
+          }
+        },
+        {
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              },
+              "m_variable_index": 0
+            }
+          }
+        },
+        {
+          "m_type": "timer_set_rate",
+          "m_timer_set_rate_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              },
+              "m_variable_index": 1
+            },
+            "m_rate": "minus_100x"
+          }
+        },
+        {
+          "m_type": "object_destroy",
+          "m_object_destroy_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "object_destroy",
+          "m_object_destroy_parameters": {
+            "m_object": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "end_round"
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "global_1"
+                }
+              }
+            },
+            "m_variable_2": {
+              "m_type": "player",
+              "m_player": {
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "no_player"
+                }
+              }
+            },
+            "m_operation": "set_to"
+          }
+        },
+        {
+          "m_type": "get_player_holding_object",
+          "m_get_player_holding_object_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_player": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "global_1"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "player_death_get_killing_player",
+          "m_player_death_get_killing_player_parameters": {
+            "m_player_1": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              }
+            },
+            "m_player_2": {
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            }
+          }
+        },
+        {
+          "m_type": "set",
+          "m_set_parameters": {
+            "m_variable_1": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "player_stat",
+                "m_player": {
+                  "m_explicit_player_type": "global_0"
+                },
+                "m_statistic_index": 1
+              }
+            },
+            "m_variable_2": {
+              "m_type": "custom_variable",
+              "m_custom_variable": {
+                "m_type": "constant",
+                "m_immediate_value": 1
+              }
+            },
+            "m_operation": "add"
+          }
+        }
+      ],
+      "m_triggers": [
+        {
+          "m_execution_mode": "general",
+          "m_trigger_type": "initialization",
+          "m_object_filter_index": -1,
+          "m_first_condition": 5,
+          "m_condition_count": 0,
+          "m_first_action": 17,
+          "m_action_count": 6
+        },
+        {
+          "m_execution_mode": "player",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 0,
+          "m_condition_count": 1,
+          "m_first_action": 0,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "object",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 1,
+          "m_condition_count": 4,
+          "m_first_action": 2,
+          "m_action_count": 13
+        },
+        {
+          "m_execution_mode": "player",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 5,
+          "m_condition_count": 0,
+          "m_first_action": 15,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "general",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 5,
+          "m_condition_count": 0,
+          "m_first_action": 23,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "general",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 5,
+          "m_condition_count": 1,
+          "m_first_action": 24,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "player",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 6,
+          "m_condition_count": 0,
+          "m_first_action": 26,
+          "m_action_count": 4
+        },
+        {
+          "m_execution_mode": "object_with_label",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": 1,
+          "m_first_condition": 6,
+          "m_condition_count": 0,
+          "m_first_action": 30,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "object_with_label",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": 4,
+          "m_first_condition": 9,
+          "m_condition_count": 3,
+          "m_first_action": 36,
+          "m_action_count": 22
+        },
+        {
+          "m_execution_mode": "general",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 6,
+          "m_condition_count": 1,
+          "m_first_action": 32,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "general",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 7,
+          "m_condition_count": 1,
+          "m_first_action": 33,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "object_with_label",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": 1,
+          "m_first_condition": 8,
+          "m_condition_count": 1,
+          "m_first_action": 34,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "object_with_label",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": 4,
+          "m_first_condition": 13,
+          "m_condition_count": 1,
+          "m_first_action": 59,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "general",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 12,
+          "m_condition_count": 1,
+          "m_first_action": 58,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "object_with_label",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": 1,
+          "m_first_condition": 14,
+          "m_condition_count": 4,
+          "m_first_action": 61,
+          "m_action_count": 16
+        },
+        {
+          "m_execution_mode": "player",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 18,
+          "m_condition_count": 1,
+          "m_first_action": 77,
+          "m_action_count": 3
+        },
+        {
+          "m_execution_mode": "team",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 19,
+          "m_condition_count": 3,
+          "m_first_action": 80,
+          "m_action_count": 4
+        },
+        {
+          "m_execution_mode": "team",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 22,
+          "m_condition_count": 3,
+          "m_first_action": 84,
+          "m_action_count": 4
+        },
+        {
+          "m_execution_mode": "player",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 26,
+          "m_condition_count": 5,
+          "m_first_action": 94,
+          "m_action_count": 5
+        },
+        {
+          "m_execution_mode": "object_with_label",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": 4,
+          "m_first_condition": 25,
+          "m_condition_count": 1,
+          "m_first_action": 88,
+          "m_action_count": 6
+        },
+        {
+          "m_execution_mode": "general",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 31,
+          "m_condition_count": 1,
+          "m_first_action": 100,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "object_with_label",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": 4,
+          "m_first_condition": 31,
+          "m_condition_count": 0,
+          "m_first_action": 99,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "object_with_label",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": 5,
+          "m_first_condition": 36,
+          "m_condition_count": 4,
+          "m_first_action": 107,
+          "m_action_count": 19
+        },
+        {
+          "m_execution_mode": "general",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 32,
+          "m_condition_count": 1,
+          "m_first_action": 101,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "general",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 33,
+          "m_condition_count": 1,
+          "m_first_action": 103,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "object",
+          "m_trigger_type": "subroutine",
+          "m_object_filter_index": -1,
+          "m_first_condition": 34,
+          "m_condition_count": 2,
+          "m_first_action": 105,
+          "m_action_count": 2
+        },
+        {
+          "m_execution_mode": "general",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 40,
+          "m_condition_count": 1,
+          "m_first_action": 126,
+          "m_action_count": 1
+        },
+        {
+          "m_execution_mode": "player",
+          "m_trigger_type": "normal",
+          "m_object_filter_index": -1,
+          "m_first_condition": 41,
+          "m_condition_count": 3,
+          "m_first_action": 127,
+          "m_action_count": 5
+        }
+      ],
+      "m_requisitions": [],
+      "m_loadouts": [],
+      "m_loadout_palette": [],
+      "m_statistics": [
+        {
+          "m_name_string_index": 17,
+          "m_format": "time",
+          "m_sort_order": "ascending",
+          "m_grouping": "player"
+        },
+        {
+          "m_name_string_index": 18,
+          "m_format": "number",
+          "m_sort_order": "ascending",
+          "m_grouping": "player"
+        }
+      ],
+      "m_global_variable_metadata": {
+        "m_numeric_variables": [
+          [
+            {
+              "m_type": "constant",
+              "m_immediate_value": 0
+            },
+            0
+          ],
+          [
+            {
+              "m_type": "constant",
+              "m_immediate_value": 0
+            },
+            1
+          ],
+          [
+            {
+              "m_type": "constant",
+              "m_immediate_value": 0
+            },
+            0
+          ]
+        ],
+        "m_timer_variables": [
+          {
+            "m_type": "constant",
+            "m_immediate_value": 2
+          }
+        ],
+        "m_team_variables": [],
+        "m_player_variables": [
+          0,
+          0
+        ],
+        "m_object_variables": [
+          1,
+          0
+        ]
+      },
+      "m_player_variable_metadata": {
+        "m_numeric_variables": [],
+        "m_timer_variables": [
+          {
+            "m_type": "constant",
+            "m_immediate_value": 1
+          },
+          {
+            "m_type": "constant",
+            "m_immediate_value": 3
+          },
+          {
+            "m_type": "constant",
+            "m_immediate_value": 1
+          }
+        ],
+        "m_team_variables": [],
+        "m_player_variables": [],
+        "m_object_variables": []
+      },
+      "m_object_variable_metadata": {
+        "m_numeric_variables": [
+          [
+            {
+              "m_type": "constant",
+              "m_immediate_value": 0
+            },
+            0
+          ]
+        ],
+        "m_timer_variables": [
+          {
+            "m_type": "constant",
+            "m_immediate_value": 15
+          },
+          {
+            "m_type": "constant",
+            "m_immediate_value": 30
+          }
+        ],
+        "m_team_variables": [],
+        "m_player_variables": [],
+        "m_object_variables": []
+      },
+      "m_team_variable_metadata": {
+        "m_numeric_variables": [],
+        "m_timer_variables": [],
+        "m_team_variables": [],
+        "m_player_variables": [],
+        "m_object_variables": []
+      },
+      "m_hud_widgets": [
+        0
+      ],
+      "m_initialization_trigger_index": 0,
+      "m_local_initialization_trigger_index": -1,
+      "m_host_migration_trigger_index": -1,
+      "m_object_death_event_trigger_index": -1,
+      "m_local_trigger_index": -1,
+      "m_objects_used": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "m_object_filters": [
+        {
+          "m_label_string_index": 2,
+          "m_valid_parameters": {
+            "object_type": false,
+            "team": false,
+            "user_data": false
+          },
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 3,
+          "m_valid_parameters": {
+            "object_type": false,
+            "team": false,
+            "user_data": false
+          },
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 4,
+          "m_valid_parameters": {
+            "object_type": false,
+            "team": false,
+            "user_data": false
+          },
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 5,
+          "m_valid_parameters": {
+            "object_type": false,
+            "team": false,
+            "user_data": false
+          },
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 0,
+          "m_valid_parameters": {
+            "object_type": true,
+            "team": false,
+            "user_data": false
+          },
+          "m_object_type": {
+            "m_object_type_index": 5
+          },
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 0,
+          "m_valid_parameters": {
+            "object_type": true,
+            "team": false,
+            "user_data": false
+          },
+          "m_object_type": {
+            "m_object_type_index": 4
+          },
+          "m_min": 0
+        }
+      ]
+    }
+  }
+}
