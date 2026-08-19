@@ -1,29 +1,38 @@
 {
-  "m_game_engine": "custom",
+  "m_game_engine": "megalogamengine",
   "m_custom_variant": {
     "m_encoding_version": 49,
     "m_build_number": 8516,
     "m_base_variant": {
       "m_metadata": {
-        "file_type": -1,
-        "size_in_bytes": 0,
-        "unique_id": 0,
-        "parent_unique_id": 0,
-        "root_unique_id": 0,
-        "game_id": 0,
-        "activity": -1,
-        "game_mode": 0,
-        "game_engine_type": 0,
-        "map_id": -1,
-        "unknown1": 0,
-        "creation_time": "1970-01-01 00:00:00",
-        "creator_xuid": "0000000000000000",
-        "creator_name": "",
-        "creator_xuid_is_online": false,
-        "modification_time": "1970-01-01 00:00:00",
-        "modifier_xuid": "0000000000000000",
-        "modifier_name": "",
-        "modifier_xuid_is_online": false,
+        "general": {
+          "file_type": -1,
+          "size_in_bytes": 0,
+          "unique_id": 0,
+          "parent_unique_id": 0,
+          "root_unique_id": 0,
+          "game_id": 0,
+          "activity": -1,
+          "game_mode": 0,
+          "game_engine_type": 0,
+          "map_id": -1
+        },
+        "display": {
+          "megalo_category_index": 0,
+          "padding": 0
+        },
+        "creation_history": {
+          "timestamp": "1970-01-01 00:00:00",
+          "xuid": "0000000000000000",
+          "name": "",
+          "is_online": false
+        },
+        "modification_history": {
+          "timestamp": "1970-01-01 00:00:00",
+          "xuid": "0000000000000000",
+          "name": "",
+          "is_online": false
+        },
         "name": "Stockpile",
         "description": "Collect flags in your team's score zone.  Earn points for each flag captured."
       },
@@ -35,7 +44,7 @@
         "m_round_time_limit_minutes": 10,
         "m_round_limit": 1,
         "m_early_victory_win_count": 0,
-        "m_sudden_death_time": 1,
+        "m_sudden_death_time": 0,
         "m_grace_period": 0
       },
       "m_respawn_options": {
@@ -84,7 +93,7 @@
             "m_jump_modifier": -1.0
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
+            "m_active_camo_setting": "off",
             "m_waypoint_setting": 0,
             "m_gamertag_setting": 0,
             "m_aura_setting": 0,
@@ -98,8 +107,14 @@
         }
       },
       "m_social_options": {
-        "m_flags": 7,
-        "m_team_changing": 1,
+        "m_flags": {
+          "friendly_fire_enabled": true,
+          "betrayal_booting_enabled": true,
+          "enemy_voice_enabled": true,
+          "open_channel_voice_enabled": false,
+          "dead_player_voice_enabled": false
+        },
+        "m_team_changing": "enabled",
         "m_observers_enabled": false
       },
       "m_map_override_options": {
@@ -137,7 +152,7 @@
             "m_jump_modifier": -1.0
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
+            "m_active_camo_setting": "off",
             "m_waypoint_setting": 0,
             "m_gamertag_setting": 0,
             "m_aura_setting": 0,
@@ -184,7 +199,7 @@
             "m_jump_modifier": -1.0
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
+            "m_active_camo_setting": "off",
             "m_waypoint_setting": 0,
             "m_gamertag_setting": 0,
             "m_aura_setting": 0,
@@ -229,7 +244,7 @@
             "m_jump_modifier": -1.0
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 3,
+            "m_active_camo_setting": "good",
             "m_waypoint_setting": 0,
             "m_gamertag_setting": 0,
             "m_aura_setting": 0,
@@ -274,7 +289,7 @@
             "m_jump_modifier": -1.0
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
+            "m_active_camo_setting": "off",
             "m_waypoint_setting": 0,
             "m_gamertag_setting": 0,
             "m_aura_setting": 0,
@@ -290,10 +305,10 @@
         "m_blue_powerup_duration_seconds": 30,
         "m_yellow_powerup_duration_seconds": 30
       },
-      "m_team_scoring_method": 0,
+      "m_team_scoring_method": "sum",
       "m_team_options": {
-        "m_model_override": 1,
-        "m_designator_switch_type": 2,
+        "m_model_override": "spartan",
+        "m_designator_switch_type": "rotate",
         "m_teams": [
           {
             "m_team_enabled": true,
@@ -316,8 +331,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 1,
-            "m_model_override": 0,
+            "m_team_initial_designator": "defenders",
+            "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
             "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
@@ -343,8 +358,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 2,
-            "m_model_override": 0,
+            "m_team_initial_designator": "attackers",
+            "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
             "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
@@ -370,8 +385,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 3,
-            "m_model_override": 0,
+            "m_team_initial_designator": "third_party",
+            "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
             "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
@@ -397,8 +412,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 4,
-            "m_model_override": 0,
+            "m_team_initial_designator": "fourth_party",
+            "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
             "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
@@ -424,8 +439,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 5,
-            "m_model_override": 0,
+            "m_team_initial_designator": "fifth_party",
+            "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
             "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
@@ -451,8 +466,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 6,
-            "m_model_override": 0,
+            "m_team_initial_designator": "sixth_party",
+            "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
             "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
@@ -478,8 +493,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 7,
-            "m_model_override": 0,
+            "m_team_initial_designator": "seventh_party",
+            "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
             "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
@@ -505,8 +520,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 8,
-            "m_model_override": 0,
+            "m_team_initial_designator": "eighth_party",
+            "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
             "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
@@ -551,7 +566,7 @@
             "m_jump_modifier": -1.0
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
+            "m_active_camo_setting": "off",
             "m_waypoint_setting": 0,
             "m_gamertag_setting": 0,
             "m_aura_setting": 0,
@@ -1377,414 +1392,434 @@
     "m_game_engine": {
       "m_conditions": [
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 2,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 3
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
-          "m_type": "has_any_players",
+          "m_type": "team_is_active",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 1,
-          "m_team_reference": {
-            "m_type": 0,
+          "m_team_is_active_parameters": {
             "m_team": {
-              "m_explicit_team_type": "global_0"
+              "m_type": "global_team",
+              "m_team": {
+                "m_explicit_team_type": "global_0"
+              }
             }
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 6,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 2
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 1
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 1
               }
             },
-            "m_comparison": 0
+            "m_comparison": "less_than"
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 1,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 2
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
-          "m_type": "shape_contains",
+          "m_type": "object_in_area",
           "m_negated": false,
           "m_union_group": 1,
           "m_execute_before_action": 1,
-          "m_object_reference_1": {
-            "m_type": 0,
-            "m_object": {
-              "m_explicit_object_type": "current"
-            }
-          },
-          "m_object_reference_2": {
-            "m_type": 3,
-            "m_team": {
-              "m_explicit_team_type": "current"
+          "m_object_in_area_parameters": {
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
             },
-            "m_variable_index": 2
+            "m_object_reference_2": {
+              "m_type": "team_object",
+              "m_team": {
+                "m_explicit_team_type": "current_team"
+              },
+              "m_variable_index": 2
+            }
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 2
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
-          "m_type": "is_zero",
+          "m_type": "timer_expired",
           "m_negated": false,
           "m_union_group": 1,
           "m_execute_before_action": 0,
-          "m_timer": {
-            "m_type": "global",
-            "m_variable_index": 0
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 0
+            }
           }
         },
         {
-          "m_type": "has_any_players",
+          "m_type": "team_is_active",
           "m_negated": false,
           "m_union_group": 2,
           "m_execute_before_action": 0,
-          "m_team_reference": {
-            "m_type": 0,
+          "m_team_is_active_parameters": {
             "m_team": {
-              "m_explicit_team_type": "current"
+              "m_type": "global_team",
+              "m_team": {
+                "m_explicit_team_type": "current_team"
+              }
             }
           }
         },
         {
-          "m_type": "has_any_players",
+          "m_type": "team_is_active",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 0,
-          "m_team_reference": {
-            "m_type": 0,
+          "m_team_is_active_parameters": {
             "m_team": {
-              "m_explicit_team_type": "current"
+              "m_type": "global_team",
+              "m_team": {
+                "m_explicit_team_type": "current_team"
+              }
             }
           }
         },
         {
-          "m_type": "shape_contains",
+          "m_type": "object_in_area",
           "m_negated": false,
           "m_union_group": 1,
           "m_execute_before_action": 0,
-          "m_object_reference_1": {
-            "m_type": 0,
-            "m_object": {
-              "m_explicit_object_type": "global_0"
-            }
-          },
-          "m_object_reference_2": {
-            "m_type": 3,
-            "m_team": {
-              "m_explicit_team_type": "current"
+          "m_object_in_area_parameters": {
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
             },
-            "m_variable_index": 0
+            "m_object_reference_2": {
+              "m_type": "team_object",
+              "m_team": {
+                "m_explicit_team_type": "current_team"
+              },
+              "m_variable_index": 0
+            }
           }
         },
         {
-          "m_type": "is_zero",
+          "m_type": "timer_expired",
           "m_negated": false,
           "m_union_group": 2,
           "m_execute_before_action": 1,
-          "m_timer": {
-            "m_type": "global",
-            "m_variable_index": 0
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 0
+            }
           }
         },
         {
-          "m_type": "shape_contains",
+          "m_type": "object_in_area",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 0,
-          "m_object_reference_1": {
-            "m_type": 0,
-            "m_object": {
-              "m_explicit_object_type": "global_0"
-            }
-          },
-          "m_object_reference_2": {
-            "m_type": 0,
-            "m_object": {
-              "m_explicit_object_type": "current"
+          "m_object_in_area_parameters": {
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
             }
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": true,
           "m_union_group": 0,
           "m_execute_before_action": 3,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "no_player"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": true,
           "m_union_group": 0,
           "m_execute_before_action": 3,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
                   "m_explicit_object_type": "global_0"
                 }
               }
             },
             "m_right": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
                   "m_explicit_object_type": "no_object"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
-          "m_type": "is_out_of_bounds",
+          "m_type": "object_out_of_bounds",
           "m_negated": false,
           "m_union_group": 1,
           "m_execute_before_action": 5,
-          "m_object_reference_1": {
-            "m_type": 0,
+          "m_object_out_of_bounds_parameters": {
             "m_object": {
-              "m_explicit_object_type": "current"
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
             }
           }
         },
         {
-          "m_type": "is_zero",
+          "m_type": "timer_expired",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 0,
-          "m_timer": {
-            "m_type": "global",
-            "m_variable_index": 0
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 0
+            }
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 4,
+              "m_type": "custom_timer",
               "m_custom_timer": {
                 "m_type": "global",
                 "m_variable_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 6
               }
             },
-            "m_comparison": 0
+            "m_comparison": "less_than"
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": true,
           "m_union_group": 1,
           "m_execute_before_action": 2,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 5,
+                "m_type": "object_owner_team",
                 "m_object": {
                   "m_explicit_object_type": "global_0"
                 }
               }
             },
             "m_right": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": "neutral_team"
+                  "m_explicit_team_type": "neutral"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 1
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 1
               }
             },
-            "m_comparison": 0
+            "m_comparison": "less_than"
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": false,
           "m_union_group": 1,
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 2,
+                "m_type": "object_number",
                 "m_object": {
                   "m_explicit_object_type": "current"
                 },
@@ -1792,25 +1827,25 @@
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": false,
           "m_union_group": 2,
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 2,
+                "m_type": "object_number",
                 "m_object": {
                   "m_explicit_object_type": "current"
                 },
@@ -1818,104 +1853,110 @@
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
-          "m_type": "compare",
+          "m_type": "if",
           "m_negated": true,
           "m_union_group": 3,
           "m_execute_before_action": 2,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 2
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
-          "m_type": "is_zero",
+          "m_type": "timer_expired",
           "m_negated": false,
           "m_union_group": 0,
           "m_execute_before_action": 0,
-          "m_timer": {
-            "m_type": "round"
+          "m_timer_expired_parameters": {
+            "m_timer": {
+              "m_type": "round"
+            }
           }
         }
       ],
       "m_actions": [
         {
-          "m_type": "set_objective_text",
-          "m_string": {
-            "m_string_index": 40,
-            "m_tokens": []
-          },
-          "m_player_1": {
-            "m_type": 0,
+          "m_type": "player_set_objective",
+          "m_player_set_objective_parameters": {
             "m_player": {
-              "m_explicit_player_type": "current"
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "current"
+              }
+            },
+            "m_string": {
+              "m_string_index": 40,
+              "m_tokens": []
             }
           }
         },
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": 39,
+            "m_sound_index": "stockpile",
             "m_target": {
-              "m_target": "all_players"
+              "m_target": "everyone"
             }
           }
         },
         {
           "m_type": "set_loadout_palette",
-          "m_target": {
-            "m_target": "player",
-            "m_player": {
-              "m_type": 0,
+          "m_set_loadout_palette_parameters": {
+            "m_target": {
+              "m_target": "player",
               "m_player": {
-                "m_explicit_player_type": "current"
+                "m_type": "global_player",
+                "m_player": {
+                  "m_explicit_player_type": "current"
+                }
               }
-            }
-          },
-          "m_unknown_data": 7
+            },
+            "m_palette_index": 7
+          }
         },
         {
-          "m_type": "run_nested_trigger",
+          "m_type": "for_each",
           "m_for_each_parameters": {
             "m_trigger_index": 1
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 4,
+              "m_type": "custom_timer",
               "m_custom_timer": {
                 "m_type": "global",
                 "m_variable_index": 0
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -1923,21 +1964,21 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
                   "m_explicit_team_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 5,
+                "m_type": "object_owner_team",
                 "m_object": {
                   "m_explicit_object_type": "current"
                 }
@@ -1947,12 +1988,12 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 3,
+                "m_type": "team_object",
                 "m_team": {
                   "m_explicit_team_type": "global_0"
                 },
@@ -1960,9 +2001,9 @@
               }
             },
             "m_variable_2": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
                   "m_explicit_object_type": "current"
                 }
@@ -1972,10 +2013,10 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 4,
+              "m_type": "custom_timer",
               "m_custom_timer": {
                 "m_type": "object",
                 "m_object": {
@@ -1985,7 +2026,7 @@
               }
             },
             "m_variable_2": {
-              "m_type": 4,
+              "m_type": "custom_timer",
               "m_custom_timer": {
                 "m_type": "global",
                 "m_variable_index": 0
@@ -1995,32 +2036,34 @@
           }
         },
         {
-          "m_type": "set_waypoint_visibility",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
             "m_object": {
-              "m_explicit_object_type": "current"
-            }
-          },
-          "m_unknown_data": 1
-        },
-        {
-          "m_type": "set_waypoint_icon",
-          "m_navpoint_set_icon_parameters": {
-            "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "bomb"
+            "m_value": 1
           }
         },
         {
-          "m_type": "set_waypoint_timer",
+          "m_type": "navpoint_set_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_navpoint_icon": "destination"
+          }
+        },
+        {
+          "m_type": "navpoint_set_timer",
           "m_navpoint_set_timer_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "current"
               }
@@ -2029,25 +2072,27 @@
           }
         },
         {
-          "m_type": "set_object_shape_visibility",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "boundary_set_visible",
+          "m_boundary_set_visible_parameters": {
             "m_object": {
-              "m_explicit_object_type": "current"
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_variable": {
+              "m_type": "constant",
+              "m_immediate_value": 1
             }
-          },
-          "m_variable_1": {
-            "m_type": 0,
-            "m_immediate_value": 1
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 2,
+                "m_type": "object_number",
                 "m_object": {
                   "m_explicit_object_type": "current"
                 },
@@ -2055,9 +2100,9 @@
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2065,56 +2110,58 @@
           }
         },
         {
-          "m_type": "set_object_shape",
+          "m_type": "set_boundary",
           "m_set_boundary_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "current"
               }
             },
             "m_shape": "cylinder",
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 25
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 5
             },
             "m_variable_3": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 5
             }
           }
         },
         {
-          "m_type": "set_waypoint_visibility",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
             "m_object": {
-              "m_explicit_object_type": "current"
-            }
-          },
-          "m_unknown_data": 0
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
+            "m_value": 0
+          }
         },
         {
-          "m_type": "place_at_me",
+          "m_type": "create_object",
           "m_create_object_parameters": {
             "m_object_type": {
               "m_object_type_index": 61
             },
             "m_object_reference_1": {
-              "m_type": 3,
+              "m_type": "team_object",
               "m_team": {
-                "m_explicit_team_type": "current"
+                "m_explicit_team_type": "current_team"
               },
               "m_variable_index": 1
             },
             "m_object_reference_2": {
-              "m_type": 3,
+              "m_type": "team_object",
               "m_team": {
-                "m_explicit_team_type": "current"
+                "m_explicit_team_type": "current_team"
               },
               "m_variable_index": 0
             },
@@ -2123,23 +2170,23 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
                   "m_explicit_object_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 3,
+                "m_type": "team_object",
                 "m_team": {
-                  "m_explicit_team_type": "current"
+                  "m_explicit_team_type": "current_team"
                 },
                 "m_variable_index": 1
               }
@@ -2148,47 +2195,47 @@
           }
         },
         {
-          "m_type": "set_object_shape",
+          "m_type": "set_boundary",
           "m_set_boundary_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "global_0"
               }
             },
             "m_shape": "cylinder",
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 75
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 50
             },
             "m_variable_3": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 50
             }
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 5,
+                "m_type": "object_owner_team",
                 "m_object": {
                   "m_explicit_object_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": "current"
+                  "m_explicit_team_type": "current_team"
                 }
               }
             },
@@ -2196,45 +2243,49 @@
           }
         },
         {
-          "m_type": "set_object_invincibility",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "object_set_invincibility",
+          "m_object_set_invincibility_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_0"
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_variable": {
+              "m_type": "constant",
+              "m_immediate_value": 1
             }
-          },
-          "m_variable_1": {
-            "m_type": 0,
-            "m_immediate_value": 1
           }
         },
         {
-          "m_type": "set_weapon_pickup_permissions",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "set_pickup_filter",
+          "m_set_pickup_filter_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_0"
-            }
-          },
-          "m_unknown_data": 0
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_value": 0
+          }
         },
         {
-          "m_type": "place_at_me",
+          "m_type": "create_object",
           "m_create_object_parameters": {
             "m_object_type": {
               "m_object_type_index": 61
             },
             "m_object_reference_1": {
-              "m_type": 3,
+              "m_type": "team_object",
               "m_team": {
-                "m_explicit_team_type": "current"
+                "m_explicit_team_type": "current_team"
               },
               "m_variable_index": 2
             },
             "m_object_reference_2": {
-              "m_type": 3,
+              "m_type": "team_object",
               "m_team": {
-                "m_explicit_team_type": "current"
+                "m_explicit_team_type": "current_team"
               },
               "m_variable_index": 0
             },
@@ -2243,23 +2294,23 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
                   "m_explicit_object_type": "global_1"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 3,
+                "m_type": "team_object",
                 "m_team": {
-                  "m_explicit_team_type": "current"
+                  "m_explicit_team_type": "current_team"
                 },
                 "m_variable_index": 2
               }
@@ -2268,47 +2319,47 @@
           }
         },
         {
-          "m_type": "set_object_shape",
+          "m_type": "set_boundary",
           "m_set_boundary_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "global_1"
               }
             },
             "m_shape": "cylinder",
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 150
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 50
             },
             "m_variable_3": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 50
             }
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 5,
+                "m_type": "object_owner_team",
                 "m_object": {
                   "m_explicit_object_type": "global_1"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": "current"
+                  "m_explicit_team_type": "current_team"
                 }
               }
             },
@@ -2316,30 +2367,34 @@
           }
         },
         {
-          "m_type": "set_object_invincibility",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "object_set_invincibility",
+          "m_object_set_invincibility_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_1"
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_variable": {
+              "m_type": "constant",
+              "m_immediate_value": 1
             }
-          },
-          "m_variable_1": {
-            "m_type": 0,
-            "m_immediate_value": 1
           }
         },
         {
-          "m_type": "set_weapon_pickup_permissions",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "set_pickup_filter",
+          "m_set_pickup_filter_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_1"
-            }
-          },
-          "m_unknown_data": 0
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_value": 0
+          }
         },
         {
-          "m_type": "set_timer_rate",
+          "m_type": "timer_set_rate",
           "m_timer_set_rate_parameters": {
             "m_timer": {
               "m_type": "global",
@@ -2349,19 +2404,19 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 0
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2369,37 +2424,37 @@
           }
         },
         {
-          "m_type": "run_nested_trigger",
+          "m_type": "for_each",
           "m_for_each_parameters": {
             "m_trigger_index": 3
           }
         },
         {
-          "m_type": "run_nested_trigger",
+          "m_type": "for_each",
           "m_for_each_parameters": {
             "m_trigger_index": 4
           }
         },
         {
-          "m_type": "run_nested_trigger",
+          "m_type": "for_each",
           "m_for_each_parameters": {
             "m_trigger_index": 5
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 1
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2407,19 +2462,19 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 1
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2427,18 +2482,18 @@
           }
         },
         {
-          "m_type": "run_nested_trigger",
+          "m_type": "for_each",
           "m_for_each_parameters": {
             "m_trigger_index": 7
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 2,
+                "m_type": "object_number",
                 "m_object": {
                   "m_explicit_object_type": "current"
                 },
@@ -2446,9 +2501,9 @@
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2456,12 +2511,12 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 2,
+                "m_type": "object_number",
                 "m_object": {
                   "m_explicit_object_type": "current"
                 },
@@ -2469,9 +2524,9 @@
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2479,19 +2534,19 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 2
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2499,31 +2554,33 @@
           }
         },
         {
-          "m_type": "get_team_scoreboard_pos",
-          "m_variable_1": {
-            "m_type": 4,
-            "m_variable_index": 2
-          },
-          "m_team": {
-            "m_type": 0,
+          "m_type": "team_get_place",
+          "m_team_get_place_parameters": {
             "m_team": {
-              "m_explicit_team_type": "current"
+              "m_type": "global_team",
+              "m_team": {
+                "m_explicit_team_type": "current_team"
+              }
+            },
+            "m_variable": {
+              "m_type": "global_number",
+              "m_variable_index": 2
             }
           }
         },
         {
-          "m_type": "run_nested_trigger",
+          "m_type": "for_each",
           "m_for_each_parameters": {
             "m_trigger_index": 9
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 2,
+                "m_type": "object_number",
                 "m_object": {
                   "m_explicit_object_type": "current"
                 },
@@ -2531,9 +2588,9 @@
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2541,35 +2598,35 @@
           }
         },
         {
-          "m_type": "set_waypoint_icon",
+          "m_type": "navpoint_set_icon",
           "m_navpoint_set_icon_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 5,
+                "m_type": "object_owner_team",
                 "m_object": {
                   "m_explicit_object_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": "current"
+                  "m_explicit_team_type": "current_team"
                 }
               }
             },
@@ -2582,15 +2639,15 @@
             "m_target": {
               "m_target": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": "current"
+                  "m_explicit_team_type": "current_team"
                 }
               }
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 1
             }
           }
@@ -2598,35 +2655,37 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": 3,
+            "m_sound_index": "flag_captured",
             "m_target": {
-              "m_target": "all_players"
+              "m_target": "everyone"
             }
           }
         },
         {
           "m_type": "delete_object",
-          "m_object_1": {
-            "m_type": 0,
+          "m_delete_object_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_0"
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
             }
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 1
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2634,12 +2693,12 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 2,
+                "m_type": "object_number",
                 "m_object": {
                   "m_explicit_object_type": "current"
                 },
@@ -2647,9 +2706,9 @@
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2657,31 +2716,33 @@
           }
         },
         {
-          "m_type": "set_waypoint_visibility",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_0"
-            }
-          },
-          "m_unknown_data": 1
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_value": 1
+          }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "no_player"
                 }
@@ -2691,57 +2752,63 @@
           }
         },
         {
-          "m_type": "get_carrier",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "get_player_holding_object",
+          "m_get_player_holding_object_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_0"
-            }
-          },
-          "m_player_1": {
-            "m_type": 0,
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
             "m_player": {
-              "m_explicit_player_type": "global_0"
+              "m_type": "global_player",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
             }
           }
         },
         {
-          "m_type": "set_waypoint_visibility",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_0"
-            }
-          },
-          "m_unknown_data": 0
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_value": 0
+          }
         },
         {
-          "m_type": "set_waypoint_visibility",
-          "m_object_1": {
-            "m_type": 4,
-            "m_player": {
-              "m_explicit_player_type": "global_0"
-            }
-          },
-          "m_unknown_data": 2
-        },
-        {
-          "m_type": "set_waypoint_icon",
-          "m_navpoint_set_icon_parameters": {
+          "m_type": "navpoint_set_visible",
+          "m_navpoint_set_visible_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
                 "m_explicit_player_type": "global_0"
               }
             },
-            "m_navpoint_icon": "skull"
+            "m_value": 2
+          }
+        },
+        {
+          "m_type": "navpoint_set_icon",
+          "m_navpoint_set_icon_parameters": {
+            "m_object": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "global_0"
+              }
+            },
+            "m_navpoint_icon": "flag"
           }
         },
         {
           "m_type": "apply_player_traits",
           "m_apply_player_traits_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "global_0"
               }
@@ -2750,21 +2817,21 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
                   "m_explicit_object_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
                   "m_explicit_object_type": "current"
                 }
@@ -2774,23 +2841,23 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 5,
+                "m_type": "object_owner_team",
                 "m_object": {
                   "m_explicit_object_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": "neutral_team"
+                  "m_explicit_team_type": "neutral"
                 }
               }
             },
@@ -2798,46 +2865,48 @@
           }
         },
         {
-          "m_type": "run_nested_trigger",
+          "m_type": "for_each",
           "m_for_each_parameters": {
             "m_trigger_index": 13
           }
         },
         {
-          "m_type": "run_nested_trigger",
+          "m_type": "for_each",
           "m_for_each_parameters": {
             "m_trigger_index": 14
           }
         },
         {
-          "m_type": "run_nested_trigger",
+          "m_type": "for_each",
           "m_for_each_parameters": {
             "m_trigger_index": 15
           }
         },
         {
           "m_type": "delete_object",
-          "m_object_1": {
-            "m_type": 0,
+          "m_delete_object_parameters": {
             "m_object": {
-              "m_explicit_object_type": "current"
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
             }
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 1
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2845,17 +2914,19 @@
           }
         },
         {
-          "m_type": "reset_timer",
-          "m_timer": {
-            "m_type": "object",
-            "m_object": {
-              "m_explicit_object_type": "current"
-            },
-            "m_variable_index": 0
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              },
+              "m_variable_index": 0
+            }
           }
         },
         {
-          "m_type": "set_timer_rate",
+          "m_type": "timer_set_rate",
           "m_timer_set_rate_parameters": {
             "m_timer": {
               "m_type": "object",
@@ -2868,14 +2939,16 @@
           }
         },
         {
-          "m_type": "reset_timer",
-          "m_timer": {
-            "m_type": "global",
-            "m_variable_index": 0
+          "m_type": "timer_reset",
+          "m_timer_reset_parameters": {
+            "m_timer": {
+              "m_type": "global",
+              "m_variable_index": 0
+            }
           }
         },
         {
-          "m_type": "set_timer_rate",
+          "m_type": "timer_set_rate",
           "m_timer_set_rate_parameters": {
             "m_timer": {
               "m_type": "global",
@@ -2885,37 +2958,39 @@
           }
         },
         {
-          "m_type": "run_nested_trigger",
+          "m_type": "for_each",
           "m_for_each_parameters": {
             "m_trigger_index": 17
           }
         },
         {
-          "m_type": "set_waypoint_priority",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "navpoint_set_priority",
+          "m_navpoint_set_priority_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_0"
-            }
-          },
-          "m_unknown_data": 3
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_value": 3
+          }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
                   "m_explicit_object_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
                   "m_explicit_object_type": "current"
                 }
@@ -2925,35 +3000,37 @@
           }
         },
         {
-          "m_type": "set_waypoint_priority",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "navpoint_set_priority",
+          "m_navpoint_set_priority_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_0"
-            }
-          },
-          "m_unknown_data": 1
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_value": 1
+          }
         },
         {
-          "m_type": "run_nested_trigger",
+          "m_type": "for_each",
           "m_for_each_parameters": {
             "m_trigger_index": 19
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 2
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2961,32 +3038,34 @@
           }
         },
         {
-          "m_type": "random_number",
-          "m_variable_1": {
-            "m_type": 0,
-            "m_immediate_value": 3
-          },
-          "m_variable_2": {
-            "m_type": 4,
-            "m_variable_index": 2
+          "m_type": "random",
+          "m_random_parameters": {
+            "m_variable_1": {
+              "m_type": "constant",
+              "m_immediate_value": 3
+            },
+            "m_variable_2": {
+              "m_type": "global_number",
+              "m_variable_index": 2
+            }
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
                   "m_explicit_object_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
                   "m_explicit_object_type": "no_object"
                 }
@@ -2996,19 +3075,19 @@
           }
         },
         {
-          "m_type": "place_at_me",
+          "m_type": "create_object",
           "m_create_object_parameters": {
             "m_object_type": {
               "m_object_type_index": 3
             },
             "m_object_reference_1": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "global_0"
               }
             },
             "m_object_reference_2": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "current"
               }
@@ -3018,31 +3097,31 @@
           }
         },
         {
-          "m_type": "set_waypoint_icon",
+          "m_type": "navpoint_set_icon",
           "m_navpoint_set_icon_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "skull"
+            "m_navpoint_icon": "flag"
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 1
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -3050,23 +3129,23 @@
           }
         },
         {
-          "m_type": "modify_variable",
+          "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 5,
+                "m_type": "object_owner_team",
                 "m_object": {
                   "m_explicit_object_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": "neutral_team"
+                  "m_explicit_team_type": "neutral"
                 }
               }
             },
@@ -3074,24 +3153,28 @@
           }
         },
         {
-          "m_type": "set_weapon_pickup_permissions",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "set_pickup_filter",
+          "m_set_pickup_filter_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_0"
-            }
-          },
-          "m_unknown_data": 1
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_value": 1
+          }
         },
         {
-          "m_type": "set_weapon_pickup_priority",
-          "m_object_1": {
-            "m_type": 0,
+          "m_type": "weapon_set_pickup_priority",
+          "m_weapon_set_pickup_priority_parameters": {
             "m_object": {
-              "m_explicit_object_type": "global_0"
-            }
-          },
-          "m_unknown_data": 1
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_value": 1
+          }
         },
         {
           "m_type": "end_round"
@@ -3099,8 +3182,8 @@
       ],
       "m_triggers": [
         {
-          "m_execution_mode": "normal",
-          "m_trigger_type": "on_init",
+          "m_execution_mode": "general",
+          "m_trigger_type": "initialization",
           "m_object_filter_index": -1,
           "m_first_condition": 1,
           "m_condition_count": 0,
@@ -3108,7 +3191,7 @@
           "m_action_count": 2
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 0,
@@ -3117,7 +3200,7 @@
           "m_action_count": 3
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 3,
@@ -3126,7 +3209,7 @@
           "m_action_count": 5
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": 2,
           "m_first_condition": 1,
@@ -3135,7 +3218,7 @@
           "m_action_count": 7
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": 1,
           "m_first_condition": 2,
@@ -3144,7 +3227,7 @@
           "m_action_count": 3
         },
         {
-          "m_execution_mode": "for_each_player_randomly",
+          "m_execution_mode": "random_player",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 2,
@@ -3153,7 +3236,7 @@
           "m_action_count": 12
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 4,
@@ -3162,7 +3245,7 @@
           "m_action_count": 2
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": 5,
           "m_first_condition": 4,
@@ -3171,7 +3254,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_player_randomly",
+          "m_execution_mode": "random_player",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 7,
@@ -3180,7 +3263,7 @@
           "m_action_count": 3
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": 1,
           "m_first_condition": 5,
@@ -3189,7 +3272,7 @@
           "m_action_count": 2
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "normal",
           "m_object_filter_index": 1,
           "m_first_condition": 10,
@@ -3198,7 +3281,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 10,
@@ -3207,7 +3290,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "normal",
           "m_object_filter_index": 5,
           "m_first_condition": 15,
@@ -3216,7 +3299,7 @@
           "m_action_count": 7
         },
         {
-          "m_execution_mode": "for_each_player_randomly",
+          "m_execution_mode": "random_player",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 10,
@@ -3225,7 +3308,7 @@
           "m_action_count": 5
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": 1,
           "m_first_condition": 13,
@@ -3234,7 +3317,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 14,
@@ -3243,7 +3326,7 @@
           "m_action_count": 7
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 17,
@@ -3252,7 +3335,7 @@
           "m_action_count": 3
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": 2,
           "m_first_condition": 17,
@@ -3261,7 +3344,7 @@
           "m_action_count": 2
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "normal",
           "m_object_filter_index": 5,
           "m_first_condition": 18,
@@ -3270,7 +3353,7 @@
           "m_action_count": 3
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 18,
@@ -3279,7 +3362,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "normal",
           "m_object_filter_index": 1,
           "m_first_condition": 20,
@@ -3288,7 +3371,7 @@
           "m_action_count": 9
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 24,
@@ -3305,21 +3388,21 @@
         "m_numeric_variables": [
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             0
           ],
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             0
           ],
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             0
@@ -3327,7 +3410,7 @@
         ],
         "m_timer_variables": [
           {
-            "m_type": 5,
+            "m_type": "option",
             "m_option_index": 0
           }
         ],
@@ -3356,14 +3439,14 @@
         "m_numeric_variables": [
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             1
           ],
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             1
@@ -3371,7 +3454,7 @@
         ],
         "m_timer_variables": [
           {
-            "m_type": 5,
+            "m_type": "option",
             "m_option_index": 0
           }
         ],
@@ -3393,8 +3476,8 @@
       "m_hud_widgets": [
         9
       ],
-      "m_initialization_trigger_index": 0,
-      "m_host_migration_trigger_index": -1,
+      "m_initialization_trigger_index": -1,
+      "m_host_migration_trigger_index": 111,
       "m_object_death_event_trigger_index": -1,
       "m_local_trigger_index": -1,
       "m_objects_used": [
@@ -3415,17 +3498,6 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         true,
         false,
         false,
@@ -5432,6 +5504,17 @@
         false,
         false,
         false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
         false,
         false,
         false,
@@ -5447,41 +5530,7 @@
         false,
         false
       ],
-      "m_object_filters": [
-        {
-          "m_label_string_index": 1,
-          "m_valid_parameters": 0,
-          "m_min": 0
-        },
-        {
-          "m_label_string_index": 2,
-          "m_valid_parameters": 0,
-          "m_min": 0
-        },
-        {
-          "m_label_string_index": 3,
-          "m_valid_parameters": 0,
-          "m_min": 0
-        },
-        {
-          "m_label_string_index": 4,
-          "m_valid_parameters": 0,
-          "m_min": 0
-        },
-        {
-          "m_label_string_index": 5,
-          "m_valid_parameters": 0,
-          "m_min": 0
-        },
-        {
-          "m_label_string_index": 0,
-          "m_valid_parameters": 1,
-          "m_object_type": {
-            "m_object_type_index": 3
-          },
-          "m_min": 0
-        }
-      ]
+      "m_object_filters": []
     }
   }
 }

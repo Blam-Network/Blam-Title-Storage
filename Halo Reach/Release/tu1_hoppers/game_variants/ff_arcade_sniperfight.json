@@ -10,8 +10,8 @@
           "parent_unique_id": 11547936027829817669,
           "root_unique_id": 11547936027829817669,
           "game_id": 0,
-          "activity": 6,
-          "game_mode": 2,
+          "activity": "survival",
+          "game_mode": "survival",
           "game_engine_type": 4,
           "map_id": -1
         },
@@ -50,7 +50,7 @@
         "m_round_time_limit_minutes": 20,
         "m_round_limit": 1,
         "m_early_victory_win_count": 0,
-        "m_sudden_death_time": 31,
+        "m_sudden_death_time": 30,
         "m_grace_period": 5
       },
       "m_respawn_options": {
@@ -68,257 +68,270 @@
         "m_respawn_player_traits_duration_seconds": 0,
         "m_respawn_player_traits": {
           "m_shield_vitality_traits": {
-            "m_damage_resistance_percentage_setting": 4,
-            "m_body_multiplier": 0,
-            "m_body_recharge_rate": 0,
-            "m_shield_multiplier": 2,
-            "m_shield_recharge_rate": 10,
-            "m_overshield_recharge_rate": 10,
-            "m_headshot_immunity_setting": 1,
-            "m_vampirism_percentage_setting": 1,
-            "m_assasination_immunity": 1,
-            "m_cannot_die_from_damage": 0
+            "m_damage_resistance_percentage_setting": "percent_100",
+            "m_body_multiplier": "unchanged",
+            "m_body_recharge_rate": "unchanged",
+            "m_shield_multiplier": "percent_100",
+            "m_shield_recharge_rate": "percent_100",
+            "m_overshield_recharge_rate": "percent_100",
+            "m_headshot_immunity_setting": "off",
+            "m_vampirism_percentage_setting": "percent_0",
+            "m_assasination_immunity": "off",
+            "m_cannot_die_from_damage": "unchanged"
           },
           "m_weapon_traits": {
-            "m_damage_modifier_percentage_setting": 6,
-            "m_melee_damage_modifier_percentage_setting": 6,
+            "m_damage_modifier_percentage_setting": "percent_100",
+            "m_melee_damage_modifier_percentage_setting": "percent_100",
             "m_initial_primary_weapon_absolute_index": -2,
             "m_initial_secondary_weapon_absolute_index": -1,
-            "m_initial_grenade_count_setting": 0,
-            "m_infinite_ammo_setting": 1,
-            "m_recharging_grenades_setting": 1,
-            "m_weapon_pickup_setting": 2,
-            "m_equipment_usage_setting": 0,
-            "m_equipment_drop_on_death_setting": 0,
-            "m_infinite_equipment_setting": 0,
+            "m_initial_grenade_count_setting": "unchanged",
+            "m_infinite_ammo_setting": "disabled",
+            "m_recharging_grenades_setting": "off",
+            "m_weapon_pickup_setting": "on",
+            "m_equipment_usage_setting": "unchanged",
+            "m_equipment_drop_on_death_setting": "unchanged",
+            "m_infinite_equipment_setting": "unchanged",
             "m_initial_equipment_absolute_index": -3
           },
           "m_movement_traits": {
-            "m_speed_setting": 6,
-            "m_gravity_setting": 3,
-            "m_vehicle_usage_setting": 8,
-            "m_double_jump_setting": 1,
+            "m_speed_setting": "percent_100",
+            "m_gravity_setting": "percent_100",
+            "m_vehicle_usage_setting": "full",
+            "m_double_jump_setting": "off",
             "m_jump_modifier": 100
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 1,
-            "m_waypoint_setting": 2,
-            "m_gamertag_setting": 0,
-            "m_aura_setting": 1,
-            "m_forced_change_color_setting": 1
+            "m_active_camo_setting": "on",
+            "m_waypoint_setting": "allies",
+            "m_gamertag_setting": "unchanged",
+            "m_aura_setting": "off",
+            "m_forced_change_color_setting": "off"
           },
           "m_sensor_traits": {
-            "m_motion_tracker_setting": 3,
-            "m_motion_tracker_range_setting": 3,
-            "m_directional_damage_setting": 0
+            "m_motion_tracker_setting": "normal",
+            "m_motion_tracker_range_setting": "meters_25",
+            "m_directional_damage_setting": "unchanged"
           }
         }
       },
       "m_social_options": {
-        "m_flags": 28,
-        "m_team_changing": 0,
+        "m_flags": {
+          "friendly_fire_enabled": false,
+          "betrayal_booting_enabled": false,
+          "enemy_voice_enabled": true,
+          "open_channel_voice_enabled": true,
+          "dead_player_voice_enabled": true
+        },
+        "m_team_changing": "disabled",
         "m_observers_enabled": false
       },
       "m_map_override_options": {
-        "m_flags": 0,
+        "m_flags": {
+          "grenades_on_map": false,
+          "shortcuts_on_map": false,
+          "equipment_on_map": false,
+          "powerups_on_map": false,
+          "turrets_on_map": false,
+          "indestructible_vehicles": false
+        },
         "m_base_player_traits": {
           "m_shield_vitality_traits": {
-            "m_damage_resistance_percentage_setting": 0,
-            "m_body_multiplier": 0,
-            "m_body_recharge_rate": 0,
-            "m_shield_multiplier": 0,
-            "m_shield_recharge_rate": 0,
-            "m_overshield_recharge_rate": 0,
-            "m_headshot_immunity_setting": 0,
-            "m_vampirism_percentage_setting": 0,
-            "m_assasination_immunity": 0,
-            "m_cannot_die_from_damage": 0
+            "m_damage_resistance_percentage_setting": "unchanged",
+            "m_body_multiplier": "unchanged",
+            "m_body_recharge_rate": "unchanged",
+            "m_shield_multiplier": "unchanged",
+            "m_shield_recharge_rate": "unchanged",
+            "m_overshield_recharge_rate": "unchanged",
+            "m_headshot_immunity_setting": "unchanged",
+            "m_vampirism_percentage_setting": "unchanged",
+            "m_assasination_immunity": "unchanged",
+            "m_cannot_die_from_damage": "unchanged"
           },
           "m_weapon_traits": {
-            "m_damage_modifier_percentage_setting": 0,
-            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_damage_modifier_percentage_setting": "unchanged",
+            "m_melee_damage_modifier_percentage_setting": "unchanged",
             "m_initial_primary_weapon_absolute_index": -3,
             "m_initial_secondary_weapon_absolute_index": -3,
-            "m_initial_grenade_count_setting": 0,
-            "m_infinite_ammo_setting": 0,
-            "m_recharging_grenades_setting": 0,
-            "m_weapon_pickup_setting": 0,
-            "m_equipment_usage_setting": 0,
-            "m_equipment_drop_on_death_setting": 0,
-            "m_infinite_equipment_setting": 0,
+            "m_initial_grenade_count_setting": "unchanged",
+            "m_infinite_ammo_setting": "unchanged",
+            "m_recharging_grenades_setting": "unchanged",
+            "m_weapon_pickup_setting": "unchanged",
+            "m_equipment_usage_setting": "unchanged",
+            "m_equipment_drop_on_death_setting": "unchanged",
+            "m_infinite_equipment_setting": "unchanged",
             "m_initial_equipment_absolute_index": -3
           },
           "m_movement_traits": {
-            "m_speed_setting": 0,
-            "m_gravity_setting": 0,
-            "m_vehicle_usage_setting": 0,
-            "m_double_jump_setting": 0,
+            "m_speed_setting": "unchanged",
+            "m_gravity_setting": "unchanged",
+            "m_vehicle_usage_setting": "unchanged",
+            "m_double_jump_setting": "unchanged",
             "m_jump_modifier": -1
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
-            "m_waypoint_setting": 0,
-            "m_gamertag_setting": 0,
-            "m_aura_setting": 0,
-            "m_forced_change_color_setting": 0
+            "m_active_camo_setting": "off",
+            "m_waypoint_setting": "unchanged",
+            "m_gamertag_setting": "unchanged",
+            "m_aura_setting": "unchanged",
+            "m_forced_change_color_setting": "unchanged"
           },
           "m_sensor_traits": {
-            "m_motion_tracker_setting": 0,
-            "m_motion_tracker_range_setting": 0,
-            "m_directional_damage_setting": 0
+            "m_motion_tracker_setting": "unchanged",
+            "m_motion_tracker_range_setting": "unchanged",
+            "m_directional_damage_setting": "unchanged"
           }
         },
         "m_weapon_set_absolute_index": -2,
         "m_vehicle_set_absolute_index": -2,
         "m_red_powerup_traits": {
           "m_shield_vitality_traits": {
-            "m_damage_resistance_percentage_setting": 0,
-            "m_body_multiplier": 0,
-            "m_body_recharge_rate": 0,
-            "m_shield_multiplier": 0,
-            "m_shield_recharge_rate": 0,
-            "m_overshield_recharge_rate": 0,
-            "m_headshot_immunity_setting": 0,
-            "m_vampirism_percentage_setting": 0,
-            "m_assasination_immunity": 0,
-            "m_cannot_die_from_damage": 0
+            "m_damage_resistance_percentage_setting": "unchanged",
+            "m_body_multiplier": "unchanged",
+            "m_body_recharge_rate": "unchanged",
+            "m_shield_multiplier": "unchanged",
+            "m_shield_recharge_rate": "unchanged",
+            "m_overshield_recharge_rate": "unchanged",
+            "m_headshot_immunity_setting": "unchanged",
+            "m_vampirism_percentage_setting": "unchanged",
+            "m_assasination_immunity": "unchanged",
+            "m_cannot_die_from_damage": "unchanged"
           },
           "m_weapon_traits": {
-            "m_damage_modifier_percentage_setting": 0,
-            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_damage_modifier_percentage_setting": "unchanged",
+            "m_melee_damage_modifier_percentage_setting": "unchanged",
             "m_initial_primary_weapon_absolute_index": -3,
             "m_initial_secondary_weapon_absolute_index": -3,
-            "m_initial_grenade_count_setting": 0,
-            "m_infinite_ammo_setting": 0,
-            "m_recharging_grenades_setting": 0,
-            "m_weapon_pickup_setting": 0,
-            "m_equipment_usage_setting": 0,
-            "m_equipment_drop_on_death_setting": 0,
-            "m_infinite_equipment_setting": 0,
+            "m_initial_grenade_count_setting": "unchanged",
+            "m_infinite_ammo_setting": "unchanged",
+            "m_recharging_grenades_setting": "unchanged",
+            "m_weapon_pickup_setting": "unchanged",
+            "m_equipment_usage_setting": "unchanged",
+            "m_equipment_drop_on_death_setting": "unchanged",
+            "m_infinite_equipment_setting": "unchanged",
             "m_initial_equipment_absolute_index": -3
           },
           "m_movement_traits": {
-            "m_speed_setting": 0,
-            "m_gravity_setting": 0,
-            "m_vehicle_usage_setting": 0,
-            "m_double_jump_setting": 0,
+            "m_speed_setting": "unchanged",
+            "m_gravity_setting": "unchanged",
+            "m_vehicle_usage_setting": "unchanged",
+            "m_double_jump_setting": "unchanged",
             "m_jump_modifier": -1
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
-            "m_waypoint_setting": 0,
-            "m_gamertag_setting": 0,
-            "m_aura_setting": 0,
-            "m_forced_change_color_setting": 0
+            "m_active_camo_setting": "off",
+            "m_waypoint_setting": "unchanged",
+            "m_gamertag_setting": "unchanged",
+            "m_aura_setting": "unchanged",
+            "m_forced_change_color_setting": "unchanged"
           },
           "m_sensor_traits": {
-            "m_motion_tracker_setting": 0,
-            "m_motion_tracker_range_setting": 0,
-            "m_directional_damage_setting": 0
+            "m_motion_tracker_setting": "unchanged",
+            "m_motion_tracker_range_setting": "unchanged",
+            "m_directional_damage_setting": "unchanged"
           }
         },
         "m_blue_powerup_traits": {
           "m_shield_vitality_traits": {
-            "m_damage_resistance_percentage_setting": 0,
-            "m_body_multiplier": 0,
-            "m_body_recharge_rate": 0,
-            "m_shield_multiplier": 0,
-            "m_shield_recharge_rate": 0,
-            "m_overshield_recharge_rate": 0,
-            "m_headshot_immunity_setting": 0,
-            "m_vampirism_percentage_setting": 0,
-            "m_assasination_immunity": 0,
-            "m_cannot_die_from_damage": 0
+            "m_damage_resistance_percentage_setting": "unchanged",
+            "m_body_multiplier": "unchanged",
+            "m_body_recharge_rate": "unchanged",
+            "m_shield_multiplier": "unchanged",
+            "m_shield_recharge_rate": "unchanged",
+            "m_overshield_recharge_rate": "unchanged",
+            "m_headshot_immunity_setting": "unchanged",
+            "m_vampirism_percentage_setting": "unchanged",
+            "m_assasination_immunity": "unchanged",
+            "m_cannot_die_from_damage": "unchanged"
           },
           "m_weapon_traits": {
-            "m_damage_modifier_percentage_setting": 0,
-            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_damage_modifier_percentage_setting": "unchanged",
+            "m_melee_damage_modifier_percentage_setting": "unchanged",
             "m_initial_primary_weapon_absolute_index": -3,
             "m_initial_secondary_weapon_absolute_index": -3,
-            "m_initial_grenade_count_setting": 0,
-            "m_infinite_ammo_setting": 0,
-            "m_recharging_grenades_setting": 0,
-            "m_weapon_pickup_setting": 0,
-            "m_equipment_usage_setting": 0,
-            "m_equipment_drop_on_death_setting": 0,
-            "m_infinite_equipment_setting": 0,
+            "m_initial_grenade_count_setting": "unchanged",
+            "m_infinite_ammo_setting": "unchanged",
+            "m_recharging_grenades_setting": "unchanged",
+            "m_weapon_pickup_setting": "unchanged",
+            "m_equipment_usage_setting": "unchanged",
+            "m_equipment_drop_on_death_setting": "unchanged",
+            "m_infinite_equipment_setting": "unchanged",
             "m_initial_equipment_absolute_index": -3
           },
           "m_movement_traits": {
-            "m_speed_setting": 0,
-            "m_gravity_setting": 0,
-            "m_vehicle_usage_setting": 0,
-            "m_double_jump_setting": 0,
+            "m_speed_setting": "unchanged",
+            "m_gravity_setting": "unchanged",
+            "m_vehicle_usage_setting": "unchanged",
+            "m_double_jump_setting": "unchanged",
             "m_jump_modifier": -1
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
-            "m_waypoint_setting": 0,
-            "m_gamertag_setting": 0,
-            "m_aura_setting": 0,
-            "m_forced_change_color_setting": 0
+            "m_active_camo_setting": "off",
+            "m_waypoint_setting": "unchanged",
+            "m_gamertag_setting": "unchanged",
+            "m_aura_setting": "unchanged",
+            "m_forced_change_color_setting": "unchanged"
           },
           "m_sensor_traits": {
-            "m_motion_tracker_setting": 0,
-            "m_motion_tracker_range_setting": 0,
-            "m_directional_damage_setting": 0
+            "m_motion_tracker_setting": "unchanged",
+            "m_motion_tracker_range_setting": "unchanged",
+            "m_directional_damage_setting": "unchanged"
           }
         },
         "m_yellow_powerup_traits": {
           "m_shield_vitality_traits": {
-            "m_damage_resistance_percentage_setting": 0,
-            "m_body_multiplier": 0,
-            "m_body_recharge_rate": 0,
-            "m_shield_multiplier": 0,
-            "m_shield_recharge_rate": 0,
-            "m_overshield_recharge_rate": 0,
-            "m_headshot_immunity_setting": 0,
-            "m_vampirism_percentage_setting": 0,
-            "m_assasination_immunity": 0,
-            "m_cannot_die_from_damage": 0
+            "m_damage_resistance_percentage_setting": "unchanged",
+            "m_body_multiplier": "unchanged",
+            "m_body_recharge_rate": "unchanged",
+            "m_shield_multiplier": "unchanged",
+            "m_shield_recharge_rate": "unchanged",
+            "m_overshield_recharge_rate": "unchanged",
+            "m_headshot_immunity_setting": "unchanged",
+            "m_vampirism_percentage_setting": "unchanged",
+            "m_assasination_immunity": "unchanged",
+            "m_cannot_die_from_damage": "unchanged"
           },
           "m_weapon_traits": {
-            "m_damage_modifier_percentage_setting": 0,
-            "m_melee_damage_modifier_percentage_setting": 0,
+            "m_damage_modifier_percentage_setting": "unchanged",
+            "m_melee_damage_modifier_percentage_setting": "unchanged",
             "m_initial_primary_weapon_absolute_index": -3,
             "m_initial_secondary_weapon_absolute_index": -3,
-            "m_initial_grenade_count_setting": 0,
-            "m_infinite_ammo_setting": 0,
-            "m_recharging_grenades_setting": 0,
-            "m_weapon_pickup_setting": 0,
-            "m_equipment_usage_setting": 0,
-            "m_equipment_drop_on_death_setting": 0,
-            "m_infinite_equipment_setting": 0,
+            "m_initial_grenade_count_setting": "unchanged",
+            "m_infinite_ammo_setting": "unchanged",
+            "m_recharging_grenades_setting": "unchanged",
+            "m_weapon_pickup_setting": "unchanged",
+            "m_equipment_usage_setting": "unchanged",
+            "m_equipment_drop_on_death_setting": "unchanged",
+            "m_infinite_equipment_setting": "unchanged",
             "m_initial_equipment_absolute_index": -3
           },
           "m_movement_traits": {
-            "m_speed_setting": 0,
-            "m_gravity_setting": 0,
-            "m_vehicle_usage_setting": 0,
-            "m_double_jump_setting": 0,
+            "m_speed_setting": "unchanged",
+            "m_gravity_setting": "unchanged",
+            "m_vehicle_usage_setting": "unchanged",
+            "m_double_jump_setting": "unchanged",
             "m_jump_modifier": -1
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
-            "m_waypoint_setting": 0,
-            "m_gamertag_setting": 0,
-            "m_aura_setting": 0,
-            "m_forced_change_color_setting": 0
+            "m_active_camo_setting": "off",
+            "m_waypoint_setting": "unchanged",
+            "m_gamertag_setting": "unchanged",
+            "m_aura_setting": "unchanged",
+            "m_forced_change_color_setting": "unchanged"
           },
           "m_sensor_traits": {
-            "m_motion_tracker_setting": 0,
-            "m_motion_tracker_range_setting": 0,
-            "m_directional_damage_setting": 0
+            "m_motion_tracker_setting": "unchanged",
+            "m_motion_tracker_range_setting": "unchanged",
+            "m_directional_damage_setting": "unchanged"
           }
         },
         "m_red_powerup_duration_seconds": 0,
         "m_blue_powerup_duration_seconds": 0,
         "m_yellow_powerup_duration_seconds": 0
       },
-      "m_team_scoring_method": 0,
+      "m_team_scoring_method": "sum",
       "m_team_options": {
         "m_model_override": 4,
-        "m_designator_switch_type": 2,
+        "m_designator_switch_type": "rotate",
         "m_teams": [
           {
             "m_team_enabled": true,
@@ -595,7 +608,10 @@
         ]
       },
       "m_loadouts": {
-        "m_flags": 3,
+        "m_flags": {
+          "spartan_loadouts_enabled": true,
+          "elite_loadouts_enabled": true
+        },
         "m_loadout_palettes": [
           {
             "m_loadouts": [
@@ -605,7 +621,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": 1,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": true,
@@ -613,7 +629,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": 0,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": true,
@@ -621,7 +637,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": 8,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": true,
@@ -629,7 +645,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": 4,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": true,
@@ -637,7 +653,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": 7,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               }
             ]
           },
@@ -649,7 +665,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": 1,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": true,
@@ -657,7 +673,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": 8,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": true,
@@ -665,7 +681,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": 2,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": true,
@@ -673,7 +689,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": 4,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": true,
@@ -681,7 +697,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": 9,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               }
             ]
           },
@@ -693,7 +709,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -701,7 +717,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -709,7 +725,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -717,7 +733,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -725,7 +741,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               }
             ]
           },
@@ -737,7 +753,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -745,7 +761,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -753,7 +769,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -761,7 +777,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -769,7 +785,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               }
             ]
           },
@@ -781,7 +797,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -789,7 +805,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -797,7 +813,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -805,7 +821,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -813,7 +829,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               }
             ]
           },
@@ -825,7 +841,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -833,7 +849,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -841,7 +857,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -849,7 +865,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               },
               {
                 "m_visible": false,
@@ -857,7 +873,7 @@
                 "m_initial_primary_weapon_absolute_index": -3,
                 "m_initial_secondary_weapon_absolute_index": -3,
                 "m_initial_equipment_absolute_index": -3,
-                "m_initial_grenade_count_setting": 0
+                "m_initial_grenade_count_setting": "unchanged"
               }
             ]
           }
@@ -883,96 +899,96 @@
     "m_generator_count": 0,
     "m_spartan_traits": {
       "m_shield_vitality_traits": {
-        "m_damage_resistance_percentage_setting": 4,
-        "m_body_multiplier": 0,
-        "m_body_recharge_rate": 0,
-        "m_shield_multiplier": 4,
-        "m_shield_recharge_rate": 10,
-        "m_overshield_recharge_rate": 10,
-        "m_headshot_immunity_setting": 1,
-        "m_vampirism_percentage_setting": 1,
-        "m_assasination_immunity": 1,
-        "m_cannot_die_from_damage": 0
+        "m_damage_resistance_percentage_setting": "percent_100",
+        "m_body_multiplier": "unchanged",
+        "m_body_recharge_rate": "unchanged",
+        "m_shield_multiplier": "percent_200",
+        "m_shield_recharge_rate": "percent_100",
+        "m_overshield_recharge_rate": "percent_100",
+        "m_headshot_immunity_setting": "off",
+        "m_vampirism_percentage_setting": "percent_0",
+        "m_assasination_immunity": "off",
+        "m_cannot_die_from_damage": "unchanged"
       },
       "m_weapon_traits": {
-        "m_damage_modifier_percentage_setting": 9,
-        "m_melee_damage_modifier_percentage_setting": 9,
+        "m_damage_modifier_percentage_setting": "percent_150",
+        "m_melee_damage_modifier_percentage_setting": "percent_150",
         "m_initial_primary_weapon_absolute_index": 10,
         "m_initial_secondary_weapon_absolute_index": 5,
-        "m_initial_grenade_count_setting": 12,
-        "m_infinite_ammo_setting": 2,
-        "m_recharging_grenades_setting": 1,
-        "m_weapon_pickup_setting": 1,
-        "m_equipment_usage_setting": 0,
-        "m_equipment_drop_on_death_setting": 0,
-        "m_infinite_equipment_setting": 0,
+        "m_initial_grenade_count_setting": "each_2",
+        "m_infinite_ammo_setting": "enabled",
+        "m_recharging_grenades_setting": "off",
+        "m_weapon_pickup_setting": "off",
+        "m_equipment_usage_setting": "unchanged",
+        "m_equipment_drop_on_death_setting": "unchanged",
+        "m_infinite_equipment_setting": "unchanged",
         "m_initial_equipment_absolute_index": -3
       },
       "m_movement_traits": {
-        "m_speed_setting": 6,
-        "m_gravity_setting": 3,
-        "m_vehicle_usage_setting": 8,
-        "m_double_jump_setting": 1,
+        "m_speed_setting": "percent_100",
+        "m_gravity_setting": "percent_100",
+        "m_vehicle_usage_setting": "full",
+        "m_double_jump_setting": "off",
         "m_jump_modifier": 100
       },
       "m_appearance_traits": {
-        "m_active_camo_setting": 1,
-        "m_waypoint_setting": 2,
-        "m_gamertag_setting": 0,
-        "m_aura_setting": 1,
-        "m_forced_change_color_setting": 1
+        "m_active_camo_setting": "on",
+        "m_waypoint_setting": "allies",
+        "m_gamertag_setting": "unchanged",
+        "m_aura_setting": "off",
+        "m_forced_change_color_setting": "off"
       },
       "m_sensor_traits": {
-        "m_motion_tracker_setting": 3,
-        "m_motion_tracker_range_setting": 3,
-        "m_directional_damage_setting": 0
+        "m_motion_tracker_setting": "normal",
+        "m_motion_tracker_range_setting": "meters_25",
+        "m_directional_damage_setting": "unchanged"
       }
     },
     "m_elite_traits": {
       "m_shield_vitality_traits": {
-        "m_damage_resistance_percentage_setting": 4,
-        "m_body_multiplier": 0,
-        "m_body_recharge_rate": 0,
-        "m_shield_multiplier": 2,
-        "m_shield_recharge_rate": 10,
-        "m_overshield_recharge_rate": 10,
-        "m_headshot_immunity_setting": 1,
-        "m_vampirism_percentage_setting": 1,
-        "m_assasination_immunity": 1,
-        "m_cannot_die_from_damage": 0
+        "m_damage_resistance_percentage_setting": "percent_100",
+        "m_body_multiplier": "unchanged",
+        "m_body_recharge_rate": "unchanged",
+        "m_shield_multiplier": "percent_100",
+        "m_shield_recharge_rate": "percent_100",
+        "m_overshield_recharge_rate": "percent_100",
+        "m_headshot_immunity_setting": "off",
+        "m_vampirism_percentage_setting": "percent_0",
+        "m_assasination_immunity": "off",
+        "m_cannot_die_from_damage": "unchanged"
       },
       "m_weapon_traits": {
-        "m_damage_modifier_percentage_setting": 9,
-        "m_melee_damage_modifier_percentage_setting": 9,
+        "m_damage_modifier_percentage_setting": "percent_150",
+        "m_melee_damage_modifier_percentage_setting": "percent_150",
         "m_initial_primary_weapon_absolute_index": 10,
         "m_initial_secondary_weapon_absolute_index": 5,
-        "m_initial_grenade_count_setting": 8,
-        "m_infinite_ammo_setting": 2,
-        "m_recharging_grenades_setting": 1,
-        "m_weapon_pickup_setting": 1,
-        "m_equipment_usage_setting": 0,
-        "m_equipment_drop_on_death_setting": 0,
-        "m_infinite_equipment_setting": 0,
+        "m_initial_grenade_count_setting": "plasma_2",
+        "m_infinite_ammo_setting": "enabled",
+        "m_recharging_grenades_setting": "off",
+        "m_weapon_pickup_setting": "off",
+        "m_equipment_usage_setting": "unchanged",
+        "m_equipment_drop_on_death_setting": "unchanged",
+        "m_infinite_equipment_setting": "unchanged",
         "m_initial_equipment_absolute_index": -3
       },
       "m_movement_traits": {
-        "m_speed_setting": 6,
-        "m_gravity_setting": 3,
-        "m_vehicle_usage_setting": 8,
-        "m_double_jump_setting": 1,
+        "m_speed_setting": "percent_100",
+        "m_gravity_setting": "percent_100",
+        "m_vehicle_usage_setting": "full",
+        "m_double_jump_setting": "off",
         "m_jump_modifier": 100
       },
       "m_appearance_traits": {
-        "m_active_camo_setting": 1,
-        "m_waypoint_setting": 2,
-        "m_gamertag_setting": 0,
-        "m_aura_setting": 1,
-        "m_forced_change_color_setting": 1
+        "m_active_camo_setting": "on",
+        "m_waypoint_setting": "allies",
+        "m_gamertag_setting": "unchanged",
+        "m_aura_setting": "off",
+        "m_forced_change_color_setting": "off"
       },
       "m_sensor_traits": {
-        "m_motion_tracker_setting": 3,
-        "m_motion_tracker_range_setting": 3,
-        "m_directional_damage_setting": 0
+        "m_motion_tracker_setting": "normal",
+        "m_motion_tracker_range_setting": "meters_25",
+        "m_directional_damage_setting": "unchanged"
       }
     },
     "m_ai_traits": {
@@ -990,96 +1006,96 @@
     "m_red_skull": {
       "m_spartan_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 0,
-          "m_body_multiplier": 0,
-          "m_body_recharge_rate": 0,
-          "m_shield_multiplier": 0,
-          "m_shield_recharge_rate": 0,
-          "m_overshield_recharge_rate": 0,
-          "m_headshot_immunity_setting": 0,
-          "m_vampirism_percentage_setting": 0,
-          "m_assasination_immunity": 0,
-          "m_cannot_die_from_damage": 0
+          "m_damage_resistance_percentage_setting": "unchanged",
+          "m_body_multiplier": "unchanged",
+          "m_body_recharge_rate": "unchanged",
+          "m_shield_multiplier": "unchanged",
+          "m_shield_recharge_rate": "unchanged",
+          "m_overshield_recharge_rate": "unchanged",
+          "m_headshot_immunity_setting": "unchanged",
+          "m_vampirism_percentage_setting": "unchanged",
+          "m_assasination_immunity": "unchanged",
+          "m_cannot_die_from_damage": "unchanged"
         },
         "m_weapon_traits": {
-          "m_damage_modifier_percentage_setting": 0,
-          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_damage_modifier_percentage_setting": "unchanged",
+          "m_melee_damage_modifier_percentage_setting": "unchanged",
           "m_initial_primary_weapon_absolute_index": -3,
           "m_initial_secondary_weapon_absolute_index": -3,
-          "m_initial_grenade_count_setting": 0,
-          "m_infinite_ammo_setting": 0,
-          "m_recharging_grenades_setting": 0,
-          "m_weapon_pickup_setting": 0,
-          "m_equipment_usage_setting": 0,
-          "m_equipment_drop_on_death_setting": 0,
-          "m_infinite_equipment_setting": 0,
+          "m_initial_grenade_count_setting": "unchanged",
+          "m_infinite_ammo_setting": "unchanged",
+          "m_recharging_grenades_setting": "unchanged",
+          "m_weapon_pickup_setting": "unchanged",
+          "m_equipment_usage_setting": "unchanged",
+          "m_equipment_drop_on_death_setting": "unchanged",
+          "m_infinite_equipment_setting": "unchanged",
           "m_initial_equipment_absolute_index": -3
         },
         "m_movement_traits": {
-          "m_speed_setting": 0,
-          "m_gravity_setting": 0,
-          "m_vehicle_usage_setting": 0,
-          "m_double_jump_setting": 0,
+          "m_speed_setting": "unchanged",
+          "m_gravity_setting": "unchanged",
+          "m_vehicle_usage_setting": "unchanged",
+          "m_double_jump_setting": "unchanged",
           "m_jump_modifier": -1
         },
         "m_appearance_traits": {
-          "m_active_camo_setting": 0,
-          "m_waypoint_setting": 0,
-          "m_gamertag_setting": 0,
-          "m_aura_setting": 0,
-          "m_forced_change_color_setting": 0
+          "m_active_camo_setting": "off",
+          "m_waypoint_setting": "unchanged",
+          "m_gamertag_setting": "unchanged",
+          "m_aura_setting": "unchanged",
+          "m_forced_change_color_setting": "unchanged"
         },
         "m_sensor_traits": {
-          "m_motion_tracker_setting": 0,
-          "m_motion_tracker_range_setting": 0,
-          "m_directional_damage_setting": 0
+          "m_motion_tracker_setting": "unchanged",
+          "m_motion_tracker_range_setting": "unchanged",
+          "m_directional_damage_setting": "unchanged"
         }
       },
       "m_elite_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 0,
-          "m_body_multiplier": 0,
-          "m_body_recharge_rate": 0,
-          "m_shield_multiplier": 0,
-          "m_shield_recharge_rate": 0,
-          "m_overshield_recharge_rate": 0,
-          "m_headshot_immunity_setting": 0,
-          "m_vampirism_percentage_setting": 0,
-          "m_assasination_immunity": 0,
-          "m_cannot_die_from_damage": 0
+          "m_damage_resistance_percentage_setting": "unchanged",
+          "m_body_multiplier": "unchanged",
+          "m_body_recharge_rate": "unchanged",
+          "m_shield_multiplier": "unchanged",
+          "m_shield_recharge_rate": "unchanged",
+          "m_overshield_recharge_rate": "unchanged",
+          "m_headshot_immunity_setting": "unchanged",
+          "m_vampirism_percentage_setting": "unchanged",
+          "m_assasination_immunity": "unchanged",
+          "m_cannot_die_from_damage": "unchanged"
         },
         "m_weapon_traits": {
-          "m_damage_modifier_percentage_setting": 0,
-          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_damage_modifier_percentage_setting": "unchanged",
+          "m_melee_damage_modifier_percentage_setting": "unchanged",
           "m_initial_primary_weapon_absolute_index": -3,
           "m_initial_secondary_weapon_absolute_index": -3,
-          "m_initial_grenade_count_setting": 0,
-          "m_infinite_ammo_setting": 0,
-          "m_recharging_grenades_setting": 0,
-          "m_weapon_pickup_setting": 0,
-          "m_equipment_usage_setting": 0,
-          "m_equipment_drop_on_death_setting": 0,
-          "m_infinite_equipment_setting": 0,
+          "m_initial_grenade_count_setting": "unchanged",
+          "m_infinite_ammo_setting": "unchanged",
+          "m_recharging_grenades_setting": "unchanged",
+          "m_weapon_pickup_setting": "unchanged",
+          "m_equipment_usage_setting": "unchanged",
+          "m_equipment_drop_on_death_setting": "unchanged",
+          "m_infinite_equipment_setting": "unchanged",
           "m_initial_equipment_absolute_index": -3
         },
         "m_movement_traits": {
-          "m_speed_setting": 0,
-          "m_gravity_setting": 0,
-          "m_vehicle_usage_setting": 0,
-          "m_double_jump_setting": 0,
+          "m_speed_setting": "unchanged",
+          "m_gravity_setting": "unchanged",
+          "m_vehicle_usage_setting": "unchanged",
+          "m_double_jump_setting": "unchanged",
           "m_jump_modifier": -1
         },
         "m_appearance_traits": {
-          "m_active_camo_setting": 0,
-          "m_waypoint_setting": 0,
-          "m_gamertag_setting": 0,
-          "m_aura_setting": 0,
-          "m_forced_change_color_setting": 0
+          "m_active_camo_setting": "off",
+          "m_waypoint_setting": "unchanged",
+          "m_gamertag_setting": "unchanged",
+          "m_aura_setting": "unchanged",
+          "m_forced_change_color_setting": "unchanged"
         },
         "m_sensor_traits": {
-          "m_motion_tracker_setting": 0,
-          "m_motion_tracker_range_setting": 0,
-          "m_directional_damage_setting": 0
+          "m_motion_tracker_setting": "unchanged",
+          "m_motion_tracker_range_setting": "unchanged",
+          "m_directional_damage_setting": "unchanged"
         }
       },
       "m_wave_traits": {
@@ -1098,96 +1114,96 @@
     "m_blue_skull": {
       "m_spartan_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 0,
-          "m_body_multiplier": 0,
-          "m_body_recharge_rate": 0,
-          "m_shield_multiplier": 0,
-          "m_shield_recharge_rate": 0,
-          "m_overshield_recharge_rate": 0,
-          "m_headshot_immunity_setting": 0,
-          "m_vampirism_percentage_setting": 0,
-          "m_assasination_immunity": 0,
-          "m_cannot_die_from_damage": 0
+          "m_damage_resistance_percentage_setting": "unchanged",
+          "m_body_multiplier": "unchanged",
+          "m_body_recharge_rate": "unchanged",
+          "m_shield_multiplier": "unchanged",
+          "m_shield_recharge_rate": "unchanged",
+          "m_overshield_recharge_rate": "unchanged",
+          "m_headshot_immunity_setting": "unchanged",
+          "m_vampirism_percentage_setting": "unchanged",
+          "m_assasination_immunity": "unchanged",
+          "m_cannot_die_from_damage": "unchanged"
         },
         "m_weapon_traits": {
-          "m_damage_modifier_percentage_setting": 0,
-          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_damage_modifier_percentage_setting": "unchanged",
+          "m_melee_damage_modifier_percentage_setting": "unchanged",
           "m_initial_primary_weapon_absolute_index": -3,
           "m_initial_secondary_weapon_absolute_index": -3,
-          "m_initial_grenade_count_setting": 0,
-          "m_infinite_ammo_setting": 0,
-          "m_recharging_grenades_setting": 0,
-          "m_weapon_pickup_setting": 0,
-          "m_equipment_usage_setting": 0,
-          "m_equipment_drop_on_death_setting": 0,
-          "m_infinite_equipment_setting": 0,
+          "m_initial_grenade_count_setting": "unchanged",
+          "m_infinite_ammo_setting": "unchanged",
+          "m_recharging_grenades_setting": "unchanged",
+          "m_weapon_pickup_setting": "unchanged",
+          "m_equipment_usage_setting": "unchanged",
+          "m_equipment_drop_on_death_setting": "unchanged",
+          "m_infinite_equipment_setting": "unchanged",
           "m_initial_equipment_absolute_index": -3
         },
         "m_movement_traits": {
-          "m_speed_setting": 0,
-          "m_gravity_setting": 0,
-          "m_vehicle_usage_setting": 0,
-          "m_double_jump_setting": 0,
+          "m_speed_setting": "unchanged",
+          "m_gravity_setting": "unchanged",
+          "m_vehicle_usage_setting": "unchanged",
+          "m_double_jump_setting": "unchanged",
           "m_jump_modifier": -1
         },
         "m_appearance_traits": {
-          "m_active_camo_setting": 0,
-          "m_waypoint_setting": 0,
-          "m_gamertag_setting": 0,
-          "m_aura_setting": 0,
-          "m_forced_change_color_setting": 0
+          "m_active_camo_setting": "off",
+          "m_waypoint_setting": "unchanged",
+          "m_gamertag_setting": "unchanged",
+          "m_aura_setting": "unchanged",
+          "m_forced_change_color_setting": "unchanged"
         },
         "m_sensor_traits": {
-          "m_motion_tracker_setting": 0,
-          "m_motion_tracker_range_setting": 0,
-          "m_directional_damage_setting": 0
+          "m_motion_tracker_setting": "unchanged",
+          "m_motion_tracker_range_setting": "unchanged",
+          "m_directional_damage_setting": "unchanged"
         }
       },
       "m_elite_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 0,
-          "m_body_multiplier": 0,
-          "m_body_recharge_rate": 0,
-          "m_shield_multiplier": 0,
-          "m_shield_recharge_rate": 0,
-          "m_overshield_recharge_rate": 0,
-          "m_headshot_immunity_setting": 0,
-          "m_vampirism_percentage_setting": 0,
-          "m_assasination_immunity": 0,
-          "m_cannot_die_from_damage": 0
+          "m_damage_resistance_percentage_setting": "unchanged",
+          "m_body_multiplier": "unchanged",
+          "m_body_recharge_rate": "unchanged",
+          "m_shield_multiplier": "unchanged",
+          "m_shield_recharge_rate": "unchanged",
+          "m_overshield_recharge_rate": "unchanged",
+          "m_headshot_immunity_setting": "unchanged",
+          "m_vampirism_percentage_setting": "unchanged",
+          "m_assasination_immunity": "unchanged",
+          "m_cannot_die_from_damage": "unchanged"
         },
         "m_weapon_traits": {
-          "m_damage_modifier_percentage_setting": 0,
-          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_damage_modifier_percentage_setting": "unchanged",
+          "m_melee_damage_modifier_percentage_setting": "unchanged",
           "m_initial_primary_weapon_absolute_index": -3,
           "m_initial_secondary_weapon_absolute_index": -3,
-          "m_initial_grenade_count_setting": 0,
-          "m_infinite_ammo_setting": 0,
-          "m_recharging_grenades_setting": 0,
-          "m_weapon_pickup_setting": 0,
-          "m_equipment_usage_setting": 0,
-          "m_equipment_drop_on_death_setting": 0,
-          "m_infinite_equipment_setting": 0,
+          "m_initial_grenade_count_setting": "unchanged",
+          "m_infinite_ammo_setting": "unchanged",
+          "m_recharging_grenades_setting": "unchanged",
+          "m_weapon_pickup_setting": "unchanged",
+          "m_equipment_usage_setting": "unchanged",
+          "m_equipment_drop_on_death_setting": "unchanged",
+          "m_infinite_equipment_setting": "unchanged",
           "m_initial_equipment_absolute_index": -3
         },
         "m_movement_traits": {
-          "m_speed_setting": 0,
-          "m_gravity_setting": 0,
-          "m_vehicle_usage_setting": 0,
-          "m_double_jump_setting": 0,
+          "m_speed_setting": "unchanged",
+          "m_gravity_setting": "unchanged",
+          "m_vehicle_usage_setting": "unchanged",
+          "m_double_jump_setting": "unchanged",
           "m_jump_modifier": -1
         },
         "m_appearance_traits": {
-          "m_active_camo_setting": 0,
-          "m_waypoint_setting": 0,
-          "m_gamertag_setting": 0,
-          "m_aura_setting": 0,
-          "m_forced_change_color_setting": 0
+          "m_active_camo_setting": "off",
+          "m_waypoint_setting": "unchanged",
+          "m_gamertag_setting": "unchanged",
+          "m_aura_setting": "unchanged",
+          "m_forced_change_color_setting": "unchanged"
         },
         "m_sensor_traits": {
-          "m_motion_tracker_setting": 0,
-          "m_motion_tracker_range_setting": 0,
-          "m_directional_damage_setting": 0
+          "m_motion_tracker_setting": "unchanged",
+          "m_motion_tracker_range_setting": "unchanged",
+          "m_directional_damage_setting": "unchanged"
         }
       },
       "m_wave_traits": {
@@ -1206,96 +1222,96 @@
     "m_yellow_skull": {
       "m_spartan_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 0,
-          "m_body_multiplier": 0,
-          "m_body_recharge_rate": 0,
-          "m_shield_multiplier": 0,
-          "m_shield_recharge_rate": 0,
-          "m_overshield_recharge_rate": 0,
-          "m_headshot_immunity_setting": 0,
-          "m_vampirism_percentage_setting": 0,
-          "m_assasination_immunity": 0,
-          "m_cannot_die_from_damage": 0
+          "m_damage_resistance_percentage_setting": "unchanged",
+          "m_body_multiplier": "unchanged",
+          "m_body_recharge_rate": "unchanged",
+          "m_shield_multiplier": "unchanged",
+          "m_shield_recharge_rate": "unchanged",
+          "m_overshield_recharge_rate": "unchanged",
+          "m_headshot_immunity_setting": "unchanged",
+          "m_vampirism_percentage_setting": "unchanged",
+          "m_assasination_immunity": "unchanged",
+          "m_cannot_die_from_damage": "unchanged"
         },
         "m_weapon_traits": {
-          "m_damage_modifier_percentage_setting": 0,
-          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_damage_modifier_percentage_setting": "unchanged",
+          "m_melee_damage_modifier_percentage_setting": "unchanged",
           "m_initial_primary_weapon_absolute_index": -3,
           "m_initial_secondary_weapon_absolute_index": -3,
-          "m_initial_grenade_count_setting": 0,
-          "m_infinite_ammo_setting": 0,
-          "m_recharging_grenades_setting": 0,
-          "m_weapon_pickup_setting": 0,
-          "m_equipment_usage_setting": 0,
-          "m_equipment_drop_on_death_setting": 0,
-          "m_infinite_equipment_setting": 0,
+          "m_initial_grenade_count_setting": "unchanged",
+          "m_infinite_ammo_setting": "unchanged",
+          "m_recharging_grenades_setting": "unchanged",
+          "m_weapon_pickup_setting": "unchanged",
+          "m_equipment_usage_setting": "unchanged",
+          "m_equipment_drop_on_death_setting": "unchanged",
+          "m_infinite_equipment_setting": "unchanged",
           "m_initial_equipment_absolute_index": -3
         },
         "m_movement_traits": {
-          "m_speed_setting": 0,
-          "m_gravity_setting": 0,
-          "m_vehicle_usage_setting": 0,
-          "m_double_jump_setting": 0,
+          "m_speed_setting": "unchanged",
+          "m_gravity_setting": "unchanged",
+          "m_vehicle_usage_setting": "unchanged",
+          "m_double_jump_setting": "unchanged",
           "m_jump_modifier": -1
         },
         "m_appearance_traits": {
-          "m_active_camo_setting": 0,
-          "m_waypoint_setting": 0,
-          "m_gamertag_setting": 0,
-          "m_aura_setting": 0,
-          "m_forced_change_color_setting": 0
+          "m_active_camo_setting": "off",
+          "m_waypoint_setting": "unchanged",
+          "m_gamertag_setting": "unchanged",
+          "m_aura_setting": "unchanged",
+          "m_forced_change_color_setting": "unchanged"
         },
         "m_sensor_traits": {
-          "m_motion_tracker_setting": 0,
-          "m_motion_tracker_range_setting": 0,
-          "m_directional_damage_setting": 0
+          "m_motion_tracker_setting": "unchanged",
+          "m_motion_tracker_range_setting": "unchanged",
+          "m_directional_damage_setting": "unchanged"
         }
       },
       "m_elite_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 0,
-          "m_body_multiplier": 0,
-          "m_body_recharge_rate": 0,
-          "m_shield_multiplier": 0,
-          "m_shield_recharge_rate": 0,
-          "m_overshield_recharge_rate": 0,
-          "m_headshot_immunity_setting": 0,
-          "m_vampirism_percentage_setting": 0,
-          "m_assasination_immunity": 0,
-          "m_cannot_die_from_damage": 0
+          "m_damage_resistance_percentage_setting": "unchanged",
+          "m_body_multiplier": "unchanged",
+          "m_body_recharge_rate": "unchanged",
+          "m_shield_multiplier": "unchanged",
+          "m_shield_recharge_rate": "unchanged",
+          "m_overshield_recharge_rate": "unchanged",
+          "m_headshot_immunity_setting": "unchanged",
+          "m_vampirism_percentage_setting": "unchanged",
+          "m_assasination_immunity": "unchanged",
+          "m_cannot_die_from_damage": "unchanged"
         },
         "m_weapon_traits": {
-          "m_damage_modifier_percentage_setting": 0,
-          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_damage_modifier_percentage_setting": "unchanged",
+          "m_melee_damage_modifier_percentage_setting": "unchanged",
           "m_initial_primary_weapon_absolute_index": -3,
           "m_initial_secondary_weapon_absolute_index": -3,
-          "m_initial_grenade_count_setting": 0,
-          "m_infinite_ammo_setting": 0,
-          "m_recharging_grenades_setting": 0,
-          "m_weapon_pickup_setting": 0,
-          "m_equipment_usage_setting": 0,
-          "m_equipment_drop_on_death_setting": 0,
-          "m_infinite_equipment_setting": 0,
+          "m_initial_grenade_count_setting": "unchanged",
+          "m_infinite_ammo_setting": "unchanged",
+          "m_recharging_grenades_setting": "unchanged",
+          "m_weapon_pickup_setting": "unchanged",
+          "m_equipment_usage_setting": "unchanged",
+          "m_equipment_drop_on_death_setting": "unchanged",
+          "m_infinite_equipment_setting": "unchanged",
           "m_initial_equipment_absolute_index": -3
         },
         "m_movement_traits": {
-          "m_speed_setting": 0,
-          "m_gravity_setting": 0,
-          "m_vehicle_usage_setting": 0,
-          "m_double_jump_setting": 0,
+          "m_speed_setting": "unchanged",
+          "m_gravity_setting": "unchanged",
+          "m_vehicle_usage_setting": "unchanged",
+          "m_double_jump_setting": "unchanged",
           "m_jump_modifier": -1
         },
         "m_appearance_traits": {
-          "m_active_camo_setting": 0,
-          "m_waypoint_setting": 0,
-          "m_gamertag_setting": 0,
-          "m_aura_setting": 0,
-          "m_forced_change_color_setting": 0
+          "m_active_camo_setting": "off",
+          "m_waypoint_setting": "unchanged",
+          "m_gamertag_setting": "unchanged",
+          "m_aura_setting": "unchanged",
+          "m_forced_change_color_setting": "unchanged"
         },
         "m_sensor_traits": {
-          "m_motion_tracker_setting": 0,
-          "m_motion_tracker_range_setting": 0,
-          "m_directional_damage_setting": 0
+          "m_motion_tracker_setting": "unchanged",
+          "m_motion_tracker_range_setting": "unchanged",
+          "m_directional_damage_setting": "unchanged"
         }
       },
       "m_wave_traits": {
@@ -1326,49 +1342,49 @@
       "m_respawn_player_traits_duration_seconds": 0,
       "m_respawn_player_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 0,
-          "m_body_multiplier": 0,
-          "m_body_recharge_rate": 0,
-          "m_shield_multiplier": 0,
-          "m_shield_recharge_rate": 0,
-          "m_overshield_recharge_rate": 0,
-          "m_headshot_immunity_setting": 0,
-          "m_vampirism_percentage_setting": 0,
-          "m_assasination_immunity": 0,
-          "m_cannot_die_from_damage": 0
+          "m_damage_resistance_percentage_setting": "unchanged",
+          "m_body_multiplier": "unchanged",
+          "m_body_recharge_rate": "unchanged",
+          "m_shield_multiplier": "unchanged",
+          "m_shield_recharge_rate": "unchanged",
+          "m_overshield_recharge_rate": "unchanged",
+          "m_headshot_immunity_setting": "unchanged",
+          "m_vampirism_percentage_setting": "unchanged",
+          "m_assasination_immunity": "unchanged",
+          "m_cannot_die_from_damage": "unchanged"
         },
         "m_weapon_traits": {
-          "m_damage_modifier_percentage_setting": 0,
-          "m_melee_damage_modifier_percentage_setting": 0,
+          "m_damage_modifier_percentage_setting": "unchanged",
+          "m_melee_damage_modifier_percentage_setting": "unchanged",
           "m_initial_primary_weapon_absolute_index": -3,
           "m_initial_secondary_weapon_absolute_index": -3,
-          "m_initial_grenade_count_setting": 0,
-          "m_infinite_ammo_setting": 0,
-          "m_recharging_grenades_setting": 0,
-          "m_weapon_pickup_setting": 0,
-          "m_equipment_usage_setting": 0,
-          "m_equipment_drop_on_death_setting": 0,
-          "m_infinite_equipment_setting": 0,
+          "m_initial_grenade_count_setting": "unchanged",
+          "m_infinite_ammo_setting": "unchanged",
+          "m_recharging_grenades_setting": "unchanged",
+          "m_weapon_pickup_setting": "unchanged",
+          "m_equipment_usage_setting": "unchanged",
+          "m_equipment_drop_on_death_setting": "unchanged",
+          "m_infinite_equipment_setting": "unchanged",
           "m_initial_equipment_absolute_index": -3
         },
         "m_movement_traits": {
-          "m_speed_setting": 0,
-          "m_gravity_setting": 0,
-          "m_vehicle_usage_setting": 0,
-          "m_double_jump_setting": 0,
+          "m_speed_setting": "unchanged",
+          "m_gravity_setting": "unchanged",
+          "m_vehicle_usage_setting": "unchanged",
+          "m_double_jump_setting": "unchanged",
           "m_jump_modifier": -1
         },
         "m_appearance_traits": {
-          "m_active_camo_setting": 0,
-          "m_waypoint_setting": 0,
-          "m_gamertag_setting": 0,
-          "m_aura_setting": 0,
-          "m_forced_change_color_setting": 0
+          "m_active_camo_setting": "off",
+          "m_waypoint_setting": "unchanged",
+          "m_gamertag_setting": "unchanged",
+          "m_aura_setting": "unchanged",
+          "m_forced_change_color_setting": "unchanged"
         },
         "m_sensor_traits": {
-          "m_motion_tracker_setting": 0,
-          "m_motion_tracker_range_setting": 0,
-          "m_directional_damage_setting": 0
+          "m_motion_tracker_setting": "unchanged",
+          "m_motion_tracker_range_setting": "unchanged",
+          "m_directional_damage_setting": "unchanged"
         }
       }
     },

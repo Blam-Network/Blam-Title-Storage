@@ -24,16 +24,16 @@
   "m_map_id": 23625599,
   "m_world_bounds": {
     "x": {
-      "lower": null,
-      "upper": null
+      "lower": 0.0,
+      "upper": 0.0
     },
     "y": {
-      "lower": null,
-      "upper": null
+      "lower": 0.0,
+      "upper": 0.0
     },
     "z": {
-      "lower": null,
-      "upper": null
+      "lower": 0.0,
+      "upper": 0.0
     }
   },
   "m_game_engine_subtype": 655360,
@@ -26280,7 +26280,7 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": null
+        "boundary_negative_height": 0.0
       }
     }
   ],

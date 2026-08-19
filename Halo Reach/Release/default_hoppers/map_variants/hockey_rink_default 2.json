@@ -1,24 +1,32 @@
 {
   "m_metadata": {
-    "file_type": 5,
-    "size_in_bytes": 29481,
-    "unique_id": 12327560263675567705,
-    "parent_unique_id": 12327560263675567705,
-    "root_unique_id": 12327560263675567705,
-    "game_id": 0,
-    "activity": 4,
-    "game_mode": 3,
-    "game_engine_type": 0,
-    "map_id": 3006,
-    "megalo_category_index": -1,
-    "creation_time": "2010-12-11 22:28:54",
-    "creator_xuid": "0000000000000000",
-    "creator_name": "MEN1CEtoSOC1ETY",
-    "creator_xuid_is_online": true,
-    "modification_time": "2011-02-11 19:48:01",
-    "modifier_xuid": "0000000000000000",
-    "modifier_name": "¦",
-    "modifier_xuid_is_online": true,
+    "general": {
+      "file_type": 5,
+      "size_in_bytes": 29481,
+      "unique_id": 12327560263675567705,
+      "parent_unique_id": 12327560263675567705,
+      "root_unique_id": 12327560263675567705,
+      "game_id": 0,
+      "activity": "mapeditor",
+      "game_mode": "multiplayer",
+      "game_engine_type": 0,
+      "map_id": 3006
+    },
+    "display": {
+      "megalo_category_index": -1
+    },
+    "creation_history": {
+      "timestamp": "2010-12-11 22:28:54",
+      "xuid": "0000000000000000",
+      "name": "MEN1CEtoSOC1ETY",
+      "is_online": true
+    },
+    "modification_history": {
+      "timestamp": "2011-02-11 19:48:01",
+      "xuid": "0000000000000000",
+      "name": "¦",
+      "is_online": true
+    },
     "name": "Hockey Rink",
     "description": "When in doubt, settle it on the ice! V2"
   },
@@ -9615,7 +9623,7 @@
       "forward": {
         "i": 0.70751137,
         "j": 0.70670205,
-        "k": 0.0000019030413
+        "k": 1.9030413e-06
       },
       "up": {
         "i": -0.002403782,

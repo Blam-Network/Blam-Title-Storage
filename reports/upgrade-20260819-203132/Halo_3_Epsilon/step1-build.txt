@@ -1,0 +1,40 @@
+﻿Writing Title Storage BLFs to C:\Users\codie\AppData\Local\Temp\blf-upgrade-668c47b3-61c3-48fa-b5ed-d26f15c81756
+Converting default_hoppers...
+ΓùÅ Reading Active Hoppers... done Γ£ô  
+ΓùÅ Reading Game Set Config... done Γ£ô  
+ΓùÅ Building Banhammer Messages... done Γ£ô  
+ΓùÅ Building Matchmaking Tips... done Γ£ô  
+ΓùÅ Building MOTDs... done Γ£ô  
+ΓùÅ Building Map Manifest... done Γ£ô  
+ΓùÅ Building Game Variants... done Γ£ô  
+  Γôÿ Built 1 variants.
+ΓùÅ Building Map Variants... done Γ£ô  Γ¢ö  5 Errors 
+  Γ¢ö  Map Variant "default_snowbound" has a bad checksum and may not load properly! (got BF08D3D8, expected 41EA365B)
+  Γ¢ö  Map Variant "default_sandtrap" has a bad checksum and may not load properly! (got 3375A6F1, expected 7106417A)
+  Γ¢ö  Map Variant "default_valhalla" has a bad checksum and may not load properly! (got F1A889B8, expected C7A2146F)
+  Γ¢ö  Map Variant "default_high_ground" has a bad checksum and may not load properly! (got C9786BEC, expected 31F81D79)
+  Γ¢ö  Map Variant "default_last_resort" has a bad checksum and may not load properly! (got A9494AE8, expected 17BC28C2)
+  Γôÿ Built 5 variants.
+ΓùÅ Building Game Sets... done Γ£ô  
+ΓùÅ Building Hopper Configuration... done Γ£ô   ΓÜá 18 Warnings
+  ΓÜá No Japanese description was found for hopper 333 (Fusion)
+  ΓÜá No Japanese description was found for category 10 (Hardcore)
+  ΓÜá No German description was found for hopper 333 (Fusion)
+  ΓÜá No German description was found for category 10 (Hardcore)
+  ΓÜá No French description was found for hopper 333 (Fusion)
+  ΓÜá No French description was found for category 10 (Hardcore)
+  ΓÜá No Spanish description was found for hopper 333 (Fusion)
+  ΓÜá No Spanish description was found for category 10 (Hardcore)
+  ΓÜá No Spanish (Mexican) description was found for hopper 333 (Fusion)
+  ΓÜá No Spanish (Mexican) description was found for category 10 (Hardcore)
+  ΓÜá No Italian description was found for hopper 333 (Fusion)
+  ΓÜá No Italian description was found for category 10 (Hardcore)
+  ΓÜá No Korean description was found for hopper 333 (Fusion)
+  ΓÜá No Korean description was found for category 10 (Hardcore)
+  ΓÜá No Chinese (Traditional) description was found for hopper 333 (Fusion)
+  ΓÜá No Chinese (Traditional) description was found for category 10 (Hardcore)
+  ΓÜá No Portuguese description was found for hopper 333 (Fusion)
+  ΓÜá No Portuguese description was found for category 10 (Hardcore)
+ΓùÅ Building Network Configuration... done Γ£ô  
+ΓùÅ Building Manifest File... done Γ£ô  
+Finished conversion in 0.19 seconds.

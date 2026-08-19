@@ -1,0 +1,328 @@
+﻿Writing Title Storage BLFs to C:\Users\codie\AppData\Local\Temp\blf-upgrade-7a224700-c67f-4ec7-9cb4-47475d663d75
+Converting default_hoppers...
+ΓùÅ Reading Active Hoppers... done Γ£ô  
+ΓùÅ Reading Game Set Config... done Γ£ô  
+ΓùÅ Building Banhammer Messages... done Γ£ô   ΓÜá 1 Warnings
+  ΓÜá Russian banhammer messages are missing.
+ΓùÅ Building Matchmaking Tips... done Γ£ô   ΓÜá 1 Warnings
+  ΓÜá Russian matchmaking tips are missing.
+ΓùÅ Building MOTDs... done Γ£ô   ΓÜá 1 Warnings
+  ΓÜá No Russian MOTD is present.
+ΓùÅ Building Mythic MOTDs... done Γ£ô   ΓÜá 8 Warnings
+  ΓÜá Japanese MOTD has an invalid Image: Does not exist.
+  ΓÜá French MOTD has an invalid Image: Does not exist.
+  ΓÜá Spanish MOTD has an invalid Image: Does not exist.
+  ΓÜá Spanish (Mexican) MOTD has an invalid Image: Does not exist.
+  ΓÜá Italian MOTD has an invalid Image: Does not exist.
+  ΓÜá Korean MOTD has an invalid Image: Does not exist.
+  ΓÜá Chinese (Traditional) MOTD has an invalid Image: Does not exist.
+  ΓÜá No Russian MOTD is present.
+ΓùÅ Building MOTD Popups... done Γ£ô   ΓÜá 1 Warnings
+  ΓÜá No Russian MOTD Popup is present.
+ΓùÅ Building Mythic MOTD Popups... done Γ£ô   ΓÜá 8 Warnings
+  ΓÜá Japanese MOTD Popup has an invalid Image: Does not exist.
+  ΓÜá French MOTD Popup has an invalid Image: Does not exist.
+  ΓÜá Spanish MOTD Popup has an invalid Image: Does not exist.
+  ΓÜá Spanish (Mexican) MOTD Popup has an invalid Image: Does not exist.
+  ΓÜá Italian MOTD Popup has an invalid Image: Does not exist.
+  ΓÜá Korean MOTD Popup has an invalid Image: Does not exist.
+  ΓÜá Chinese (Traditional) MOTD Popup has an invalid Image: Does not exist.
+  ΓÜá No Russian MOTD Popup is present.
+ΓùÅ Building Map Manifest... done Γ£ô  Γ¢ö  1 Errors 
+  Γ¢ö  No RSA signatures were found
+ΓùÅ Building Game Variants... done Γ£ô  
+  Γôÿ Built 127 variants.
+ΓùÅ Building Map Variants... done Γ£ô  Γ¢ö  214 Errors 
+  Γ¢ö  Map Variant default_the_pit could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_onyx could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_workplacebravo could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_narrows_sniper_bridge could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_ffa_reactor could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_last_resort could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_pit_charnel_pit could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sandbox_punishment could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_snowbound_snipebound could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_blackout could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_sandbox could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant GBL_high could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sandbox_vindictive could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_last_resort_zomzibar could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant year2_the_pit_pitstop could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_high_ground_sniperground could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant grifball_blockdrop_court could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_paranoiav11 could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_assembly could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_high_ground_club_dead could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant noequip_heretic could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant race_avalanche_speed could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_solarium could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_citadel could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant noequip_citadel could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_heretic_v8 could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_skystation could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_renovation could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_orbital could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_the_pit_v8 could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_subversive could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_rats_nest_bubonic could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_cryptic_fate could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant heavy_valhalla could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sandbox_entrenched could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_orbital could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_breakdown could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant odst_guardian could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sticky_coldstorage could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_heretic could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant GBL_ultim8 could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_guardian could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant year2_epitaph_epilogue could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant odst_rats_nest could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_construct could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_ghost_town_sniper_town could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant dodgeball_foundry could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_longshore could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_standoff could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_blackout_snipeout could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant race_rats_nest_speed could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_vengeance could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_ghost_town_ghoul_town could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_haven could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_conduction could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_eightygrit could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant heavy_standoff could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_undulation could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_isolation could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant race_standoff_speed could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_sentiment could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_ffa_ldown could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_lotus could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant year2_snowbound_boundless could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_pit could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_construct_v8 could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant grifball_grifball_naught could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_guardian_tree_rot could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_iz9courtyard could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant odst_snowbound could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_pivotal could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_valhalla_sniper_canyon could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_noctilucent could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_requiem could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_epitaph could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_cold_storage could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_narrows_v8 could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_construct_ts8 could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant GBL_chichenitza could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_fortress could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant grifball_agla_sandbox could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_reflux could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_exhibition could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_coupdetat could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_foundry could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_assembly could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_the_kingdom could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sandbox_vessel could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_heretic could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant grifball_noxy_court could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_amplified_v8 could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_tartarus could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_ffa_guard could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_reminiscent could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_transgression could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_cold_storage_rigor_mortis could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_ffa_citadel could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_borderline could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_cryptic could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_citadel could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_narrows could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sandbox_utahmambo could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_isolation_sniperlation could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant foundry_anvil could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant odst_assembly could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_ghost_town could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_rats_nest_snipers_nest could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_ghost_town could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_blackout_deadlock could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant duel_ghost_town could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant duel_cold_storage could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_onslaught_v8 could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_synapse could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_epitaph could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_avalanche_zombies_on_ice could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_valhalla_death_valley could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_citadel could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sandbox_wastelands could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant duel_blackout could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_isolation could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_assembly could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_pilaster could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant duel_epitaph could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_topple could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant bn1_bngledrome could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_fracture could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant race_valhalla_speed could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant year2_sandtrap_sandtarp could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant duel_construct could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_stonehenge could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_foundry could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant odst_blackout could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_deity could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sticky_assembly could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant bn1_bngital could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_blackout could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_static could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_rats_nest could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant race_sandtrap_speed could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_avalanche could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant bn1_ratinacage could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_heretic could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_foundry_haunted_manor could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant duel_snowbound could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_battledome could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant race_isolation_speed could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_tribal_war could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant heavy_avalanche could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_collonade could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_bridgeos could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_rats_nest could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant bn1_blowout could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant odst_the_pit could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_avalanche_sniperlanche could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_sandtrap_snipe_trap could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant dodgeball_sandbox could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_construct could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant odst_sandtrap could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_orbital_andromeda could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sandbox_sumogrande could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_sandbox_spookyhouse could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_snowbound could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_longshore could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_deadbolt could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant odst_ghost_town could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant grifball_grifball_club could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant odst_construct could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_orbital could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_chimera could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_standoff_dish_of_doom could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant odst_citadel could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_ffa_heretic could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_snowbound_zomboni could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_the_pit_sniper_stop could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_berbercreek could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant duel_guardian could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_guardian_sniper_guardian could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant mlg_guardian_v8 could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant odst_heretic could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_high_ground could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sandbox_zeus could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sandbox_tundra could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_neosho could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_elysium could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_snowbound could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_sandtowers could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_epitaph_salivation could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_narrows could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_valhalla could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_guardian could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_isolation_growth_spurt could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_gauntlet could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sandbox_tundra_swat could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_longshore_deaddocks could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_ground could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant swat_cold_storage could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant heavy_sandtrap could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant inf_assembly_dismember could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant sniper_construct_snipestruct could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_salvation could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_pantheon could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_actuality-break could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_rattrap could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant default_sandtrap could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant ffa_snowbound could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_regicide could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant bn1_showerball could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant grifball_agla_foundry could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_backdraftv1 could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_ravinia could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant duel_the_pit could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_emperor could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant ffa_sandtrap could not be validated due to missing RSA signature!
+  Γ¢ö  Map Variant atlas_apex could not be validated due to missing RSA signature!
+  Γôÿ Built 214 variants.
+ΓùÅ Building Game Sets... done Γ£ô  
+ΓùÅ Building Hopper Configuration... done Γ£ô   ΓÜá 73 Warnings
+  ΓÜá No Japanese description was found for hopper 107 (Social Doubles)
+  ΓÜá No Japanese description was found for hopper 201 (Social Swat)
+  ΓÜá No Japanese description was found for hopper 206 (Head to Head)
+  ΓÜá No Japanese description was found for hopper 333 (Fusion)
+  ΓÜá No Japanese description was found for hopper 205 (Quick Match)
+  ΓÜá No German description was found for hopper 107 (Social Doubles)
+  ΓÜá No German description was found for hopper 201 (Social Swat)
+  ΓÜá No German description was found for hopper 206 (Head to Head)
+  ΓÜá No German description was found for hopper 333 (Fusion)
+  ΓÜá No German description was found for hopper 205 (Quick Match)
+  ΓÜá No French description was found for hopper 107 (Social Doubles)
+  ΓÜá No French description was found for hopper 201 (Social Swat)
+  ΓÜá No French description was found for hopper 206 (Head to Head)
+  ΓÜá No French description was found for hopper 333 (Fusion)
+  ΓÜá No French description was found for hopper 205 (Quick Match)
+  ΓÜá No Spanish description was found for hopper 107 (Social Doubles)
+  ΓÜá No Spanish description was found for hopper 201 (Social Swat)
+  ΓÜá No Spanish description was found for hopper 206 (Head to Head)
+  ΓÜá No Spanish description was found for hopper 333 (Fusion)
+  ΓÜá No Spanish description was found for hopper 205 (Quick Match)
+  ΓÜá No Spanish (Mexican) description was found for hopper 107 (Social Doubles)
+  ΓÜá No Spanish (Mexican) description was found for hopper 201 (Social Swat)
+  ΓÜá No Spanish (Mexican) description was found for hopper 206 (Head to Head)
+  ΓÜá No Spanish (Mexican) description was found for hopper 333 (Fusion)
+  ΓÜá No Spanish (Mexican) description was found for hopper 205 (Quick Match)
+  ΓÜá No Italian description was found for hopper 107 (Social Doubles)
+  ΓÜá No Italian description was found for hopper 201 (Social Swat)
+  ΓÜá No Italian description was found for hopper 206 (Head to Head)
+  ΓÜá No Italian description was found for hopper 333 (Fusion)
+  ΓÜá No Italian description was found for hopper 205 (Quick Match)
+  ΓÜá No Korean description was found for hopper 107 (Social Doubles)
+  ΓÜá No Korean description was found for hopper 201 (Social Swat)
+  ΓÜá No Korean description was found for hopper 206 (Head to Head)
+  ΓÜá No Korean description was found for hopper 333 (Fusion)
+  ΓÜá No Korean description was found for hopper 205 (Quick Match)
+  ΓÜá No Chinese (Traditional) description was found for hopper 107 (Social Doubles)
+  ΓÜá No Chinese (Traditional) description was found for hopper 201 (Social Swat)
+  ΓÜá No Chinese (Traditional) description was found for hopper 206 (Head to Head)
+  ΓÜá No Chinese (Traditional) description was found for hopper 333 (Fusion)
+  ΓÜá No Chinese (Traditional) description was found for hopper 205 (Quick Match)
+  ΓÜá No Russian description was found for hopper 108 (Lone Wolves)
+  ΓÜá No Russian description was found for hopper 109 (Team Slayer)
+  ΓÜá No Russian description was found for hopper 112 (Team Doubles)
+  ΓÜá No Russian description was found for hopper 139 (Team Snipers)
+  ΓÜá No Russian description was found for hopper 127 (MLG)
+  ΓÜá No Russian description was found for hopper 123 (Team Swat)
+  ΓÜá No Russian description was found for hopper 102 (Rumble Pit)
+  ΓÜá No Russian description was found for hopper 103 (Social Slayer)
+  ΓÜá No Russian description was found for hopper 104 (Social Skirmish)
+  ΓÜá No Russian description was found for hopper 107 (Social Doubles)
+  ΓÜá No Russian description was found for hopper 201 (Social Swat)
+  ΓÜá No Russian description was found for hopper 147 (Action Sack)
+  ΓÜá No Russian description was found for hopper 106 (Multi Team)
+  ΓÜá No Russian description was found for hopper 143 (Team Mythic)
+  ΓÜá No Russian description was found for hopper 125 (Social Big Team)
+  ΓÜá No Russian description was found for hopper 777 (7 on the 7th)
+  ΓÜá No Russian description was found for hopper 228 (Rumble Hardcore)
+  ΓÜá No Russian description was found for hopper 150 (Team Throwback)
+  ΓÜá No Russian description was found for hopper 153 (Maption Sack)
+  ΓÜá No Russian description was found for hopper 113 (Living Dead)
+  ΓÜá No Russian description was found for hopper 114 (Rocket Race)
+  ΓÜá No Russian description was found for hopper 151 (Prepare to Drop)
+  ΓÜá No Russian description was found for hopper 126 (Grifball)
+  ΓÜá No Russian description was found for hopper 132 (3 Ball)
+  ΓÜá No Russian description was found for hopper 129 (Fiesta)
+  ΓÜá No Russian description was found for hopper 206 (Head to Head)
+  ΓÜá No Russian description was found for hopper 333 (Fusion)
+  ΓÜá No Russian description was found for hopper 302 (BUNGLE Practice)
+  ΓÜá No Russian description was found for hopper 303 (BUNGLE Pro)
+  ΓÜá No Russian description was found for hopper 205 (Quick Match)
+  ΓÜá No Russian description was found for hopper 146 (Mythic Brawl)
+  ΓÜá No Russian description was found for category 8 (7 on the 7th)
+  ΓÜá No Russian description was found for category 11 (DoubleXPWeekend)
+ΓùÅ Building Network Configuration... done Γ£ô  
+ΓùÅ Building Manifest File... done Γ£ô  
+Finished conversion in 5.82 seconds.

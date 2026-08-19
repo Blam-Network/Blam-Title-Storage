@@ -7,8 +7,8 @@
       "parent_unique_id": 14490209399438482541,
       "root_unique_id": 14490209399438482541,
       "game_id": 0,
-      "activity": 4,
-      "game_mode": 3,
+      "activity": "mapeditor",
+      "game_mode": "multiplayer",
       "game_engine_type": 0,
       "map_id": 10060
     },
@@ -5837,7 +5837,7 @@
       },
       "forward": {
         "i": -0.99999714,
-        "j": -0.000024383553,
+        "j": -2.4383553e-05,
         "k": 0.0024055482
       },
       "up": {

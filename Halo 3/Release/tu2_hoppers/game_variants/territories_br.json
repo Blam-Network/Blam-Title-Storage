@@ -36,11 +36,11 @@
       "m_respawn_player_traits_duration_seconds": 0,
       "m_respawn_player_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 0,
-          "m_shield_recharge_rate_percentage_setting": 0,
-          "m_vampirism_percentage_setting": 0,
-          "m_headshot_immunity_setting": 0,
-          "m_shield_multiplier_setting": 0
+          "m_damage_resistance_percentage_setting": "_damage_resistance_percentage_setting_unchanged",
+          "m_shield_recharge_rate_percentage_setting": "_shield_recharge_rate_percentage_setting_unchanged",
+          "m_vampirism_percentage_setting": "_vampirism_percentage_setting_unchanged",
+          "m_headshot_immunity_setting": "_headshot_immunity_setting_unchanged",
+          "m_shield_multiplier_setting": "_shield_multiplier_setting_unchanged"
         },
         "m_weapon_traits": {
           "m_initial_grenade_count_setting": 0,
@@ -76,11 +76,11 @@
       "m_flags": 1,
       "m_base_player_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 4,
-          "m_shield_recharge_rate_percentage_setting": 7,
-          "m_vampirism_percentage_setting": 1,
-          "m_headshot_immunity_setting": 2,
-          "m_shield_multiplier_setting": 2
+          "m_damage_resistance_percentage_setting": "_damage_resistance_percentage_setting_100_percent",
+          "m_shield_recharge_rate_percentage_setting": "_shield_recharge_rate_percentage_setting_100_percent",
+          "m_vampirism_percentage_setting": "_vampirism_percentage_setting_0_percent",
+          "m_headshot_immunity_setting": "_headshot_immunity_setting_not_immune_to_headshots",
+          "m_shield_multiplier_setting": "_shield_multiplier_setting_1x"
         },
         "m_weapon_traits": {
           "m_initial_grenade_count_setting": 1,
@@ -111,11 +111,11 @@
       "m_vehicle_set_absolute_index": 3,
       "m_red_powerup_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 12,
-          "m_shield_recharge_rate_percentage_setting": 7,
-          "m_vampirism_percentage_setting": 0,
-          "m_headshot_immunity_setting": 0,
-          "m_shield_multiplier_setting": 3
+          "m_damage_resistance_percentage_setting": "_damage_resistance_percentage_setting_invulnerable",
+          "m_shield_recharge_rate_percentage_setting": "_shield_recharge_rate_percentage_setting_100_percent",
+          "m_vampirism_percentage_setting": "_vampirism_percentage_setting_unchanged",
+          "m_headshot_immunity_setting": "_headshot_immunity_setting_unchanged",
+          "m_shield_multiplier_setting": "_shield_multiplier_setting_2x"
         },
         "m_weapon_traits": {
           "m_initial_grenade_count_setting": 0,
@@ -144,11 +144,11 @@
       },
       "m_blue_powerup_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 0,
-          "m_shield_recharge_rate_percentage_setting": 0,
-          "m_vampirism_percentage_setting": 0,
-          "m_headshot_immunity_setting": 0,
-          "m_shield_multiplier_setting": 0
+          "m_damage_resistance_percentage_setting": "_damage_resistance_percentage_setting_unchanged",
+          "m_shield_recharge_rate_percentage_setting": "_shield_recharge_rate_percentage_setting_unchanged",
+          "m_vampirism_percentage_setting": "_vampirism_percentage_setting_unchanged",
+          "m_headshot_immunity_setting": "_headshot_immunity_setting_unchanged",
+          "m_shield_multiplier_setting": "_shield_multiplier_setting_unchanged"
         },
         "m_weapon_traits": {
           "m_initial_grenade_count_setting": 0,
@@ -177,11 +177,11 @@
       },
       "m_yellow_powerup_traits": {
         "m_shield_vitality_traits": {
-          "m_damage_resistance_percentage_setting": 0,
-          "m_shield_recharge_rate_percentage_setting": 0,
-          "m_vampirism_percentage_setting": 0,
-          "m_headshot_immunity_setting": 0,
-          "m_shield_multiplier_setting": 0
+          "m_damage_resistance_percentage_setting": "_damage_resistance_percentage_setting_unchanged",
+          "m_shield_recharge_rate_percentage_setting": "_shield_recharge_rate_percentage_setting_unchanged",
+          "m_vampirism_percentage_setting": "_vampirism_percentage_setting_unchanged",
+          "m_headshot_immunity_setting": "_headshot_immunity_setting_unchanged",
+          "m_shield_multiplier_setting": "_shield_multiplier_setting_unchanged"
         },
         "m_weapon_traits": {
           "m_initial_grenade_count_setting": 0,
@@ -222,11 +222,11 @@
     "m_sudden_death_time": 30,
     "m_defender_traits": {
       "m_shield_vitality_traits": {
-        "m_damage_resistance_percentage_setting": 0,
-        "m_shield_recharge_rate_percentage_setting": 0,
-        "m_vampirism_percentage_setting": 0,
-        "m_headshot_immunity_setting": 0,
-        "m_shield_multiplier_setting": 0
+        "m_damage_resistance_percentage_setting": "_damage_resistance_percentage_setting_unchanged",
+        "m_shield_recharge_rate_percentage_setting": "_shield_recharge_rate_percentage_setting_unchanged",
+        "m_vampirism_percentage_setting": "_vampirism_percentage_setting_unchanged",
+        "m_headshot_immunity_setting": "_headshot_immunity_setting_unchanged",
+        "m_shield_multiplier_setting": "_shield_multiplier_setting_unchanged"
       },
       "m_weapon_traits": {
         "m_initial_grenade_count_setting": 0,
@@ -255,11 +255,11 @@
     },
     "m_attacker_traits": {
       "m_shield_vitality_traits": {
-        "m_damage_resistance_percentage_setting": 0,
-        "m_shield_recharge_rate_percentage_setting": 0,
-        "m_vampirism_percentage_setting": 0,
-        "m_headshot_immunity_setting": 0,
-        "m_shield_multiplier_setting": 0
+        "m_damage_resistance_percentage_setting": "_damage_resistance_percentage_setting_unchanged",
+        "m_shield_recharge_rate_percentage_setting": "_shield_recharge_rate_percentage_setting_unchanged",
+        "m_vampirism_percentage_setting": "_vampirism_percentage_setting_unchanged",
+        "m_headshot_immunity_setting": "_headshot_immunity_setting_unchanged",
+        "m_shield_multiplier_setting": "_shield_multiplier_setting_unchanged"
       },
       "m_weapon_traits": {
         "m_initial_grenade_count_setting": 0,

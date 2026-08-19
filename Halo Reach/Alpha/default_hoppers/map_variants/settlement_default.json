@@ -1,24 +1,33 @@
 {
   "m_metadata": {
-    "file_type": 5,
-    "size_in_bytes": 29481,
-    "unique_id": 12847411100077835142,
-    "parent_unique_id": 12847411100077835142,
-    "root_unique_id": 12847411100077835142,
-    "game_id": 0,
-    "activity": 4,
-    "game_mode": 3,
-    "game_engine_type": 0,
-    "map_id": 1055,
-    "unknown1": 0,
-    "creation_time": "2010-09-14 00:00:00",
-    "creator_xuid": "0000000000000000",
-    "creator_name": "",
-    "creator_xuid_is_online": true,
-    "modification_time": "2010-09-14 00:00:00",
-    "modifier_xuid": "0000000000000000",
-    "modifier_name": "",
-    "modifier_xuid_is_online": true,
+    "general": {
+      "file_type": 5,
+      "size_in_bytes": 29481,
+      "unique_id": 12847411100077835142,
+      "parent_unique_id": 12847411100077835142,
+      "root_unique_id": 12847411100077835142,
+      "game_id": 0,
+      "activity": "mapeditor",
+      "game_mode": "multiplayer",
+      "game_engine_type": 0,
+      "map_id": 1055
+    },
+    "display": {
+      "megalo_category_index": 0,
+      "padding": 0
+    },
+    "creation_history": {
+      "timestamp": "2010-09-14 00:00:00",
+      "xuid": "0000000000000000",
+      "name": "",
+      "is_online": true
+    },
+    "modification_history": {
+      "timestamp": "2010-09-14 00:00:00",
+      "xuid": "0000000000000000",
+      "name": "",
+      "is_online": true
+    },
     "name": "Powerhouse",
     "description": "Hydroelectric plants like this one provide clean, sustainable energy for the inhabitants of Reach. 2-8 mans. v2."
   },

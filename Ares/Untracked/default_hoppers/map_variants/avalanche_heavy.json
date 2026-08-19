@@ -24,16 +24,16 @@
   "m_map_id": 30851921,
   "m_world_bounds": {
     "x": {
-      "lower": -6.6483825e29,
-      "upper": 4.0945462e24
+      "lower": -6.6483825e+29,
+      "upper": 4.0945462e+24
     },
     "y": {
       "lower": -11344.729,
       "upper": -0.05829097
     },
     "z": {
-      "lower": -0.000001454814,
-      "upper": 4.673067e35
+      "lower": -1.454814e-06,
+      "upper": 4.673067e+35
     }
   },
   "m_game_engine_subtype": 672840,
@@ -26280,7 +26280,7 @@
         "boundary_size": 0.0,
         "boundary_box_length": 0.0,
         "boundary_positive_height": 0.0,
-        "boundary_negative_height": null
+        "boundary_negative_height": 0.0
       }
     }
   ],
@@ -26307,7 +26307,7 @@
       "maximum_count": 160,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.5416117e25
+      "price_per_item": -1.5416117e+25
     },
     {
       "object_definition_index": "00060608",
@@ -26315,7 +26315,7 @@
       "maximum_count": 32,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.6564466e21
+      "price_per_item": -2.6564466e+21
     },
     {
       "object_definition_index": "00010104",
@@ -26323,7 +26323,7 @@
       "maximum_count": 112,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.0763883e27
+      "price_per_item": -3.0763883e+27
     },
     {
       "object_definition_index": "00020204",
@@ -26331,7 +26331,7 @@
       "maximum_count": 160,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.9774703e25
+      "price_per_item": -2.9774703e+25
     },
     {
       "object_definition_index": "00020202",
@@ -26339,7 +26339,7 @@
       "maximum_count": 200,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.2673717e27
+      "price_per_item": -1.2673717e+27
     },
     {
       "object_definition_index": "00000004",
@@ -26347,7 +26347,7 @@
       "maximum_count": 160,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.385945e26
+      "price_per_item": -3.385945e+26
     },
     {
       "object_definition_index": "00020202",
@@ -26355,7 +26355,7 @@
       "maximum_count": 160,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -9.866729e27
+      "price_per_item": -9.866729e+27
     },
     {
       "object_definition_index": "00020202",
@@ -26363,7 +26363,7 @@
       "maximum_count": 200,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.6297154e33
+      "price_per_item": -7.6297154e+33
     },
     {
       "object_definition_index": "00020202",
@@ -26371,7 +26371,7 @@
       "maximum_count": 160,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.50623e30
+      "price_per_item": -2.50623e+30
     },
     {
       "object_definition_index": "00000010",
@@ -26379,7 +26379,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -9.807544e29
+      "price_per_item": -9.807544e+29
     },
     {
       "object_definition_index": "00181318",
@@ -26387,7 +26387,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.8624176e31
+      "price_per_item": -1.8624176e+31
     },
     {
       "object_definition_index": "00000008",
@@ -26395,7 +26395,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.1565119e33
+      "price_per_item": -1.1565119e+33
     },
     {
       "object_definition_index": "00030208",
@@ -26403,7 +26403,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.9959559e31
+      "price_per_item": -2.9959559e+31
     },
     {
       "object_definition_index": "00000010",
@@ -26411,7 +26411,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -4.0417836e31
+      "price_per_item": -4.0417836e+31
     },
     {
       "object_definition_index": "00100410",
@@ -26419,7 +26419,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.9251703e31
+      "price_per_item": -7.9251703e+31
     },
     {
       "object_definition_index": "00000010",
@@ -26427,7 +26427,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.9151244e32
+      "price_per_item": -1.9151244e+32
     },
     {
       "object_definition_index": "00080210",
@@ -26435,7 +26435,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.0969935e32
+      "price_per_item": -1.0969935e+32
     },
     {
       "object_definition_index": "00060208",
@@ -26443,7 +26443,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.526948e30
+      "price_per_item": -3.526948e+30
     },
     {
       "object_definition_index": "00000008",
@@ -26451,7 +26451,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -4.9506503e33
+      "price_per_item": -4.9506503e+33
     },
     {
       "object_definition_index": "00040208",
@@ -26459,7 +26459,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.816117e33
+      "price_per_item": -1.816117e+33
     },
     {
       "object_definition_index": "00040208",
@@ -26467,7 +26467,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.7035313e32
+      "price_per_item": -3.7035313e+32
     },
     {
       "object_definition_index": "00030308",
@@ -26475,7 +26475,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.8412476e33
+      "price_per_item": -2.8412476e+33
     },
     {
       "object_definition_index": "00000008",
@@ -26483,7 +26483,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.5512993e26
+      "price_per_item": -2.5512993e+26
     },
     {
       "object_definition_index": "00020204",
@@ -26491,7 +26491,7 @@
       "maximum_count": 192,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -4.3016033e33
+      "price_per_item": -4.3016033e+33
     },
     {
       "object_definition_index": "00000008",
@@ -26499,7 +26499,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.19738e27
+      "price_per_item": -7.19738e+27
     },
     {
       "object_definition_index": "00000004",
@@ -26507,7 +26507,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.001507e32
+      "price_per_item": -7.001507e+32
     },
     {
       "object_definition_index": "00000008",
@@ -26515,7 +26515,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.5178458e34
+      "price_per_item": -1.5178458e+34
     },
     {
       "object_definition_index": "00000001",
@@ -26523,7 +26523,7 @@
       "maximum_count": 32,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -9.384727e32
+      "price_per_item": -9.384727e+32
     },
     {
       "object_definition_index": "00000004",
@@ -26531,7 +26531,7 @@
       "maximum_count": 192,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.2244146e34
+      "price_per_item": -2.2244146e+34
     },
     {
       "object_definition_index": "00000004",
@@ -26539,7 +26539,7 @@
       "maximum_count": 192,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -5.6278447e30
+      "price_per_item": -5.6278447e+30
     },
     {
       "object_definition_index": "00000010",
@@ -26547,7 +26547,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -6.055357e31
+      "price_per_item": -6.055357e+31
     },
     {
       "object_definition_index": "00000008",
@@ -26555,7 +26555,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -6.7484525e28
+      "price_per_item": -6.7484525e+28
     },
     {
       "object_definition_index": "00200820",
@@ -26563,7 +26563,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -4.11779e28
+      "price_per_item": -4.11779e+28
     },
     {
       "object_definition_index": "00201220",
@@ -26571,7 +26571,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.336483e28
+      "price_per_item": -7.336483e+28
     },
     {
       "object_definition_index": "00000020",
@@ -26579,7 +26579,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -5.8199833e28
+      "price_per_item": -5.8199833e+28
     },
     {
       "object_definition_index": "00000008",
@@ -26587,7 +26587,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.5601556e29
+      "price_per_item": -1.5601556e+29
     },
     {
       "object_definition_index": "00020204",
@@ -26595,7 +26595,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -4.2352257e29
+      "price_per_item": -4.2352257e+29
     },
     {
       "object_definition_index": "00040404",
@@ -26603,7 +26603,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -6.3149967e29
+      "price_per_item": -6.3149967e+29
     },
     {
       "object_definition_index": "00040304",
@@ -26611,7 +26611,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.3280417e29
+      "price_per_item": -2.3280417e+29
     },
     {
       "object_definition_index": "00000004",
@@ -26619,7 +26619,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -5.3493887e29
+      "price_per_item": -5.3493887e+29
     },
     {
       "object_definition_index": "00040204",
@@ -26627,7 +26627,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.2142113e34
+      "price_per_item": -3.2142113e+34
     },
     {
       "object_definition_index": "00000004",
@@ -26635,7 +26635,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.5225086e34
+      "price_per_item": -3.5225086e+34
     },
     {
       "object_definition_index": "00000004",
@@ -26643,7 +26643,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.860364e29
+      "price_per_item": -2.860364e+29
     },
     {
       "object_definition_index": "00000004",
@@ -26651,7 +26651,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -9.064768e29
+      "price_per_item": -9.064768e+29
     },
     {
       "object_definition_index": "00040204",
@@ -26659,7 +26659,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -8.222956e29
+      "price_per_item": -8.222956e+29
     },
     {
       "object_definition_index": "00040204",
@@ -26667,7 +26667,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.9768415e34
+      "price_per_item": -3.9768415e+34
     },
     {
       "object_definition_index": "00000004",
@@ -26675,7 +26675,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -4.0904248e34
+      "price_per_item": -4.0904248e+34
     },
     {
       "object_definition_index": "00090910",
@@ -26683,7 +26683,7 @@
       "maximum_count": 64,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -5.422463e34
+      "price_per_item": -5.422463e+34
     },
     {
       "object_definition_index": "00060610",
@@ -26691,7 +26691,7 @@
       "maximum_count": 64,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -5.9417007e34
+      "price_per_item": -5.9417007e+34
     },
     {
       "object_definition_index": "00010118",
@@ -26699,7 +26699,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -6.6556524e34
+      "price_per_item": -6.6556524e+34
     },
     {
       "object_definition_index": "00070708",
@@ -26707,7 +26707,7 @@
       "maximum_count": 192,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -6.817914e34
+      "price_per_item": -6.817914e+34
     },
     {
       "object_definition_index": "00010110",
@@ -26715,7 +26715,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -6.980176e34
+      "price_per_item": -6.980176e+34
     },
     {
       "object_definition_index": "00050508",
@@ -26723,7 +26723,7 @@
       "maximum_count": 192,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.1424377e34
+      "price_per_item": -7.1424377e+34
     },
     {
       "object_definition_index": "00030310",
@@ -26731,7 +26731,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -8.0511035e34
+      "price_per_item": -8.0511035e+34
     },
     {
       "object_definition_index": "00010110",
@@ -26739,7 +26739,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -8.768103e34
+      "price_per_item": -8.768103e+34
     },
     {
       "object_definition_index": "00000010",
@@ -26747,7 +26747,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.0066197e35
+      "price_per_item": -1.0066197e+35
     },
     {
       "object_definition_index": "00000008",
@@ -26755,7 +26755,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.039072e35
+      "price_per_item": -1.039072e+35
     },
     {
       "object_definition_index": "00030308",
@@ -26763,7 +26763,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.0715244e35
+      "price_per_item": -1.0715244e+35
     },
     {
       "object_definition_index": "00000008",
@@ -26771,7 +26771,7 @@
       "maximum_count": 64,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.1039767e35
+      "price_per_item": -1.1039767e+35
     },
     {
       "object_definition_index": "00000008",
@@ -26779,7 +26779,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.2402766e35
+      "price_per_item": -1.2402766e+35
     },
     {
       "object_definition_index": "00000008",
@@ -26787,7 +26787,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.3246527e35
+      "price_per_item": -1.3246527e+35
     },
     {
       "object_definition_index": "00000008",
@@ -26795,7 +26795,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.370086e35
+      "price_per_item": -1.370086e+35
     },
     {
       "object_definition_index": "00020208",
@@ -26803,7 +26803,7 @@
       "maximum_count": 64,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.4998954e35
+      "price_per_item": -1.4998954e+35
     },
     {
       "object_definition_index": "00000014",
@@ -26811,7 +26811,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.7536459e35
+      "price_per_item": -1.7536459e+35
     },
     {
       "object_definition_index": "00000004",
@@ -26819,7 +26819,7 @@
       "maximum_count": 160,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.8185506e35
+      "price_per_item": -1.8185506e+35
     },
     {
       "object_definition_index": "00000008",
@@ -26827,7 +26827,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.0651884e35
+      "price_per_item": -2.0651884e+35
     },
     {
       "object_definition_index": "00000008",
@@ -26835,7 +26835,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.1300931e35
+      "price_per_item": -2.1300931e+35
     },
     {
       "object_definition_index": "00040408",
@@ -26843,7 +26843,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.36375e35
+      "price_per_item": -2.36375e+35
     },
     {
       "object_definition_index": "00000004",
@@ -26851,7 +26851,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.6752926e35
+      "price_per_item": -2.6752926e+35
     },
     {
       "object_definition_index": "00000001",
@@ -26859,7 +26859,7 @@
       "maximum_count": 112,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.9349114e35
+      "price_per_item": -2.9349114e+35
     },
     {
       "object_definition_index": "00000001",
@@ -26867,7 +26867,7 @@
       "maximum_count": 112,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.9738542e35
+      "price_per_item": -2.9738542e+35
     },
     {
       "object_definition_index": "00000001",
@@ -26875,7 +26875,7 @@
       "maximum_count": 112,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.025778e35
+      "price_per_item": -3.025778e+35
     },
     {
       "object_definition_index": "00000001",
@@ -26883,7 +26883,7 @@
       "maximum_count": 112,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.0647208e35
+      "price_per_item": -3.0647208e+35
     },
     {
       "object_definition_index": "00000001",
@@ -26891,7 +26891,7 @@
       "maximum_count": 112,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.1036636e35
+      "price_per_item": -3.1036636e+35
     },
     {
       "object_definition_index": "00000001",
@@ -26899,7 +26899,7 @@
       "maximum_count": 112,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.1426065e35
+      "price_per_item": -3.1426065e+35
     },
     {
       "object_definition_index": "00000008",
@@ -26907,7 +26907,7 @@
       "maximum_count": 160,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.4813805e35
+      "price_per_item": -3.4813805e+35
     },
     {
       "object_definition_index": "00000008",
@@ -26915,7 +26915,7 @@
       "maximum_count": 160,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.6631137e35
+      "price_per_item": -3.6631137e+35
     },
     {
       "object_definition_index": "00080608",
@@ -26923,7 +26923,7 @@
       "maximum_count": 160,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.0468694e21
+      "price_per_item": -1.0468694e+21
     },
     {
       "object_definition_index": "00646064",
@@ -26931,7 +26931,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.4204404e21
+      "price_per_item": -1.4204404e+21
     },
     {
       "object_definition_index": "00000014",
@@ -26939,7 +26939,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.1990761e21
+      "price_per_item": -1.1990761e+21
     },
     {
       "object_definition_index": "00000014",
@@ -26947,7 +26947,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.4019934e21
+      "price_per_item": -1.4019934e+21
     },
     {
       "object_definition_index": "00000014",
@@ -26955,7 +26955,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.4481109e21
+      "price_per_item": -1.4481109e+21
     },
     {
       "object_definition_index": "00000014",
@@ -26963,7 +26963,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.1898526e21
+      "price_per_item": -1.1898526e+21
     },
     {
       "object_definition_index": "00000014",
@@ -26971,7 +26971,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.4112169e21
+      "price_per_item": -1.4112169e+21
     },
     {
       "object_definition_index": "00000014",
@@ -26979,7 +26979,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.466558e21
+      "price_per_item": -1.466558e+21
     },
     {
       "object_definition_index": "00000014",
@@ -26987,7 +26987,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.4296639e21
+      "price_per_item": -1.4296639e+21
     },
     {
       "object_definition_index": "00000008",
@@ -26995,7 +26995,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.2082996e21
+      "price_per_item": -1.2082996e+21
     },
     {
       "object_definition_index": "00000008",
@@ -27003,7 +27003,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.3927699e21
+      "price_per_item": -1.3927699e+21
     },
     {
       "object_definition_index": "00000008",
@@ -27011,7 +27011,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.3835463e21
+      "price_per_item": -1.3835463e+21
     },
     {
       "object_definition_index": "00000008",
@@ -27019,7 +27019,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.430176e35
+      "price_per_item": -7.430176e+35
     },
     {
       "object_definition_index": "00000008",
@@ -27027,7 +27027,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.4821e35
+      "price_per_item": -7.4821e+35
     },
     {
       "object_definition_index": "00000008",
@@ -27035,7 +27035,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.4757815e21
+      "price_per_item": -1.4757815e+21
     },
     {
       "object_definition_index": "00000008",
@@ -27043,7 +27043,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.4573344e21
+      "price_per_item": -1.4573344e+21
     },
     {
       "object_definition_index": "00000008",
@@ -27051,7 +27051,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.534024e35
+      "price_per_item": -7.534024e+35
     },
     {
       "object_definition_index": "00000008",
@@ -27059,7 +27059,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.4388874e21
+      "price_per_item": -1.4388874e+21
     },
     {
       "object_definition_index": "00000014",
@@ -27067,7 +27067,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.585948e35
+      "price_per_item": -7.585948e+35
     },
     {
       "object_definition_index": "00000008",
@@ -27075,7 +27075,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -3.6890756e35
+      "price_per_item": -3.6890756e+35
     },
     {
       "object_definition_index": "00000010",
@@ -27083,7 +27083,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -5.0131315e35
+      "price_per_item": -5.0131315e+35
     },
     {
       "object_definition_index": "00000010",
@@ -27091,7 +27091,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -5.2467884e35
+      "price_per_item": -5.2467884e+35
     },
     {
       "object_definition_index": "00000010",
@@ -27099,7 +27099,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -6.2593017e35
+      "price_per_item": -6.2593017e+35
     },
     {
       "object_definition_index": "00000010",
@@ -27107,7 +27107,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -6.2852636e35
+      "price_per_item": -6.2852636e+35
     },
     {
       "object_definition_index": "00000008",
@@ -27115,7 +27115,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -6.5189205e35
+      "price_per_item": -6.5189205e+35
     },
     {
       "object_definition_index": "00000008",
@@ -27123,7 +27123,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -6.5448824e35
+      "price_per_item": -6.5448824e+35
     },
     {
       "object_definition_index": "00000008",
@@ -27131,7 +27131,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.274405e35
+      "price_per_item": -7.274405e+35
     },
     {
       "object_definition_index": "0000000C",
@@ -27139,7 +27139,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -7.3782526e35
+      "price_per_item": -7.3782526e+35
     },
     {
       "object_definition_index": "0000000C",
@@ -27147,7 +27147,7 @@
       "maximum_count": 0,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.6418047e21
+      "price_per_item": -1.6418047e+21
     },
     {
       "object_definition_index": "00FF05FF",
@@ -27155,7 +27155,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.8287524e36
+      "price_per_item": -1.8287524e+36
     },
     {
       "object_definition_index": "00FF02FF",
@@ -27163,7 +27163,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.8806761e36
+      "price_per_item": -1.8806761e+36
     },
     {
       "object_definition_index": "00FF02FF",
@@ -27171,7 +27171,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.9222151e36
+      "price_per_item": -1.9222151e+36
     },
     {
       "object_definition_index": "00FF02FF",
@@ -27179,7 +27179,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -1.9637541e36
+      "price_per_item": -1.9637541e+36
     },
     {
       "object_definition_index": "00FF02FF",
@@ -27187,7 +27187,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.0052932e36
+      "price_per_item": -2.0052932e+36
     },
     {
       "object_definition_index": "00FF02FF",
@@ -27195,7 +27195,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.0468322e36
+      "price_per_item": -2.0468322e+36
     },
     {
       "object_definition_index": "00FF02FF",
@@ -27203,7 +27203,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.0883712e36
+      "price_per_item": -2.0883712e+36
     },
     {
       "object_definition_index": "00FF02FF",
@@ -27211,7 +27211,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.1299102e36
+      "price_per_item": -2.1299102e+36
     },
     {
       "object_definition_index": "00FF02FF",
@@ -27219,7 +27219,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.1714492e36
+      "price_per_item": -2.1714492e+36
     },
     {
       "object_definition_index": "00FF02FF",
@@ -27227,7 +27227,7 @@
       "maximum_count": 128,
       "placed_on_map": 0,
       "maximum_allowed": 0,
-      "price_per_item": -2.2129882e36
+      "price_per_item": -2.2129882e+36
     },
     {
       "object_definition_index": "00FF02FF",

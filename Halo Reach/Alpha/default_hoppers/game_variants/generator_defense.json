@@ -3,25 +3,34 @@
   "m_survival_variant": {
     "m_base_variant": {
       "m_metadata": {
-        "file_type": -1,
-        "size_in_bytes": 0,
-        "unique_id": 0,
-        "parent_unique_id": 0,
-        "root_unique_id": 0,
-        "game_id": 0,
-        "activity": 6,
-        "game_mode": 2,
-        "game_engine_type": 4,
-        "map_id": -1,
-        "unknown1": 0,
-        "creation_time": "2010-09-14 00:00:00",
-        "creator_xuid": "0000000000000000",
-        "creator_name": "¦\r\n",
-        "creator_xuid_is_online": true,
-        "modification_time": "2010-09-14 00:00:00",
-        "modifier_xuid": "0000000000000000",
-        "modifier_name": "¦\r\n",
-        "modifier_xuid_is_online": true,
+        "general": {
+          "file_type": -1,
+          "size_in_bytes": 0,
+          "unique_id": 0,
+          "parent_unique_id": 0,
+          "root_unique_id": 0,
+          "game_id": 0,
+          "activity": 6,
+          "game_mode": 2,
+          "game_engine_type": 4,
+          "map_id": -1
+        },
+        "display": {
+          "megalo_category_index": 0,
+          "padding": 0
+        },
+        "creation_history": {
+          "timestamp": "2010-09-14 00:00:00",
+          "xuid": "0000000000000000",
+          "name": "¦\r\n",
+          "is_online": true
+        },
+        "modification_history": {
+          "timestamp": "2010-09-14 00:00:00",
+          "xuid": "0000000000000000",
+          "name": "¦\r\n",
+          "is_online": true
+        },
         "name": "Generator Defense",
         "description": "How many points can you score in a Round?",
         "firefight_data": {
@@ -37,7 +46,7 @@
         "m_round_time_limit_minutes": 15,
         "m_round_limit": 1,
         "m_early_victory_win_count": 0,
-        "m_sudden_death_time": 31,
+        "m_sudden_death_time": 30,
         "m_grace_period": 5
       },
       "m_respawn_options": {
@@ -86,7 +95,7 @@
             "m_jump_modifier": -1.0
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 1,
+            "m_active_camo_setting": "on",
             "m_waypoint_setting": 2,
             "m_gamertag_setting": 0,
             "m_aura_setting": 1,
@@ -100,8 +109,14 @@
         }
       },
       "m_social_options": {
-        "m_flags": 28,
-        "m_team_changing": 0,
+        "m_flags": {
+          "friendly_fire_enabled": false,
+          "betrayal_booting_enabled": false,
+          "enemy_voice_enabled": true,
+          "open_channel_voice_enabled": true,
+          "dead_player_voice_enabled": true
+        },
+        "m_team_changing": "disabled",
         "m_observers_enabled": false
       },
       "m_map_override_options": {
@@ -139,7 +154,7 @@
             "m_jump_modifier": -1.0
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
+            "m_active_camo_setting": "off",
             "m_waypoint_setting": 0,
             "m_gamertag_setting": 0,
             "m_aura_setting": 0,
@@ -186,7 +201,7 @@
             "m_jump_modifier": -1.0
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
+            "m_active_camo_setting": "off",
             "m_waypoint_setting": 0,
             "m_gamertag_setting": 0,
             "m_aura_setting": 0,
@@ -231,7 +246,7 @@
             "m_jump_modifier": -1.0
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
+            "m_active_camo_setting": "off",
             "m_waypoint_setting": 0,
             "m_gamertag_setting": 0,
             "m_aura_setting": 0,
@@ -276,7 +291,7 @@
             "m_jump_modifier": -1.0
           },
           "m_appearance_traits": {
-            "m_active_camo_setting": 0,
+            "m_active_camo_setting": "off",
             "m_waypoint_setting": 0,
             "m_gamertag_setting": 0,
             "m_aura_setting": 0,
@@ -292,10 +307,10 @@
         "m_blue_powerup_duration_seconds": 0,
         "m_yellow_powerup_duration_seconds": 0
       },
-      "m_team_scoring_method": 0,
+      "m_team_scoring_method": "sum",
       "m_team_options": {
-        "m_model_override": 4,
-        "m_designator_switch_type": 2,
+        "m_model_override": "by_designator",
+        "m_designator_switch_type": "rotate",
         "m_teams": [
           {
             "m_team_enabled": true,
@@ -342,8 +357,8 @@
                 ]
               ]
             },
-            "m_team_initial_designator": 1,
-            "m_model_override": 0,
+            "m_team_initial_designator": "defenders",
+            "m_model_override": "spartan",
             "m_team_color_override": "00D72A2A",
             "m_team_ui_text_tint_color_override": "00000000",
             "m_team_ui_bitmap_tint_color_override": "FF821717"
@@ -393,8 +408,8 @@
                 ]
               ]
             },
-            "m_team_initial_designator": 2,
-            "m_model_override": 1,
+            "m_team_initial_designator": "attackers",
+            "m_model_override": "elite",
             "m_team_color_override": "003875CB",
             "m_team_ui_text_tint_color_override": "00000000",
             "m_team_ui_bitmap_tint_color_override": "FF1B2C74"
@@ -420,8 +435,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 0,
-            "m_model_override": 0,
+            "m_team_initial_designator": "none",
+            "m_model_override": "spartan",
             "m_team_color_override": "00000000",
             "m_team_ui_text_tint_color_override": "00000000",
             "m_team_ui_bitmap_tint_color_override": "00000000"
@@ -447,8 +462,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 0,
-            "m_model_override": 0,
+            "m_team_initial_designator": "none",
+            "m_model_override": "spartan",
             "m_team_color_override": "00000000",
             "m_team_ui_text_tint_color_override": "00000000",
             "m_team_ui_bitmap_tint_color_override": "00000000"
@@ -474,8 +489,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 0,
-            "m_model_override": 0,
+            "m_team_initial_designator": "none",
+            "m_model_override": "spartan",
             "m_team_color_override": "00000000",
             "m_team_ui_text_tint_color_override": "00000000",
             "m_team_ui_bitmap_tint_color_override": "00000000"
@@ -501,8 +516,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 0,
-            "m_model_override": 0,
+            "m_team_initial_designator": "none",
+            "m_model_override": "spartan",
             "m_team_color_override": "00000000",
             "m_team_ui_text_tint_color_override": "00000000",
             "m_team_ui_bitmap_tint_color_override": "00000000"
@@ -528,8 +543,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 0,
-            "m_model_override": 0,
+            "m_team_initial_designator": "none",
+            "m_model_override": "spartan",
             "m_team_color_override": "00000000",
             "m_team_ui_text_tint_color_override": "00000000",
             "m_team_ui_bitmap_tint_color_override": "00000000"
@@ -555,8 +570,8 @@
                 []
               ]
             },
-            "m_team_initial_designator": 0,
-            "m_model_override": 0,
+            "m_team_initial_designator": "none",
+            "m_model_override": "spartan",
             "m_team_color_override": "00000000",
             "m_team_ui_text_tint_color_override": "00000000",
             "m_team_ui_bitmap_tint_color_override": "00000000"
@@ -609,7 +624,7 @@
         "m_jump_modifier": -1.0
       },
       "m_appearance_traits": {
-        "m_active_camo_setting": 1,
+        "m_active_camo_setting": "on",
         "m_waypoint_setting": 2,
         "m_gamertag_setting": 0,
         "m_aura_setting": 1,
@@ -654,7 +669,7 @@
         "m_jump_modifier": -1.0
       },
       "m_appearance_traits": {
-        "m_active_camo_setting": 1,
+        "m_active_camo_setting": "on",
         "m_waypoint_setting": 2,
         "m_gamertag_setting": 0,
         "m_aura_setting": 1,
@@ -719,7 +734,7 @@
           "m_jump_modifier": -1.0
         },
         "m_appearance_traits": {
-          "m_active_camo_setting": 0,
+          "m_active_camo_setting": "off",
           "m_waypoint_setting": 0,
           "m_gamertag_setting": 0,
           "m_aura_setting": 0,

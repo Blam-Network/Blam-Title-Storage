@@ -1447,17 +1447,10 @@
     "stream_growth_base_upstream_shift": 16,
     "stream_growth_base_upstream_shift_max": 2,
     "stream_fail_all_failed_related_probes": 1,
-    "maximum_consecutive_probe_successes": 4,
-    "minimum_packet_rate_for_automatic_congestion": 5,
-    "maximum_rtt_for_automatic_congestion": 1024,
     "do_collateral_last_resort_throttle": false,
     "release_throttle_lock_on_first_congest": false,
     "round_robin_probes": true,
     "fail_all_member_probes_together": false,
-    "mark_throttled_stream_with_one_failure": false,
-    "check_single_stream_overprobe": true,
-    "use_deviation_only_for_related_rtt_timeout": true,
-    "fast_probe_failed_streams": true,
     "packet_loss_spike_threshold": 60,
     "packet_loss_spike_minimum_packet_count": 4,
     "packet_loss_spike_skip_averaging_any_spike": 1,
@@ -1714,82 +1707,6 @@
       50
     ]
   },
-  "hopper_experience_configuration": {
-    "experience_for_rank": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      0,
-      2,
-      3,
-      0,
-      0,
-      4,
-      5,
-      0,
-      0,
-      7,
-      10,
-      0,
-      0,
-      12,
-      15,
-      20,
-      0,
-      25,
-      30,
-      35,
-      40,
-      50,
-      60,
-      70,
-      85,
-      100,
-      110,
-      120,
-      135,
-      150,
-      160,
-      170,
-      185,
-      200,
-      225,
-      250,
-      275,
-      300,
-      325,
-      350,
-      375,
-      400,
-      425,
-      450,
-      475,
-      500,
-      1000,
-      1500,
-      2000
-    ],
-    "skill_for_rank": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ]
-  },
   "alpha_configuration": {
     "disable_game": false,
     "disable_custom_games": false,
@@ -1811,247 +1728,131 @@
     "map_list": [
       {
         "map_id": 380,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_default"
       },
       {
         "map_id": 300,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_default"
       },
       {
         "map_id": 390,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_default"
       },
       {
         "map_id": 310,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_default"
       },
       {
         "map_id": 320,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_default"
       },
       {
         "map_id": 330,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_default"
       },
       {
         "map_id": 340,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_default"
       },
       {
         "map_id": 350,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_default"
       },
       {
         "map_id": 400,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_default"
       },
       {
         "map_id": 360,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_default"
       },
       {
         "map_id": 30,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_default"
       },
       {
         "map_id": 301,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 302,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 303,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 410,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 0,
-        "dlc_pack": "dlc_pack_heroic"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 420,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 430,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 440,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 4,
-        "dlc_pack": "dlc_pack_mythic"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 450,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 460,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 470,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 1,
-        "dlc_pack": "dlc_pack_legendary"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 480,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 0,
-        "dlc_pack": "dlc_pack_heroic"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 490,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 3,
-        "dlc_pack": "dlc_pack_mythic"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 500,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 3,
-        "dlc_pack": "dlc_pack_mythic"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 510,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 520,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 1,
-        "dlc_pack": "dlc_pack_legendary"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 580,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 0,
-        "dlc_pack": "dlc_pack_heroic"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 590,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 1,
-        "dlc_pack": "dlc_pack_legendary"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 600,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 2,
-        "dlc_pack": "dlc_pack_none"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 720,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 4,
-        "dlc_pack": "dlc_pack_mythic"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 730,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 3,
-        "dlc_pack": "dlc_pack_mythic"
+        "map_status": "map_status_dlc"
       },
       {
         "map_id": 740,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 4,
-        "dlc_pack": "dlc_pack_mythic"
-      }
-    ]
-  },
-  "dlc_paths": {
-    "paths": [
-      {
-        "path": "A625E0D7ED51ADDA217AD5F150C843988717E9BD4D"
-      },
-      {
-        "path": "36F0FA570C01BA9F0FED91C6FAEDF2035AAACC244D"
-      },
-      {
-        "path": "E1AE0F002B64A4D0043DC696ADB2208752C8DFDC4D"
-      },
-      {
-        "path": "F8D38D3EA9983BD6C9E364ADDFF7E380A998AE5C4D"
-      },
-      {
-        "path": "FCFE205A564DD53376FC3EFD5C58E93A597D9E434D"
-      },
-      {
-        "path": "4FEEDFEEDFEEDFEED"
-      },
-      {
-        "path": "4FEEDFEEDFEEDFEED"
-      },
-      {
-        "path": "4FEEDFEEDFEEDFEED"
-      },
-      {
-        "path": "4FEEDFEEDFEEDFEED"
-      },
-      {
-        "path": "4FEEDFEEDFEEDFEED"
-      },
-      {
-        "path": "4FEEDFEEDFEEDFEED"
-      },
-      {
-        "path": "4FEEDFEEDFEEDFEED"
-      },
-      {
-        "path": "4FEEDFEEDFEEDFEED"
-      },
-      {
-        "path": "4FEEDFEEDFEEDFEED"
-      },
-      {
-        "path": "4FEEDFEEDFEEDFEED"
-      },
-      {
-        "path": "4FEEDFEEDFEEDFEED"
+        "map_status": "map_status_dlc"
       }
     ]
   },
@@ -2059,12 +1860,6 @@
     "allow_no_hdd_network_coop": false,
     "allow_matched_hdd_network_coop": false,
     "disallow_cross_language_coop": false,
-    "disable_prefer_good_connection_changes": false,
-    "allow_vidmaster_alpha_achievement": true,
-    "au2_lsp_acquire_fix_only_enable_if_wb2_is_present": false
-  },
-  "determinism_configuration": {
-    "determinism_version": 10,
-    "determinism_compatible_version": 10
+    "disable_prefer_good_connection_changes": false
   }
 }

@@ -1,24 +1,32 @@
 {
   "m_metadata": {
-    "file_type": 5,
-    "size_in_bytes": 29481,
-    "unique_id": 8196752132781493029,
-    "parent_unique_id": 14130565240857938659,
-    "root_unique_id": 419589322811072098,
-    "game_id": 0,
-    "activity": 4,
-    "game_mode": 3,
-    "game_engine_type": 0,
-    "map_id": 3006,
-    "megalo_category_index": -1,
-    "creation_time": "2010-12-20 00:58:54",
-    "creator_xuid": "0000000000000000",
-    "creator_name": "Mac xL",
-    "creator_xuid_is_online": true,
-    "modification_time": "2011-02-09 16:32:15",
-    "modifier_xuid": "0000000000000000",
-    "modifier_name": "¦",
-    "modifier_xuid_is_online": true,
+    "general": {
+      "file_type": 5,
+      "size_in_bytes": 29481,
+      "unique_id": 8196752132781493029,
+      "parent_unique_id": 14130565240857938659,
+      "root_unique_id": 419589322811072098,
+      "game_id": 0,
+      "activity": "mapeditor",
+      "game_mode": "multiplayer",
+      "game_engine_type": 0,
+      "map_id": 3006
+    },
+    "display": {
+      "megalo_category_index": -1
+    },
+    "creation_history": {
+      "timestamp": "2010-12-20 00:58:54",
+      "xuid": "0000000000000000",
+      "name": "Mac xL",
+      "is_online": true
+    },
+    "modification_history": {
+      "timestamp": "2011-02-09 16:32:15",
+      "xuid": "0000000000000000",
+      "name": "¦",
+      "is_online": true
+    },
     "name": "Eclipse",
     "description": "Classic remake of Lockout from Halo 2. V2"
   },
@@ -3095,7 +3103,7 @@
       },
       "forward": {
         "i": 0.7075113,
-        "j": 0.0000019031577,
+        "j": 1.9031577e-06,
         "k": 0.7067021
       },
       "up": {
@@ -3129,7 +3137,7 @@
       },
       "forward": {
         "i": 0.70724034,
-        "j": -6.8417285e-7,
+        "j": -6.8417285e-07,
         "k": 0.7069733
       },
       "up": {
@@ -9153,7 +9161,7 @@
       },
       "forward": {
         "i": 0.70724034,
-        "j": -6.8417285e-7,
+        "j": -6.8417285e-07,
         "k": 0.7069733
       },
       "up": {
@@ -10490,7 +10498,7 @@
       "forward": {
         "i": 0.71317977,
         "j": 0.7009812,
-        "k": 0.000029280782
+        "k": 2.9280782e-05
       },
       "up": {
         "i": -0.002403782,
@@ -10558,7 +10566,7 @@
       "forward": {
         "i": 0.6916229,
         "j": -0.72225887,
-        "k": 0.000073644216
+        "k": 7.3644216e-05
       },
       "up": {
         "i": 0.0024038416,
@@ -10592,7 +10600,7 @@
       "forward": {
         "i": 0.7080573,
         "j": -0.70615506,
-        "k": 0.0000045729103
+        "k": 4.5729103e-06
       },
       "up": {
         "i": -0.002403782,
@@ -10932,7 +10940,7 @@
       "forward": {
         "i": 0.70696926,
         "j": 0.7072443,
-        "k": -7.0349773e-7
+        "k": -7.0349773e-07
       },
       "up": {
         "i": -0.002403782,
@@ -11612,7 +11620,7 @@
       "forward": {
         "i": 0.70615506,
         "j": 0.7080573,
-        "k": -0.000004615169
+        "k": -4.615169e-06
       },
       "up": {
         "i": -0.002403782,
@@ -11714,7 +11722,7 @@
       "forward": {
         "i": 0.7077824,
         "j": 0.70643055,
-        "k": 0.0000032072417
+        "k": 3.2072417e-06
       },
       "up": {
         "i": -0.002403782,
