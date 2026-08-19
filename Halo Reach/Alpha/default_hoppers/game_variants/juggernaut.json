@@ -1376,24 +1376,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1403,24 +1403,24 @@
           "m_execute_before_action": 1,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
-                  "m_explicit_object_type": 2
+                  "m_explicit_object_type": "global_1"
                 }
               }
             },
             "m_right": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
-                  "m_explicit_object_type": 0
+                  "m_explicit_object_type": "no_object"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1432,7 +1432,7 @@
             "m_timer": {
               "m_type": "player",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               },
               "m_variable_index": 0
             }
@@ -1445,24 +1445,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 0
+                  "m_explicit_player_type": "no_player"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1472,9 +1472,9 @@
           "m_execute_before_action": 0,
           "m_player_is_active_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             }
           }
@@ -1486,24 +1486,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 0
+                  "m_explicit_player_type": "no_player"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1513,24 +1513,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 18
+                  "m_explicit_player_type": "global_1"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1540,24 +1540,24 @@
           "m_execute_before_action": 1,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
-                  "m_explicit_object_type": 3
+                  "m_explicit_object_type": "global_2"
                 }
               }
             },
             "m_right": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
-                  "m_explicit_object_type": 0
+                  "m_explicit_object_type": "no_object"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1565,11 +1565,11 @@
           "m_negated": true,
           "m_union_group": 3,
           "m_execute_before_action": 1,
-          "m_object_is_type_parameters": {
+          "m_object_out_of_bounds_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               }
             }
           }
@@ -1581,20 +1581,20 @@
           "m_execute_before_action": 2,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 3
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1616,24 +1616,24 @@
           "m_execute_before_action": 2,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 0
+                  "m_explicit_player_type": "no_player"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1643,24 +1643,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 20
+                  "m_explicit_player_type": "global_3"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 18
+                  "m_explicit_player_type": "global_1"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1670,24 +1670,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 19
+                  "m_explicit_player_type": "global_2"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 20
+                  "m_explicit_player_type": "global_3"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1697,24 +1697,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 19
+                  "m_explicit_player_type": "global_2"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 0
+                  "m_explicit_player_type": "no_player"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1724,20 +1724,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 2
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1747,24 +1747,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 19
+                  "m_explicit_player_type": "global_2"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 18
+                  "m_explicit_player_type": "global_1"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1774,9 +1774,9 @@
           "m_execute_before_action": 4,
           "m_player_died_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               }
             },
             "m_killer_type": 31
@@ -1789,24 +1789,24 @@
           "m_execute_before_action": 7,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 18
+                  "m_explicit_player_type": "global_1"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1816,20 +1816,20 @@
           "m_execute_before_action": 7,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 2
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1851,24 +1851,24 @@
           "m_execute_before_action": 3,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 18
+                  "m_explicit_player_type": "global_1"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1878,24 +1878,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 0
+                  "m_explicit_player_type": "no_player"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1905,9 +1905,9 @@
           "m_execute_before_action": 0,
           "m_object_matches_filter_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
-                "m_explicit_object_type": 17
+                "m_explicit_object_type": "current"
               }
             },
             "m_filter_index": 2
@@ -1920,24 +1920,24 @@
           "m_execute_before_action": 2,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 18
+                  "m_explicit_player_type": "global_1"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1947,23 +1947,23 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 2,
+                "m_type": "object_number",
                 "m_object": {
-                  "m_explicit_object_type": 17
+                  "m_explicit_object_type": "current"
                 },
                 "m_variable_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1996,24 +1996,24 @@
           "m_execute_before_action": 2,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -2023,24 +2023,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_right": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 0
+                  "m_explicit_player_type": "no_player"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -2048,11 +2048,11 @@
           "m_negated": false,
           "m_union_group": 1,
           "m_execute_before_action": 0,
-          "m_object_is_type_parameters": {
+          "m_object_out_of_bounds_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             }
           }
@@ -2062,13 +2062,13 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": 12,
+            "m_sound_index": "new_juggernaut",
             "m_target": {
-              "m_target": 1,
+              "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             }
@@ -2078,9 +2078,9 @@
           "m_type": "player_set_objective",
           "m_player_set_objective_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               }
             },
             "m_string": {
@@ -2093,17 +2093,17 @@
           "m_type": "set_score",
           "m_set_score_parameters": {
             "m_target": {
-              "m_target": 1,
+              "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
             "m_operation": 4,
             "m_variable": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             }
           }
@@ -2112,15 +2112,15 @@
           "m_type": "set_loadout",
           "m_set_loadout_parameters": {
             "m_target": {
-              "m_target": 1,
+              "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
-            "m_palette_index": 129
+            "m_loadout_index": 129
           }
         },
         {
@@ -2136,7 +2136,7 @@
               "m_type": "global",
               "m_variable_index": 0
             },
-            "m_rate": 5
+            "m_rate": "minus_100x"
           }
         },
         {
@@ -2146,27 +2146,27 @@
               "m_type": "global",
               "m_variable_index": 1
             },
-            "m_rate": 5
+            "m_rate": "minus_100x"
           }
         },
         {
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
-                  "m_explicit_object_type": 2
+                  "m_explicit_object_type": "global_1"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 4,
+                "m_type": "player_biped",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
@@ -2179,30 +2179,30 @@
             "m_timer": {
               "m_type": "player",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               },
               "m_variable_index": 0
             },
-            "m_rate": 5
+            "m_rate": "minus_100x"
           }
         },
         {
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 11,
+                "m_type": "player_stat",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 },
                 "m_statistic_index": 0
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2215,7 +2215,7 @@
             "m_timer": {
               "m_type": "player",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               },
               "m_variable_index": 0
             }
@@ -2227,31 +2227,31 @@
             "m_timer": {
               "m_type": "player",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               },
               "m_variable_index": 0
             },
-            "m_rate": 0
+            "m_rate": "zero"
           }
         },
         {
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 0
+                  "m_explicit_player_type": "no_player"
                 }
               }
             },
@@ -2274,23 +2274,23 @@
               "m_type": "global",
               "m_variable_index": 1
             },
-            "m_rate": 5
+            "m_rate": "minus_100x"
           }
         },
         {
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 0
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2301,20 +2301,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
-                  "m_explicit_object_type": 3
+                  "m_explicit_object_type": "global_2"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 4,
+                "m_type": "player_biped",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
@@ -2325,16 +2325,16 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 0
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2345,20 +2345,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
@@ -2369,9 +2369,9 @@
           "m_type": "hud_post_message",
           "m_hud_post_message_parameters": {
             "m_target": {
-              "m_target": 2
+              "m_target": "everyone"
             },
-            "m_sound_index": 13,
+            "m_sound_index": "territories",
             "m_string": {
               "m_string_index": 44,
               "m_tokens": []
@@ -2382,15 +2382,15 @@
           "m_type": "hud_post_message",
           "m_hud_post_message_parameters": {
             "m_target": {
-              "m_target": 1,
+              "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
-            "m_sound_index": 0,
+            "m_sound_index": "slayer",
             "m_string": {
               "m_string_index": 45,
               "m_tokens": []
@@ -2404,9 +2404,9 @@
               "m_object_type_index": 30
             },
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_flag": 1
@@ -2416,14 +2416,14 @@
           "m_type": "object_adjust_shield",
           "m_object_adjust_shield_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_operation": 4,
             "m_variable": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 200
             }
           }
@@ -2432,15 +2432,15 @@
           "m_type": "adjust_grenades",
           "m_adjust_grenades_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
-            "m_grenade_type": 0,
+            "m_grenade_type": "frag_grenade",
             "m_math_operation": 4,
             "m_variable": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             }
           }
@@ -2449,15 +2449,15 @@
           "m_type": "adjust_grenades",
           "m_adjust_grenades_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
-            "m_grenade_type": 1,
+            "m_grenade_type": "plasma_grenade",
             "m_math_operation": 4,
             "m_variable": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             }
           }
@@ -2466,19 +2466,19 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 1,
+                "m_type": "player_number",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 },
                 "m_variable_index": 0
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2501,16 +2501,16 @@
               "m_type": "global",
               "m_variable_index": 0
             },
-            "m_rate": 5
+            "m_rate": "minus_100x"
           }
         },
         {
           "m_type": "delete_object",
           "m_delete_object_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
-                "m_explicit_object_type": 1
+                "m_explicit_object_type": "global_0"
               }
             }
           }
@@ -2522,15 +2522,15 @@
               "m_object_type_index": 142
             },
             "m_object_reference_1": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
-                "m_explicit_object_type": 1
+                "m_explicit_object_type": "global_0"
               }
             },
             "m_object_reference_2": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_filter_index": -1,
@@ -2541,15 +2541,15 @@
           "m_type": "object_attach",
           "m_object_attach_parameters": {
             "m_object_1": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
-                "m_explicit_object_type": 1
+                "m_explicit_object_type": "global_0"
               }
             },
             "m_object_2": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_offset": 5
@@ -2559,20 +2559,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 18
+                  "m_explicit_player_type": "global_1"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
@@ -2583,20 +2583,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 0,
+                "m_type": "global_object",
                 "m_object": {
-                  "m_explicit_object_type": 2
+                  "m_explicit_object_type": "global_1"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 2,
+              "m_type": "object",
               "m_object": {
-                "m_type": 4,
+                "m_type": "player_biped",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
@@ -2607,16 +2607,16 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 2
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2627,16 +2627,16 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 3
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2653,11 +2653,11 @@
           "m_type": "random",
           "m_random_parameters": {
             "m_variable_1": {
-              "m_type": 4,
+              "m_type": "global_number",
               "m_variable_index": 0
             },
             "m_variable_2": {
-              "m_type": 4,
+              "m_type": "global_number",
               "m_variable_index": 3
             }
           }
@@ -2666,16 +2666,16 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 0
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2692,16 +2692,16 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 2
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2712,17 +2712,17 @@
           "m_type": "set_score",
           "m_set_score_parameters": {
             "m_target": {
-              "m_target": 1,
+              "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 19
+                  "m_explicit_player_type": "global_2"
                 }
               }
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 1
             }
           }
@@ -2731,20 +2731,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 18
+                  "m_explicit_player_type": "global_1"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
@@ -2755,20 +2755,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 19
+                  "m_explicit_player_type": "global_2"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 0
+                  "m_explicit_player_type": "no_player"
                 }
               }
             },
@@ -2779,20 +2779,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 20
+                  "m_explicit_player_type": "global_3"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
@@ -2803,16 +2803,16 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 2
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2823,15 +2823,15 @@
           "m_type": "player_death_get_killing_player",
           "m_player_death_get_killing_player_parameters": {
             "m_player_1": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               }
             },
             "m_player_2": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 19
+                "m_explicit_player_type": "global_2"
               }
             }
           }
@@ -2852,17 +2852,17 @@
           "m_type": "set_score",
           "m_set_score_parameters": {
             "m_target": {
-              "m_target": 1,
+              "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 19
+                  "m_explicit_player_type": "global_2"
                 }
               }
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 0
             }
           }
@@ -2871,9 +2871,9 @@
           "m_type": "player_set_objective",
           "m_player_set_objective_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 18
+                "m_explicit_player_type": "global_1"
               }
             },
             "m_string": {
@@ -2886,20 +2886,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 19
+                  "m_explicit_player_type": "global_2"
                 }
               }
             },
@@ -2910,18 +2910,18 @@
           "m_type": "hud_post_message",
           "m_hud_post_message_parameters": {
             "m_target": {
-              "m_target": 2
+              "m_target": "everyone"
             },
-            "m_sound_index": 13,
+            "m_sound_index": "territories",
             "m_string": {
               "m_string_index": 46,
               "m_tokens": [
                 {
-                  "m_type": 1,
+                  "m_type": "player",
                   "m_player": {
-                    "m_type": 0,
+                    "m_type": "global_player",
                     "m_player": {
-                      "m_explicit_player_type": 17
+                      "m_explicit_player_type": "global_0"
                     }
                   }
                 }
@@ -2945,7 +2945,7 @@
               "m_type": "global",
               "m_variable_index": 0
             },
-            "m_rate": 5
+            "m_rate": "minus_100x"
           }
         },
         {
@@ -2955,9 +2955,9 @@
               "m_object_type_index": 30
             },
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_flag": 1
@@ -2967,14 +2967,14 @@
           "m_type": "object_adjust_shield",
           "m_object_adjust_shield_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_operation": 4,
             "m_variable": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 200
             }
           }
@@ -2983,15 +2983,15 @@
           "m_type": "adjust_grenades",
           "m_adjust_grenades_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
-            "m_grenade_type": 0,
+            "m_grenade_type": "frag_grenade",
             "m_math_operation": 4,
             "m_variable": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             }
           }
@@ -3000,15 +3000,15 @@
           "m_type": "adjust_grenades",
           "m_adjust_grenades_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
-            "m_grenade_type": 1,
+            "m_grenade_type": "plasma_grenade",
             "m_math_operation": 4,
             "m_variable": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             }
           }
@@ -3017,9 +3017,9 @@
           "m_type": "delete_object",
           "m_delete_object_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
-                "m_explicit_object_type": 1
+                "m_explicit_object_type": "global_0"
               }
             }
           }
@@ -3031,15 +3031,15 @@
               "m_object_type_index": 142
             },
             "m_object_reference_1": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
-                "m_explicit_object_type": 1
+                "m_explicit_object_type": "global_0"
               }
             },
             "m_object_reference_2": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_filter_index": -1,
@@ -3050,15 +3050,15 @@
           "m_type": "object_attach",
           "m_object_attach_parameters": {
             "m_object_1": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
-                "m_explicit_object_type": 1
+                "m_explicit_object_type": "global_0"
               }
             },
             "m_object_2": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_offset": 5
@@ -3068,21 +3068,21 @@
           "m_type": "navpoint_set_icon",
           "m_navpoint_set_icon_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               }
             },
-            "m_navpoint_icon": 4
+            "m_navpoint_icon": "destination"
           }
         },
         {
           "m_type": "navpoint_set_visible",
           "m_navpoint_set_visible_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               }
             },
             "m_value": 0
@@ -3092,9 +3092,9 @@
           "m_type": "navpoint_set_priority",
           "m_navpoint_set_priority_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               }
             },
             "m_value": 0
@@ -3104,13 +3104,13 @@
           "m_type": "object_set_invincibility",
           "m_object_set_invincibility_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 25
+                "m_explicit_player_type": "current"
               }
             },
             "m_variable": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             }
           }
@@ -3125,13 +3125,13 @@
           "m_type": "object_set_invincibility",
           "m_object_set_invincibility_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_variable": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             }
           }
@@ -3140,9 +3140,9 @@
           "m_type": "apply_player_traits",
           "m_apply_player_traits_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_trait_index": 0
@@ -3152,21 +3152,21 @@
           "m_type": "navpoint_set_icon",
           "m_navpoint_set_icon_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
-            "m_navpoint_icon": 4
+            "m_navpoint_icon": "destination"
           }
         },
         {
           "m_type": "navpoint_set_visible",
           "m_navpoint_set_visible_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_value": 1
@@ -3176,9 +3176,9 @@
           "m_type": "navpoint_set_priority",
           "m_navpoint_set_priority_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_value": 2
@@ -3188,9 +3188,9 @@
           "m_type": "player_set_objective",
           "m_player_set_objective_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_string": {
@@ -3203,9 +3203,9 @@
           "m_type": "apply_player_traits",
           "m_apply_player_traits_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_trait_index": 1
@@ -3215,13 +3215,13 @@
           "m_type": "object_set_invincibility",
           "m_object_set_invincibility_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
             "m_variable": {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 1
             }
           }
@@ -3230,31 +3230,31 @@
           "m_type": "navpoint_set_icon",
           "m_navpoint_set_icon_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             },
-            "m_navpoint_icon": 8
+            "m_navpoint_icon": "king"
           }
         },
         {
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 2,
+                "m_type": "object_number",
                 "m_object": {
-                  "m_explicit_object_type": 17
+                  "m_explicit_object_type": "current"
                 },
                 "m_variable_index": 0
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -3265,20 +3265,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 18
+                  "m_explicit_player_type": "global_1"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 0
+                  "m_explicit_player_type": "no_player"
                 }
               }
             },
@@ -3289,15 +3289,15 @@
           "m_type": "get_player_holding_object",
           "m_get_player_holding_object_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
-                "m_explicit_object_type": 17
+                "m_explicit_object_type": "current"
               }
             },
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 18
+                "m_explicit_player_type": "global_1"
               }
             }
           }
@@ -3306,19 +3306,19 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 2,
+                "m_type": "object_number",
                 "m_object": {
-                  "m_explicit_object_type": 17
+                  "m_explicit_object_type": "current"
                 },
                 "m_variable_index": 0
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -3329,20 +3329,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 18
+                  "m_explicit_player_type": "global_1"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 0
+                  "m_explicit_player_type": "no_player"
                 }
               }
             },
@@ -3353,15 +3353,15 @@
           "m_type": "get_player_holding_object",
           "m_get_player_holding_object_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
-                "m_explicit_object_type": 17
+                "m_explicit_object_type": "current"
               }
             },
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
-                "m_explicit_player_type": 18
+                "m_explicit_player_type": "global_1"
               }
             }
           }
@@ -3370,9 +3370,9 @@
           "m_type": "delete_object",
           "m_delete_object_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
-                "m_explicit_object_type": 17
+                "m_explicit_object_type": "current"
               }
             }
           }
@@ -3381,9 +3381,9 @@
           "m_type": "delete_object",
           "m_delete_object_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
-                "m_explicit_object_type": 17
+                "m_explicit_object_type": "current"
               }
             }
           }
@@ -3395,20 +3395,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 4,
+                "m_type": "player_owner_team",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": 0
+                  "m_explicit_team_type": "none"
                 }
               }
             },
@@ -3419,20 +3419,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 4,
+                "m_type": "player_owner_team",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": 1
+                  "m_explicit_team_type": "team_0"
                 }
               }
             },
@@ -3443,20 +3443,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 4,
+                "m_type": "player_owner_team",
                 "m_player": {
-                  "m_explicit_player_type": 25
+                  "m_explicit_player_type": "current"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": 2
+                  "m_explicit_team_type": "team_1"
                 }
               }
             },
@@ -3467,9 +3467,9 @@
           "m_type": "object_destroy",
           "m_object_destroy_parameters": {
             "m_object": {
-              "m_type": 4,
+              "m_type": "player_biped",
               "m_player": {
-                "m_explicit_player_type": 17
+                "m_explicit_player_type": "global_0"
               }
             }
           }
@@ -3478,20 +3478,20 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 17
+                  "m_explicit_player_type": "global_0"
                 }
               }
             },
             "m_variable_2": {
-              "m_type": 1,
+              "m_type": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
-                  "m_explicit_player_type": 0
+                  "m_explicit_player_type": "no_player"
                 }
               }
             },
@@ -3501,8 +3501,8 @@
       ],
       "m_triggers": [
         {
-          "m_execution_mode": "normal",
-          "m_trigger_type": "on_init",
+          "m_execution_mode": "general",
+          "m_trigger_type": "initialization",
           "m_object_filter_index": -1,
           "m_first_condition": 0,
           "m_condition_count": 0,
@@ -3510,7 +3510,7 @@
           "m_action_count": 3
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 0,
@@ -3519,7 +3519,7 @@
           "m_action_count": 4
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 0,
@@ -3528,7 +3528,7 @@
           "m_action_count": 5
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 3,
@@ -3537,7 +3537,7 @@
           "m_action_count": 3
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 10,
@@ -3546,7 +3546,7 @@
           "m_action_count": 8
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 5,
@@ -3555,7 +3555,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 5,
@@ -3564,7 +3564,7 @@
           "m_action_count": 15
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 17,
@@ -3573,7 +3573,7 @@
           "m_action_count": 20
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 12,
@@ -3582,7 +3582,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 15,
@@ -3591,7 +3591,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 20,
@@ -3600,7 +3600,7 @@
           "m_action_count": 10
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 20,
@@ -3609,7 +3609,7 @@
           "m_action_count": 4
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "normal",
           "m_object_filter_index": 2,
           "m_first_condition": 21,
@@ -3618,7 +3618,7 @@
           "m_action_count": 4
         },
         {
-          "m_execution_mode": "for_each_team",
+          "m_execution_mode": "team",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 22,
@@ -3627,7 +3627,7 @@
           "m_action_count": 3
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "normal",
           "m_object_filter_index": 2,
           "m_first_condition": 25,
@@ -3636,7 +3636,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 26,
@@ -3645,7 +3645,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 27,
@@ -3654,7 +3654,7 @@
           "m_action_count": 3
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 29,
@@ -3698,37 +3698,37 @@
       "m_statistics": [
         {
           "m_name_string_index": 48,
-          "m_format": 3,
-          "m_sort_order": 1,
-          "m_growuping": 0
+          "m_format": "time",
+          "m_sort_order": "ascending",
+          "m_grouping": "player"
         }
       ],
       "m_global_variable_metadata": {
         "m_numeric_variables": [
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             0
           ],
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             0
           ],
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             0
           ],
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             0
@@ -3736,11 +3736,11 @@
         ],
         "m_timer_variables": [
           {
-            "m_type": 5,
+            "m_type": "option",
             "m_option_index": 2
           },
           {
-            "m_type": 0,
+            "m_type": "constant",
             "m_immediate_value": 5
           }
         ],
@@ -3761,7 +3761,7 @@
         "m_numeric_variables": [
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 1
             },
             1
@@ -3769,7 +3769,7 @@
         ],
         "m_timer_variables": [
           {
-            "m_type": 0,
+            "m_type": "constant",
             "m_immediate_value": 1
           }
         ],
@@ -3781,7 +3781,7 @@
         "m_numeric_variables": [
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             0
@@ -5861,17 +5861,29 @@
       "m_object_filters": [
         {
           "m_label_string_index": 47,
-          "m_valid_parameters": 0,
+          "m_valid_parameters": {
+            "object_type": false,
+            "team": false,
+            "user_data": false
+          },
           "m_min": 0
         },
         {
           "m_label_string_index": 48,
-          "m_valid_parameters": 0,
+          "m_valid_parameters": {
+            "object_type": false,
+            "team": false,
+            "user_data": false
+          },
           "m_min": 0
         },
         {
           "m_label_string_index": 0,
-          "m_valid_parameters": 1,
+          "m_valid_parameters": {
+            "object_type": true,
+            "team": false,
+            "user_data": false
+          },
           "m_object_type": {
             "m_object_type_index": 30
           },
@@ -5879,7 +5891,11 @@
         },
         {
           "m_label_string_index": 0,
-          "m_valid_parameters": 1,
+          "m_valid_parameters": {
+            "object_type": true,
+            "team": false,
+            "user_data": false
+          },
           "m_object_type": {
             "m_object_type_index": 20
           },
@@ -5887,7 +5903,11 @@
         },
         {
           "m_label_string_index": 0,
-          "m_valid_parameters": 1,
+          "m_valid_parameters": {
+            "object_type": true,
+            "team": false,
+            "user_data": false
+          },
           "m_object_type": {
             "m_object_type_index": 5
           },

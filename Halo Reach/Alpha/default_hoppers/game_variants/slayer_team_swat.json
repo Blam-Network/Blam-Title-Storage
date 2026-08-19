@@ -1462,20 +1462,20 @@
           "m_execute_before_action": 2,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1485,20 +1485,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 2
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 7
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1508,20 +1508,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 2
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 2
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1531,24 +1531,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 4,
+                "m_type": "player_owner_team",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 }
               }
             },
             "m_right": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": "no_team"
+                  "m_explicit_team_type": "none"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1558,24 +1558,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 4,
+                "m_type": "player_owner_team",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 }
               }
             },
             "m_right": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": "no_team"
+                  "m_explicit_team_type": "none"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1585,20 +1585,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1608,20 +1608,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 1
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1631,20 +1631,20 @@
           "m_execute_before_action": 4,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 1
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1654,24 +1654,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 4,
+                "m_type": "player_owner_team",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 }
               }
             },
             "m_right": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": "no_team"
+                  "m_explicit_team_type": "none"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1681,24 +1681,24 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 4,
+                "m_type": "player_owner_team",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 }
               }
             },
             "m_right": {
-              "m_type": 3,
+              "m_type": "team",
               "m_team": {
-                "m_type": 0,
+                "m_type": "global_team",
                 "m_team": {
-                  "m_explicit_team_type": "no_team"
+                  "m_explicit_team_type": "none"
                 }
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1708,20 +1708,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1731,20 +1731,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 1
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1754,20 +1754,20 @@
           "m_execute_before_action": 7,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 1
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1777,20 +1777,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 2
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 3
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1800,20 +1800,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 5,
+                "m_type": "option",
                 "m_option_index": 2
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 7
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1823,20 +1823,20 @@
           "m_execute_before_action": 1,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 1
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1846,9 +1846,9 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 1,
+                "m_type": "player_number",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 },
@@ -1856,13 +1856,13 @@
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1872,20 +1872,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1895,20 +1895,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 2
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1918,20 +1918,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 3
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1941,20 +1941,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 4
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1964,20 +1964,20 @@
           "m_execute_before_action": 0,
           "m_if_parameters": {
             "m_left": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 0
               }
             },
             "m_right": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 5
               }
             },
-            "m_comparison": 2
+            "m_comparison": "equal_to"
           }
         },
         {
@@ -1987,7 +1987,7 @@
           "m_execute_before_action": 0,
           "m_player_died_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
@@ -2002,7 +2002,7 @@
           "m_execute_before_action": 1,
           "m_player_died_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
@@ -2017,7 +2017,7 @@
           "m_execute_before_action": 0,
           "m_player_died_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
@@ -2032,7 +2032,7 @@
           "m_execute_before_action": 0,
           "m_player_died_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
@@ -2047,7 +2047,7 @@
           "m_execute_before_action": 0,
           "m_player_died_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
@@ -2062,7 +2062,7 @@
           "m_execute_before_action": 0,
           "m_player_died_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
@@ -2090,7 +2090,7 @@
             "m_target_1": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "no_player"
                 }
@@ -2099,7 +2099,7 @@
             "m_target_2": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "no_player"
                 }
@@ -2111,7 +2111,7 @@
           "m_type": "player_set_objective",
           "m_player_set_objective_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
@@ -2128,7 +2128,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 }
@@ -2141,7 +2141,7 @@
           "m_type": "player_set_objective",
           "m_player_set_objective_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
@@ -2156,7 +2156,7 @@
           "m_type": "player_set_objective",
           "m_player_set_objective_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
@@ -2189,13 +2189,13 @@
           "m_type": "player_get_place",
           "m_player_get_place_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
             },
             "m_variable": {
-              "m_type": 4,
+              "m_type": "global_number",
               "m_variable_index": 1
             }
           }
@@ -2204,13 +2204,13 @@
           "m_type": "team_get_place",
           "m_team_get_place_parameters": {
             "m_team": {
-              "m_type": 4,
+              "m_type": "player_owner_team",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
             },
             "m_variable": {
-              "m_type": 4,
+              "m_type": "global_number",
               "m_variable_index": 1
             }
           }
@@ -2221,7 +2221,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 }
@@ -2234,9 +2234,9 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 1,
+                "m_type": "player_number",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 },
@@ -2244,9 +2244,9 @@
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2275,9 +2275,9 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 1,
+                "m_type": "player_number",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 },
@@ -2285,9 +2285,9 @@
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2298,13 +2298,13 @@
           "m_type": "player_get_place",
           "m_player_get_place_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
             },
             "m_variable": {
-              "m_type": 4,
+              "m_type": "global_number",
               "m_variable_index": 1
             }
           }
@@ -2313,13 +2313,13 @@
           "m_type": "team_get_place",
           "m_team_get_place_parameters": {
             "m_team": {
-              "m_type": 4,
+              "m_type": "player_owner_team",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
             },
             "m_variable": {
-              "m_type": 4,
+              "m_type": "global_number",
               "m_variable_index": 1
             }
           }
@@ -2330,7 +2330,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 }
@@ -2343,9 +2343,9 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 1,
+                "m_type": "player_number",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 },
@@ -2353,9 +2353,9 @@
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 0
               }
             },
@@ -2366,9 +2366,9 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 11,
+                "m_type": "player_stat",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 },
@@ -2376,9 +2376,9 @@
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 10,
+                "m_type": "player_rating",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 }
@@ -2395,9 +2395,9 @@
               "m_string_index": 45,
               "m_tokens": [
                 {
-                  "m_type": 4,
+                  "m_type": "custom_variable",
                   "m_custom_variable": {
-                    "m_type": 10,
+                    "m_type": "player_rating",
                     "m_player": {
                       "m_explicit_player_type": "hud"
                     }
@@ -2412,7 +2412,7 @@
           "m_hud_widget_set_visibility_parameters": {
             "m_widget_index": 0,
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
@@ -2442,9 +2442,9 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 1,
+                "m_type": "player_number",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 },
@@ -2452,9 +2452,9 @@
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 1
               }
             },
@@ -2465,7 +2465,7 @@
           "m_type": "delete_object",
           "m_delete_object_parameters": {
             "m_object": {
-              "m_type": 0,
+              "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "current"
               }
@@ -2482,16 +2482,16 @@
           "m_type": "set",
           "m_set_parameters": {
             "m_variable_1": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 4,
+                "m_type": "global_number",
                 "m_variable_index": 1
               }
             },
             "m_variable_2": {
-              "m_type": 0,
+              "m_type": "custom_variable",
               "m_custom_variable": {
-                "m_type": 0,
+                "m_type": "constant",
                 "m_immediate_value": 5
               }
             },
@@ -2504,7 +2504,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "global_0"
                 }
@@ -2512,7 +2512,7 @@
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 7
             }
           }
@@ -2523,7 +2523,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "global_0"
                 }
@@ -2531,7 +2531,7 @@
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 9
             }
           }
@@ -2542,7 +2542,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "global_0"
                 }
@@ -2550,7 +2550,7 @@
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 10
             }
           }
@@ -2561,7 +2561,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "global_0"
                 }
@@ -2569,7 +2569,7 @@
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 11
             }
           }
@@ -2580,7 +2580,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "global_0"
                 }
@@ -2588,7 +2588,7 @@
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 12
             }
           }
@@ -2599,7 +2599,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "global_0"
                 }
@@ -2607,7 +2607,7 @@
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 8
             }
           }
@@ -2618,7 +2618,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 }
@@ -2626,7 +2626,7 @@
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 4
             }
           }
@@ -2635,13 +2635,13 @@
           "m_type": "player_death_get_killing_player",
           "m_player_death_get_killing_player_parameters": {
             "m_player_1": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
             },
             "m_player_2": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "global_0"
               }
@@ -2654,7 +2654,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "global_0"
                 }
@@ -2662,7 +2662,7 @@
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 3
             }
           }
@@ -2671,13 +2671,13 @@
           "m_type": "player_death_get_damage_type",
           "m_player_death_get_damage_type_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
             },
             "m_variable": {
-              "m_type": 4,
+              "m_type": "global_number",
               "m_variable_index": 0
             }
           }
@@ -2686,13 +2686,13 @@
           "m_type": "player_get_killing_spree_count",
           "m_player_get_killing_spree_count_parameters": {
             "m_player": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "global_0"
               }
             },
             "m_variable": {
-              "m_type": 4,
+              "m_type": "global_number",
               "m_variable_index": 1
             }
           }
@@ -2745,7 +2745,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "current"
                 }
@@ -2753,7 +2753,7 @@
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 5
             }
           }
@@ -2762,13 +2762,13 @@
           "m_type": "player_death_get_killing_player",
           "m_player_death_get_killing_player_parameters": {
             "m_player_1": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
             },
             "m_player_2": {
-              "m_type": 0,
+              "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "global_0"
               }
@@ -2781,7 +2781,7 @@
             "m_target": {
               "m_target": "player",
               "m_player": {
-                "m_type": 0,
+                "m_type": "global_player",
                 "m_player": {
                   "m_explicit_player_type": "global_0"
                 }
@@ -2789,7 +2789,7 @@
             },
             "m_operation": 0,
             "m_variable": {
-              "m_type": 5,
+              "m_type": "option",
               "m_option_index": 6
             }
           }
@@ -2800,8 +2800,8 @@
       ],
       "m_triggers": [
         {
-          "m_execution_mode": "normal",
-          "m_trigger_type": "on_init",
+          "m_execution_mode": "general",
+          "m_trigger_type": "initialization",
           "m_object_filter_index": -1,
           "m_first_condition": 3,
           "m_condition_count": 0,
@@ -2809,7 +2809,7 @@
           "m_action_count": 3
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 0,
@@ -2818,7 +2818,7 @@
           "m_action_count": 3
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 1,
@@ -2827,7 +2827,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 2,
@@ -2836,7 +2836,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 6,
@@ -2845,7 +2845,7 @@
           "m_action_count": 5
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 3,
@@ -2854,7 +2854,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 4,
@@ -2863,7 +2863,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 5,
@@ -2872,7 +2872,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 11,
@@ -2881,7 +2881,7 @@
           "m_action_count": 8
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 8,
@@ -2890,7 +2890,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 9,
@@ -2899,7 +2899,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 10,
@@ -2908,7 +2908,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 13,
@@ -2917,7 +2917,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_object_with_label",
+          "m_execution_mode": "object",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": 2,
           "m_first_condition": 13,
@@ -2926,7 +2926,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 22,
@@ -2935,7 +2935,7 @@
           "m_action_count": 12
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 15,
@@ -2944,7 +2944,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 16,
@@ -2953,7 +2953,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 17,
@@ -2962,7 +2962,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 18,
@@ -2971,7 +2971,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 19,
@@ -2980,7 +2980,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 20,
@@ -2989,7 +2989,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "subroutine",
           "m_object_filter_index": -1,
           "m_first_condition": 21,
@@ -2998,7 +2998,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 24,
@@ -3007,7 +3007,7 @@
           "m_action_count": 1
         },
         {
-          "m_execution_mode": "for_each_player",
+          "m_execution_mode": "player",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 27,
@@ -3016,7 +3016,7 @@
           "m_action_count": 2
         },
         {
-          "m_execution_mode": "normal",
+          "m_execution_mode": "general",
           "m_trigger_type": "normal",
           "m_object_filter_index": -1,
           "m_first_condition": 28,
@@ -3040,23 +3040,23 @@
       "m_statistics": [
         {
           "m_name_string_index": 43,
-          "m_format": 0,
-          "m_sort_order": 2,
-          "m_growuping": 0
+          "m_format": "number",
+          "m_sort_order": "descending",
+          "m_grouping": "player"
         }
       ],
       "m_global_variable_metadata": {
         "m_numeric_variables": [
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             0
           ],
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             0
@@ -3073,7 +3073,7 @@
         "m_numeric_variables": [
           [
             {
-              "m_type": 0,
+              "m_type": "constant",
               "m_immediate_value": 0
             },
             0
@@ -5159,17 +5159,29 @@
       "m_object_filters": [
         {
           "m_label_string_index": 37,
-          "m_valid_parameters": 0,
+          "m_valid_parameters": {
+            "object_type": false,
+            "team": false,
+            "user_data": false
+          },
           "m_min": 0
         },
         {
           "m_label_string_index": 38,
-          "m_valid_parameters": 0,
+          "m_valid_parameters": {
+            "object_type": false,
+            "team": false,
+            "user_data": false
+          },
           "m_min": 0
         },
         {
           "m_label_string_index": 0,
-          "m_valid_parameters": 1,
+          "m_valid_parameters": {
+            "object_type": true,
+            "team": false,
+            "user_data": false
+          },
           "m_object_type": {
             "m_object_type_index": 77
           },
