@@ -43,7 +43,7 @@
         "m_round_reset_map": true,
         "m_round_time_limit_minutes": 8,
         "m_round_limit": 1,
-        "m_early_victory_win_count": 0,
+        "m_early_victory_win_count": 2,
         "m_sudden_death_time": 0,
         "m_grace_period": 0
       },
@@ -58,7 +58,7 @@
         "m_suicide_penalty_seconds": 5,
         "m_betrayal_penalty_seconds": 5,
         "m_respawn_growth_seconds": 0,
-        "m_loadout_cam_time": 10,
+        "m_loadout_cam_time": 7,
         "m_respawn_player_traits_duration_seconds": 5,
         "m_respawn_player_traits": {
           "m_shield_vitality_traits": {
@@ -3960,8 +3960,8 @@
         10,
         0
       ],
-      "m_initialization_trigger_index": -1,
-      "m_host_migration_trigger_index": 111,
+      "m_initialization_trigger_index": 0,
+      "m_host_migration_trigger_index": -1,
       "m_object_death_event_trigger_index": -1,
       "m_local_trigger_index": -1,
       "m_objects_used": [
@@ -3970,26 +3970,6 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         true,
         false,
         false,
@@ -5989,16 +5969,36 @@
         false,
         false,
         false,
-        true,
-        false,
-        true,
-        false,
-        true,
-        true,
         false,
         false,
         false,
-        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         false,
         false,
         false,
@@ -6016,16 +6016,7 @@
       ],
       "m_object_filters": [
         {
-          "m_label_string_index": 48,
-          "m_valid_parameters": {
-            "object_type": false,
-            "team": false,
-            "user_data": false
-          },
-          "m_min": 3
-        },
-        {
-          "m_label_string_index": 56,
+          "m_label_string_index": 53,
           "m_valid_parameters": {
             "object_type": false,
             "team": false,
@@ -6034,13 +6025,34 @@
           "m_min": 0
         },
         {
-          "m_label_string_index": 1,
+          "m_label_string_index": 54,
           "m_valid_parameters": {
             "object_type": false,
             "team": false,
             "user_data": false
           },
-          "m_min": 1
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 55,
+          "m_valid_parameters": {
+            "object_type": false,
+            "team": false,
+            "user_data": false
+          },
+          "m_min": 0
+        },
+        {
+          "m_label_string_index": 0,
+          "m_valid_parameters": {
+            "object_type": true,
+            "team": false,
+            "user_data": false
+          },
+          "m_object_type": {
+            "m_object_type_index": 5
+          },
+          "m_min": 0
         }
       ]
     }

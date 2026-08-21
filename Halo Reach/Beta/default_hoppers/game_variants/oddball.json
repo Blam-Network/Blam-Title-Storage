@@ -44,7 +44,7 @@
         "m_round_time_limit_minutes": 10,
         "m_round_limit": 1,
         "m_early_victory_win_count": 2,
-        "m_sudden_death_time": 1,
+        "m_sudden_death_time": 0,
         "m_grace_period": 0
       },
       "m_respawn_options": {
@@ -346,6 +346,33 @@
                 []
               ]
             },
+            "m_team_initial_designator": "defenders",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
             "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
@@ -509,33 +536,6 @@
               ]
             },
             "m_team_initial_designator": "eighth_party",
-            "m_model_override": "spartan",
-            "m_team_color_override": "FFFFFFFF",
-            "m_team_ui_text_tint_color_override": "FFFFFFFF",
-            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
-          },
-          {
-            "m_team_enabled": true,
-            "m_override_color_armour": false,
-            "m_override_color_ui_text": false,
-            "m_override_color_ui_bitmap": false,
-            "m_name": {
-              "strings": [
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            },
-            "m_team_initial_designator": "neutral",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -1161,16 +1161,16 @@
           "m_union_group": 0,
           "m_execute_before_action": 0,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "current"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
               }
             }
           }
@@ -1768,16 +1768,16 @@
           "m_union_group": 1,
           "m_execute_before_action": 0,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "current"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
               }
             }
           }
@@ -2020,8 +2020,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 5
           }
@@ -2071,8 +2071,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 0
           }
@@ -2128,7 +2128,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "king"
+            "m_navpoint_icon": "skull"
           }
         },
         {
@@ -2294,7 +2294,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 46,
+            "m_incident_id": 45,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -2354,7 +2354,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 51,
+            "m_incident_id": 50,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -2408,7 +2408,7 @@
                 "m_explicit_player_type": "current"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -2617,7 +2617,7 @@
                 "m_explicit_object_type": "global_1"
               }
             },
-            "m_navpoint_icon": "king"
+            "m_navpoint_icon": "skull"
           }
         },
         {
@@ -2729,7 +2729,7 @@
                 "m_explicit_player_type": "global_0"
               }
             },
-            "m_navpoint_icon": "king"
+            "m_navpoint_icon": "skull"
           }
         },
         {
@@ -2927,8 +2927,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 5
           }
@@ -2978,8 +2978,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 0
           }
@@ -3035,7 +3035,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "king"
+            "m_navpoint_icon": "skull"
           }
         },
         {
@@ -3112,7 +3112,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 52,
+            "m_incident_id": 51,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -3252,7 +3252,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 47,
+            "m_incident_id": 46,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -3331,7 +3331,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 48,
+            "m_incident_id": 47,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -3393,7 +3393,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "king"
+            "m_navpoint_icon": "skull"
           }
         },
         {
@@ -3428,7 +3428,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 47,
+            "m_incident_id": 46,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -3571,7 +3571,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 52,
+            "m_incident_id": 51,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -3594,7 +3594,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "ball_taken",
+            "m_sound_index": "ball_spawned",
             "m_immediate": false,
             "m_target": {
               "m_target": "everyone"
@@ -3827,7 +3827,7 @@
                 "m_explicit_player_type": "global_0"
               }
             },
-            "m_navpoint_icon": "flag"
+            "m_navpoint_icon": "bomb"
           }
         },
         {
@@ -4375,28 +4375,6 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         true,
         true,
         false,
@@ -4506,24 +4484,46 @@
         false,
         false,
         false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         false,
         false,

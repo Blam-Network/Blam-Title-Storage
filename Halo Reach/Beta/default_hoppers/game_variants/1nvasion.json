@@ -44,7 +44,7 @@
         "m_round_time_limit_minutes": 4,
         "m_round_limit": 1,
         "m_early_victory_win_count": 2,
-        "m_sudden_death_time": 31,
+        "m_sudden_death_time": 30,
         "m_grace_period": 5
       },
       "m_respawn_options": {
@@ -370,7 +370,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "third_party",
+            "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FF557341",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -421,7 +421,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "third_party",
+            "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FF1E320F",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -472,7 +472,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "third_party",
+            "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FF282D23",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -523,7 +523,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "attackers",
+            "m_team_initial_designator": "defenders",
             "m_model_override": "elite",
             "m_team_color_override": "FF3C143C",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -574,7 +574,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "attackers",
+            "m_team_initial_designator": "defenders",
             "m_model_override": "elite",
             "m_team_color_override": "FF1E0F5A",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -625,7 +625,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "attackers",
+            "m_team_initial_designator": "defenders",
             "m_model_override": "elite",
             "m_team_color_override": "FF460A1E",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -652,7 +652,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -679,7 +679,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -2998,16 +2998,16 @@
           "m_union_group": 0,
           "m_execute_before_action": 0,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "current"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "player_biped",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
               }
             }
           }
@@ -3145,16 +3145,16 @@
           "m_union_group": 0,
           "m_execute_before_action": 0,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_5"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "current"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_5"
               }
             }
           }
@@ -6625,18 +6625,18 @@
           "m_union_group": 1,
           "m_execute_before_action": 6,
           "m_object_in_area_parameters": {
+            "m_object_reference_1": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "global_1"
+              }
+            },
             "m_object_reference_2": {
               "m_type": "team_object",
               "m_team": {
                 "m_explicit_team_type": "global_1"
               },
               "m_variable_index": 0
-            },
-            "m_object_reference_1": {
-              "m_type": "player_biped",
-              "m_player": {
-                "m_explicit_player_type": "global_1"
-              }
             }
           }
         },
@@ -6820,18 +6820,18 @@
           "m_union_group": 4,
           "m_execute_before_action": 2,
           "m_object_in_area_parameters": {
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
             "m_object_reference_2": {
               "m_type": "team_object",
               "m_team": {
                 "m_explicit_team_type": "current_team"
               },
               "m_variable_index": 0
-            },
-            "m_object_reference_1": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_0"
-              }
             }
           }
         },
@@ -7038,16 +7038,16 @@
           "m_union_group": 1,
           "m_execute_before_action": 0,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_0"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "player_biped",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
               }
             }
           }
@@ -8346,7 +8346,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 42,
               "m_tokens": []
@@ -8408,7 +8408,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 43,
               "m_tokens": []
@@ -8667,16 +8667,16 @@
         {
           "m_type": "player_set_primary_respawn_object",
           "m_player_set_primary_respawn_object_parameters": {
-            "m_object": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_5"
-              }
-            },
             "m_player": {
               "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_5"
               }
             }
           }
@@ -8726,8 +8726,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 0
           }
@@ -8829,16 +8829,16 @@
         {
           "m_type": "player_set_primary_respawn_object",
           "m_player_set_primary_respawn_object_parameters": {
-            "m_object": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_5"
-              }
-            },
             "m_player": {
               "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_5"
               }
             }
           }
@@ -8888,8 +8888,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 0
           }
@@ -8991,16 +8991,16 @@
         {
           "m_type": "player_set_primary_respawn_object",
           "m_player_set_primary_respawn_object_parameters": {
-            "m_object": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_5"
-              }
-            },
             "m_player": {
               "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_5"
               }
             }
           }
@@ -9050,8 +9050,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 0
           }
@@ -9191,7 +9191,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "coop_spawning"
+            "m_navpoint_icon": "neutralize"
           }
         },
         {
@@ -9386,7 +9386,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_cv_ph1_victory",
+            "m_sound_index": "bone_cv_ph1_intro",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -9402,7 +9402,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_sp_ph1_victory",
+            "m_sound_index": "bone_sp_ph1_intro",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -9988,7 +9988,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -10055,7 +10055,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -10134,7 +10134,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "coop_spawning"
+            "m_navpoint_icon": "neutralize"
           }
         },
         {
@@ -10218,7 +10218,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "coop_spawning"
+            "m_navpoint_icon": "neutralize"
           }
         },
         {
@@ -11288,7 +11288,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "territory_lost",
+            "m_sound_index": "territory_captured",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -11341,7 +11341,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "reinforcements",
+            "m_sound_index": "power_down",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -11484,7 +11484,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "reinforcements",
+            "m_sound_index": "power_down",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -12090,7 +12090,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 169,
+            "m_incident_id": 168,
             "m_target_1": {
               "m_target": "team",
               "m_team": {
@@ -12114,7 +12114,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_sp_ph2_intro",
+            "m_sound_index": "bone_sp_ph1_victory",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -12130,7 +12130,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_cv_ph1_intro",
+            "m_sound_index": "bone_cv_ph1_defeat",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -12146,7 +12146,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "unsc_win2",
+            "m_sound_index": "unsc_win1",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -12354,7 +12354,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 170,
+            "m_incident_id": 169,
             "m_target_1": {
               "m_target": "team",
               "m_team": {
@@ -12378,7 +12378,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_sp_ph3_intro",
+            "m_sound_index": "bone_sp_ph2_victory",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -12394,7 +12394,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_cv_ph2_victory",
+            "m_sound_index": "bone_cv_ph2_defeat",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -12410,7 +12410,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "unsc_win2",
+            "m_sound_index": "unsc_win1",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -12619,7 +12619,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 168,
+            "m_incident_id": 167,
             "m_target_1": {
               "m_target": "team",
               "m_team": {
@@ -12643,7 +12643,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "isle_cv_defeat",
+            "m_sound_index": "bone_sp_ph3_victory",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -12659,7 +12659,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_cv_ph1_defeat",
+            "m_sound_index": "bone_cv_defeat",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -12675,7 +12675,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "unsc_win1",
+            "m_sound_index": "unsc_big_win",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -13124,15 +13124,18 @@
           }
         },
         {
-          "m_type": "player_set_requisition_palette",
-          "m_player_set_requisition_palette_parameters": {
+          "m_type": "player_set_fireteam_tier",
+          "m_player_set_fireteam_tier_parameters": {
             "m_player": {
               "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
             },
-            "m_new_palette": 1
+            "m_variable": {
+              "m_type": "constant",
+              "m_immediate_value": 1
+            }
           }
         },
         {
@@ -13210,8 +13213,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 0
           }
@@ -13248,8 +13251,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 768
           }
@@ -13292,7 +13295,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "interface"
+            "m_navpoint_icon": "ordnance"
           }
         },
         {
@@ -13343,7 +13346,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -13564,7 +13567,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "coop_spawning"
+            "m_navpoint_icon": "neutralize"
           }
         },
         {
@@ -13722,8 +13725,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 0
           }
@@ -13819,16 +13822,16 @@
         {
           "m_type": "player_set_primary_respawn_object",
           "m_player_set_primary_respawn_object_parameters": {
-            "m_object": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_6"
-              }
-            },
             "m_player": {
               "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_6"
               }
             }
           }
@@ -13878,8 +13881,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 0
           }
@@ -13981,16 +13984,16 @@
         {
           "m_type": "player_set_primary_respawn_object",
           "m_player_set_primary_respawn_object_parameters": {
-            "m_object": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_6"
-              }
-            },
             "m_player": {
               "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_6"
               }
             }
           }
@@ -14040,8 +14043,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 0
           }
@@ -14143,16 +14146,16 @@
         {
           "m_type": "player_set_primary_respawn_object",
           "m_player_set_primary_respawn_object_parameters": {
-            "m_object": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_6"
-              }
-            },
             "m_player": {
               "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_6"
               }
             }
           }
@@ -14202,8 +14205,8 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
-              "absolute_orientation": true
+              "suppress_effect": false,
+              "absolute_orientation": false
             },
             "m_offset": 0
           }
@@ -14453,7 +14456,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_sp_ph2_victory",
+            "m_sound_index": "bone_sp_ph2_intro",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -14469,7 +14472,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_cv_ph2_defeat",
+            "m_sound_index": "bone_cv_ph1_victory",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -14485,7 +14488,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "covy_win2",
+            "m_sound_index": "covy_win1",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -14614,15 +14617,18 @@
           }
         },
         {
-          "m_type": "player_set_requisition_palette",
-          "m_player_set_requisition_palette_parameters": {
+          "m_type": "player_set_fireteam_tier",
+          "m_player_set_fireteam_tier_parameters": {
             "m_player": {
               "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
             },
-            "m_new_palette": 2
+            "m_variable": {
+              "m_type": "constant",
+              "m_immediate_value": 2
+            }
           }
         },
         {
@@ -14914,7 +14920,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -14988,7 +14994,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_sp_ph3_victory",
+            "m_sound_index": "bone_sp_ph3_intro",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -15004,7 +15010,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_cv_ph3_victory",
+            "m_sound_index": "bone_cv_ph2_victory",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -15020,7 +15026,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "invasion_beginning",
+            "m_sound_index": "covy_win2",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -15282,7 +15288,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "defend"
+            "m_navpoint_icon": "recover"
           }
         },
         {
@@ -15376,7 +15382,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "defend"
+            "m_navpoint_icon": "recover"
           }
         },
         {
@@ -15458,7 +15464,7 @@
             "m_filter_index": -1,
             "m_flags": {
               "never_garbage_collect": true,
-              "suppress_effect": true,
+              "suppress_effect": false,
               "absolute_orientation": true
             },
             "m_offset": 0
@@ -15541,7 +15547,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "defend"
+            "m_navpoint_icon": "recover"
           }
         },
         {
@@ -15724,7 +15730,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "ordnance"
+            "m_navpoint_icon": "defend"
           }
         },
         {
@@ -15840,7 +15846,7 @@
                 "m_explicit_player_type": "current"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -15875,7 +15881,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 175,
+            "m_incident_id": 174,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -15963,7 +15969,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -15989,7 +15995,7 @@
                 "m_explicit_player_type": "global_1"
               }
             },
-            "m_navpoint_icon": "defend"
+            "m_navpoint_icon": "recover"
           }
         },
         {
@@ -16007,7 +16013,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 174,
+            "m_incident_id": 173,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -16075,7 +16081,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 176,
+            "m_incident_id": 175,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -16252,7 +16258,7 @@
                 "m_explicit_player_type": "global_1"
               }
             },
-            "m_navpoint_icon": "defend"
+            "m_navpoint_icon": "recover"
           }
         },
         {
@@ -16290,7 +16296,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -16350,7 +16356,7 @@
                 "m_explicit_player_type": "current"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -16368,7 +16374,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "defend"
+            "m_navpoint_icon": "recover"
           }
         },
         {
@@ -16928,7 +16934,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_sp_ph1_intro",
+            "m_sound_index": "bone_sp_defeat",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -16944,7 +16950,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "bone_sp_defeat",
+            "m_sound_index": "bone_cv_victory",
             "m_immediate": false,
             "m_target": {
               "m_target": "team",
@@ -16960,7 +16966,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "covy_win1",
+            "m_sound_index": "covy_big_win",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -17050,7 +17056,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 171,
+            "m_incident_id": 170,
             "m_target_1": {
               "m_target": "team",
               "m_team": {
@@ -17326,7 +17332,7 @@
             "m_target": {
               "m_target": "everyone"
             },
-            "m_sound_index": "flag_stolen",
+            "m_sound_index": "flag_reset",
             "m_string": {
               "m_string_index": 55,
               "m_tokens": []
@@ -17468,7 +17474,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 196,
+            "m_incident_id": 195,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -20206,39 +20212,6 @@
         false,
         false,
         false,
-        true,
-        false,
-        false,
-        false,
-        false,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         false,
         false,
@@ -20262,6 +20235,36 @@
         false,
         false,
         true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         false,
         false,
         false,
@@ -20301,17 +20304,6 @@
         false,
         false,
         false,
-        true,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        true,
         false,
         false,
         false,
@@ -20331,6 +20323,20 @@
         false,
         false,
         false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
         false,
         false,
         false,

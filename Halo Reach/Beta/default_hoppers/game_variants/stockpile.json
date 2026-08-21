@@ -44,7 +44,7 @@
         "m_round_time_limit_minutes": 10,
         "m_round_limit": 1,
         "m_early_victory_win_count": 2,
-        "m_sudden_death_time": 1,
+        "m_sudden_death_time": 0,
         "m_grace_period": 0
       },
       "m_respawn_options": {
@@ -346,6 +346,33 @@
                 []
               ]
             },
+            "m_team_initial_designator": "defenders",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
             "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
@@ -407,7 +434,7 @@
             "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
           },
           {
-            "m_team_enabled": true,
+            "m_team_enabled": false,
             "m_override_color_armour": false,
             "m_override_color_ui_text": false,
             "m_override_color_ui_bitmap": false,
@@ -427,7 +454,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "fifth_party",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -454,7 +481,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -481,7 +508,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -508,34 +535,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
-            "m_model_override": "spartan",
-            "m_team_color_override": "FFFFFFFF",
-            "m_team_ui_text_tint_color_override": "FFFFFFFF",
-            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
-          },
-          {
-            "m_team_enabled": false,
-            "m_override_color_armour": false,
-            "m_override_color_ui_text": false,
-            "m_override_color_ui_bitmap": false,
-            "m_name": {
-              "strings": [
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -1377,18 +1377,18 @@
           "m_union_group": 1,
           "m_execute_before_action": 1,
           "m_object_in_area_parameters": {
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
+            },
             "m_object_reference_2": {
               "m_type": "team_object",
               "m_team": {
                 "m_explicit_team_type": "current_team"
               },
               "m_variable_index": 2
-            },
-            "m_object_reference_1": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "current"
-              }
             }
           }
         },
@@ -1515,18 +1515,18 @@
           "m_union_group": 1,
           "m_execute_before_action": 0,
           "m_object_in_area_parameters": {
+            "m_object_reference_1": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
+              }
+            },
             "m_object_reference_2": {
               "m_type": "team_object",
               "m_team": {
                 "m_explicit_team_type": "current_team"
               },
               "m_variable_index": 0
-            },
-            "m_object_reference_1": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_0"
-              }
             }
           }
         },
@@ -1551,16 +1551,16 @@
           "m_union_group": 0,
           "m_execute_before_action": 0,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "current"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "global_0"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
               }
             }
           }
@@ -1669,16 +1669,16 @@
           "m_union_group": 0,
           "m_execute_before_action": 2,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_0"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "global_object",
               "m_object": {
                 "m_explicit_object_type": "global_1"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
               }
             }
           }
@@ -1860,7 +1860,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 98,
+            "m_incident_id": 97,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -2011,7 +2011,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "bomb"
+            "m_navpoint_icon": "destination"
           }
         },
         {
@@ -2679,7 +2679,7 @@
                 "m_explicit_player_type": "current"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -2810,7 +2810,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 99,
+            "m_incident_id": 98,
             "m_target_1": {
               "m_target": "team",
               "m_team": {
@@ -2996,7 +2996,7 @@
                 "m_explicit_player_type": "global_0"
               }
             },
-            "m_navpoint_icon": "skull"
+            "m_navpoint_icon": "flag"
           }
         },
         {
@@ -3376,7 +3376,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "skull"
+            "m_navpoint_icon": "flag"
           }
         },
         {
@@ -3806,37 +3806,6 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
         true,
         false,
         false,
@@ -3865,6 +3834,37 @@
         false,
         false,
         false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
         false,
         false,
         false,

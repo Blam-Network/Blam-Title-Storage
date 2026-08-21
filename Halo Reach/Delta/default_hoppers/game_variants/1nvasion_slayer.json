@@ -44,7 +44,7 @@
         "m_round_time_limit_minutes": 15,
         "m_round_limit": 1,
         "m_early_victory_win_count": 2,
-        "m_sudden_death_time": 1,
+        "m_sudden_death_time": 0,
         "m_grace_period": 0
       },
       "m_respawn_options": {
@@ -370,7 +370,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "third_party",
+            "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FF1E320F",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -421,7 +421,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "third_party",
+            "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FF506432",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -472,7 +472,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "third_party",
+            "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FF282D23",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -523,7 +523,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "attackers",
+            "m_team_initial_designator": "defenders",
             "m_model_override": "elite",
             "m_team_color_override": "FF3C143C",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -574,7 +574,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "attackers",
+            "m_team_initial_designator": "defenders",
             "m_model_override": "elite",
             "m_team_color_override": "FF1E0F5A",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -625,7 +625,7 @@
                 ]
               ]
             },
-            "m_team_initial_designator": "attackers",
+            "m_team_initial_designator": "defenders",
             "m_model_override": "elite",
             "m_team_color_override": "FF460A1E",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -652,7 +652,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -679,7 +679,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -2943,16 +2943,16 @@
           "m_union_group": 0,
           "m_execute_before_action": 0,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_2"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "player_biped",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_2"
               }
             }
           }
@@ -3920,7 +3920,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 181,
+            "m_incident_id": 180,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -4081,7 +4081,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "unsc_big_win",
+            "m_sound_index": "invasion_beginning",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -4132,7 +4132,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "unsc_big_win",
+            "m_sound_index": "invasion_beginning",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -4183,7 +4183,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "covy_win2",
+            "m_sound_index": "covy_win1",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -4234,7 +4234,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "unsc_win2",
+            "m_sound_index": "unsc_win1",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -4285,7 +4285,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "invasion_beginning",
+            "m_sound_index": "covy_win2",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -4336,7 +4336,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "power_down",
+            "m_sound_index": "unsc_win2",
             "m_immediate": true,
             "m_target": {
               "m_target": "everyone"
@@ -4953,7 +4953,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "generator_armed",
+            "m_sound_index": "destination_moved",
             "m_immediate": false,
             "m_target": {
               "m_target": "everyone"
@@ -5506,7 +5506,7 @@
                 "m_explicit_object_type": "global_2"
               }
             },
-            "m_navpoint_icon": "coop_spawning"
+            "m_navpoint_icon": "neutralize"
           }
         },
         {
@@ -5812,7 +5812,7 @@
                 }
               }
             },
-            "m_sound_index": "territory_lost",
+            "m_sound_index": "territory_captured",
             "m_string": {
               "m_string_index": 49,
               "m_tokens": []
@@ -5889,7 +5889,7 @@
                 "m_explicit_object_type": "global_2"
               }
             },
-            "m_navpoint_icon": "ammunition"
+            "m_navpoint_icon": "recon"
           }
         },
         {
@@ -5978,7 +5978,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "respawn_tick",
+            "m_sound_index": "reinforcements",
             "m_immediate": false,
             "m_target": {
               "m_target": "everyone"
@@ -6075,7 +6075,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 50,
               "m_tokens": []
@@ -6251,7 +6251,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 51,
               "m_tokens": []
@@ -6348,7 +6348,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 50,
               "m_tokens": []
@@ -6358,7 +6358,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "respawn_tick",
+            "m_sound_index": "reinforcements",
             "m_immediate": false,
             "m_target": {
               "m_target": "everyone"
@@ -6564,7 +6564,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 52,
               "m_tokens": []
@@ -6661,7 +6661,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 50,
               "m_tokens": []
@@ -6671,7 +6671,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "respawn_tick",
+            "m_sound_index": "reinforcements",
             "m_immediate": false,
             "m_target": {
               "m_target": "everyone"
@@ -6865,7 +6865,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 53,
               "m_tokens": []
@@ -6958,7 +6958,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 51,
               "m_tokens": []
@@ -7055,7 +7055,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 50,
               "m_tokens": []
@@ -7065,7 +7065,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "respawn_tick",
+            "m_sound_index": "reinforcements",
             "m_immediate": false,
             "m_target": {
               "m_target": "everyone"
@@ -7277,7 +7277,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 54,
               "m_tokens": []
@@ -7370,7 +7370,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 52,
               "m_tokens": []
@@ -7494,7 +7494,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 50,
               "m_tokens": []
@@ -7504,7 +7504,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "respawn_tick",
+            "m_sound_index": "reinforcements",
             "m_immediate": false,
             "m_target": {
               "m_target": "everyone"
@@ -7704,7 +7704,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 55,
               "m_tokens": []
@@ -7797,7 +7797,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 51,
               "m_tokens": []
@@ -7890,7 +7890,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 53,
               "m_tokens": []
@@ -7900,7 +7900,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "respawn_tick",
+            "m_sound_index": "reinforcements",
             "m_immediate": false,
             "m_target": {
               "m_target": "everyone"
@@ -8870,21 +8870,6 @@
         false,
         false,
         false,
-        true,
-        false,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         false,
         false,
@@ -8906,15 +8891,7 @@
         false,
         true,
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
+        true,
         false,
         false,
         false,
@@ -8944,6 +8921,8 @@
         false,
         false,
         false,
+        true,
+        false,
         false,
         false,
         false,
@@ -8956,6 +8935,27 @@
         false,
         false,
         true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         false,
         false,
         false,

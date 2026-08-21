@@ -44,7 +44,7 @@
         "m_round_time_limit_minutes": 10,
         "m_round_limit": 1,
         "m_early_victory_win_count": 2,
-        "m_sudden_death_time": 1,
+        "m_sudden_death_time": 0,
         "m_grace_period": 0
       },
       "m_respawn_options": {
@@ -331,6 +331,33 @@
                 []
               ]
             },
+            "m_team_initial_designator": "defenders",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
             "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
@@ -494,33 +521,6 @@
               ]
             },
             "m_team_initial_designator": "eighth_party",
-            "m_model_override": "spartan",
-            "m_team_color_override": "FFFFFFFF",
-            "m_team_ui_text_tint_color_override": "FFFFFFFF",
-            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
-          },
-          {
-            "m_team_enabled": true,
-            "m_override_color_armour": false,
-            "m_override_color_ui_text": false,
-            "m_override_color_ui_bitmap": false,
-            "m_name": {
-              "strings": [
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            },
-            "m_team_initial_designator": "neutral",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -1799,16 +1799,16 @@
           "m_union_group": 0,
           "m_execute_before_action": 1,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_0"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "player_biped",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
               }
             }
           }
@@ -2002,16 +2002,16 @@
           "m_union_group": 1,
           "m_execute_before_action": 0,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_0"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "player_biped",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
               }
             }
           }
@@ -2201,16 +2201,16 @@
           "m_union_group": 2,
           "m_execute_before_action": 0,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_0"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "player_biped",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
               }
             }
           }
@@ -2575,7 +2575,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "hill_controlled",
+            "m_sound_index": "king",
             "m_target": {
               "m_target": "everyone"
             }
@@ -3049,7 +3049,7 @@
             "m_target": {
               "m_target": "everyone"
             },
-            "m_sound_index": "headhunter",
+            "m_sound_index": "hill_moved",
             "m_string": {
               "m_string_index": 53,
               "m_tokens": []
@@ -3169,7 +3169,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "vip"
+            "m_navpoint_icon": "king"
           }
         },
         {
@@ -4046,7 +4046,20 @@
             "m_target": {
               "m_target": "everyone"
             },
-            "m_sound_index": "hill_contested",
+            "m_sound_index": "hill_controlled",
+            "m_string": {
+              "m_string_index": 54,
+              "m_tokens": []
+            }
+          }
+        },
+        {
+          "m_type": "hud_post_message",
+          "m_hud_post_message_parameters": {
+            "m_target": {
+              "m_target": "everyone"
+            },
+            "m_sound_index": "hill_controlled",
             "m_string": {
               "m_string_index": 54,
               "m_tokens": []
@@ -4060,19 +4073,6 @@
               "m_target": "everyone"
             },
             "m_sound_index": "hill_contested",
-            "m_string": {
-              "m_string_index": 54,
-              "m_tokens": []
-            }
-          }
-        },
-        {
-          "m_type": "hud_post_message",
-          "m_hud_post_message_parameters": {
-            "m_target": {
-              "m_target": "everyone"
-            },
-            "m_sound_index": "hill_moved",
             "m_string": {
               "m_string_index": 55,
               "m_tokens": []
@@ -4085,7 +4085,7 @@
             "m_target": {
               "m_target": "everyone"
             },
-            "m_sound_index": "hill_moved",
+            "m_sound_index": "hill_contested",
             "m_string": {
               "m_string_index": 55,
               "m_tokens": []
@@ -4658,24 +4658,24 @@
         false,
         false,
         false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         false,
         false,

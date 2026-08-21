@@ -44,7 +44,7 @@
         "m_round_time_limit_minutes": 10,
         "m_round_limit": 1,
         "m_early_victory_win_count": 2,
-        "m_sudden_death_time": 1,
+        "m_sudden_death_time": 0,
         "m_grace_period": 0
       },
       "m_respawn_options": {
@@ -346,6 +346,33 @@
                 []
               ]
             },
+            "m_team_initial_designator": "defenders",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
             "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
@@ -509,33 +536,6 @@
               ]
             },
             "m_team_initial_designator": "eighth_party",
-            "m_model_override": "spartan",
-            "m_team_color_override": "FFFFFFFF",
-            "m_team_ui_text_tint_color_override": "FFFFFFFF",
-            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
-          },
-          {
-            "m_team_enabled": true,
-            "m_override_color_armour": false,
-            "m_override_color_ui_text": false,
-            "m_override_color_ui_bitmap": false,
-            "m_name": {
-              "strings": [
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            },
-            "m_team_initial_designator": "neutral",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -2206,7 +2206,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 181,
+            "m_incident_id": 180,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -2750,8 +2750,8 @@
           }
         },
         {
-          "m_type": "player_death_get_damage_type",
-          "m_player_death_get_damage_type_parameters": {
+          "m_type": "player_death_get_special_type",
+          "m_player_death_get_special_type_parameters": {
             "m_player": {
               "m_type": "global_player",
               "m_player": {
@@ -3289,12 +3289,12 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
         true,
+        false,
+        false,
+        false,
+        false,
+        false,
         false,
         false,
         false,

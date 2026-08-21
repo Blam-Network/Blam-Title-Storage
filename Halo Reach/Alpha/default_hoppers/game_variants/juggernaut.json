@@ -44,7 +44,7 @@
         "m_round_time_limit_minutes": 10,
         "m_round_limit": 1,
         "m_early_victory_win_count": 2,
-        "m_sudden_death_time": 1,
+        "m_sudden_death_time": 0,
         "m_grace_period": 0
       },
       "m_respawn_options": {
@@ -331,6 +331,33 @@
                 []
               ]
             },
+            "m_team_initial_designator": "defenders",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
             "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
@@ -494,33 +521,6 @@
               ]
             },
             "m_team_initial_designator": "eighth_party",
-            "m_model_override": "spartan",
-            "m_team_color_override": "FFFFFFFF",
-            "m_team_ui_text_tint_color_override": "FFFFFFFF",
-            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
-          },
-          {
-            "m_team_enabled": true,
-            "m_override_color_armour": false,
-            "m_override_color_ui_text": false,
-            "m_override_color_ui_bitmap": false,
-            "m_name": {
-              "strings": [
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            },
-            "m_team_initial_designator": "neutral",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -2062,7 +2062,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "new_juggernaut",
+            "m_sound_index": "juggernaut",
             "m_target": {
               "m_target": "player",
               "m_player": {
@@ -2371,7 +2371,7 @@
             "m_target": {
               "m_target": "everyone"
             },
-            "m_sound_index": "territories",
+            "m_sound_index": "new_juggernaut",
             "m_string": {
               "m_string_index": 44,
               "m_tokens": []
@@ -2390,7 +2390,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 45,
               "m_tokens": []
@@ -2912,7 +2912,7 @@
             "m_target": {
               "m_target": "everyone"
             },
-            "m_sound_index": "territories",
+            "m_sound_index": "new_juggernaut",
             "m_string": {
               "m_string_index": 46,
               "m_tokens": [
@@ -3073,7 +3073,7 @@
                 "m_explicit_player_type": "current"
               }
             },
-            "m_navpoint_icon": "destination"
+            "m_navpoint_icon": "target"
           }
         },
         {
@@ -3157,7 +3157,7 @@
                 "m_explicit_player_type": "global_0"
               }
             },
-            "m_navpoint_icon": "destination"
+            "m_navpoint_icon": "target"
           }
         },
         {
@@ -3235,7 +3235,7 @@
                 "m_explicit_player_type": "global_0"
               }
             },
-            "m_navpoint_icon": "king"
+            "m_navpoint_icon": "skull"
           }
         },
         {
@@ -3810,18 +3810,6 @@
       "m_local_trigger_index": -1,
       "m_objects_used": [
         false,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        true,
-        false,
         false,
         false,
         false,
@@ -3841,8 +3829,17 @@
         false,
         false,
         false,
+        true,
         false,
         false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
         false,
         false,
         false,
@@ -3955,6 +3952,9 @@
         false,
         false,
         true,
+        false,
+        false,
+        false,
         false,
         false,
         false,

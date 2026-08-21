@@ -44,7 +44,7 @@
         "m_round_time_limit_minutes": 3,
         "m_round_limit": 4,
         "m_early_victory_win_count": 0,
-        "m_sudden_death_time": 16,
+        "m_sudden_death_time": 15,
         "m_grace_period": 5
       },
       "m_respawn_options": {
@@ -346,7 +346,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "attackers",
+            "m_team_initial_designator": "defenders",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -373,7 +373,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "third_party",
+            "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -400,7 +400,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -427,7 +427,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -454,7 +454,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -481,7 +481,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -508,7 +508,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -535,7 +535,7 @@
                 []
               ]
             },
-            "m_team_initial_designator": "defenders",
+            "m_team_initial_designator": "none",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -2360,18 +2360,18 @@
           "m_union_group": 1,
           "m_execute_before_action": 12,
           "m_object_in_area_parameters": {
+            "m_object_reference_1": {
+              "m_type": "player_biped",
+              "m_player": {
+                "m_explicit_player_type": "global_2"
+              }
+            },
             "m_object_reference_2": {
               "m_type": "team_object",
               "m_team": {
                 "m_explicit_team_type": "global_0"
               },
               "m_variable_index": 0
-            },
-            "m_object_reference_1": {
-              "m_type": "player_biped",
-              "m_player": {
-                "m_explicit_player_type": "global_2"
-              }
             }
           }
         },
@@ -2507,16 +2507,16 @@
           "m_union_group": 1,
           "m_execute_before_action": 0,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_0"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "player_biped",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_0"
               }
             }
           }
@@ -3180,7 +3180,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 77,
+            "m_incident_id": 76,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -3204,7 +3204,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 78,
+            "m_incident_id": 77,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -3311,7 +3311,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "bomb"
+            "m_navpoint_icon": "destination"
           }
         },
         {
@@ -3954,7 +3954,7 @@
               },
               "m_variable_index": 1
             },
-            "m_navpoint_icon": "skull"
+            "m_navpoint_icon": "flag"
           }
         },
         {
@@ -4003,7 +4003,7 @@
                 "m_explicit_player_type": "current"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -4180,7 +4180,7 @@
                 "m_explicit_player_type": "current"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -4206,7 +4206,7 @@
                 "m_explicit_player_type": "global_2"
               }
             },
-            "m_navpoint_icon": "skull"
+            "m_navpoint_icon": "flag"
           }
         },
         {
@@ -4446,7 +4446,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 81,
+            "m_incident_id": 80,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -4575,7 +4575,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "skull"
+            "m_navpoint_icon": "flag"
           }
         },
         {
@@ -4828,7 +4828,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 83,
+            "m_incident_id": 82,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -4997,7 +4997,7 @@
                 "m_explicit_object_type": "global_0"
               }
             },
-            "m_navpoint_icon": "speaker"
+            "m_navpoint_icon": "none"
           }
         },
         {
@@ -5026,7 +5026,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 79,
+            "m_incident_id": 78,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -5110,7 +5110,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 80,
+            "m_incident_id": 79,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -5235,7 +5235,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 34,
+            "m_incident_id": 33,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -5319,7 +5319,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 196,
+            "m_incident_id": 195,
             "m_target_1": {
               "m_target": "everyone"
             },
@@ -5934,32 +5934,32 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         false,
         false,
         false,

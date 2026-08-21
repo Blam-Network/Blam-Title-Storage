@@ -44,7 +44,7 @@
         "m_round_time_limit_minutes": 10,
         "m_round_limit": 1,
         "m_early_victory_win_count": 2,
-        "m_sudden_death_time": 1,
+        "m_sudden_death_time": 0,
         "m_grace_period": 0
       },
       "m_respawn_options": {
@@ -346,6 +346,33 @@
                 []
               ]
             },
+            "m_team_initial_designator": "defenders",
+            "m_model_override": "spartan",
+            "m_team_color_override": "FFFFFFFF",
+            "m_team_ui_text_tint_color_override": "FFFFFFFF",
+            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
+          },
+          {
+            "m_team_enabled": true,
+            "m_override_color_armour": false,
+            "m_override_color_ui_text": false,
+            "m_override_color_ui_bitmap": false,
+            "m_name": {
+              "strings": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
             "m_team_initial_designator": "attackers",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
@@ -509,33 +536,6 @@
               ]
             },
             "m_team_initial_designator": "eighth_party",
-            "m_model_override": "spartan",
-            "m_team_color_override": "FFFFFFFF",
-            "m_team_ui_text_tint_color_override": "FFFFFFFF",
-            "m_team_ui_bitmap_tint_color_override": "FFFFFFFF"
-          },
-          {
-            "m_team_enabled": true,
-            "m_override_color_armour": false,
-            "m_override_color_ui_text": false,
-            "m_override_color_ui_bitmap": false,
-            "m_name": {
-              "strings": [
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            },
-            "m_team_initial_designator": "neutral",
             "m_model_override": "spartan",
             "m_team_color_override": "FFFFFFFF",
             "m_team_ui_text_tint_color_override": "FFFFFFFF",
@@ -1003,16 +1003,16 @@
           "m_union_group": 1,
           "m_execute_before_action": 1,
           "m_object_in_area_parameters": {
-            "m_object_reference_2": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "current"
-              }
-            },
             "m_object_reference_1": {
               "m_type": "player_biped",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object_reference_2": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
               }
             }
           }
@@ -1600,7 +1600,7 @@
                 "m_explicit_object_type": "current"
               }
             },
-            "m_navpoint_icon": "bomb"
+            "m_navpoint_icon": "destination"
           }
         },
         {
@@ -1920,7 +1920,7 @@
         {
           "m_type": "play_sound",
           "m_play_sound_parameters": {
-            "m_sound_index": "defense",
+            "m_sound_index": "race",
             "m_immediate": false,
             "m_target": {
               "m_target": "everyone"
@@ -2279,7 +2279,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 15,
               "m_tokens": [
@@ -2538,23 +2538,23 @@
         {
           "m_type": "player_set_primary_respawn_object",
           "m_player_set_primary_respawn_object_parameters": {
-            "m_object": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "current"
-              }
-            },
             "m_player": {
               "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
               }
+            },
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "current"
+              }
             }
           }
         },
         {
-          "m_type": "player_set_coop_spawning",
-          "m_player_set_coop_spawning_parameters": {
+          "m_type": "player_set_vehicle_spawning",
+          "m_player_set_vehicle_spawning_parameters": {
             "m_player": {
               "m_type": "global_player",
               "m_player": {
@@ -2612,7 +2612,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 71,
+            "m_incident_id": 70,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -2715,7 +2715,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 17,
               "m_tokens": []
@@ -2765,7 +2765,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 73,
+            "m_incident_id": 72,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -2798,7 +2798,7 @@
                 }
               }
             },
-            "m_sound_index": "slayer",
+            "m_sound_index": "none",
             "m_string": {
               "m_string_index": 16,
               "m_tokens": []
@@ -2808,7 +2808,7 @@
         {
           "m_type": "submit_incident",
           "m_submit_incident_parameters": {
-            "m_incident_id": 72,
+            "m_incident_id": 71,
             "m_target_1": {
               "m_target": "player",
               "m_player": {
@@ -3042,16 +3042,16 @@
         {
           "m_type": "player_get_vehicle",
           "m_player_get_vehicle_parameters": {
-            "m_object": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_1"
-              }
-            },
             "m_player": {
               "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
               }
             }
           }
@@ -3141,7 +3141,7 @@
                 }
               }
             },
-            "m_sound_index": "defense",
+            "m_sound_index": "race",
             "m_string": {
               "m_string_index": 18,
               "m_tokens": []
@@ -3198,16 +3198,16 @@
         {
           "m_type": "player_get_vehicle",
           "m_player_get_vehicle_parameters": {
-            "m_object": {
-              "m_type": "global_object",
-              "m_object": {
-                "m_explicit_object_type": "global_1"
-              }
-            },
             "m_player": {
               "m_type": "global_player",
               "m_player": {
                 "m_explicit_player_type": "current"
+              }
+            },
+            "m_object": {
+              "m_type": "global_object",
+              "m_object": {
+                "m_explicit_object_type": "global_1"
               }
             }
           }
@@ -3752,6 +3752,35 @@
         false,
         false,
         false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
         true,
         false,
         false,
@@ -3775,35 +3804,6 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        true,
-        false,
-        false,
-        false,
-        true,
-        true,
         false,
         false,
         false,
