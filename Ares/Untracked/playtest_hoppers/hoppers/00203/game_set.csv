@@ -1,0 +1,9 @@
+map_variant_file_name,game_variant_file_name,weight,minimum_player_count,skip_after_veto,optional
+default_construct,team_scuds,1,6,false,false
+default_ghost_town,team_scuds,1,6,false,false
+default_orbital,team_scuds,1,6,false,false
+default_sandbox,team_scuds,1,6,false,false
+default_high_ground,team_scuds,2,6,false,false
+default_last_resort,team_scuds,2,6,false,false
+default_isolation,team_scuds,2,6,false,false
+default_blackout,team_scuds,2,6,false,false
