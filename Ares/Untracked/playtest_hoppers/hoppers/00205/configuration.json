@@ -2,7 +2,7 @@
   "descriptions": {
     "cht": "",
     "de": "",
-    "en": "<color argb=#FF8692d4>5-Minute Brawl for Double EXP!</color>|r|nAll DLC Required|r|nMax Party Size: 16",
+    "en": "<color argb=#FF8692d4>5-Minute Brawl!</color>|r|nAll DLC Required|r|nMax Party Size: 16",
     "fr": "",
     "it": "",
     "jpn": "",
@@ -14,7 +14,7 @@
   "configuration": {
     "hopper_name": "Quick Match",
     "hopper_identifier": 205,
-    "hopper_category": 11,
+    "hopper_category": 1,
     "hopper_type": 0,
     "image_index": 11,
     "xlast_index": 15,
@@ -76,7 +76,7 @@
       0,
       0
     ],
-    "experience_points_per_win": 2,
+    "experience_points_per_win": 1,
     "experience_penalty_per_drop": 0,
     "minimum_mu_per_level": [
       -7.9767,

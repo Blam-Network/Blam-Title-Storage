@@ -1793,11 +1793,11 @@
   "alpha_configuration": {
     "disable_game": false,
     "disable_custom_games": false,
-    "ui_level": "alpha_ui_level_main",
+    "ui_level": "alpha_ui_level_external_beta",
     "maximum_multiplayer_split_screen": 4
   },
   "crash_handling_configuration": {
-    "display_crash_handling_ui": false,
+    "display_crash_handling_ui": true,
     "minidump_generation": "minidump_generation_minimini"
   },
   "lsp_configuration": {
@@ -1810,19 +1810,7 @@
   "map_configuration": {
     "map_list": [
       {
-        "map_id": 380,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 300,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 390,
+        "map_id": 30,
         "map_status": "map_status_default",
         "dlc_path_index": -1,
         "dlc_pack": "dlc_pack_none"
@@ -1840,163 +1828,19 @@
         "dlc_pack": "dlc_pack_none"
       },
       {
-        "map_id": 330,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
         "map_id": 340,
         "map_status": "map_status_default",
         "dlc_path_index": -1,
         "dlc_pack": "dlc_pack_none"
       },
       {
-        "map_id": 350,
+        "map_id": 380,
         "map_status": "map_status_default",
         "dlc_path_index": -1,
         "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 400,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 360,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 30,
-        "map_status": "map_status_default",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 301,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 302,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 303,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 410,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 0,
-        "dlc_pack": "dlc_pack_heroic"
-      },
-      {
-        "map_id": 420,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 430,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 440,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_mythic"
-      },
-      {
-        "map_id": 450,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 460,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 470,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 1,
-        "dlc_pack": "dlc_pack_legendary"
-      },
-      {
-        "map_id": 480,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 0,
-        "dlc_pack": "dlc_pack_heroic"
-      },
-      {
-        "map_id": 490,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_mythic"
-      },
-      {
-        "map_id": 500,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_mythic"
-      },
-      {
-        "map_id": 510,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 520,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 1,
-        "dlc_pack": "dlc_pack_legendary"
-      },
-      {
-        "map_id": 580,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 0,
-        "dlc_pack": "dlc_pack_heroic"
-      },
-      {
-        "map_id": 590,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 1,
-        "dlc_pack": "dlc_pack_legendary"
-      },
-      {
-        "map_id": 600,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": 2,
-        "dlc_pack": "dlc_pack_none"
-      },
-      {
-        "map_id": 720,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_mythic"
       },
       {
         "map_id": 730,
-        "map_status": "map_status_dlc",
-        "dlc_path_index": -1,
-        "dlc_pack": "dlc_pack_mythic"
-      },
-      {
-        "map_id": 740,
         "map_status": "map_status_dlc",
         "dlc_path_index": -1,
         "dlc_pack": "dlc_pack_mythic"
