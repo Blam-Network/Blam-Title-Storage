@@ -227,7 +227,7 @@
       "unsuitable_session_cache_count": 250,
       "qos_bps": "0x00010000",
       "default_qos_refresh_interval_msec": 20000,
-      "full_qos_timeout_msec": 5000,
+      "full_qos_timeout_msec": 10000,
       "maximum_target_sessions_per_default_qos_task": 1,
       "maximum_qos_tasks": 5
     },
@@ -268,9 +268,9 @@
       "search_stage_strict_skill_initial_average_skill_range": 0,
       "search_stage_strict_skill_final_average_skill_range": 2,
       "search_stage_strict_skill_initial_average_experience_rank_range": 0,
-      "search_stage_strict_skill_connection_threshold_ms": 150,
+      "search_stage_strict_skill_connection_threshold_ms": 300,
       "search_stage_skill_round_limit": 3,
-      "search_stage_skill_connection_threshold_ms": 180,
+      "search_stage_skill_connection_threshold_ms": 360,
       "search_stage_any_round_limit": 4,
       "search_stage_any_final_connection_threshold_ms": 1000,
       "search_stage_any_final_mu_range": 6.0,
@@ -1204,7 +1204,7 @@
   "session": {
     "session_recreate_timeout_msec": 15000,
     "join_request_interval_msec": 1000,
-    "join_secure_connection_timeout_msec": 8000,
+    "join_secure_connection_timeout_msec": 10000,
     "join_initial_update_timeout_msec": 16000,
     "join_time_to_hold_in_join_queue_msec": 60000,
     "join_notify_client_join_in_queue_interval_msec": 2000,
@@ -1515,7 +1515,7 @@
       "connect_request_interval_msec": 500,
       "connect_request_count": 3,
       "connect_request_timeout_msec": 2000,
-      "establish_timeout_msec": 6000,
+      "establish_timeout_msec": 8000,
       "packet_statistics_interval": 5000
     },
     "connection": {
