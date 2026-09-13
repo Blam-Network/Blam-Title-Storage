@@ -210,9 +210,9 @@
     "team_count": 2,
     "minimum_team_size": 6,
     "maximum_team_size": 8,
-    "allow_uneven_teams": false,
+    "allow_uneven_teams": true,
     "allow_parties_to_split": true,
-    "maximum_team_imbalance": 0,
+    "maximum_team_imbalance": 2,
     "big_squad_size_threshold": 0,
     "maximum_big_squad_imbalance": 0,
     "enable_big_squad_mixed_skill_restrictions": false
