@@ -1,6 +1,9 @@
 map_variant_file_name,game_variant_file_name,weight,minimum_player_count,skip_after_veto,optional
 default_sandbox,3ball,3,6,false,false
+default_snowbound,3ball_br,2,6,false,false
 default_sandbox,3ball_br,3,6,false,false
 default_guardian,3ball_rockets,1,6,true,false
+default_snowbound,3ball_rockets,1,6,true,false
 default_sandbox,3ball_rockets,2,6,true,false
+default_snowbound,3ball_fiesta,1,6,false,false
 default_sandbox,3ball_fiesta,2,6,false,false

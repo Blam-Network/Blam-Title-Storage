@@ -8,6 +8,7 @@ default_narrows,team_oddball,2,6,false,false
 default_guardian,team_oddball,2,4,false,false
 default_sandbox,team_oddball,2,6,false,true
 default_narrows,team_crazy_king,2,6,false,false
+default_snowbound,team_crazy_king,2,4,false,false
 default_guardian,team_crazy_king,2,4,false,false
 default_sandbox,team_crazy_king,2,6,false,true
 default_narrows,2v2_vip,2,6,false,false
@@ -17,5 +18,7 @@ default_last_resort,2v2_vip,2,6,false,false
 default_valhalla,2v2_vip,1,6,false,false
 default_narrows,2v2_team_swords,2,6,true,false
 default_guardian,2v2_team_swords,2,4,true,false
+default_snowbound,2v2_team_swords,2,4,true,false
 default_guardian,2v2_team_hammers,2,4,true,false
+default_snowbound,2v2_team_hammers,2,4,true,false
 race_valhalla_speed,rocket_race,2,6,false,true

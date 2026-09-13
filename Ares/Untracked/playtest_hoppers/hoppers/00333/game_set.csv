@@ -1,8 +1,12 @@
 map_variant_file_name,game_variant_file_name,weight,minimum_player_count,skip_after_veto,optional
 default_guardian,5_min_slayer_br,1,1,false,false
+year2_snowbound_boundless,5_min_slayer_br,6,5,false,false
+year2_snowbound_boundless,slayer_br,8,6,false,false
 default_guardian,slayer_br,7,6,false,false
 default_last_resort,snipers,14,13,false,false
+year2_snowbound_boundless,snipers,6,5,false,false
 default_guardian,5_min_oddball,1,2,false,false
+year2_snowbound_boundless,5_min_oddball,1,3,false,false
 default_guardian,5_min_fiesta,1,1,false,false
 mlg_guardian_v8,5_min_mlg_ffa,7,5,false,false
 sniper_narrows_sniper_bridge,snipers,5,4,false,false

@@ -1,9 +1,14 @@
 map_variant_file_name,game_variant_file_name,weight,minimum_player_count,skip_after_veto,optional
 default_guardian,10_min_slayer,7,4,false,false
+ffa_snowbound,10_min_slayer,5,4,false,false
 default_high_ground,10_min_slayer,4,4,false,false
 default_guardian,10_min_oddball,4,4,false,false
+year2_snowbound_boundless,10_min_oddball,2,4,false,false
 default_guardian,10_min_crazy_king,2,4,false,false
+ffa_snowbound,10_min_crazy_king,1,4,false,false
 default_narrows,10_min_crazy_king,1,4,false,false
 default_guardian,rumble_swords,1,4,false,false
+ffa_snowbound,rumble_swords,1,4,false,false
 default_guardian,10_min_slayer_br,4,4,false,false
+year2_snowbound_boundless,10_min_slayer_br,3,4,false,false
 default_narrows,10_min_slayer_br,2,4,false,false

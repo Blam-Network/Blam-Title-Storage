@@ -1,10 +1,12 @@
 map_variant_file_name,game_variant_file_name,weight,minimum_player_count,skip_after_veto,optional
 default_guardian,rumble_slayer,6,4,false,false
+ffa_snowbound,rumble_slayer,6,4,false,false
 default_narrows,rumble_slayer,5,4,false,false
 default_sandbox,rumble_slayer,6,6,false,false
 default_sandbox,10_min_slayer_br,6,6,false,false
 default_guardian,rumble_oddball,2,4,false,false
 default_guardian,ninjaball,2,4,true,false
+ffa_snowbound,ninjaball,2,4,true,false
 default_narrows,rumble_crazy_king,2,4,false,false
 default_guardian,rumble_crazy_king,2,4,false,false
 default_guardian,mosh_pit_king,2,4,true,false
@@ -12,5 +14,6 @@ default_narrows,mosh_pit_king,2,4,true,false
 default_narrows,juggernaut,2,6,false,false
 default_guardian,juggernaut,2,6,false,false
 default_guardian,rumble_swords,2,4,true,false
+ffa_snowbound,rumble_swords,2,4,true,false
 default_narrows,rumble_swords,2,4,true,false
 inf_sandbox_spookyhouse,save_one_bullet,4,6,false,false
