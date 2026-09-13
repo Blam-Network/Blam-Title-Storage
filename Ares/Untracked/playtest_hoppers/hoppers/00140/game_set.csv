@@ -1,7 +1,9 @@
 map_variant_file_name,game_variant_file_name,weight,minimum_player_count,skip_after_veto,optional
+default_the_pit,big_team_multiflag,5,8,false,false
 default_narrows,big_team_multiflag,3,8,false,false
 default_sandbox,big_team_multiflag,7,8,false,false
 default_valhalla,big_team_multiflag_tanks,5,8,false,false
+default_the_pit,big_team_1_flag,3,6,false,false
 default_high_ground,big_team_1_flag,7,6,false,false
 default_narrows,big_team_1_flag,2,6,false,false
 default_last_resort,big_team_1_flag,8,6,false,false
