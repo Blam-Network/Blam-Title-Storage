@@ -6,6 +6,7 @@ year2_the_pit_pitstop,team_slayer,5,4,false,false
 default_high_ground,team_slayer,5,4,false,false
 default_last_resort,team_slayer,5,6,false,false
 default_sandbox,team_slayer,5,4,false,true
+default_construct,team_slayer,5,6,false,false
 default_narrows,team_oddball,2,6,false,false
 default_guardian,team_oddball,2,4,false,false
 year2_the_pit_pitstop,team_oddball,2,4,false,false
@@ -25,7 +26,9 @@ default_narrows,2v2_team_swords,2,6,true,false
 default_guardian,2v2_team_swords,2,4,true,false
 swat_pit,2v2_team_swords,2,4,true,false
 default_snowbound,2v2_team_swords,2,4,true,false
+default_construct,2v2_team_swords,2,4,true,false
 default_guardian,2v2_team_hammers,2,4,true,false
 swat_pit,2v2_team_hammers,2,4,true,false
 default_snowbound,2v2_team_hammers,2,4,true,false
+default_construct,2v2_team_hammers,2,4,true,false
 race_valhalla_speed,rocket_race,2,6,false,true

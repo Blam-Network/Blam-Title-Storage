@@ -4,10 +4,15 @@ ffa_snowbound,rumble_slayer,6,4,false,false
 default_narrows,rumble_slayer,5,4,false,false
 default_the_pit,rumble_slayer,5,4,false,false
 default_sandbox,rumble_slayer,6,6,false,false
+default_construct,rumble_slayer,5,4,false,false
+default_cold_storage,rumble_slayer,6,6,false,false
 default_sandbox,10_min_slayer_br,6,6,false,false
+default_cold_storage,10_min_slayer_br,8,6,false,false
 default_guardian,rumble_oddball,2,4,false,false
+default_cold_storage,rumble_oddball,2,6,false,false
 default_guardian,ninjaball,2,4,true,false
 ffa_snowbound,ninjaball,2,4,true,false
+default_construct,ninjaball,2,4,true,false
 default_narrows,rumble_crazy_king,2,4,false,false
 default_the_pit,rumble_crazy_king,2,4,false,false
 default_guardian,rumble_crazy_king,2,4,false,false
@@ -21,4 +26,6 @@ default_guardian,rumble_swords,2,4,true,false
 ffa_snowbound,rumble_swords,2,4,true,false
 default_narrows,rumble_swords,2,4,true,false
 swat_pit,rumble_swords,2,4,true,false
+default_construct,rumble_swords,2,4,true,false
+default_cold_storage,rumble_swords,2,6,true,false
 inf_sandbox_spookyhouse,save_one_bullet,4,6,false,false
