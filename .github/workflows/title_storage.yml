@@ -2,7 +2,7 @@ name: Title Storage
 
 on:
   push:
-    branches: [ "main", "workflow" ]
+    branches: [ "*" ]
   pull_request:
     branches: [ "main", "workflow" ]
   workflow_dispatch:
